@@ -1,0 +1,568 @@
+[
+  {
+    "url": "https://cpapi.ucc.michigan.gov/api/configuration/languages",
+    "data": {
+      "data": [
+        {
+          "systemLanguageId": 1,
+          "systemLanguageValue": "en-US",
+          "systemLanguageDesc": "English"
+        }
+      ],
+      "message": null,
+      "statusCode": 200,
+      "success": true
+    }
+  },
+  {
+    "url": "https://cpapi.ucc.michigan.gov/api/configuration/portal-timezone",
+    "data": {
+      "data": "Europe/Dublin|DMT IST GMT BST IST|p.l -y.D 0 -10 -10|01232323232324242424242424242424242424242424242424242424242424242424242424242424242424242424242424242424242424242424242424242424242424242424242424242424242424242424242424242424242424242424242424242424242424242424242424242424242|-2ax9y.D Rc0 1fzy.D 14M0 1fc0 1g00 1co0 1dc0 1co0 1oo0 1400 1dc0 19A0 1io0 1io0 WM0 1o00 14o0 1o00 17c0 1io0 17c0 1fA0 1a00 1lc0 17c0 1io0 17c0 1fA0 1a00 1io0 17c0 1io0 17c0 1fA0 1cM0 1io0 17c0 1fA0 1a00 1io0 17c0 1io0 17c0 1fA0 1a00 1io0 1qM0 Dc0 g600 14o0 1wo0 17c0 1io0 11A0 1o00 17c0 1fA0 1a00 1fA0 1cM0 1fA0 1a00 17c0 1fA0 1a00 1io0 17c0 1lc0 17c0 1fA0 1a00 1io0 17c0 1io0 17c0 1fA0 1a00 1a00 1qM0 WM0 1qM0 11A0 1o00 WM0 1qM0 WM0 1qM0 WM0 1qM0 WM0 1tA0 IM0 90o0 U00 1tA0 U00 1tA0 U00 1tA0 U00 1tA0 WM0 1qM0 WM0 1qM0 WM0 1tA0 U00 1tA0 U00 1tA0 11z0 1o00 11A0 1o00 11A0 1o00 11A0 1qM0 11A0 1o00 11A0 1o00 11A0 1o00 11A0 1o00 11A0 1qM0 WM0 1qM0 11A0 1o00 11A0 1o00 11A0 1o00 11A0 1o00 11A0 1o00 14o0 1o00 11A0 1o00 11A0 1o00 11A0 1qM0 WM0 1qM0 WM0 1qM0 11A0 1o00 11A0 1o00 11A0 1qM0 WM0 1qM0 WM0 1qM0 WM0 1qM0 11A0 1o00 11A0 1o00 11A0 1qM0 WM0 1qM0 WM0 1qM0 11A0 1o00 11A0 1o00 11A0 1o00 11A0 1qM0 WM0 1qM0 WM0 1qM0 11A0 1o00 11A0 1o00 11A0 1qM0 WM0 1qM0 WM0 1qM0 11A0 1o00 11A0 1o00 11A0 1o00 11A0 1qM0 WM0 1qM0 WM0 1qM0 11A0 1o00 11A0 1o00 11A0 1qM0 WM0 1qM0 WM0 1qM0 WM0 1qM0 11A0 1o00 11A0 1o00|12e5",
+      "message": null,
+      "statusCode": 200,
+      "success": true
+    }
+  },
+  {
+    "url": "https://cpapi.ucc.michigan.gov/api/configuration/states",
+    "data": {
+      "data": [
+        {
+          "countryId": null,
+          "stateAcr": null,
+          "stateId": 1,
+          "stateName": "Not in Canada or US",
+          "activeInd": true
+        },
+        {
+          "countryId": 38,
+          "stateAcr": "AB",
+          "stateId": 2,
+          "stateName": "Alberta",
+          "activeInd": true
+        },
+        {
+          "countryId": 38,
+          "stateAcr": "BC",
+          "stateId": 3,
+          "stateName": "British Columbia",
+          "activeInd": true
+        },
+        {
+          "countryId": 38,
+          "stateAcr": "MB",
+          "stateId": 4,
+          "stateName": "Manitoba",
+          "activeInd": true
+        },
+        {
+          "countryId": 38,
+          "stateAcr": "NB",
+          "stateId": 5,
+          "stateName": "New Brunswick",
+          "activeInd": true
+        },
+        {
+          "countryId": 38,
+          "stateAcr": "NL",
+          "stateId": 6,
+          "stateName": "Newfoundland and Labrador",
+          "activeInd": true
+        },
+        {
+          "countryId": 38,
+          "stateAcr": "NT",
+          "stateId": 7,
+          "stateName": "Northwest Territories",
+          "activeInd": true
+        },
+        {
+          "countryId": 38,
+          "stateAcr": "NS",
+          "stateId": 8,
+          "stateName": "Nova Scotia",
+          "activeInd": true
+        },
+        {
+          "countryId": 38,
+          "stateAcr": "NU",
+          "stateId": 9,
+          "stateName": "Nunavut",
+          "activeInd": true
+        },
+        {
+          "countryId": 38,
+          "stateAcr": "ON",
+          "stateId": 10,
+          "stateName": "Ontario",
+          "activeInd": true
+        },
+        {
+          "countryId": 38,
+          "stateAcr": "PE",
+          "stateId": 11,
+          "stateName": "Prince Edward Island",
+          "activeInd": true
+        },
+        {
+          "countryId": 38,
+          "stateAcr": "QC",
+          "stateId": 12,
+          "stateName": "Quebec",
+          "activeInd": true
+        },
+        {
+          "countryId": 38,
+          "stateAcr": "SK",
+          "stateId": 13,
+          "stateName": "Saskatchewan",
+          "activeInd": true
+        },
+        {
+          "countryId": 38,
+          "stateAcr": "YT",
+          "stateId": 14,
+          "stateName": "Yukon",
+          "activeInd": true
+        },
+        {
+          "countryId": 227,
+          "stateAcr": "AL",
+          "stateId": 15,
+          "stateName": "Alabama",
+          "activeInd": true
+        },
+        {
+          "countryId": 227,
+          "stateAcr": "AK",
+          "stateId": 16,
+          "stateName": "Alaska",
+          "activeInd": true
+        },
+        {
+          "countryId": 227,
+          "stateAcr": "AZ",
+          "stateId": 17,
+          "stateName": "Arizona",
+          "activeInd": true
+        },
+        {
+          "countryId": 227,
+          "stateAcr": "AR",
+          "stateId": 18,
+          "stateName": "Arkansas",
+          "activeInd": true
+        },
+        {
+          "countryId": 227,
+          "stateAcr": "CA",
+          "stateId": 19,
+          "stateName": "California",
+          "activeInd": true
+        },
+        {
+          "countryId": 227,
+          "stateAcr": "CO",
+          "stateId": 20,
+          "stateName": "Colorado",
+          "activeInd": true
+        },
+        {
+          "countryId": 227,
+          "stateAcr": "CT",
+          "stateId": 21,
+          "stateName": "Connecticut",
+          "activeInd": true
+        },
+        {
+          "countryId": 227,
+          "stateAcr": "DE",
+          "stateId": 22,
+          "stateName": "Delaware",
+          "activeInd": true
+        },
+        {
+          "countryId": 227,
+          "stateAcr": "FL",
+          "stateId": 23,
+          "stateName": "Florida",
+          "activeInd": true
+        },
+        {
+          "countryId": 227,
+          "stateAcr": "GA",
+          "stateId": 24,
+          "stateName": "Georgia",
+          "activeInd": true
+        },
+        {
+          "countryId": 227,
+          "stateAcr": "HI",
+          "stateId": 25,
+          "stateName": "Hawaii",
+          "activeInd": true
+        },
+        {
+          "countryId": 227,
+          "stateAcr": "ID",
+          "stateId": 26,
+          "stateName": "Idaho",
+          "activeInd": true
+        },
+        {
+          "countryId": 227,
+          "stateAcr": "IL",
+          "stateId": 27,
+          "stateName": "Illinois",
+          "activeInd": true
+        },
+        {
+          "countryId": 227,
+          "stateAcr": "IN",
+          "stateId": 28,
+          "stateName": "Indiana",
+          "activeInd": true
+        },
+        {
+          "countryId": 227,
+          "stateAcr": "IA",
+          "stateId": 29,
+          "stateName": "Iowa",
+          "activeInd": true
+        },
+        {
+          "countryId": 227,
+          "stateAcr": "KS",
+          "stateId": 30,
+          "stateName": "Kansas",
+          "activeInd": true
+        },
+        {
+          "countryId": 227,
+          "stateAcr": "KY",
+          "stateId": 31,
+          "stateName": "Kentucky",
+          "activeInd": true
+        },
+        {
+          "countryId": 227,
+          "stateAcr": "LA",
+          "stateId": 32,
+          "stateName": "Louisiana",
+          "activeInd": true
+        },
+        {
+          "countryId": 227,
+          "stateAcr": "ME",
+          "stateId": 33,
+          "stateName": "Maine",
+          "activeInd": true
+        },
+        {
+          "countryId": 227,
+          "stateAcr": "MD",
+          "stateId": 34,
+          "stateName": "Maryland",
+          "activeInd": true
+        },
+        {
+          "countryId": 227,
+          "stateAcr": "MA",
+          "stateId": 35,
+          "stateName": "Massachusetts",
+          "activeInd": true
+        },
+        {
+          "countryId": 227,
+          "stateAcr": "MI",
+          "stateId": 36,
+          "stateName": "Michigan",
+          "activeInd": true
+        },
+        {
+          "countryId": 227,
+          "stateAcr": "MN",
+          "stateId": 37,
+          "stateName": "Minnesota",
+          "activeInd": true
+        },
+        {
+          "countryId": 227,
+          "stateAcr": "MS",
+          "stateId": 38,
+          "stateName": "Mississippi",
+          "activeInd": true
+        },
+        {
+          "countryId": 227,
+          "stateAcr": "MO",
+          "stateId": 39,
+          "stateName": "Missouri",
+          "activeInd": true
+        },
+        {
+          "countryId": 227,
+          "stateAcr": "MT",
+          "stateId": 40,
+          "stateName": "Montana",
+          "activeInd": true
+        },
+        {
+          "countryId": 227,
+          "stateAcr": "NE",
+          "stateId": 41,
+          "stateName": "Nebraska",
+          "activeInd": true
+        },
+        {
+          "countryId": 227,
+          "stateAcr": "NV",
+          "stateId": 42,
+          "stateName": "Nevada",
+          "activeInd": true
+        },
+        {
+          "countryId": 227,
+          "stateAcr": "NH",
+          "stateId": 43,
+          "stateName": "New Hampshire",
+          "activeInd": true
+        },
+        {
+          "countryId": 227,
+          "stateAcr": "NJ",
+          "stateId": 44,
+          "stateName": "New Jersey",
+          "activeInd": true
+        },
+        {
+          "countryId": 227,
+          "stateAcr": "NM",
+          "stateId": 45,
+          "stateName": "New Mexico",
+          "activeInd": true
+        },
+        {
+          "countryId": 227,
+          "stateAcr": "NY",
+          "stateId": 46,
+          "stateName": "New York",
+          "activeInd": true
+        },
+        {
+          "countryId": 227,
+          "stateAcr": "NC",
+          "stateId": 47,
+          "stateName": "North Carolina",
+          "activeInd": true
+        },
+        {
+          "countryId": 227,
+          "stateAcr": "ND",
+          "stateId": 48,
+          "stateName": "North Dakota",
+          "activeInd": true
+        },
+        {
+          "countryId": 227,
+          "stateAcr": "OH",
+          "stateId": 49,
+          "stateName": "Ohio",
+          "activeInd": true
+        },
+        {
+          "countryId": 227,
+          "stateAcr": "OK",
+          "stateId": 50,
+          "stateName": "Oklahoma",
+          "activeInd": true
+        },
+        {
+          "countryId": 227,
+          "stateAcr": "OR",
+          "stateId": 51,
+          "stateName": "Oregon",
+          "activeInd": true
+        },
+        {
+          "countryId": 227,
+          "stateAcr": "PA",
+          "stateId": 52,
+          "stateName": "Pennsylvania",
+          "activeInd": true
+        },
+        {
+          "countryId": 227,
+          "stateAcr": "RI",
+          "stateId": 53,
+          "stateName": "Rhode Island",
+          "activeInd": true
+        },
+        {
+          "countryId": 227,
+          "stateAcr": "SC",
+          "stateId": 54,
+          "stateName": "South Carolina",
+          "activeInd": true
+        },
+        {
+          "countryId": 227,
+          "stateAcr": "SD",
+          "stateId": 55,
+          "stateName": "South Dakota",
+          "activeInd": true
+        },
+        {
+          "countryId": 227,
+          "stateAcr": "TN",
+          "stateId": 56,
+          "stateName": "Tennessee",
+          "activeInd": true
+        },
+        {
+          "countryId": 227,
+          "stateAcr": "TX",
+          "stateId": 57,
+          "stateName": "Texas",
+          "activeInd": true
+        },
+        {
+          "countryId": 227,
+          "stateAcr": "UT",
+          "stateId": 58,
+          "stateName": "Utah",
+          "activeInd": true
+        },
+        {
+          "countryId": 227,
+          "stateAcr": "VT",
+          "stateId": 59,
+          "stateName": "Vermont",
+          "activeInd": true
+        },
+        {
+          "countryId": 227,
+          "stateAcr": "VA",
+          "stateId": 60,
+          "stateName": "Virginia",
+          "activeInd": true
+        },
+        {
+          "countryId": 227,
+          "stateAcr": "WA",
+          "stateId": 61,
+          "stateName": "Washington",
+          "activeInd": true
+        },
+        {
+          "countryId": 227,
+          "stateAcr": "WV",
+          "stateId": 62,
+          "stateName": "West Virginia",
+          "activeInd": true
+        },
+        {
+          "countryId": 227,
+          "stateAcr": "WI",
+          "stateId": 63,
+          "stateName": "Wisconsin",
+          "activeInd": true
+        },
+        {
+          "countryId": 227,
+          "stateAcr": "WY",
+          "stateId": 64,
+          "stateName": "Wyoming",
+          "activeInd": true
+        },
+        {
+          "countryId": 227,
+          "stateAcr": "DC",
+          "stateId": 65,
+          "stateName": "District of Columbia",
+          "activeInd": true
+        },
+        {
+          "countryId": 227,
+          "stateAcr": "AA",
+          "stateId": 83,
+          "stateName": "Armed Forces Americas\n",
+          "activeInd": true
+        },
+        {
+          "countryId": 227,
+          "stateAcr": "AE",
+          "stateId": 84,
+          "stateName": "Armed Forces Europe\n",
+          "activeInd": true
+        },
+        {
+          "countryId": 227,
+          "stateAcr": "AP",
+          "stateId": 85,
+          "stateName": "Armed Forces Pacific\n",
+          "activeInd": true
+        },
+        {
+          "countryId": 227,
+          "stateAcr": "AS",
+          "stateId": 86,
+          "stateName": "American Samoa\n",
+          "activeInd": true
+        },
+        {
+          "countryId": 227,
+          "stateAcr": "GU",
+          "stateId": 87,
+          "stateName": "Guam\n",
+          "activeInd": true
+        },
+        {
+          "countryId": 227,
+          "stateAcr": "MP",
+          "stateId": 88,
+          "stateName": "Northern Mariana Islands\n",
+          "activeInd": true
+        },
+        {
+          "countryId": 227,
+          "stateAcr": "PR",
+          "stateId": 89,
+          "stateName": "Puerto Rico\n",
+          "activeInd": true
+        },
+        {
+          "countryId": 227,
+          "stateAcr": "VI",
+          "stateId": 90,
+          "stateName": "Virgin Islands\n",
+          "activeInd": true
+        },
+        {
+          "countryId": 227,
+          "stateAcr": "FM",
+          "stateId": 91,
+          "stateName": "Federated States of Micronesia",
+          "activeInd": true
+        },
+        {
+          "countryId": 227,
+          "stateAcr": "MH",
+          "stateId": 92,
+          "stateName": "Marshall Islands",
+          "activeInd": true
+        },
+        {
+          "countryId": 227,
+          "stateAcr": "PW",
+          "stateId": 93,
+          "stateName": "Palau",
+          "activeInd": true
+        }
+      ],
+      "message": null,
+      "statusCode": 200,
+      "success": true
+    }
+  }
+]

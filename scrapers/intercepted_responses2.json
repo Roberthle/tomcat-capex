@@ -1,0 +1,4044 @@
+[
+  {
+    "url": "https://cpapi.ucc.michigan.gov/api/configuration/languages",
+    "data": {
+      "data": [
+        {
+          "systemLanguageId": 1,
+          "systemLanguageValue": "en-US",
+          "systemLanguageDesc": "English"
+        }
+      ],
+      "message": null,
+      "statusCode": 200,
+      "success": true
+    }
+  },
+  {
+    "url": "https://ucc.michigan.gov/assets/localization/en-US.json",
+    "data": {
+      "general": {
+        "actions": {
+          "close": "Close",
+          "openNotifications": "Open notifications"
+        }
+      },
+      "homeComponent": {
+        "registerInfoTitle": "Register a new company",
+        "registerInfoDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean dictum pretium risus vitae fringilla...",
+        "registerInfoButtonText": "Register",
+        "servicesInfoTitle": "Services",
+        "servicesInfoCard1Title": "Register a new company",
+        "servicesInfoCard1Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean dictum pretium risus vitae fringilla...",
+        "servicesInfoCard2Title": "Purchase company information",
+        "servicesInfoCard2Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean dictum pretium risus vitae fringilla...",
+        "servicesInfoCard3Title": "View company events",
+        "servicesInfoCard3Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean dictum pretium risus vitae fringilla...",
+        "servicesInfoCard4Title": "Generate reports",
+        "servicesInfoCard4Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean dictum pretium risus vitae fringilla...",
+        "servicesInfoCard5Title": "Track a company with watchlists",
+        "servicesInfoCard5Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean dictum pretium risus vitae fringilla...",
+        "servicesInfoCard6Title": "Manage your company",
+        "servicesInfoCard6Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean dictum pretium risus vitae fringilla...",
+        "partnersInfoTitle": "Our partners",
+        "partnersInfoDescription": "Partners...",
+        "moreInfoTitle": "How do I...",
+        "moreInfoDescription": "Find out more information about how to register, remain compliant and manage your interactions with the registry",
+        "moreInfoButtonText": "Read more",
+        "sideBullet": {
+          "search": "Search",
+          "services": "Services",
+          "partners": "Partners",
+          "news": "News",
+          "more": "More"
+        }
+      },
+      "footerComponent": {
+        "copyright": "Powered by "
+      },
+      "publicSearch": {
+        "title": "Looking for company information?",
+        "searching": "Searching",
+        "noResults": "No results for this search",
+        "entityRegNum": "Number",
+        "entityRegName": "Name",
+        "entityTypeDesc": "Type",
+        "view": "View",
+        "searchPlaceholder": "Search company name of number"
+      },
+      "loginComponent": {
+        "logIn": "Log in",
+        "newClient": "Are you a new client?",
+        "guestAccess": "Access as guest",
+        "access": "Access",
+        "createAccount": "Create account",
+        "LoginCreateAccount": "Log in",
+        "InactiveUser": "Account deactivated, please contact UCC at 517-335-6167",
+        "registerHere": "Sign in/Create account"
+      },
+      "loginFormComponent": {
+        "title": "Sign in",
+        "loginPlaceholder": "Login name",
+        "passwordPlaceholder": "Password",
+        "forgotPassword": "Forgot password?",
+        "logIn": "Login",
+        "notification": "notification",
+        "hint": "If you already have an account, please log in"
+      },
+      "dynamicFormComponent": {
+        "loaderProcessingPayment": "Processing payment",
+        "errorSaveDraftNotification": "Error saving the draft. Please try later or contact the Registry",
+        "paymentErrorNotification": "There was an error processing your payment, please contact the Registry",
+        "handleErrorNotification": "For this document, please contact the Registry",
+        "saveDraft": "Save draft",
+        "preview": "Preview",
+        "submit": "Submit",
+        "next": "Next",
+        "unsavedChanges": "There is a list with unsaved changes on this section.",
+        "reviewSingleStep": "Cannot proceed to the next step until all the information is completed.",
+        "proceedAnyway": "Proceed anyway",
+        "mandatoryInfoNotProvided": "Mandatory information not provided",
+        "reviewSteps": "Please review the steps marked in red, complete the information and try again.",
+        "close": "Close",
+        "validations": "Validations",
+        "reviewErrors": "Please review errors",
+        "submitted": "Submitted",
+        "successSubmit": "was successfully submitted.",
+        "download": "Download",
+        "newFilling": "New Filing",
+        "summary": "Review",
+        "payment": "Payment",
+        "saveTemplate": "Save template",
+        "multiSelectValueAlreadySelected": "'{{value}}' has already been selected",
+        "multiSelectAllItems": "All items selected",
+        "multiSelectSelectAll": "Select all",
+        "multiSelectEditSelection": "Edit selection",
+        "multiSelectRemove": "Remove",
+        "multiSelectRemoveAll": "Remove all",
+        "valid": "Valid",
+        "invalid": "Invalid",
+        "reset": "Reset",
+        "loadingOptions": "Loading options",
+        "submitValidations": "Submit validations",
+        "openValidations": "Open validations",
+        "closeValidations": "Close validations",
+        "results": "Results",
+        "discardChanges": "Discard changes",
+        "exitDialogHeading": "Are you sure you want to leave this form?",
+        "exitDialogHeading_2": "(Unsaved data will be lost)",
+        "exitForm": "Yes (Exit form)",
+        "returnToForm": "No (Return to form)",
+        "formSaved": "Form saved",
+        "paymentReceived": "Payment received",
+        "transactionNumber": "Transaction number: {{value}}",
+        "amountPaid": "Amount paid: {{value}}",
+        "date": "Date: {{value}}",
+        "submissionSuccess": "Filing successfully submitted",
+        "submissionReference": "Filing reference: {{value}}",
+        "dateReceived": "Date received: {{value}}",
+        "thanks": "Thank You!",
+        "reason": "Reason: {{value}}",
+        "submissionNotSubmitted": "Filing not submitted",
+        "submissionNotSubmittedReason": "Filing was not submitted due to a payment error",
+        "submissionFailedSubmit": "Error during filing",
+        "submissionFailedSubmitReason": "Filing was not submitted due to an error",
+        "submittingSubmission": "Submitting filing",
+        "noPaymentRequired": "No payment required",
+        "contactWithRefNum": "<br/>Please use the following reference number: {{value}}",
+        "dashboard": "Dashboard",
+        "messages": "Messages",
+        "signatures": "Signatures",
+        "setTemplateName": "Template name",
+        "set": "Set",
+        "cancel": "Cancel",
+        "previous": "Previous",
+        "pleaseSelect": "Please select",
+        "redactions": "These texts need review",
+        "innerFormNotExecuted": "This internal form hasn't been executed",
+        "addToCart": "Add to cart",
+        "revalidating": "Validating form",
+        "amendFiling": "Amend filing",
+        "validationsClarifyingText": "This form has new requirements to complete since it was submitted. Please review the issues and click on 'Amend filing' to complete it.",
+        "validationsGuestClarifyingText": "This form has new requirements to complete since it was submitted. Contact the person who submitted it."
+      },
+      "formProgressComponent": {
+        "progress": "Progress"
+      },
+      "listFormQuestionComponent": {
+        "list": "List",
+        "cancel": "Cancel",
+        "save": "Save",
+        "update": "Update",
+        "add": "Add",
+        "noItems": "No {{value}} in this list",
+        "edit": "Edit",
+        "remove": "Remove",
+        "itemUpdated": "Item updated!",
+        "itemAdded": "Item added!",
+        "itemRemoved": "Item removed!",
+        "no": "No",
+        "yes": "Yes",
+        "confirmMessage": "Are you sure you want to remove this item?",
+        "mandatoryInformationMissing": "Mandatory information missing"
+      },
+      "displayListFormQuestionComponent": {
+        "view": "View",
+        "close": "Close",
+        "details": "Details"
+      },
+      "checkboxQuestionSummaryComponent": {
+        "yes": "Yes",
+        "no": "No",
+        "na": "N/A"
+      },
+      "attachmentSummaryComponent": {
+        "uploaded": "Uploaded",
+        "notUploaded": "Not uploaded",
+        "empty": "Please click edit and fill the required information"
+      },
+      "documentUploaderComponent": {
+        "maxSizeErrorNotification": "The file cannot be uploaded. Max file size is {{value}}MB",
+        "maxTotalSizeErrorNotification": "The file cannot be uploaded. Max total files size is {{value}}MB",
+        "fileTypeErrorNotification": "The file cannot be uploaded. File types allowed are: {{value}}",
+        "maxCountErrorNotification": "The file cannot be uploaded. Max files count is {{value}}",
+        "errorUploadErrorNotification": "Error Uploading. Please try again",
+        "dropFilesHere": "Drop files here",
+        "dropOneFileHere": "Drop one file here",
+        "or": "- or -",
+        "selectOneOrMoreFiles": "Select file(s)",
+        "selectFile": "Select a file",
+        "errorUploading": "Error uploading: ",
+        "selectManyFiles": "Select one or more files",
+        "selectOneFile": "Select a file",
+        "discard": "Discard",
+        "uploadingProgess": "Uploading {{value}}",
+        "sizeTypeInfo": "Please upload {{types}} documents only. Maximum size is {{size}}MB"
+      },
+      "editableSectionComponent": {
+        "save": "Save",
+        "edit": "Edit",
+        "empty": "Click to edit and fill the required information",
+        "defaultValidationMessage": "Some mandatory information is missing"
+      },
+      "textareaComponent": {
+        "pleaseRedact": "Yes, please redact this information",
+        "no": "No",
+        "redacted": "Redacted!"
+      },
+      "navigationComponent": {
+        "dashboard": "Dashboard",
+        "search": "Search",
+        "ucc-search": "UCC search",
+        "newFiling": "New filing",
+        "newUccFiling": "New UCC filing",
+        "myFilings": "My filings",
+        "messages": "Messages",
+        "orders": "Orders",
+        "payments": "Payments",
+        "account": "Account",
+        "helpLink": "https://www.michigan.gov/sos/Industry-Services/ucc",
+        "help": "Help",
+        "submissionTemplates": "Templates",
+        "login": "Log in",
+        "menuDesc": "Open navigation",
+        "logoDesc": "logo",
+        "cases": "Cases",
+        "watchlist": "Watchlist",
+        "version": "Version : {{version}}",
+        "logout": "Log Out"
+      },
+      "dashboardComponent": {
+        "overview": "Filings by status",
+        "dashboard": "Dashboard",
+        "hi": "Hi {{name}},",
+        "friendlyQuestion": "what would you like to do next?",
+        "filingPortal": "CRA filing portal",
+        "search": "Search",
+        "detailedSearchOptions": "For more detailed search options, please log in or sign up for a user account",
+        "startNewFiling": "Start new filing",
+        "customActions": {
+          "highlight": {
+            "title": "File a UCC form",
+            "text": "Please click the button below to see the list of UCC forms.",
+            "action": "File UCC"
+          },
+          "1": {
+            "title": "UCC-1 initial financing statement",
+            "text": "",
+            "action": "File a UCC-1"
+          },
+          "2": {
+            "title": "UCC-11 information request",
+            "text": "",
+            "action": "Submit a UCC-11"
+          },
+          "3": {
+            "title": "Business name registration",
+            "text": "Registration of a business name is obligatory if any individual or partnership or any body corporate carries on business under a name other than their own true names.",
+            "action": "Begin application"
+          }
+        }
+      },
+      "actionsComponent": {
+        "fileNewForm": "File a new form",
+        "updateExistingEntity": "Update an existing entity"
+      },
+      "accountComponent": {
+        "loaderMessage": "Loading account",
+        "failedToLoadCertainData": "Failed to load certain information, please reload the page and try again"
+      },
+      "accountUsersComponent": {
+        "users": "Users",
+        "newUser": "New user",
+        "noUsers": "There are no users for this account. Please add a user.",
+        "yes": "Yes",
+        "no": "No",
+        "loginName": "Login name",
+        "userName": "User name",
+        "email": "Email",
+        "active": "Active",
+        "administrator": "Administrator",
+        "openDetails": "Open details",
+        "tableDesc": "Accounts user table",
+        "loginNameDesc": "User Id: {{userId}} {{loginName}}",
+        "userNameDesc": "User Id: {{userId}} {{userName}}",
+        "emailDesc": "User Id: {{userId}} {{userName}} email: {{email}}",
+        "activeDesc": "'User Id: {{userId}} {{userName}} active: {{activeInd}}",
+        "administratorDesc": "User Id: {{userId}} Is {{userName}} an admin: {{administratorInd}}",
+        "view": "View",
+        "viewDesc": "'User Id: {{userId}} open details for {{userName}}",
+        "lastLogonTime": "Last Login Time"
+      },
+      "accountDetailsComponent": {
+        "infoSavedNotification": "Information saved successfully",
+        "errorSavingInfoNotification": "Error trying to save the information. Please try later.",
+        "accountDetails": "Details",
+        "electronicSignatures": "Access codes",
+        "edit": "Edit",
+        "cancel": "Cancel",
+        "save": "Save",
+        "details": "Details",
+        "number": "Customer reference number",
+        "name": "Name",
+        "type": "Type",
+        "owner": "Owner",
+        "address": "Address",
+        "address1": "Address 1",
+        "address2": "Address 2",
+        "address3": "Address 3",
+        "city": "City",
+        "state": "State",
+        "postcode": "Postal code",
+        "zipcode": "Zip code",
+        "country": "Country",
+        "account": "Account"
+      },
+      "electronicSignaturesComponent": {
+        "loaderLoading": "Loading access codes",
+        "electronicSignatures": "Access codes",
+        "noEntities": "You do not have any entities available to allow access to"
+      },
+      "addElectronicSignaturesComponent": {
+        "selectUserNotification": "Please select a user to assign the access code to",
+        "selectEntityNotification": "Please select an entity",
+        "addElectronicSignature": "Add access code",
+        "yourEntities": "Your entities",
+        "assignTo": "Assign to",
+        "edit": "Edit",
+        "add": "Add"
+      },
+      "electronicSignaturesGridComponent": {
+        "electronicSignatures": "Your access codes",
+        "noElectronicSignaturesSetUp": "You do not have any access codes set up",
+        "issuedTo": "Issued to",
+        "entity": "Entity",
+        "status": "Status",
+        "assignedBy": "Assigned by",
+        "revokeConfirm": "Are you sure you want to revoke this access code?",
+        "revokeInfo": "Please enter a reason for revoking this access code",
+        "revokeReasonRequired": "Please add a revoke reason",
+        "revoke": "Revoke",
+        "cancel": "Cancel"
+      },
+      "notFoundErrorComponent": {
+        "pageNotFound": "Page not found",
+        "pageDoesNotExist": "The page you are trying to access doesn't exist.",
+        "dashboard": "Dashboard"
+      },
+      "unknownErrorComponent": {
+        "unexpectedErrorOccurred": "Unexpected error occurred",
+        "pleaseTryAgain": "Please try again, if this issue persists, please contact us at the general email: <a href=\"mailto:support@ersl.ie\">support@ersl.ie</a>",
+        "dashboard": "Dashboard"
+      },
+      "advancedFilterComponent": {
+        "clear": "Clear",
+        "datePlaceholder": "mm/dd/yyyy"
+      },
+      "advancedFilterQuestions": {
+        "filterRefNo": "Filter using ref No, reference name...",
+        "filter": "Filter",
+        "typeToFilter": "Type to filter...",
+        "type": "Type",
+        "date": "Date",
+        "searchUsers": "Search Users...",
+        "users": "Users",
+        "to": "To",
+        "from": "From",
+        "startDate": "Start date",
+        "endDate": "End date"
+      },
+      "documentDownloaderComponent": {
+        "errorNotification": "For this document, please contact the registry",
+        "downloading": "Downloading",
+        "download": "Download"
+      },
+      "listFilterComponent": {
+        "filter": "Filter: ",
+        "start": "Start",
+        "end": "End",
+        "refresh": "Refresh",
+        "startDate": "Start date",
+        "endDate": "End date"
+      },
+      "companyDetailsComponent": {
+        "backToSearch": "Back to search",
+        "regNumber": "Financing statement number",
+        "regName": "Financing statement name",
+        "type": "Type",
+        "status": "Status",
+        "statusEffectiveDate": "Effective date",
+        "regDate": "Registered date",
+        "regAddress": "Reg. address",
+        "annualReturnDueDate": "Next annual return",
+        "lapsedDate": "Lapsed date",
+        "startNewFiling": "Start new filing"
+      },
+      "companyProfileComponent": {
+        "loaderMessage": "Loading",
+        "companyProfile": "Company profile",
+        "compProfileLoadError": "There was a problem trying to load the company profile"
+      },
+      "entityLatestEventsComponent": {
+        "latestEvents": "Events",
+        "noData": "There are no events recorded for this company"
+      },
+      "companyDocumentsComponent": {
+        "filings": "Filings",
+        "loaderMessage": "Loading documents",
+        "regDate": "Registered on",
+        "docRefName": "Filing",
+        "refNo": "Reference",
+        "source": "Source",
+        "status": "Status",
+        "downloadImage": "Download image",
+        "noDocs": "No documents found",
+        "docUnavailable": "This document is not available",
+        "tableDesc": "Filings Table",
+        "regDateDesc": "{{refName}} registered date is {{date}}",
+        "docRefNameDesc": "Filing: {{refName}}",
+        "refNoDesc": "{{refName}} reference number is {{refNum}}",
+        "sourceDesc": "{{refName}} source is {{source}}",
+        "statusDesc": "{{refName}} status is {{status}}",
+        "docNotAvailable'": "Document not available",
+        "docCanBeDownloaded": "{{refName}} can be downloaded",
+        "downloadAllImages": "Download all",
+        "allDocumentsLabel": "All documents",
+        "allDocumentsDescription": "You can download all documents here"
+      },
+      "companyRelationshipsComponent": {
+        "partyInfo": "Party information",
+        "loaderMessage": "Loading relationships"
+      },
+      "companyRelationshipsGridComponent": {
+        "typeToFilter": "Type to filter...",
+        "name": "Name",
+        "address": "Address",
+        "relationshipType": "Relationship",
+        "effectiveDate": "Effective from",
+        "startDate": "Start date",
+        "noRelationships": "There are no relationships available for this entity",
+        "tableDesc": "Company relationships table",
+        "addressDesc": "{{name}} address is {{address}}",
+        "relationshipTypeDesc": "{{name}} relationship type is {{type}}",
+        "effectiveDateDesc": "{{name}} effective date is {{date}}",
+        "startDateDesc": "{{name}} start date is {{date}}"
+      },
+      "companyNamesGridComponent": {
+        "name": "Name",
+        "effectiveFrom": "Effective from",
+        "effectiveFromDesc": "{{name}} effective from {{date}}"
+      },
+      "checkout": {
+        "title": "Checkout",
+        "free": "Free",
+        "loaderShoppingCart": "Loading shopping Cart",
+        "loadingUserInformation": "Loading information",
+        "loaderProcessingPayment": "Processing payment",
+        "reviewItems": "Return to shopping cart",
+        "continue": "Continue",
+        "returnToDashboard": "Return to dashboard",
+        "completingOrder": "Completing the order",
+        "processing": {
+          "paymentReceived": "Payment received. Thank you!",
+          "transactionNumber": "Transaction number",
+          "amountPaid": "Amount paid",
+          "downloadReceipt": "Download receipt",
+          "orderFinished": "Order completed. Thank you!",
+          "checkoutFinished": "Thank you for your order",
+          "subCheckoutFinished": "The items below have been received. An email notification will be sent when processing is complete.",
+          "submissions": "Submissions",
+          "enquiries": "Orders",
+          "type": "Type",
+          "copies": "Copies"
+        },
+        "errors": {
+          "processingOrderNotification": "There has been an error processing your order. Please try later.",
+          "gatheringCustInfoNotification": "There has been an error gathering customer information. Please try later.",
+          "magicPayDeclineNotification": "Payment has been declined by JetPay payment provider",
+          "magicPayUnexpectedNotification": "Unexpected error while processing payment by JetPay payment provider",
+          "itemsCannotProcessed": "Some of the items cannot be processed. Please review the shopping cart and proceed again."
+        },
+        "tabs": {
+          "shoppingCart": "Shopping cart",
+          "deliveryDetails": "Delivery details",
+          "payment": "Payment"
+        },
+        "emptyCart": {
+          "message": "Your shopping cart is empty",
+          "viewOrders": "View orders",
+          "searchCompany": "Search company",
+          "dashboard": "Dashboard"
+        },
+        "cartItem": {
+          "type": "Type",
+          "filingType": "Filing type",
+          "filingReference": "Filing reference",
+          "referenceNumber": "Reference No.",
+          "copies": "Copies",
+          "total": "Total",
+          "processingFees": "Processing fees",
+          "processing": "Processing",
+          "submitted": "Submitted",
+          "accepted": "Submission accepted",
+          "remove": "Remove",
+          "removeFormCart": "Remove from cart",
+          "amendFiling": "Amend filing",
+          "priority": "Priority",
+          "goToDetails": "Go to details",
+          "noteAmendFiling": "<strong>Note:</strong> Amending the filing will convert it back to a draft and will need to be submitted again",
+          "filingValidationErrors": "There is a problem with this filing"
+        },
+        "totals": {
+          "summary": "Summary",
+          "total": "Total",
+          "description": "Purchasing {{numOfCartItems}} documents"
+        },
+        "deliveryDetails": {
+          "yourDetails": "Your details",
+          "name": "Name",
+          "email": "Email",
+          "faxNumber": "Fax number",
+          "addressDetails": "Address details",
+          "confirmEmail": "Confirm email",
+          "confirmAndContinue": "Confirm and continue",
+          "completeYourOrder": "Complete my order",
+          "greeting": {
+            "hi": "Hi",
+            "message": "Please confirm your delivery details below"
+          },
+          "guest": {
+            "title": "Continue as guest",
+            "hint": "Enter your details"
+          },
+          "address": {
+            "address1": "Address 1",
+            "address2": "Address 2",
+            "address3": "Address 3",
+            "city": "City",
+            "plaseSelectState": "Please select a state",
+            "state": "State",
+            "postalCode": "Postal code",
+            "country": "Country",
+            "errorLoadingOptions": "There was an error loading some of the options. Please try leter or contact the Registry"
+          },
+          "failedToLoadCertainData": "Failed to load country or state data, please reload the page and try again"
+        },
+        "recovery": {
+          "title": "Please Sign In to continue with the transaction"
+        },
+        "paymentFailure": {
+          "title": "Problems processing the payment",
+          "contactWithRefNum": "",
+          "restartCheckout": "Try the checkout again"
+        }
+      },
+      "shoppingCart": {
+        "free": "Free",
+        "items": "Item(s)",
+        "total": "Total",
+        "title": "Shopping cart",
+        "actions": {
+          "goToCheckout": "Checkout",
+          "closePanel": "Close"
+        },
+        "quickSearch": {
+          "placeholder": "Missing something? Find an entity by name or number..."
+        }
+      },
+      "eCommerce": {
+        "free": "Free",
+        "unavailable": "Unavailable",
+        "contactSupportTitle": "Please contact our support for further details on how to order this document",
+        "canBePurchasedTitle": "",
+        "entity": {
+          "loading": "Loading",
+          "companyProfile": "Profile",
+          "relationships": "Related parties",
+          "latestEvents": "Events",
+          "names": "Previous names"
+        }
+      },
+      "entity": {
+        "addresses": {
+          "title": "Addresses",
+          "type": {
+            "regAddress": "Reg. address",
+            "mailAddress": "Mailing address",
+            "1": "Business location"
+          }
+        }
+      },
+      "CatalogComponent": {
+        "buyingCompInfo": "Buying company information?",
+        "eventsList": {
+          "noData": "There are no recent events for this entity"
+        },
+        "unableToLoadEntityDetails": "Unable to load details for this entity",
+        "unableToLoadEntityRelationships": "Unable to load entity relationships",
+        "unableToLoadLatestEvents": "Unable to load entity latest events",
+        "unableToLoadNames": "Unable to load entity previous names",
+        "failedToLoadCertainData": "Failed to load certain information, please reload the page and try again"
+      },
+      "featuredProductItemComponent": {
+        "standard": "Standard",
+        "certified": "Certified",
+        "from": "From",
+        "delivery": "Delivery",
+        "format": "Format",
+        "digitalDoc": "Digital document",
+        "fax": "Fax",
+        "paper": "Paper"
+      },
+      "featuredProductsComponent": {
+        "showMore": "Show more",
+        "showLess": "Show less",
+        "reports": "Reports"
+      },
+      "orderDetailsComponent": {
+        "loaderLoadingDetails": "Loading details",
+        "detailsWithNum": "Details for order Num. {{value}}",
+        "back": "Back",
+        "orderExpired": "Order expired on {{value}}",
+        "orderDetails": "Order details",
+        "refNum": "Reference number",
+        "status": "Status",
+        "type": "Type",
+        "output": "Output",
+        "orderDate": "Order date",
+        "entityDetails": "Entity details",
+        "entityNumber": "Financing statement number",
+        "entityName": "Financing statement name",
+        "delivery": "Delivery",
+        "method": "Method",
+        "date": "Date",
+        "email": "Email",
+        "fax": "Fax",
+        "address": "Address"
+      },
+      "orderListComponent": {
+        "loaderLoading": "Loading",
+        "refNo": "Ref. No",
+        "entityNumber": "Filing reference",
+        "entityName": "Financing statement name",
+        "type": "Type",
+        "orderDate": "Order date",
+        "noOrdersFound": "No orders found",
+        "compInfoLink1": "You can find company information",
+        "compInfoLink2": "here",
+        "openDetails": "Open details",
+        "expiredOn": "Expired on {{value}}",
+        "tableDesc": "Orders search table",
+        "refNoDesc": "Order reference number: {{enqNum}}",
+        "entityNumberDesc": "Entity registration number: {{regNum}}",
+        "entityNameDesc": "Entity registration name: {{entityName}}",
+        "typeDesc": "{{enqNum}} enquiry type is {{type}}",
+        "orderDateDesc": "{{enqNum}} order date is {{data}}",
+        "view": "View",
+        "openOrderDetails": "Open order details for {{enqNum}}",
+        "failed": "Failed",
+        "customerUserName": "User"
+      },
+      "orderComponent": {
+        "loaderLoadingOrders": "Loading orders",
+        "available": "Available",
+        "pending": "Pending",
+        "cancelled": "Cancelled",
+        "orders": "Orders",
+        "paidNoSubmitted": "Failed",
+        "itemSubmittedSuccessfully": "Order successfully submitted!",
+        "entityNumber": "Lien number",
+        "entityName": "Lien name"
+      },
+      "productsGridComponent": {
+        "typeFilter": "Type to filter",
+        "description": "Description",
+        "addToCart": "Add to cart",
+        "noItems": "Sorry but there are no items available for this company",
+        "mailFeesDescription": "includes an additional {{manuallyCertifiedPrice}} for a paper copy and ",
+        "deliveryFeeHint": "{{deliveryFee}} for delivery",
+        "registeredOn": "Registered on:",
+        "effectiveFrom": "Effective from:"
+      },
+      "productItemCtaComponent": {
+        "certified": "Certified",
+        "standard": "Standard"
+      },
+      "productsRowDetailComponent": {
+        "delivery": "Delivery",
+        "online": "Online",
+        "mail": "Mail",
+        "addToCart": "Add to cart",
+        "digitalDocument": "Digital document",
+        "cancel": "Cancel",
+        "total": "Total"
+      },
+      "productTabsComponent": {
+        "loaderLoading": "Loading",
+        "documents": "Documents",
+        "certificates": "Certificates",
+        "reports": "Reports",
+        "failedToLoadCertainData": "Failed to load certain information, please reload the page and try again",
+        "failedToLoadEntityDocuments": "Failed to load entity documents, please reload the page and try again"
+      },
+      "startNewFilingComponent": {
+        "title": "Start new financing statement",
+        "search": "I want to file a...",
+        "filing": "Filing",
+        "register": "Register",
+        "start": "Start",
+        "viewFullList": "Cannot find the correct filing? View full list",
+        "loading": "Loading",
+        "loadingEntities": "Loading your entities",
+        "viewEntityAction": "View",
+        "updateEntity": "Update a financing statement",
+        "searchEntity": "Search for a financing statement number",
+        "entity": "Financing statement",
+        "noResults": "No results for this search",
+        "noFormsAvailable": "This filing has Lapsed or Expired",
+        "filingOptionslist": {
+          "title": "Select from the options below",
+          "typeToFilter": "Type to filter..."
+        },
+        "continue": "Continue",
+        "cancel": "Cancel",
+        "loaderLoadingForm": "Loading",
+        "showNotAllowedToSubmitMessage": "You are not allowed to continue with this filing"
+      },
+      "submissionFormComponent": {
+        "loaderLoadingForm": "Loading form",
+        "formLoadNotification": "There was a problem loading the form. Please contact the Registry",
+        "signatures": "Affidavit",
+        "payment": "Payment",
+        "paymentInviteError": "There was an error trying to send the payment invite. Please try again later",
+        "unableToLoadPendingPaymentDraftWhenCartIsEnabled": "Unable to load pending payment drafts when the cart is enabled"
+      },
+      "formsGridComponent": {
+        "2": {
+          "date": "Started on"
+        },
+        "3": {
+          "date": "Submitted on"
+        },
+        "4": {
+          "date": "Received on",
+          "processedDate": "Returned on"
+        },
+        "5": {
+          "date": "Received on",
+          "processedDate": "Rejected on"
+        },
+        "6": {
+          "date": "Received on",
+          "processedDate": "Registered on"
+        },
+        "7": {
+          "date": "Received on",
+          "processedDate": "Cancelled on"
+        },
+        "8": {
+          "date": "Started on"
+        },
+        "9": {
+          "date": "Started on"
+        },
+        "10": {
+          "date": "Started on"
+        },
+        "draftRemovedNotification": "Draft removed successfully!",
+        "submissionRemovedNotification": "Filing removed successfully!",
+        "submissionCancelledNotification": "Filing cancelled successfully!",
+        "submissionSetAsDraftSuccessNotification": "Filing was set as draft successfully!",
+        "customerLoadingNotification": "There was a problem loading the customers list. Assign to another user won't be available.",
+        "draftAssignNotification": "Draft assigned successfully!",
+        "loaderLoading": "Loading",
+        "refNum": "Filing Reference",
+        "date": "Date",
+        "processedDate": "Processed on",
+        "subType": "Filing Type",
+        "entityNumber": "Financing statement number",
+        "entityName": "Financing statement name",
+        "reasons": "Reasons",
+        "noReasons": "No specific reason was given.",
+        "noSubmissions": "No filings found",
+        "noDrafts": "No drafts found.",
+        "startNewFiling": "Please start new filing",
+        "fileSubmission1": "You can file your filing",
+        "fileSubmission2": "here",
+        "selectUser": "Please select a user",
+        "overlayMessage": "Select user to assign the filing",
+        "cancelSubmissionMessage": "Are you sure you want to cancel this filing?",
+        "removeSubmissionMessage": "Are you sure you want to remove this filing?",
+        "setAsDraftSubmissionMessage": "Are you sure you want to set this filing as draft?",
+        "assign": "Assign",
+        "confirmCancel": "Yes, cancel",
+        "confirmRemove": "Yes, remove",
+        "confirmSetAsDraft": "Yes, set as draft",
+        "no": "No",
+        "cancel": "Cancel",
+        "setAsDraft": "Set as draft",
+        "open": "Open",
+        "openCopy": "Open as copy",
+        "remove": "Remove",
+        "tableDesc": "Filings table",
+        "refNumDesc": "Filing reference number: {{refNum}}",
+        "dateDesc": "{{refNum}} filing date: {{date}}",
+        "processedDateDesc": "{{refNum}} filing processed date: {{date}}",
+        "subTypeDesc": "{{refNum}} filing type: {{type}}",
+        "entityNumberDesc": "{{refNum}} financing statement Number: {{entityNum}}",
+        "reasonsDesc": "{{refNum}} reasons: {{reasons}}",
+        "optionsFor": "Options for {{value}}",
+        "download": "Download {{refNum}}",
+        "removeDraft": "Remove draft {{draftId}}",
+        "openDraft": "Open draft {{draftId}}",
+        "options": "Options",
+        "close": "Close",
+        "submissionDraftStatusDesc": "Status: {{submissionDraftStatusDesc}}",
+        "submissionDraftStatus": "Status",
+        "makePayment": "Make payment",
+        "addToCart": "Add to cart",
+        "unableToAddItemToTheCart": "Unable to add the item to the cart, please try again later",
+        "itemAlreadyAdded": "This item has already been added to the cart",
+        "itemAdded": "Item added!",
+        "references": "Please contact the registry with the following references: {{transRefNum}}, {{subRefNum}}.",
+        "itemSubmittedSuccessfully": "Filing successfully submitted!",
+        "customerUserNameDesc": "User: {{customerUserNameDesc}}",
+        "customerUserName": "User",
+        "downloadReceipt": "Receipt",
+        "downloadReceiptDesc": "Download receipt: {{transRefNum}}"
+      },
+      "formsHistoryComponent": {
+        "myFilings": "My filings",
+        "loaderLoadingSubmissions": "Loading filings",
+        "drafts": "Drafts",
+        "submitted": "Submitted",
+        "returned": "Returned",
+        "rejected": "Rejected",
+        "registered": "Registered",
+        "cancelled": "Cancelled",
+        "startNewFiling": "Start new filing",
+        "pendingSignature": "Signatures",
+        "pendingPayment": "Payment"
+      },
+      "headerComponent": {
+        "login": "Login"
+      },
+      "userOptionsComponent": {
+        "profile": "My profile",
+        "logout": "Logout",
+        "login": "Log in",
+        "signUp": "Sign up"
+      },
+      "validationComponent": {
+        "requiredMessage": "Required",
+        "minLengthMessage": "The minimum length required is {{value}}",
+        "maxLengthMessage": "The maximum length required is {{value}}",
+        "incorrectFormatMessage": "Incorrect format",
+        "invalidEircode": "Please enter a valid eircode",
+        "invalidEmail": "Please enter a valid email address",
+        "invalidIban": "Please enter a valid IBAN",
+        "passwordRequirementFail": "Password must have 8-16 characters, 1 capital, 1 number",
+        "invalidPhone": "Please enter a valid number in the format of [xxx-xxx-xxxx]",
+        "invalidDayMonth": "Please enter a valid value in the format of [DD/MM]",
+        "invalidCaptcha": "The verification of the validation code has fail. Please try again.",
+        "creditCardExpiryDateInvalid": "Please enter a valid card expiry date [MM/YY]",
+        "creditCardCvcInvalid": "Please enter a valid security code",
+        "creditCardNumberInvalid": "Please enter a valid card number [xxxx xxxx xxxx xxxx]",
+        "invalidDate": "Invalid date",
+        "dateOutOfRange": "The date is out of range",
+        "numberOutOfRange": "The value is out of range",
+        "leapDateInvalid": "Leap date invalid",
+        "invalidMonthDay": "Please enter a valid value in the format of [MM/DD]",
+        "reachedCallsLimit": "You have reached the maximum limit for searches. Please wait a minute and try again.",
+        "minValue": "Min amount allowed is {{value}}",
+        "maxValue": "Max amount allowed is {{value}}",
+        "notMatching": "{{value}} not matching"
+      },
+      "requestNewPasswordComponent": {
+        "errorRequestingNewPasswordNotification": "There has been an error requesting a new password",
+        "forgotPassword": "Forgot password",
+        "enterLoginName": "Enter your login name and click submit. We will send you an email with information on how to reset your password.",
+        "loginName": "Login name",
+        "forgotLoginName": "Forgot login name?",
+        "cancel": "Cancel",
+        "submit": "Submit",
+        "newPasswordRequested": "New password requested!",
+        "resetPasswordEmail": "An email with information on how to reset your password has been sent",
+        "login": "Login",
+        "enterEmailAddress": "Enter your email address and click Submit. We will send you an email with the list of users registered on this email address.",
+        "email": "Email",
+        "listOfUsers": "Please check your email",
+        "listOfUsersEmailSent": "We have sent on your details to the email provided"
+      },
+      "resetPasswordComponent": {
+        "errorRequestingNewPasswordNotification": "There has been an error requesting a new password",
+        "loaderVerifyingCode": "Verifying code",
+        "forgotPassword": "Forgot password",
+        "toResetPassword": "To reset your password enter your new password twice and click Submit.",
+        "password": "New password",
+        "confirmPassword": "Confirm new password",
+        "passwordNotMatching": "The password does not match",
+        "submit": "Submit",
+        "codeVerificationFailed": "Code verification failed!",
+        "passwordUpdateSuccess": "Your password has been updated successfully!",
+        "login": "Log in"
+      },
+      "sentMessageComponent": {
+        "messageSentSuccessfully": "Message has been sent successfully.",
+        "viewSentMessages": "View sent messages"
+      },
+      "composeMessageComponent": {
+        "errorSavingNotification": "There is an error saving the message. Please try again.",
+        "errorDeleteNotification": "There is an error trying to remove the message. Please try again",
+        "loaderLoadingMessage": "Loading message",
+        "selectMessageTitle": "Create a new message",
+        "selectMessageType": "Select from the options below",
+        "selectMessageFromList": "Please select a message from the list",
+        "lastSave": "Last save: {{value}}",
+        "subject": "Subject",
+        "save": "Save",
+        "send": "Send",
+        "delete": "Delete",
+        "discard": "Discard",
+        "unsavedChanges": "There are unsaved changes",
+        "discardChanges": "Discard changes",
+        "cancel": "Cancel",
+        "select": "Select",
+        "messageType": "Message type",
+        "message": "Message",
+        "back": "Back"
+      },
+      "messageDetailsComponent": {
+        "errorDeleteNotification": "There is an error trying to remove the message. Please try again",
+        "loaderLoadingMessage": "Loading message",
+        "selectMessageFromList": "Please select a Message from the list",
+        "forward": "Reply",
+        "print": "Print",
+        "reference": "Reference",
+        "date": "Date: {{value}}",
+        "back": "Back"
+      },
+      "messagesListComponent": {
+        "loaderLoadingMessage": "Loading",
+        "search": "Search",
+        "noResult1": "No result for the search",
+        "noResult2": "Please enter different text to search",
+        "noMessage": "No messages",
+        "searchMessageDesc": "Search a message",
+        "listOfMessagesDesc": "List of message",
+        "searching": "Searching",
+        "inboxEmpty": "Your inbox is empty",
+        "sentEmpty": "There are no sent items",
+        "draftsEmpty": "You have no drafts",
+        "inboxEmptyNote": "Messages you receive will appear here",
+        "sentEmptyNote": "Messages you send will appear here",
+        "draftsEmptyNote": "New messages can be saved here before being sent"
+      },
+      "messagesComponent": {
+        "messages": "Messages",
+        "loaderLoadingMessage": "Loading message",
+        "back": "Back",
+        "inbox": "Inbox",
+        "sent": "Sent",
+        "drafts": "Drafts",
+        "newMessage": "New message",
+        "compose": "Compose"
+      },
+      "creditCardComponent": {
+        "totalDue": "Total due",
+        "cardNumber": "Card number",
+        "cardholderName": "Cardholder name",
+        "expiry": "Expiry",
+        "cvc": "CVC",
+        "payByCC": "Pay by credit card"
+      },
+      "financialAccountComponent": {
+        "insufficientFundsNotification": "There are insufficient funds in your account",
+        "account": "Account",
+        "balance": "Balance",
+        "currentBalance": "Your current balance",
+        "creditLimit": "Credit limit",
+        "totalDue": "Total Due",
+        "payByAcc": "Pay by account",
+        "insufficientMoney": "Billing account payments are not available at this time. Please select another payment method or try again at a later time.",
+        "accountTopUp": "Account top up"
+      },
+      "paymentComponent": {
+        "loaderPreparingItems": "Preparing items for payment",
+        "paymentProcess": "Payment process",
+        "paymentMethod": "I would like to pay by",
+        "totalDue": "Total due",
+        "payment": "Payment",
+        "name": "Name",
+        "email": "Email",
+        "message": "Message",
+        "sendInvitation": "Send invitation",
+        "invitationSent": "Invitation sent",
+        "invitationSentSubmessage": "You will be notified when payment is complete",
+        "returnToDashboard": "Return to dashboard",
+        "infoText": "To invite someone else to pay, enter their name, email and an optional message and they will be emailed a link to pay for this filing",
+        "failedToLoadCertainData": "Failed to load certain information, please reload the page and try again",
+        "types": {
+          "account": "Billing account",
+          "creditCard": "Credit card",
+          "invite": "Invite someone else to pay",
+          "echeck": "Electronic check"
+        },
+        "echeckUnavailableForCurrentPaymentProvider": "Electronic check payment type is not available for current payment provider"
+      },
+      "realex": {
+        "gettingPaymentReady": "Fetching information",
+        "email": "Email",
+        "countryCode": "Country code",
+        "countryCodePlaceholder": "Code",
+        "phone": "Phone",
+        "phonePatternError": "Phone format is incorrect",
+        "address1": "Address 1",
+        "address2": "Address 2",
+        "address3": "Address 3",
+        "city": "City",
+        "postcode": "Postal code",
+        "country": "Country",
+        "continue": "Continue to payment",
+        "provideBillingInformation": "Please enter your credit card billing address below:"
+      },
+      "advancedSearchComponent": {
+        "search": "Search",
+        "clear": "Clear",
+        "searchDate": "Search date: {{value}}",
+        "refineSearch": "Refine your search",
+        "noResults": "No results for this search",
+        "view": "View",
+        "viewDesc": "Open details for",
+        "loadingSearch": "Loading search",
+        "buttonOpen": "Open"
+      },
+      "advancedSearch": {
+        "searchCriteria": "Search criteria",
+        "searchType": "Name search type",
+        "containsWord": "Contains word",
+        "startsWith": "Starts with",
+        "exactMatch": "Exact match",
+        "companyName": "Company name",
+        "companyNumber": "Company number",
+        "RegDateFrom": "Registration date from",
+        "RegDateTo": "Registration date To"
+      },
+      "entityFields": {
+        "registeredNumber": "Number",
+        "registeredName": "Name",
+        "entityTypeDesc": "Type",
+        "entityStatusDesc": "Status",
+        "entityRegisteredDate": "Registered on",
+        "annualReturnDueDate": "Next annual return"
+      },
+      "quickSearchEntity": {
+        "searchBy": "Search by financing statement number...",
+        "searching": "Searching",
+        "noResults": "No results for this search",
+        "searchByDesc": "Enter financing statement number...",
+        "searchResultDesc": "Quick search results",
+        "openAvailableFilings": "Open available filings for {{name}}",
+        "informationBox": {
+          "title": "Financing statement information available",
+          "text": "<p>After selecting a lien, you will be able to perform later actions.</p>"
+        }
+      },
+      "quickSearchUser": {
+        "searchBy": "Search here...",
+        "searching": "Searching",
+        "noResults": "No results for this search"
+      },
+      "confirmUserComponent": {
+        "loaderVerifyingUser": "Verifying user",
+        "userVerified": "User has been verified!",
+        "approvalReview1": "Thank you for confirming your email address for sign up as a customer.",
+        "approvalReview2": "Our staff are now reviewing your request for approval. This should not take very long.",
+        "approvalReview3": "We will send you another email to let you know when you can login.",
+        "approvalSuccess1": "Congratulations, we have confirmed your email address.",
+        "approvalSuccess2": "You can now login using the login name / password you provided during sign-up.",
+        "login": "Login",
+        "verificationFailed": "User verification failed!"
+      },
+      "signUpComponent": {
+        "termsCondNotification": "Please indicate you accept the terms and conditions by ticking the checkbox below!",
+        "validationCodeRequiredNotification": "The validation code field is required.",
+        "validationCodeFailedNotification": "The verification of the validation code failed. Please try again.",
+        "signUp": "Sign up",
+        "termsConditions": "I agree to the terms and conditions",
+        "submit": "Submit",
+        "signUpDisabled": "Sign up temporarily disabled.",
+        "maintenance": "The application is under maintenance. Please try again later.",
+        "confirmationTitle": "Request successfully submitted!",
+        "confirmationText": "This application will now be reviewed and a confirmation email will be sent to you shortly",
+        "goBackHomepage": "Return to homepage",
+        "login": "Login",
+        "displayName": "Registration",
+        "register": "Register"
+      },
+      "transactionComponent": {
+        "loaderLoadingTransactions": "Loading payments",
+        "date": "Date",
+        "ref": "Reference",
+        "type": "Type",
+        "description": "Narrative",
+        "amount": "Amount",
+        "user": "User",
+        "receipt": "Receipt",
+        "noTransactions": "No payments found",
+        "tableDesc": "Payments table",
+        "dateDesc": "Transaction date for {{refNum}} is {{date}}",
+        "refDesc": "Transaction reference is {{refNum}}",
+        "typeDesc": "Transaction type for {{refNum}} is {{type}}",
+        "narrativeDesc": "Transaction description for {{refNum}} is {{narrative}}",
+        "amountDesc": "Transaction amount for {{refNum}} is {{amount}}",
+        "userDesc": "User for {{refNum}} is {{user}}",
+        "receiptDesc": "Download receipt for transaction {{refNum}}",
+        "amountBalance": "Transaction amount balance",
+        "transactions": "Payments",
+        "receiptUnavailable": "No receipt"
+      },
+      "csvGenerator": {
+        "downloadCsv": "Download as CSV"
+      },
+      "userElectronicSignaturesGridComponent": {
+        "enterValidPasswordNotification": "Please enter a valid password",
+        "electronicSignatures": "Your access codes",
+        "noElectronicSignatures": "You do not have any access codes assigned to you.",
+        "assignedTo": "Assigned to",
+        "entity": "Entity",
+        "status": "Status",
+        "assignedBy": "Assigned by",
+        "password": "Password"
+      },
+      "userElectronicSignaturesComponent": {
+        "loaderLoading": "Loading access codes"
+      },
+      "userProfileComponent": {
+        "errorGetUserNotification": "Unable to get the user. Please contact the Registry",
+        "deleteNotification": "Unable to delete user, please contact the Registry",
+        "profileEditNotification": "Unable to save profile changes, please contact the Registry",
+        "loaderLoadingProfile": "Loading profile",
+        "overlayMessage": "Are you sure you want to deactivate this user?",
+        "createUser": "Create user",
+        "accessCodes": "Access codes",
+        "returnToAccount": "Return to account",
+        "loginNameDetails": "Login name must be Last name, first initial, and 4 numbers. For example, TesterJ1234.",
+        "remove": "Deactivate user",
+        "edit": "Edit",
+        "cancel": "Cancel",
+        "save": "Save",
+        "userDeleteSuccess": "User has been deactivated successfully",
+        "userCreateSuccess": "User has been created successfully",
+        "profileSavedNotification": "Changes have been saved successfully",
+        "goToAdmin": "Go to account",
+        "userDetails": "User details",
+        "loginName": "Login name",
+        "validatingLoginName": "Validating login name",
+        "loginNameValid": "Login name valid!",
+        "firstName": "First name",
+        "lastName": "Last name",
+        "password": "Password",
+        "confirmPassword": "Confirm password",
+        "passwordNotMatching": "The password does not match",
+        "administrator": "Administrator",
+        "active": "Active",
+        "contactDetails": "Contact details",
+        "email": "Email",
+        "phoneNumber": "Phone number",
+        "faxNumber": "Fax number",
+        "cellNumber": "Cell number",
+        "emailCorresp": "Email correspondence",
+        "htmlEmail": "Html email",
+        "privileges": "Privileges",
+        "editableOnlyByAdmin": "(Editable only by administrator)",
+        "createSubmission": "Can create filing",
+        "canSubmit": "Can submit",
+        "canViewPayments": "Can Process Payment",
+        "canChargeAccount": "Can charge account",
+        "preferredLanguage": "Preferred language",
+        "savingWarning": "Cannot save the changes, please complete the information and try again",
+        "oldPassword": "Old password",
+        "\u03bfldPassShouldBeSetWhenUpdatePassMsg": "Old password needs to be set when changing the user password"
+      },
+      "documentGridComponent": {
+        "errorNotification": "An error has occured while downloading the file. Please try again.",
+        "remove": "Remove"
+      },
+      "attachmentFormQuestionComponent": {
+        "remove": "Remove",
+        "uploaded": "Uploaded",
+        "uploadFile": "Upload file",
+        "openUploader": "Open uploader",
+        "closeUploader": "Close uploader",
+        "documentUploaded": "Document uploaded",
+        "removeDocument": "Remove document",
+        "infoText": "Click here to attach document"
+      },
+      "autocompleteFormQuestionComponent": {
+        "reset": "Reset"
+      },
+      "multiAttachmentFormQuestionComponent": {
+        "uploadFile": "Upload file",
+        "closeUploadFile": "Close upload file",
+        "remove": "Remove"
+      },
+      "quickAutocompleteFormQuestion": {
+        "searching": "Searching",
+        "noResults": "No results for this search"
+      },
+      "submissionTemplatesComponent": {
+        "loaderLoadingTemplates": "Loading templates",
+        "entityAlreadyAddedNotification": "The entity is already added.",
+        "errorProcessingNotification": "Cannot process form catalog",
+        "new": "New",
+        "existing": "Existing",
+        "templates": "Templates"
+      },
+      "submissionTemplateItemComponent": {
+        "fileTemplate": "File template",
+        "delete": "Delete",
+        "draftRemoveSuccessNotification": "Draft removed successfully!"
+      },
+      "submissionTemplateGridComponent": {
+        "noTemplates": "No templates found"
+      },
+      "submissionTemplateCatalogItemComponent": {
+        "selectType": "Select type"
+      },
+      "submissionTemplateCatalogExistingComponent": {
+        "search": "Search"
+      },
+      "submissionTemplateCatalogExistingItemComponent": {
+        "noFormsAvailable": "No forms available for this entity"
+      },
+      "dashboardLatestEventsComponent": {
+        "loaderMessage": "Loading",
+        "noData": "No events.",
+        "latestEvents": "Notifications",
+        "latestEventsCount": "last {{count}}",
+        "latestEventsDescription": "Quick access to the most recent activity on your account",
+        "rowTitleDate": "Date",
+        "rowTitleType": "Type",
+        "rowTitleDescription": "Description",
+        "rowTitleAction": "Action",
+        "linkTitleOpen": "Open",
+        "open": "Open",
+        "rowTitleDateAriaDesc": "Date: {{date}}",
+        "rowTitleTypeAriaDesc": "Type: {{type}}",
+        "rowTitleDescriptionAriaDesc": "Description: {{desc}}",
+        "noResults": "No notifications to display"
+      },
+      "broadCastMessagesComponent": {
+        "loaderMessage": "Loading",
+        "noData": "No messages.",
+        "broadCastMessages": "News and announcements",
+        "broadCastMessagesCount": "last {{count}}",
+        "rowTitleDate": "Date",
+        "rowTitleDescription": "Description",
+        "rowTitleAction": "Action",
+        "linkTitleOpen": "Open",
+        "open": "Open",
+        "rowTitleDateAriaDesc": "Date: {{date}}",
+        "rowTitleTypeAriaDesc": "Type: {{type}}",
+        "rowTitleDescriptionAriaDesc": "Description: {{desc}}",
+        "noResults": "No messages to display"
+      },
+      "dashboardGraphsComponent": {
+        "noData": "No data found",
+        "graphTitle": "Filings",
+        "total": "Total",
+        "loading": "Loading",
+        "doughnutChart": {
+          "noResults": "We haven't got any statistics for you at the moment. What about start a new filing using the button above?"
+        },
+        "submissionsList": {
+          "title": "{{ type }} Filings",
+          "viewAll": "View all {{type}} filings",
+          "cellTitle": "Filing",
+          "loading": "Loading",
+          "noResults": "No results for this filing status",
+          "createdAt": "Created at"
+        }
+      },
+      "statisticalOverviewComponent": {
+        "pendingSignature": "Pending signature",
+        "pendingPayment": "Pending payment",
+        "submissionsSubmitted": "Filings submitted",
+        "unreadMessages": "Unread messages",
+        "ordersAvailable": "Orders available",
+        "usersInGroup": "Users in group"
+      },
+      "paginatorComponent": {
+        "itemsPerPage": "Items per page",
+        "nextPage": "Next page",
+        "prevPage": "Previous page",
+        "of": "of"
+      },
+      "regsysHttpService": {
+        "unexpectedError": "Unexpected connectivity error. Please try later or contact the UCC office.",
+        "expiredSession": "Your session has expired. Please Log In again.",
+        "forbidden": "You have no privilege to access this information"
+      },
+      "myEntitiesComponent": {
+        "myEntities": "Update a financing statement",
+        "typeToFilter": "Type to filter...",
+        "tableDesc": "My entities table",
+        "loaderLoadingMyEntities": "Loading ",
+        "regName": "Name",
+        "regNameDesc": "Charity name is {{regName}}",
+        "regNumber": "Number",
+        "regNumberDesc": "Charity number is {{regNum}}",
+        "entityStatus": "Status",
+        "entityStatusDesc": "Status for {{regName}} is {{status}}",
+        "annualReturnDueDate": "Next annual return",
+        "annualReturnDueDateDesc": "Next annual return for {{regName}} is {{date}}",
+        "open": "Open",
+        "filings": "Filings",
+        "viewDesc": "Open details for {{regName}}",
+        "viewCompanyProfile": "View lien profile"
+      },
+      "entityInformationComponent": {
+        "filings": "Filings",
+        "relationships": "Related parties",
+        "catalog": "File a form"
+      },
+      "openCaseComponent": {
+        "openCase": "Open new case",
+        "caseSubtitle": "Case submitted",
+        "success": "Case successfully submitted!",
+        "submessage": "Our team will review the information submitted",
+        "new": "Open a new case",
+        "caseId": "Case number",
+        "openCaseBtn": "Open case"
+      },
+      "formChecklistComponent": {
+        "title": "Reminders",
+        "subTitle": "",
+        "openList": "Open checklist"
+      },
+      "realexComponent": {
+        "close": "Close"
+      },
+      "digitalSignatureComponent": {
+        "signaturePage": "Signature verification",
+        "downloadSignaturePage": "Download signature page",
+        "uploadAllSignatures": "Upload all signatures",
+        "guestRedirect": "Back to dashboard",
+        "proceedToPayment": "Proceed to payment"
+      },
+      "submissionDetailsComponent": {
+        "submissionDetails": "Filing details",
+        "submissionType": "Filing type",
+        "proposedName": "Proposed name",
+        "submissionReference": "Filing reference",
+        "viewSubmissionForm": "View filing form"
+      },
+      "attachmentDetailsComponent": {
+        "viewAttachments": "Filing attachments",
+        "attachment": "Attachment: {{value}}"
+      },
+      "signorDetailsComponent": {
+        "filedBy": "Filed by: {{value}}"
+      },
+      "digitalSignatureDocumentUploadComponent": {
+        "downloadSignaturePage": "Download signature page",
+        "closeUploader": "Close uploader",
+        "notHappyToSign": "Not happy to sign? Return to filer",
+        "step1": "Step 1: review filing details",
+        "step1Desc": "Review the filing and associated attachments before completing the signature process",
+        "signaturePageUpload": {
+          "step2": "Step 2: download signature file",
+          "step2Desc": "Please download the signature file for signing",
+          "step3": "Step 3: upload signature file",
+          "step3Desc": "Once you have the signed signature document, please upload it here. Thank you!",
+          "signed": "Signed",
+          "role": "Role: {{value}}",
+          "uploadSignaturePage": "Upload signature page",
+          "closeUploader": "Close Uploader"
+        },
+        "externalLink": {
+          "step2": "Step 2: complete digital signing with ROS",
+          "externalLinkDesc": "Sign the draft form {{draftId}} with a ROS certificate by clicking here",
+          "fetchingLink": "Generating link",
+          "allSignorsSigned": "All ROS signatures have been provided for this submission"
+        }
+      },
+      "returnDraftPanelComponent": {
+        "reasonForNotSigning": "Reason for not signing",
+        "return": "Return",
+        "confirmReturnMessage": "Are you sure you wish to return this filing?",
+        "yes": "Yes",
+        "no": "No",
+        "close": "Close",
+        "invalidReturnReason": "Please enter a valid return reason"
+      },
+      "submissionPaymentDetailsComponent": {
+        "submissionReference": "Filing reference",
+        "submissionType": "Filing type",
+        "proposedName": "Proposed name",
+        "totalDue": "Total amount due",
+        "viewSubmissionDocument": "View filing form"
+      },
+      "submitStatusBlockComponent": {
+        "submissionComplete": "Filing complete",
+        "paymentReceived": "Payment received. Thank you!",
+        "transactionNumber": "Transaction number",
+        "amountPaid": "Amount paid",
+        "date": "Date",
+        "submissionSuccess": "Filing successfully submitted",
+        "successSubmit": "was successfully submitted.",
+        "submissionReference": "Filing reference",
+        "dateReceived": "Date received",
+        "thanks": "Thank you!",
+        "paymentFailed": "Payment failed",
+        "returnToPaymentOptions": "Return to payment options",
+        "submissionNotSubmitted": "Filing not submitted",
+        "submissionNotSubmittedReason": "Filing was not submitted due to a payment error",
+        "submissionFailedSubmit": "Error during filing",
+        "submissionFailedSubmitReason": "Filing was not submitted due to an error",
+        "submittingPayment": "Submitting payment",
+        "submittingSubmission": "Submitting filing",
+        "noPaymentRequired": "No payment required",
+        "contactWithRefNum": "<br/>Please use the following reference number: {{value}}",
+        "downloadSubForm": "Download filing form",
+        "downloadReceipt": "Download receipt",
+        "newFilling": "Start new filing",
+        "dashboard": "Dashboard",
+        "messages": "Messages",
+        "returningSubmission": "Returning filing",
+        "draftReturnSuccess": "Filing returned successfully",
+        "draftReturnSuccessSubHead": "The submission has been returned to the draft status for the following reason",
+        "draftReturnFailed": "Filing return failed",
+        "draftReturnFailedReason": "Filing was not returned due to an error",
+        "filingSaved": "Filing saved. Thank you!",
+        "filingSavedMoreSteps": "We have saved your filing. Please note it is not yet complete, you still have {{value}} more steps to go",
+        "completeSignatureVerification": "Step 1: complete digital signature verification",
+        "completeSignatureVerificationDesc1": "You have defined a number of people who are required to sign off on this filing.",
+        "completeSignatureVerificationDesc2": "An email will be sent to all Signors where an email address is present.",
+        "completeSignatureVerificationDesc3": "You will be required to follow up with all signors to ensure they completed this task.",
+        "completePayment": "Step 2: Complete payment",
+        "completePaymentDesc1": "Once all signatures are complete you will be able to proceed to payment.",
+        "completePaymentDesc2": "Please note the filing will not be submitted until after payment is received.",
+        "filingInfo1": "<b>Please note:</b> This filing is now available from \"My filings\".",
+        "filingInfo2": "It has a status of \"Pending signature\"",
+        "returnToDashboard": "Return to dashboard",
+        "proceedToSignaturePage": "Proceed to signature Page",
+        "signorInfo": "Signor information",
+        "signorInfoNote1": "<b>Please note:</b> You did not provide a valid email address for the following Signors.",
+        "signorInfoNote2": "You must contact them directly",
+        "submissionHadBeenAddedToTheCart": "Your filing has been added to the cart",
+        "whatWouldYouLikeToDoNow": "What would you like to do now?",
+        "checkout": "Checkout",
+        "proceedToCheckout": "Proceed to checkout",
+        "startAnotherFiling": "Start another filing?",
+        "submissionReceived": "Filing received!",
+        "submissionReceivedMessage": "Thank you for your filing. You will get notified once it is processed."
+      },
+      "localizationComponent": {
+        "cannotLoadLanguage": "There was a problem trying to load this language. Please try later or contact the Registry"
+      },
+      "guestPaymentInfo": {
+        "cannotAccessWhileLoggedIn": "Cannot access this page while logged in",
+        "title": "Hi, {{ value }}",
+        "invitedToPay": "You have been invited to pay for this filing by the filer {{ value }}. ",
+        "payNowButtonInfo": "Please enter your credit card details in the panel beside and click the \"Payment\" button",
+        "thankYou": "Thank you."
+      },
+      "gpsPaymentComponent": {
+        "loadingConfig": "Loading configuration",
+        "proceedToGPS": "Proceed to GPS payment",
+        "infoText": "You will be redirected to our payment provider GPS for payment"
+      },
+      "cepasPaymentComponent": {
+        "loadingConfig": "Loading configuration",
+        "proceedToCEPAS": "Proceed to CEPAS payment",
+        "infoText": "A credit card payment processing fee of {{processingFee}} will be added to this transaction.<br/><br/>When using the credit card payment method, you agree to pay the full amount of {{totalAmount}} which includes this credit card processing fee.<br/><br/>You will be redirected to the State of Michigan's Central Electronic Payment Authorization System (CEPAS) Payment Module to enter your credit card information for processing. After your credit card transaction has been successfully completed, do not close the Internet browser window from the CEPAS website. You will be automatically redirected back to the Uniform Commercial Code website to complete your transaction. The Uniform Commercial Code website does not store personal credit card information.<br/><br/>"
+      },
+      "magicpayPaymentComponent": {
+        "loadingConfig": "Loading configuration",
+        "proceedToMagicPayCreditCard": "Proceed to MagicPay Credit Card Payment",
+        "proceedToMagicPayEcheck": "Proceed to MagicPay Electronic Check Payment",
+        "infoText": "You will be redirected to our payment provider MagicPay for payment"
+      },
+      "uccSearchComponent": {
+        "search": "Debtor name quick search",
+        "noResults": "No results for this search",
+        "downloadAsCsv": "Download results as CSV",
+        "downloadAsPdf": "Download results as PDF",
+        "downloadAsdoc": "Download results as Word Doc",
+        "download": "Download",
+        "financialStatementNumber": "Financing statement number",
+        "debtors": "Debtors",
+        "securedParty": "Secured party",
+        "filingType": "Lien type",
+        "fileDate": "Registered date",
+        "lapseDate": "Lapse date",
+        "status": "Status",
+        "clear": "Clear",
+        "btnSearch": "Search",
+        "formNumberTitle": "Search by financing statement number",
+        "formRelationShipTitleDebtor": "Search by debtor name",
+        "formRelationShipTitleSecParty": "Search by secured party name",
+        "formFinancingStatementNumber": "Financing statement number",
+        "formReferenceNumber": "Reference number",
+        "formDocId": "Doc. Id",
+        "formActiveFilings": "Active filings",
+        "formActiveFilingsPlusLapseWithinYear": "Active filings plus those lapsed within the last 12 months",
+        "formDebtorIs": "Debtor is",
+        "formSecuredPartyIs": "Secured party is",
+        "formIndividual": "Individual",
+        "formOrganization": "Organization",
+        "formOrganizationName": "Organization's name",
+        "formFirstName": "First name",
+        "formMiddleName": "Middle name",
+        "formLastName": "Surname",
+        "formsuffix": "Suffix",
+        "formCity": "City",
+        "formState": "State",
+        "searchDate": "Search date",
+        "tabs": {
+          "number": "Number",
+          "debtor": "Debtor",
+          "securedParty": "Secured party"
+        }
+      },
+      "citypayPaymentComponent": {
+        "loadingConfig": "Loading configuration",
+        "proceedToCityPay": "Proceed to CityPay payment",
+        "infoText": "You will be redirected to our payment provider CityPay for payment"
+      },
+      "paycapitaPaymentComponent": {
+        "loadingConfig": "Loading configuration",
+        "proceedToPayCapitaCreditCard": "Proceed to PayCapita credit card payment",
+        "proceedToPayCapitaEcheck": "Proceed to PayCapita electronic check payment",
+        "infoText": "You will be redirected to our payment provider PayCapita for payment",
+        "referenceData": "Customer reference"
+      },
+      "initializerServices": {
+        "problemLoadingLanguages": "There was a problem trying to load system languages, please refresh the page to try again. If this issue persists, please contact the registry",
+        "problemLoadingFormLocalizations": "There was a problem trying to load form translations, please refresh the page to try again. If this issue persists, please contact the registry",
+        "timezoneFailedToLoad": "Failed to load the timezone a default timezone {{timezoneName}} has been applied, please refresh the page to try again. If this issue persists, please contact the registry"
+      },
+      "customActionsSample": {
+        "renewRegistration": {
+          "title": "Annual return",
+          "description": "Example for the configuration of a renew registration",
+          "buttonText": "Renew registration"
+        },
+        "1": {
+          "title": "Update directors",
+          "description": "Example for the configuration of a custom action linked with an specific entity type",
+          "buttonText": "Update"
+        }
+      },
+      "personDetailsComponent": {
+        "tabs": {
+          "profile": "Profile"
+        },
+        "details": {
+          "regName": "Name",
+          "regDate": "Signed up on",
+          "regAddress": "Address"
+        }
+      },
+      "topUp": {
+        "accountDetails": "Account details",
+        "account": "Account",
+        "currentBalance": "Your current balance",
+        "creditLimit": "Credit limit",
+        "topUpTitle": "Account top-up",
+        "topUpAmount": "I want to top up by:",
+        "topUpAmountForPayment": "Your account will be topped up by",
+        "topUpBtn": "Top up",
+        "topUpProcessed": "Your account has been successfully topped up",
+        "topUpProcessedBy": "Your account has been successfully topped up by",
+        "downloadReceipt": "Download receipt",
+        "editAmount": "Edit amount",
+        "processingTopUp": "Processing top up",
+        "topUpError": "Problems processing the top up",
+        "topUpErrorSub": "Please contact the registry with the following reference number: {{tranRefNum}}",
+        "transaction": "Back to payments",
+        "magicPayUnexpectedNotification": "Unexpected error while processing payment by JetPay payment provider",
+        "loadingFinancialAccount": "Loading account details",
+        "accountTopUpDisabled": "The account top up is not enabled",
+        "topUpAgain": "Top-up again",
+        "validationMaxTopUp": "Maximum top up is {{amount}}",
+        "validationMinTopUp": "Minimum top up is {{amount}}"
+      },
+      "watchlist": {
+        "title": "Watchlist",
+        "loading": "Loading",
+        "errorFetching": "There is a problem fetching your watchlist. Please try later or contact the registry",
+        "errorAdding": "There is a problem adding the entity to your watchlist. Please try later or contact the registry",
+        "errorDeleting": "There is a problem deleting the entity from your watchlist. Please try later or contact the registry",
+        "errorFetchingEvents": "There is a problem fetching the entity's events. Please try later or contact the registry",
+        "add": {
+          "label": "Search and select an entity to add it to your watchlist",
+          "duplicatedWarning": "The entity selected is already on your watchlist",
+          "adding": "Adding"
+        },
+        "list": {
+          "filter": "Filter",
+          "noEntities": "No entities on your watchlist. Please use the search above to add them",
+          "tableDesc": "Watchlist table",
+          "entityRegNumber": "Financing statement number",
+          "entityRegNumberDesc": "Ref. number is {{refNum}}",
+          "entityRegName": "Financing statement name",
+          "entityRegNameDesc": "Entity name is {{name}}",
+          "entityRegDate": "Reg. date",
+          "entityRegDateDesc": "Entity register date for {{name}} is {{date}}",
+          "entityTypeDesc": "Type",
+          "entityTypeDescDesc": "Entity type of {{name}} is {{type}}",
+          "entityStatusDesc": "Status",
+          "entityStatusDescDesc": "Entity status of {{name}} is {{status}}",
+          "entityReturnDate": "Next annual return",
+          "entityReturnDateDesc": "Entity next annual return date for {{name}} is {{date}}",
+          "actionsDesc": "Actions for entity with number {{refNum}}",
+          "viewEvents": "Events",
+          "viewEventsDesc": "View events for {{name}}",
+          "viewDetails": "Details",
+          "viewDetailsDesc": "View details for {{name}}",
+          "delete": "Remove",
+          "deleteDesc": "Remove entity {{name}} from watchlist",
+          "removeMessage": "Are you sure you want to remove this entity from your watchlist?",
+          "no": "No",
+          "confirmRemove": "Yes, remove",
+          "added": "Entity added!",
+          "removed": "Entity removed!",
+          "orderBy": {
+            "label": "Order by",
+            "orderAsc": "Order ascending",
+            "orderDesc": "Order descending",
+            "entityRegNum": "Reg. number",
+            "entityRegName": "Name",
+            "entityRegDate": "Reg. date",
+            "entityTypeDesc": "Type",
+            "entityStatusDesc": "Status",
+            "entityReturnDate": "Next annual return"
+          }
+        },
+        "events": {
+          "title": "Events",
+          "noData": "There are no recent events for this entity"
+        }
+      },
+      "forms": {
+        "sample": {
+          "rangeValidation": "The number of Directors added to this list must be between 2 and 4 (both included)",
+          "rangeValidationDirectors": "The number of Directors added to this list must be between 2 and 4 (both included)",
+          "rangeValidationOfficers": "Only one officer can be added on this list"
+        },
+        "signupForm": {
+          "userDetails": "User details",
+          "loginName": "login name",
+          "password": "Password",
+          "passwordNotMatching": "The password does not match",
+          "confirmPassword": "Confirm password",
+          "firstName": "First name",
+          "lastName": "Last name",
+          "email": "Email",
+          "confirmEmail": "Confirm email",
+          "emailNotMatching": "The email does not match",
+          "phoneNumber": "Phone number",
+          "accountDetails": "Account details",
+          "accountName": "Ainm name",
+          "searchAddress": "Search address",
+          "address": "Address",
+          "address2": "Address 2",
+          "address3": "Address 3",
+          "city": "City",
+          "state": "State",
+          "country": "Country",
+          "postCode": "Post code",
+          "county": "County",
+          "eircode": "Eircode",
+          "preferredLanguage": "Preferred language"
+        },
+        "openCase": {
+          "filer": {
+            "sectionTitle": "Your details",
+            "title": "Title",
+            "forename": "Forename",
+            "surname": "Surname",
+            "phone": "Phone number",
+            "address": "Address",
+            "country": "Country",
+            "state": "County",
+            "email": "Email",
+            "confirmEmail": "Confirm email",
+            "anonConcernInfo": "While the Charities Regulator will accept anonymous concerns, it is difficult for us to investigate and respond effectively to information we receive this way",
+            "dataProtect": "The Charities Regulator takes appropriate precautions to protect the confidentiality of your personal information in accordance with Data Protection legislation. Personal information that you provide will only be used in line with the purpose for which you provided it and will not be shared with third parties unless allowed or required by law. The Charities Regulator may use your anonymised personal data for statistical purposes."
+          },
+          "charityDetails": {
+            "sectionTitle": "Charity details",
+            "title": "Charity details",
+            "entityNumber": "Charity number, if known",
+            "entityName": "Charity name (or entity representing itself as a charity)",
+            "organisationName": "Charity name",
+            "charityAddress": "Charity address",
+            "typeOfOrganisation": "Type of organisation",
+            "registeredType": "Registered type",
+            "unregisteredType": "Unregistered type",
+            "searchEntity": "Search entity"
+          },
+          "concern": {
+            "sectionTitle": "About your concern",
+            "title": "Details about your concern",
+            "showDetailsOfPreviousConcern": "Have you raised your concern with the charity?",
+            "pleaseProvideDetails": "If yes, please provide details. If no, why not?",
+            "pleaseProvideDetailsPlaceholder": "Please provide details",
+            "relationshipWithCharity": "What is your relationship with the charity (employee, trustee, beneficiary, etc)",
+            "relationshipWithCharityPlaceholder": "Relationship with the charity",
+            "issueDate": "When did the issue you are concerned about happen?",
+            "issueDatesPlaceholder": "Date(s)",
+            "mainPointOfConcern": "Please set out the main points of your concern? (Give enough detail for us to understand each point. For example, dates, and particulars of all parties involved)",
+            "concernEvidance": "Please set out what evidence you have to support your concerns (list below)",
+            "otherRegulators": "Have you approached any other regulator or enforcement body or An Garda S\u00edoch\u00e1na with this concern? If so, please provide details.",
+            "otherRegulatorsHint": "Please note concerns relating to criminal activity \u2013 for example, theft or embezzlement \u2013 that are matters for An Garda S\u00edoch\u00e1na should also be reported directly to them.",
+            "caseAttachments": "Please upload any attachment related to your case here"
+          },
+          "declaration": {
+            "sectionTitle": "Declaration",
+            "title": "Declaration",
+            "note1": "We have an evidence-based approach to our work and will test allegations as part of our assessment process before deciding on the most appropriate action to take.",
+            "note2": "A person who knowingly supplies us with false information may be guilty of an offence under Section 63 (False Statements) of the Charities Act 2009.",
+            "note3": "The information I have provided is true to the best of my knowledge.",
+            "knowledgeStatemenInd": "I confirm the above statement is true"
+          },
+          "summary": {
+            "sectionTitle": "Summary"
+          }
+        }
+      }
+    }
+  },
+  {
+    "url": "https://ucc.michigan.gov/assets/localization/en-US.json",
+    "data": {
+      "general": {
+        "actions": {
+          "close": "Close",
+          "openNotifications": "Open notifications"
+        }
+      },
+      "homeComponent": {
+        "registerInfoTitle": "Register a new company",
+        "registerInfoDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean dictum pretium risus vitae fringilla...",
+        "registerInfoButtonText": "Register",
+        "servicesInfoTitle": "Services",
+        "servicesInfoCard1Title": "Register a new company",
+        "servicesInfoCard1Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean dictum pretium risus vitae fringilla...",
+        "servicesInfoCard2Title": "Purchase company information",
+        "servicesInfoCard2Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean dictum pretium risus vitae fringilla...",
+        "servicesInfoCard3Title": "View company events",
+        "servicesInfoCard3Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean dictum pretium risus vitae fringilla...",
+        "servicesInfoCard4Title": "Generate reports",
+        "servicesInfoCard4Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean dictum pretium risus vitae fringilla...",
+        "servicesInfoCard5Title": "Track a company with watchlists",
+        "servicesInfoCard5Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean dictum pretium risus vitae fringilla...",
+        "servicesInfoCard6Title": "Manage your company",
+        "servicesInfoCard6Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean dictum pretium risus vitae fringilla...",
+        "partnersInfoTitle": "Our partners",
+        "partnersInfoDescription": "Partners...",
+        "moreInfoTitle": "How do I...",
+        "moreInfoDescription": "Find out more information about how to register, remain compliant and manage your interactions with the registry",
+        "moreInfoButtonText": "Read more",
+        "sideBullet": {
+          "search": "Search",
+          "services": "Services",
+          "partners": "Partners",
+          "news": "News",
+          "more": "More"
+        }
+      },
+      "footerComponent": {
+        "copyright": "Powered by "
+      },
+      "publicSearch": {
+        "title": "Looking for company information?",
+        "searching": "Searching",
+        "noResults": "No results for this search",
+        "entityRegNum": "Number",
+        "entityRegName": "Name",
+        "entityTypeDesc": "Type",
+        "view": "View",
+        "searchPlaceholder": "Search company name of number"
+      },
+      "loginComponent": {
+        "logIn": "Log in",
+        "newClient": "Are you a new client?",
+        "guestAccess": "Access as guest",
+        "access": "Access",
+        "createAccount": "Create account",
+        "LoginCreateAccount": "Log in",
+        "InactiveUser": "Account deactivated, please contact UCC at 517-335-6167",
+        "registerHere": "Sign in/Create account"
+      },
+      "loginFormComponent": {
+        "title": "Sign in",
+        "loginPlaceholder": "Login name",
+        "passwordPlaceholder": "Password",
+        "forgotPassword": "Forgot password?",
+        "logIn": "Login",
+        "notification": "notification",
+        "hint": "If you already have an account, please log in"
+      },
+      "dynamicFormComponent": {
+        "loaderProcessingPayment": "Processing payment",
+        "errorSaveDraftNotification": "Error saving the draft. Please try later or contact the Registry",
+        "paymentErrorNotification": "There was an error processing your payment, please contact the Registry",
+        "handleErrorNotification": "For this document, please contact the Registry",
+        "saveDraft": "Save draft",
+        "preview": "Preview",
+        "submit": "Submit",
+        "next": "Next",
+        "unsavedChanges": "There is a list with unsaved changes on this section.",
+        "reviewSingleStep": "Cannot proceed to the next step until all the information is completed.",
+        "proceedAnyway": "Proceed anyway",
+        "mandatoryInfoNotProvided": "Mandatory information not provided",
+        "reviewSteps": "Please review the steps marked in red, complete the information and try again.",
+        "close": "Close",
+        "validations": "Validations",
+        "reviewErrors": "Please review errors",
+        "submitted": "Submitted",
+        "successSubmit": "was successfully submitted.",
+        "download": "Download",
+        "newFilling": "New Filing",
+        "summary": "Review",
+        "payment": "Payment",
+        "saveTemplate": "Save template",
+        "multiSelectValueAlreadySelected": "'{{value}}' has already been selected",
+        "multiSelectAllItems": "All items selected",
+        "multiSelectSelectAll": "Select all",
+        "multiSelectEditSelection": "Edit selection",
+        "multiSelectRemove": "Remove",
+        "multiSelectRemoveAll": "Remove all",
+        "valid": "Valid",
+        "invalid": "Invalid",
+        "reset": "Reset",
+        "loadingOptions": "Loading options",
+        "submitValidations": "Submit validations",
+        "openValidations": "Open validations",
+        "closeValidations": "Close validations",
+        "results": "Results",
+        "discardChanges": "Discard changes",
+        "exitDialogHeading": "Are you sure you want to leave this form?",
+        "exitDialogHeading_2": "(Unsaved data will be lost)",
+        "exitForm": "Yes (Exit form)",
+        "returnToForm": "No (Return to form)",
+        "formSaved": "Form saved",
+        "paymentReceived": "Payment received",
+        "transactionNumber": "Transaction number: {{value}}",
+        "amountPaid": "Amount paid: {{value}}",
+        "date": "Date: {{value}}",
+        "submissionSuccess": "Filing successfully submitted",
+        "submissionReference": "Filing reference: {{value}}",
+        "dateReceived": "Date received: {{value}}",
+        "thanks": "Thank You!",
+        "reason": "Reason: {{value}}",
+        "submissionNotSubmitted": "Filing not submitted",
+        "submissionNotSubmittedReason": "Filing was not submitted due to a payment error",
+        "submissionFailedSubmit": "Error during filing",
+        "submissionFailedSubmitReason": "Filing was not submitted due to an error",
+        "submittingSubmission": "Submitting filing",
+        "noPaymentRequired": "No payment required",
+        "contactWithRefNum": "<br/>Please use the following reference number: {{value}}",
+        "dashboard": "Dashboard",
+        "messages": "Messages",
+        "signatures": "Signatures",
+        "setTemplateName": "Template name",
+        "set": "Set",
+        "cancel": "Cancel",
+        "previous": "Previous",
+        "pleaseSelect": "Please select",
+        "redactions": "These texts need review",
+        "innerFormNotExecuted": "This internal form hasn't been executed",
+        "addToCart": "Add to cart",
+        "revalidating": "Validating form",
+        "amendFiling": "Amend filing",
+        "validationsClarifyingText": "This form has new requirements to complete since it was submitted. Please review the issues and click on 'Amend filing' to complete it.",
+        "validationsGuestClarifyingText": "This form has new requirements to complete since it was submitted. Contact the person who submitted it."
+      },
+      "formProgressComponent": {
+        "progress": "Progress"
+      },
+      "listFormQuestionComponent": {
+        "list": "List",
+        "cancel": "Cancel",
+        "save": "Save",
+        "update": "Update",
+        "add": "Add",
+        "noItems": "No {{value}} in this list",
+        "edit": "Edit",
+        "remove": "Remove",
+        "itemUpdated": "Item updated!",
+        "itemAdded": "Item added!",
+        "itemRemoved": "Item removed!",
+        "no": "No",
+        "yes": "Yes",
+        "confirmMessage": "Are you sure you want to remove this item?",
+        "mandatoryInformationMissing": "Mandatory information missing"
+      },
+      "displayListFormQuestionComponent": {
+        "view": "View",
+        "close": "Close",
+        "details": "Details"
+      },
+      "checkboxQuestionSummaryComponent": {
+        "yes": "Yes",
+        "no": "No",
+        "na": "N/A"
+      },
+      "attachmentSummaryComponent": {
+        "uploaded": "Uploaded",
+        "notUploaded": "Not uploaded",
+        "empty": "Please click edit and fill the required information"
+      },
+      "documentUploaderComponent": {
+        "maxSizeErrorNotification": "The file cannot be uploaded. Max file size is {{value}}MB",
+        "maxTotalSizeErrorNotification": "The file cannot be uploaded. Max total files size is {{value}}MB",
+        "fileTypeErrorNotification": "The file cannot be uploaded. File types allowed are: {{value}}",
+        "maxCountErrorNotification": "The file cannot be uploaded. Max files count is {{value}}",
+        "errorUploadErrorNotification": "Error Uploading. Please try again",
+        "dropFilesHere": "Drop files here",
+        "dropOneFileHere": "Drop one file here",
+        "or": "- or -",
+        "selectOneOrMoreFiles": "Select file(s)",
+        "selectFile": "Select a file",
+        "errorUploading": "Error uploading: ",
+        "selectManyFiles": "Select one or more files",
+        "selectOneFile": "Select a file",
+        "discard": "Discard",
+        "uploadingProgess": "Uploading {{value}}",
+        "sizeTypeInfo": "Please upload {{types}} documents only. Maximum size is {{size}}MB"
+      },
+      "editableSectionComponent": {
+        "save": "Save",
+        "edit": "Edit",
+        "empty": "Click to edit and fill the required information",
+        "defaultValidationMessage": "Some mandatory information is missing"
+      },
+      "textareaComponent": {
+        "pleaseRedact": "Yes, please redact this information",
+        "no": "No",
+        "redacted": "Redacted!"
+      },
+      "navigationComponent": {
+        "dashboard": "Dashboard",
+        "search": "Search",
+        "ucc-search": "UCC search",
+        "newFiling": "New filing",
+        "newUccFiling": "New UCC filing",
+        "myFilings": "My filings",
+        "messages": "Messages",
+        "orders": "Orders",
+        "payments": "Payments",
+        "account": "Account",
+        "helpLink": "https://www.michigan.gov/sos/Industry-Services/ucc",
+        "help": "Help",
+        "submissionTemplates": "Templates",
+        "login": "Log in",
+        "menuDesc": "Open navigation",
+        "logoDesc": "logo",
+        "cases": "Cases",
+        "watchlist": "Watchlist",
+        "version": "Version : {{version}}",
+        "logout": "Log Out"
+      },
+      "dashboardComponent": {
+        "overview": "Filings by status",
+        "dashboard": "Dashboard",
+        "hi": "Hi {{name}},",
+        "friendlyQuestion": "what would you like to do next?",
+        "filingPortal": "CRA filing portal",
+        "search": "Search",
+        "detailedSearchOptions": "For more detailed search options, please log in or sign up for a user account",
+        "startNewFiling": "Start new filing",
+        "customActions": {
+          "highlight": {
+            "title": "File a UCC form",
+            "text": "Please click the button below to see the list of UCC forms.",
+            "action": "File UCC"
+          },
+          "1": {
+            "title": "UCC-1 initial financing statement",
+            "text": "",
+            "action": "File a UCC-1"
+          },
+          "2": {
+            "title": "UCC-11 information request",
+            "text": "",
+            "action": "Submit a UCC-11"
+          },
+          "3": {
+            "title": "Business name registration",
+            "text": "Registration of a business name is obligatory if any individual or partnership or any body corporate carries on business under a name other than their own true names.",
+            "action": "Begin application"
+          }
+        }
+      },
+      "actionsComponent": {
+        "fileNewForm": "File a new form",
+        "updateExistingEntity": "Update an existing entity"
+      },
+      "accountComponent": {
+        "loaderMessage": "Loading account",
+        "failedToLoadCertainData": "Failed to load certain information, please reload the page and try again"
+      },
+      "accountUsersComponent": {
+        "users": "Users",
+        "newUser": "New user",
+        "noUsers": "There are no users for this account. Please add a user.",
+        "yes": "Yes",
+        "no": "No",
+        "loginName": "Login name",
+        "userName": "User name",
+        "email": "Email",
+        "active": "Active",
+        "administrator": "Administrator",
+        "openDetails": "Open details",
+        "tableDesc": "Accounts user table",
+        "loginNameDesc": "User Id: {{userId}} {{loginName}}",
+        "userNameDesc": "User Id: {{userId}} {{userName}}",
+        "emailDesc": "User Id: {{userId}} {{userName}} email: {{email}}",
+        "activeDesc": "'User Id: {{userId}} {{userName}} active: {{activeInd}}",
+        "administratorDesc": "User Id: {{userId}} Is {{userName}} an admin: {{administratorInd}}",
+        "view": "View",
+        "viewDesc": "'User Id: {{userId}} open details for {{userName}}",
+        "lastLogonTime": "Last Login Time"
+      },
+      "accountDetailsComponent": {
+        "infoSavedNotification": "Information saved successfully",
+        "errorSavingInfoNotification": "Error trying to save the information. Please try later.",
+        "accountDetails": "Details",
+        "electronicSignatures": "Access codes",
+        "edit": "Edit",
+        "cancel": "Cancel",
+        "save": "Save",
+        "details": "Details",
+        "number": "Customer reference number",
+        "name": "Name",
+        "type": "Type",
+        "owner": "Owner",
+        "address": "Address",
+        "address1": "Address 1",
+        "address2": "Address 2",
+        "address3": "Address 3",
+        "city": "City",
+        "state": "State",
+        "postcode": "Postal code",
+        "zipcode": "Zip code",
+        "country": "Country",
+        "account": "Account"
+      },
+      "electronicSignaturesComponent": {
+        "loaderLoading": "Loading access codes",
+        "electronicSignatures": "Access codes",
+        "noEntities": "You do not have any entities available to allow access to"
+      },
+      "addElectronicSignaturesComponent": {
+        "selectUserNotification": "Please select a user to assign the access code to",
+        "selectEntityNotification": "Please select an entity",
+        "addElectronicSignature": "Add access code",
+        "yourEntities": "Your entities",
+        "assignTo": "Assign to",
+        "edit": "Edit",
+        "add": "Add"
+      },
+      "electronicSignaturesGridComponent": {
+        "electronicSignatures": "Your access codes",
+        "noElectronicSignaturesSetUp": "You do not have any access codes set up",
+        "issuedTo": "Issued to",
+        "entity": "Entity",
+        "status": "Status",
+        "assignedBy": "Assigned by",
+        "revokeConfirm": "Are you sure you want to revoke this access code?",
+        "revokeInfo": "Please enter a reason for revoking this access code",
+        "revokeReasonRequired": "Please add a revoke reason",
+        "revoke": "Revoke",
+        "cancel": "Cancel"
+      },
+      "notFoundErrorComponent": {
+        "pageNotFound": "Page not found",
+        "pageDoesNotExist": "The page you are trying to access doesn't exist.",
+        "dashboard": "Dashboard"
+      },
+      "unknownErrorComponent": {
+        "unexpectedErrorOccurred": "Unexpected error occurred",
+        "pleaseTryAgain": "Please try again, if this issue persists, please contact us at the general email: <a href=\"mailto:support@ersl.ie\">support@ersl.ie</a>",
+        "dashboard": "Dashboard"
+      },
+      "advancedFilterComponent": {
+        "clear": "Clear",
+        "datePlaceholder": "mm/dd/yyyy"
+      },
+      "advancedFilterQuestions": {
+        "filterRefNo": "Filter using ref No, reference name...",
+        "filter": "Filter",
+        "typeToFilter": "Type to filter...",
+        "type": "Type",
+        "date": "Date",
+        "searchUsers": "Search Users...",
+        "users": "Users",
+        "to": "To",
+        "from": "From",
+        "startDate": "Start date",
+        "endDate": "End date"
+      },
+      "documentDownloaderComponent": {
+        "errorNotification": "For this document, please contact the registry",
+        "downloading": "Downloading",
+        "download": "Download"
+      },
+      "listFilterComponent": {
+        "filter": "Filter: ",
+        "start": "Start",
+        "end": "End",
+        "refresh": "Refresh",
+        "startDate": "Start date",
+        "endDate": "End date"
+      },
+      "companyDetailsComponent": {
+        "backToSearch": "Back to search",
+        "regNumber": "Financing statement number",
+        "regName": "Financing statement name",
+        "type": "Type",
+        "status": "Status",
+        "statusEffectiveDate": "Effective date",
+        "regDate": "Registered date",
+        "regAddress": "Reg. address",
+        "annualReturnDueDate": "Next annual return",
+        "lapsedDate": "Lapsed date",
+        "startNewFiling": "Start new filing"
+      },
+      "companyProfileComponent": {
+        "loaderMessage": "Loading",
+        "companyProfile": "Company profile",
+        "compProfileLoadError": "There was a problem trying to load the company profile"
+      },
+      "entityLatestEventsComponent": {
+        "latestEvents": "Events",
+        "noData": "There are no events recorded for this company"
+      },
+      "companyDocumentsComponent": {
+        "filings": "Filings",
+        "loaderMessage": "Loading documents",
+        "regDate": "Registered on",
+        "docRefName": "Filing",
+        "refNo": "Reference",
+        "source": "Source",
+        "status": "Status",
+        "downloadImage": "Download image",
+        "noDocs": "No documents found",
+        "docUnavailable": "This document is not available",
+        "tableDesc": "Filings Table",
+        "regDateDesc": "{{refName}} registered date is {{date}}",
+        "docRefNameDesc": "Filing: {{refName}}",
+        "refNoDesc": "{{refName}} reference number is {{refNum}}",
+        "sourceDesc": "{{refName}} source is {{source}}",
+        "statusDesc": "{{refName}} status is {{status}}",
+        "docNotAvailable'": "Document not available",
+        "docCanBeDownloaded": "{{refName}} can be downloaded",
+        "downloadAllImages": "Download all",
+        "allDocumentsLabel": "All documents",
+        "allDocumentsDescription": "You can download all documents here"
+      },
+      "companyRelationshipsComponent": {
+        "partyInfo": "Party information",
+        "loaderMessage": "Loading relationships"
+      },
+      "companyRelationshipsGridComponent": {
+        "typeToFilter": "Type to filter...",
+        "name": "Name",
+        "address": "Address",
+        "relationshipType": "Relationship",
+        "effectiveDate": "Effective from",
+        "startDate": "Start date",
+        "noRelationships": "There are no relationships available for this entity",
+        "tableDesc": "Company relationships table",
+        "addressDesc": "{{name}} address is {{address}}",
+        "relationshipTypeDesc": "{{name}} relationship type is {{type}}",
+        "effectiveDateDesc": "{{name}} effective date is {{date}}",
+        "startDateDesc": "{{name}} start date is {{date}}"
+      },
+      "companyNamesGridComponent": {
+        "name": "Name",
+        "effectiveFrom": "Effective from",
+        "effectiveFromDesc": "{{name}} effective from {{date}}"
+      },
+      "checkout": {
+        "title": "Checkout",
+        "free": "Free",
+        "loaderShoppingCart": "Loading shopping Cart",
+        "loadingUserInformation": "Loading information",
+        "loaderProcessingPayment": "Processing payment",
+        "reviewItems": "Return to shopping cart",
+        "continue": "Continue",
+        "returnToDashboard": "Return to dashboard",
+        "completingOrder": "Completing the order",
+        "processing": {
+          "paymentReceived": "Payment received. Thank you!",
+          "transactionNumber": "Transaction number",
+          "amountPaid": "Amount paid",
+          "downloadReceipt": "Download receipt",
+          "orderFinished": "Order completed. Thank you!",
+          "checkoutFinished": "Thank you for your order",
+          "subCheckoutFinished": "The items below have been received. An email notification will be sent when processing is complete.",
+          "submissions": "Submissions",
+          "enquiries": "Orders",
+          "type": "Type",
+          "copies": "Copies"
+        },
+        "errors": {
+          "processingOrderNotification": "There has been an error processing your order. Please try later.",
+          "gatheringCustInfoNotification": "There has been an error gathering customer information. Please try later.",
+          "magicPayDeclineNotification": "Payment has been declined by JetPay payment provider",
+          "magicPayUnexpectedNotification": "Unexpected error while processing payment by JetPay payment provider",
+          "itemsCannotProcessed": "Some of the items cannot be processed. Please review the shopping cart and proceed again."
+        },
+        "tabs": {
+          "shoppingCart": "Shopping cart",
+          "deliveryDetails": "Delivery details",
+          "payment": "Payment"
+        },
+        "emptyCart": {
+          "message": "Your shopping cart is empty",
+          "viewOrders": "View orders",
+          "searchCompany": "Search company",
+          "dashboard": "Dashboard"
+        },
+        "cartItem": {
+          "type": "Type",
+          "filingType": "Filing type",
+          "filingReference": "Filing reference",
+          "referenceNumber": "Reference No.",
+          "copies": "Copies",
+          "total": "Total",
+          "processingFees": "Processing fees",
+          "processing": "Processing",
+          "submitted": "Submitted",
+          "accepted": "Submission accepted",
+          "remove": "Remove",
+          "removeFormCart": "Remove from cart",
+          "amendFiling": "Amend filing",
+          "priority": "Priority",
+          "goToDetails": "Go to details",
+          "noteAmendFiling": "<strong>Note:</strong> Amending the filing will convert it back to a draft and will need to be submitted again",
+          "filingValidationErrors": "There is a problem with this filing"
+        },
+        "totals": {
+          "summary": "Summary",
+          "total": "Total",
+          "description": "Purchasing {{numOfCartItems}} documents"
+        },
+        "deliveryDetails": {
+          "yourDetails": "Your details",
+          "name": "Name",
+          "email": "Email",
+          "faxNumber": "Fax number",
+          "addressDetails": "Address details",
+          "confirmEmail": "Confirm email",
+          "confirmAndContinue": "Confirm and continue",
+          "completeYourOrder": "Complete my order",
+          "greeting": {
+            "hi": "Hi",
+            "message": "Please confirm your delivery details below"
+          },
+          "guest": {
+            "title": "Continue as guest",
+            "hint": "Enter your details"
+          },
+          "address": {
+            "address1": "Address 1",
+            "address2": "Address 2",
+            "address3": "Address 3",
+            "city": "City",
+            "plaseSelectState": "Please select a state",
+            "state": "State",
+            "postalCode": "Postal code",
+            "country": "Country",
+            "errorLoadingOptions": "There was an error loading some of the options. Please try leter or contact the Registry"
+          },
+          "failedToLoadCertainData": "Failed to load country or state data, please reload the page and try again"
+        },
+        "recovery": {
+          "title": "Please Sign In to continue with the transaction"
+        },
+        "paymentFailure": {
+          "title": "Problems processing the payment",
+          "contactWithRefNum": "",
+          "restartCheckout": "Try the checkout again"
+        }
+      },
+      "shoppingCart": {
+        "free": "Free",
+        "items": "Item(s)",
+        "total": "Total",
+        "title": "Shopping cart",
+        "actions": {
+          "goToCheckout": "Checkout",
+          "closePanel": "Close"
+        },
+        "quickSearch": {
+          "placeholder": "Missing something? Find an entity by name or number..."
+        }
+      },
+      "eCommerce": {
+        "free": "Free",
+        "unavailable": "Unavailable",
+        "contactSupportTitle": "Please contact our support for further details on how to order this document",
+        "canBePurchasedTitle": "",
+        "entity": {
+          "loading": "Loading",
+          "companyProfile": "Profile",
+          "relationships": "Related parties",
+          "latestEvents": "Events",
+          "names": "Previous names"
+        }
+      },
+      "entity": {
+        "addresses": {
+          "title": "Addresses",
+          "type": {
+            "regAddress": "Reg. address",
+            "mailAddress": "Mailing address",
+            "1": "Business location"
+          }
+        }
+      },
+      "CatalogComponent": {
+        "buyingCompInfo": "Buying company information?",
+        "eventsList": {
+          "noData": "There are no recent events for this entity"
+        },
+        "unableToLoadEntityDetails": "Unable to load details for this entity",
+        "unableToLoadEntityRelationships": "Unable to load entity relationships",
+        "unableToLoadLatestEvents": "Unable to load entity latest events",
+        "unableToLoadNames": "Unable to load entity previous names",
+        "failedToLoadCertainData": "Failed to load certain information, please reload the page and try again"
+      },
+      "featuredProductItemComponent": {
+        "standard": "Standard",
+        "certified": "Certified",
+        "from": "From",
+        "delivery": "Delivery",
+        "format": "Format",
+        "digitalDoc": "Digital document",
+        "fax": "Fax",
+        "paper": "Paper"
+      },
+      "featuredProductsComponent": {
+        "showMore": "Show more",
+        "showLess": "Show less",
+        "reports": "Reports"
+      },
+      "orderDetailsComponent": {
+        "loaderLoadingDetails": "Loading details",
+        "detailsWithNum": "Details for order Num. {{value}}",
+        "back": "Back",
+        "orderExpired": "Order expired on {{value}}",
+        "orderDetails": "Order details",
+        "refNum": "Reference number",
+        "status": "Status",
+        "type": "Type",
+        "output": "Output",
+        "orderDate": "Order date",
+        "entityDetails": "Entity details",
+        "entityNumber": "Financing statement number",
+        "entityName": "Financing statement name",
+        "delivery": "Delivery",
+        "method": "Method",
+        "date": "Date",
+        "email": "Email",
+        "fax": "Fax",
+        "address": "Address"
+      },
+      "orderListComponent": {
+        "loaderLoading": "Loading",
+        "refNo": "Ref. No",
+        "entityNumber": "Filing reference",
+        "entityName": "Financing statement name",
+        "type": "Type",
+        "orderDate": "Order date",
+        "noOrdersFound": "No orders found",
+        "compInfoLink1": "You can find company information",
+        "compInfoLink2": "here",
+        "openDetails": "Open details",
+        "expiredOn": "Expired on {{value}}",
+        "tableDesc": "Orders search table",
+        "refNoDesc": "Order reference number: {{enqNum}}",
+        "entityNumberDesc": "Entity registration number: {{regNum}}",
+        "entityNameDesc": "Entity registration name: {{entityName}}",
+        "typeDesc": "{{enqNum}} enquiry type is {{type}}",
+        "orderDateDesc": "{{enqNum}} order date is {{data}}",
+        "view": "View",
+        "openOrderDetails": "Open order details for {{enqNum}}",
+        "failed": "Failed",
+        "customerUserName": "User"
+      },
+      "orderComponent": {
+        "loaderLoadingOrders": "Loading orders",
+        "available": "Available",
+        "pending": "Pending",
+        "cancelled": "Cancelled",
+        "orders": "Orders",
+        "paidNoSubmitted": "Failed",
+        "itemSubmittedSuccessfully": "Order successfully submitted!",
+        "entityNumber": "Lien number",
+        "entityName": "Lien name"
+      },
+      "productsGridComponent": {
+        "typeFilter": "Type to filter",
+        "description": "Description",
+        "addToCart": "Add to cart",
+        "noItems": "Sorry but there are no items available for this company",
+        "mailFeesDescription": "includes an additional {{manuallyCertifiedPrice}} for a paper copy and ",
+        "deliveryFeeHint": "{{deliveryFee}} for delivery",
+        "registeredOn": "Registered on:",
+        "effectiveFrom": "Effective from:"
+      },
+      "productItemCtaComponent": {
+        "certified": "Certified",
+        "standard": "Standard"
+      },
+      "productsRowDetailComponent": {
+        "delivery": "Delivery",
+        "online": "Online",
+        "mail": "Mail",
+        "addToCart": "Add to cart",
+        "digitalDocument": "Digital document",
+        "cancel": "Cancel",
+        "total": "Total"
+      },
+      "productTabsComponent": {
+        "loaderLoading": "Loading",
+        "documents": "Documents",
+        "certificates": "Certificates",
+        "reports": "Reports",
+        "failedToLoadCertainData": "Failed to load certain information, please reload the page and try again",
+        "failedToLoadEntityDocuments": "Failed to load entity documents, please reload the page and try again"
+      },
+      "startNewFilingComponent": {
+        "title": "Start new financing statement",
+        "search": "I want to file a...",
+        "filing": "Filing",
+        "register": "Register",
+        "start": "Start",
+        "viewFullList": "Cannot find the correct filing? View full list",
+        "loading": "Loading",
+        "loadingEntities": "Loading your entities",
+        "viewEntityAction": "View",
+        "updateEntity": "Update a financing statement",
+        "searchEntity": "Search for a financing statement number",
+        "entity": "Financing statement",
+        "noResults": "No results for this search",
+        "noFormsAvailable": "This filing has Lapsed or Expired",
+        "filingOptionslist": {
+          "title": "Select from the options below",
+          "typeToFilter": "Type to filter..."
+        },
+        "continue": "Continue",
+        "cancel": "Cancel",
+        "loaderLoadingForm": "Loading",
+        "showNotAllowedToSubmitMessage": "You are not allowed to continue with this filing"
+      },
+      "submissionFormComponent": {
+        "loaderLoadingForm": "Loading form",
+        "formLoadNotification": "There was a problem loading the form. Please contact the Registry",
+        "signatures": "Affidavit",
+        "payment": "Payment",
+        "paymentInviteError": "There was an error trying to send the payment invite. Please try again later",
+        "unableToLoadPendingPaymentDraftWhenCartIsEnabled": "Unable to load pending payment drafts when the cart is enabled"
+      },
+      "formsGridComponent": {
+        "2": {
+          "date": "Started on"
+        },
+        "3": {
+          "date": "Submitted on"
+        },
+        "4": {
+          "date": "Received on",
+          "processedDate": "Returned on"
+        },
+        "5": {
+          "date": "Received on",
+          "processedDate": "Rejected on"
+        },
+        "6": {
+          "date": "Received on",
+          "processedDate": "Registered on"
+        },
+        "7": {
+          "date": "Received on",
+          "processedDate": "Cancelled on"
+        },
+        "8": {
+          "date": "Started on"
+        },
+        "9": {
+          "date": "Started on"
+        },
+        "10": {
+          "date": "Started on"
+        },
+        "draftRemovedNotification": "Draft removed successfully!",
+        "submissionRemovedNotification": "Filing removed successfully!",
+        "submissionCancelledNotification": "Filing cancelled successfully!",
+        "submissionSetAsDraftSuccessNotification": "Filing was set as draft successfully!",
+        "customerLoadingNotification": "There was a problem loading the customers list. Assign to another user won't be available.",
+        "draftAssignNotification": "Draft assigned successfully!",
+        "loaderLoading": "Loading",
+        "refNum": "Filing Reference",
+        "date": "Date",
+        "processedDate": "Processed on",
+        "subType": "Filing Type",
+        "entityNumber": "Financing statement number",
+        "entityName": "Financing statement name",
+        "reasons": "Reasons",
+        "noReasons": "No specific reason was given.",
+        "noSubmissions": "No filings found",
+        "noDrafts": "No drafts found.",
+        "startNewFiling": "Please start new filing",
+        "fileSubmission1": "You can file your filing",
+        "fileSubmission2": "here",
+        "selectUser": "Please select a user",
+        "overlayMessage": "Select user to assign the filing",
+        "cancelSubmissionMessage": "Are you sure you want to cancel this filing?",
+        "removeSubmissionMessage": "Are you sure you want to remove this filing?",
+        "setAsDraftSubmissionMessage": "Are you sure you want to set this filing as draft?",
+        "assign": "Assign",
+        "confirmCancel": "Yes, cancel",
+        "confirmRemove": "Yes, remove",
+        "confirmSetAsDraft": "Yes, set as draft",
+        "no": "No",
+        "cancel": "Cancel",
+        "setAsDraft": "Set as draft",
+        "open": "Open",
+        "openCopy": "Open as copy",
+        "remove": "Remove",
+        "tableDesc": "Filings table",
+        "refNumDesc": "Filing reference number: {{refNum}}",
+        "dateDesc": "{{refNum}} filing date: {{date}}",
+        "processedDateDesc": "{{refNum}} filing processed date: {{date}}",
+        "subTypeDesc": "{{refNum}} filing type: {{type}}",
+        "entityNumberDesc": "{{refNum}} financing statement Number: {{entityNum}}",
+        "reasonsDesc": "{{refNum}} reasons: {{reasons}}",
+        "optionsFor": "Options for {{value}}",
+        "download": "Download {{refNum}}",
+        "removeDraft": "Remove draft {{draftId}}",
+        "openDraft": "Open draft {{draftId}}",
+        "options": "Options",
+        "close": "Close",
+        "submissionDraftStatusDesc": "Status: {{submissionDraftStatusDesc}}",
+        "submissionDraftStatus": "Status",
+        "makePayment": "Make payment",
+        "addToCart": "Add to cart",
+        "unableToAddItemToTheCart": "Unable to add the item to the cart, please try again later",
+        "itemAlreadyAdded": "This item has already been added to the cart",
+        "itemAdded": "Item added!",
+        "references": "Please contact the registry with the following references: {{transRefNum}}, {{subRefNum}}.",
+        "itemSubmittedSuccessfully": "Filing successfully submitted!",
+        "customerUserNameDesc": "User: {{customerUserNameDesc}}",
+        "customerUserName": "User",
+        "downloadReceipt": "Receipt",
+        "downloadReceiptDesc": "Download receipt: {{transRefNum}}"
+      },
+      "formsHistoryComponent": {
+        "myFilings": "My filings",
+        "loaderLoadingSubmissions": "Loading filings",
+        "drafts": "Drafts",
+        "submitted": "Submitted",
+        "returned": "Returned",
+        "rejected": "Rejected",
+        "registered": "Registered",
+        "cancelled": "Cancelled",
+        "startNewFiling": "Start new filing",
+        "pendingSignature": "Signatures",
+        "pendingPayment": "Payment"
+      },
+      "headerComponent": {
+        "login": "Login"
+      },
+      "userOptionsComponent": {
+        "profile": "My profile",
+        "logout": "Logout",
+        "login": "Log in",
+        "signUp": "Sign up"
+      },
+      "validationComponent": {
+        "requiredMessage": "Required",
+        "minLengthMessage": "The minimum length required is {{value}}",
+        "maxLengthMessage": "The maximum length required is {{value}}",
+        "incorrectFormatMessage": "Incorrect format",
+        "invalidEircode": "Please enter a valid eircode",
+        "invalidEmail": "Please enter a valid email address",
+        "invalidIban": "Please enter a valid IBAN",
+        "passwordRequirementFail": "Password must have 8-16 characters, 1 capital, 1 number",
+        "invalidPhone": "Please enter a valid number in the format of [xxx-xxx-xxxx]",
+        "invalidDayMonth": "Please enter a valid value in the format of [DD/MM]",
+        "invalidCaptcha": "The verification of the validation code has fail. Please try again.",
+        "creditCardExpiryDateInvalid": "Please enter a valid card expiry date [MM/YY]",
+        "creditCardCvcInvalid": "Please enter a valid security code",
+        "creditCardNumberInvalid": "Please enter a valid card number [xxxx xxxx xxxx xxxx]",
+        "invalidDate": "Invalid date",
+        "dateOutOfRange": "The date is out of range",
+        "numberOutOfRange": "The value is out of range",
+        "leapDateInvalid": "Leap date invalid",
+        "invalidMonthDay": "Please enter a valid value in the format of [MM/DD]",
+        "reachedCallsLimit": "You have reached the maximum limit for searches. Please wait a minute and try again.",
+        "minValue": "Min amount allowed is {{value}}",
+        "maxValue": "Max amount allowed is {{value}}",
+        "notMatching": "{{value}} not matching"
+      },
+      "requestNewPasswordComponent": {
+        "errorRequestingNewPasswordNotification": "There has been an error requesting a new password",
+        "forgotPassword": "Forgot password",
+        "enterLoginName": "Enter your login name and click submit. We will send you an email with information on how to reset your password.",
+        "loginName": "Login name",
+        "forgotLoginName": "Forgot login name?",
+        "cancel": "Cancel",
+        "submit": "Submit",
+        "newPasswordRequested": "New password requested!",
+        "resetPasswordEmail": "An email with information on how to reset your password has been sent",
+        "login": "Login",
+        "enterEmailAddress": "Enter your email address and click Submit. We will send you an email with the list of users registered on this email address.",
+        "email": "Email",
+        "listOfUsers": "Please check your email",
+        "listOfUsersEmailSent": "We have sent on your details to the email provided"
+      },
+      "resetPasswordComponent": {
+        "errorRequestingNewPasswordNotification": "There has been an error requesting a new password",
+        "loaderVerifyingCode": "Verifying code",
+        "forgotPassword": "Forgot password",
+        "toResetPassword": "To reset your password enter your new password twice and click Submit.",
+        "password": "New password",
+        "confirmPassword": "Confirm new password",
+        "passwordNotMatching": "The password does not match",
+        "submit": "Submit",
+        "codeVerificationFailed": "Code verification failed!",
+        "passwordUpdateSuccess": "Your password has been updated successfully!",
+        "login": "Log in"
+      },
+      "sentMessageComponent": {
+        "messageSentSuccessfully": "Message has been sent successfully.",
+        "viewSentMessages": "View sent messages"
+      },
+      "composeMessageComponent": {
+        "errorSavingNotification": "There is an error saving the message. Please try again.",
+        "errorDeleteNotification": "There is an error trying to remove the message. Please try again",
+        "loaderLoadingMessage": "Loading message",
+        "selectMessageTitle": "Create a new message",
+        "selectMessageType": "Select from the options below",
+        "selectMessageFromList": "Please select a message from the list",
+        "lastSave": "Last save: {{value}}",
+        "subject": "Subject",
+        "save": "Save",
+        "send": "Send",
+        "delete": "Delete",
+        "discard": "Discard",
+        "unsavedChanges": "There are unsaved changes",
+        "discardChanges": "Discard changes",
+        "cancel": "Cancel",
+        "select": "Select",
+        "messageType": "Message type",
+        "message": "Message",
+        "back": "Back"
+      },
+      "messageDetailsComponent": {
+        "errorDeleteNotification": "There is an error trying to remove the message. Please try again",
+        "loaderLoadingMessage": "Loading message",
+        "selectMessageFromList": "Please select a Message from the list",
+        "forward": "Reply",
+        "print": "Print",
+        "reference": "Reference",
+        "date": "Date: {{value}}",
+        "back": "Back"
+      },
+      "messagesListComponent": {
+        "loaderLoadingMessage": "Loading",
+        "search": "Search",
+        "noResult1": "No result for the search",
+        "noResult2": "Please enter different text to search",
+        "noMessage": "No messages",
+        "searchMessageDesc": "Search a message",
+        "listOfMessagesDesc": "List of message",
+        "searching": "Searching",
+        "inboxEmpty": "Your inbox is empty",
+        "sentEmpty": "There are no sent items",
+        "draftsEmpty": "You have no drafts",
+        "inboxEmptyNote": "Messages you receive will appear here",
+        "sentEmptyNote": "Messages you send will appear here",
+        "draftsEmptyNote": "New messages can be saved here before being sent"
+      },
+      "messagesComponent": {
+        "messages": "Messages",
+        "loaderLoadingMessage": "Loading message",
+        "back": "Back",
+        "inbox": "Inbox",
+        "sent": "Sent",
+        "drafts": "Drafts",
+        "newMessage": "New message",
+        "compose": "Compose"
+      },
+      "creditCardComponent": {
+        "totalDue": "Total due",
+        "cardNumber": "Card number",
+        "cardholderName": "Cardholder name",
+        "expiry": "Expiry",
+        "cvc": "CVC",
+        "payByCC": "Pay by credit card"
+      },
+      "financialAccountComponent": {
+        "insufficientFundsNotification": "There are insufficient funds in your account",
+        "account": "Account",
+        "balance": "Balance",
+        "currentBalance": "Your current balance",
+        "creditLimit": "Credit limit",
+        "totalDue": "Total Due",
+        "payByAcc": "Pay by account",
+        "insufficientMoney": "Billing account payments are not available at this time. Please select another payment method or try again at a later time.",
+        "accountTopUp": "Account top up"
+      },
+      "paymentComponent": {
+        "loaderPreparingItems": "Preparing items for payment",
+        "paymentProcess": "Payment process",
+        "paymentMethod": "I would like to pay by",
+        "totalDue": "Total due",
+        "payment": "Payment",
+        "name": "Name",
+        "email": "Email",
+        "message": "Message",
+        "sendInvitation": "Send invitation",
+        "invitationSent": "Invitation sent",
+        "invitationSentSubmessage": "You will be notified when payment is complete",
+        "returnToDashboard": "Return to dashboard",
+        "infoText": "To invite someone else to pay, enter their name, email and an optional message and they will be emailed a link to pay for this filing",
+        "failedToLoadCertainData": "Failed to load certain information, please reload the page and try again",
+        "types": {
+          "account": "Billing account",
+          "creditCard": "Credit card",
+          "invite": "Invite someone else to pay",
+          "echeck": "Electronic check"
+        },
+        "echeckUnavailableForCurrentPaymentProvider": "Electronic check payment type is not available for current payment provider"
+      },
+      "realex": {
+        "gettingPaymentReady": "Fetching information",
+        "email": "Email",
+        "countryCode": "Country code",
+        "countryCodePlaceholder": "Code",
+        "phone": "Phone",
+        "phonePatternError": "Phone format is incorrect",
+        "address1": "Address 1",
+        "address2": "Address 2",
+        "address3": "Address 3",
+        "city": "City",
+        "postcode": "Postal code",
+        "country": "Country",
+        "continue": "Continue to payment",
+        "provideBillingInformation": "Please enter your credit card billing address below:"
+      },
+      "advancedSearchComponent": {
+        "search": "Search",
+        "clear": "Clear",
+        "searchDate": "Search date: {{value}}",
+        "refineSearch": "Refine your search",
+        "noResults": "No results for this search",
+        "view": "View",
+        "viewDesc": "Open details for",
+        "loadingSearch": "Loading search",
+        "buttonOpen": "Open"
+      },
+      "advancedSearch": {
+        "searchCriteria": "Search criteria",
+        "searchType": "Name search type",
+        "containsWord": "Contains word",
+        "startsWith": "Starts with",
+        "exactMatch": "Exact match",
+        "companyName": "Company name",
+        "companyNumber": "Company number",
+        "RegDateFrom": "Registration date from",
+        "RegDateTo": "Registration date To"
+      },
+      "entityFields": {
+        "registeredNumber": "Number",
+        "registeredName": "Name",
+        "entityTypeDesc": "Type",
+        "entityStatusDesc": "Status",
+        "entityRegisteredDate": "Registered on",
+        "annualReturnDueDate": "Next annual return"
+      },
+      "quickSearchEntity": {
+        "searchBy": "Search by financing statement number...",
+        "searching": "Searching",
+        "noResults": "No results for this search",
+        "searchByDesc": "Enter financing statement number...",
+        "searchResultDesc": "Quick search results",
+        "openAvailableFilings": "Open available filings for {{name}}",
+        "informationBox": {
+          "title": "Financing statement information available",
+          "text": "<p>After selecting a lien, you will be able to perform later actions.</p>"
+        }
+      },
+      "quickSearchUser": {
+        "searchBy": "Search here...",
+        "searching": "Searching",
+        "noResults": "No results for this search"
+      },
+      "confirmUserComponent": {
+        "loaderVerifyingUser": "Verifying user",
+        "userVerified": "User has been verified!",
+        "approvalReview1": "Thank you for confirming your email address for sign up as a customer.",
+        "approvalReview2": "Our staff are now reviewing your request for approval. This should not take very long.",
+        "approvalReview3": "We will send you another email to let you know when you can login.",
+        "approvalSuccess1": "Congratulations, we have confirmed your email address.",
+        "approvalSuccess2": "You can now login using the login name / password you provided during sign-up.",
+        "login": "Login",
+        "verificationFailed": "User verification failed!"
+      },
+      "signUpComponent": {
+        "termsCondNotification": "Please indicate you accept the terms and conditions by ticking the checkbox below!",
+        "validationCodeRequiredNotification": "The validation code field is required.",
+        "validationCodeFailedNotification": "The verification of the validation code failed. Please try again.",
+        "signUp": "Sign up",
+        "termsConditions": "I agree to the terms and conditions",
+        "submit": "Submit",
+        "signUpDisabled": "Sign up temporarily disabled.",
+        "maintenance": "The application is under maintenance. Please try again later.",
+        "confirmationTitle": "Request successfully submitted!",
+        "confirmationText": "This application will now be reviewed and a confirmation email will be sent to you shortly",
+        "goBackHomepage": "Return to homepage",
+        "login": "Login",
+        "displayName": "Registration",
+        "register": "Register"
+      },
+      "transactionComponent": {
+        "loaderLoadingTransactions": "Loading payments",
+        "date": "Date",
+        "ref": "Reference",
+        "type": "Type",
+        "description": "Narrative",
+        "amount": "Amount",
+        "user": "User",
+        "receipt": "Receipt",
+        "noTransactions": "No payments found",
+        "tableDesc": "Payments table",
+        "dateDesc": "Transaction date for {{refNum}} is {{date}}",
+        "refDesc": "Transaction reference is {{refNum}}",
+        "typeDesc": "Transaction type for {{refNum}} is {{type}}",
+        "narrativeDesc": "Transaction description for {{refNum}} is {{narrative}}",
+        "amountDesc": "Transaction amount for {{refNum}} is {{amount}}",
+        "userDesc": "User for {{refNum}} is {{user}}",
+        "receiptDesc": "Download receipt for transaction {{refNum}}",
+        "amountBalance": "Transaction amount balance",
+        "transactions": "Payments",
+        "receiptUnavailable": "No receipt"
+      },
+      "csvGenerator": {
+        "downloadCsv": "Download as CSV"
+      },
+      "userElectronicSignaturesGridComponent": {
+        "enterValidPasswordNotification": "Please enter a valid password",
+        "electronicSignatures": "Your access codes",
+        "noElectronicSignatures": "You do not have any access codes assigned to you.",
+        "assignedTo": "Assigned to",
+        "entity": "Entity",
+        "status": "Status",
+        "assignedBy": "Assigned by",
+        "password": "Password"
+      },
+      "userElectronicSignaturesComponent": {
+        "loaderLoading": "Loading access codes"
+      },
+      "userProfileComponent": {
+        "errorGetUserNotification": "Unable to get the user. Please contact the Registry",
+        "deleteNotification": "Unable to delete user, please contact the Registry",
+        "profileEditNotification": "Unable to save profile changes, please contact the Registry",
+        "loaderLoadingProfile": "Loading profile",
+        "overlayMessage": "Are you sure you want to deactivate this user?",
+        "createUser": "Create user",
+        "accessCodes": "Access codes",
+        "returnToAccount": "Return to account",
+        "loginNameDetails": "Login name must be Last name, first initial, and 4 numbers. For example, TesterJ1234.",
+        "remove": "Deactivate user",
+        "edit": "Edit",
+        "cancel": "Cancel",
+        "save": "Save",
+        "userDeleteSuccess": "User has been deactivated successfully",
+        "userCreateSuccess": "User has been created successfully",
+        "profileSavedNotification": "Changes have been saved successfully",
+        "goToAdmin": "Go to account",
+        "userDetails": "User details",
+        "loginName": "Login name",
+        "validatingLoginName": "Validating login name",
+        "loginNameValid": "Login name valid!",
+        "firstName": "First name",
+        "lastName": "Last name",
+        "password": "Password",
+        "confirmPassword": "Confirm password",
+        "passwordNotMatching": "The password does not match",
+        "administrator": "Administrator",
+        "active": "Active",
+        "contactDetails": "Contact details",
+        "email": "Email",
+        "phoneNumber": "Phone number",
+        "faxNumber": "Fax number",
+        "cellNumber": "Cell number",
+        "emailCorresp": "Email correspondence",
+        "htmlEmail": "Html email",
+        "privileges": "Privileges",
+        "editableOnlyByAdmin": "(Editable only by administrator)",
+        "createSubmission": "Can create filing",
+        "canSubmit": "Can submit",
+        "canViewPayments": "Can Process Payment",
+        "canChargeAccount": "Can charge account",
+        "preferredLanguage": "Preferred language",
+        "savingWarning": "Cannot save the changes, please complete the information and try again",
+        "oldPassword": "Old password",
+        "\u03bfldPassShouldBeSetWhenUpdatePassMsg": "Old password needs to be set when changing the user password"
+      },
+      "documentGridComponent": {
+        "errorNotification": "An error has occured while downloading the file. Please try again.",
+        "remove": "Remove"
+      },
+      "attachmentFormQuestionComponent": {
+        "remove": "Remove",
+        "uploaded": "Uploaded",
+        "uploadFile": "Upload file",
+        "openUploader": "Open uploader",
+        "closeUploader": "Close uploader",
+        "documentUploaded": "Document uploaded",
+        "removeDocument": "Remove document",
+        "infoText": "Click here to attach document"
+      },
+      "autocompleteFormQuestionComponent": {
+        "reset": "Reset"
+      },
+      "multiAttachmentFormQuestionComponent": {
+        "uploadFile": "Upload file",
+        "closeUploadFile": "Close upload file",
+        "remove": "Remove"
+      },
+      "quickAutocompleteFormQuestion": {
+        "searching": "Searching",
+        "noResults": "No results for this search"
+      },
+      "submissionTemplatesComponent": {
+        "loaderLoadingTemplates": "Loading templates",
+        "entityAlreadyAddedNotification": "The entity is already added.",
+        "errorProcessingNotification": "Cannot process form catalog",
+        "new": "New",
+        "existing": "Existing",
+        "templates": "Templates"
+      },
+      "submissionTemplateItemComponent": {
+        "fileTemplate": "File template",
+        "delete": "Delete",
+        "draftRemoveSuccessNotification": "Draft removed successfully!"
+      },
+      "submissionTemplateGridComponent": {
+        "noTemplates": "No templates found"
+      },
+      "submissionTemplateCatalogItemComponent": {
+        "selectType": "Select type"
+      },
+      "submissionTemplateCatalogExistingComponent": {
+        "search": "Search"
+      },
+      "submissionTemplateCatalogExistingItemComponent": {
+        "noFormsAvailable": "No forms available for this entity"
+      },
+      "dashboardLatestEventsComponent": {
+        "loaderMessage": "Loading",
+        "noData": "No events.",
+        "latestEvents": "Notifications",
+        "latestEventsCount": "last {{count}}",
+        "latestEventsDescription": "Quick access to the most recent activity on your account",
+        "rowTitleDate": "Date",
+        "rowTitleType": "Type",
+        "rowTitleDescription": "Description",
+        "rowTitleAction": "Action",
+        "linkTitleOpen": "Open",
+        "open": "Open",
+        "rowTitleDateAriaDesc": "Date: {{date}}",
+        "rowTitleTypeAriaDesc": "Type: {{type}}",
+        "rowTitleDescriptionAriaDesc": "Description: {{desc}}",
+        "noResults": "No notifications to display"
+      },
+      "broadCastMessagesComponent": {
+        "loaderMessage": "Loading",
+        "noData": "No messages.",
+        "broadCastMessages": "News and announcements",
+        "broadCastMessagesCount": "last {{count}}",
+        "rowTitleDate": "Date",
+        "rowTitleDescription": "Description",
+        "rowTitleAction": "Action",
+        "linkTitleOpen": "Open",
+        "open": "Open",
+        "rowTitleDateAriaDesc": "Date: {{date}}",
+        "rowTitleTypeAriaDesc": "Type: {{type}}",
+        "rowTitleDescriptionAriaDesc": "Description: {{desc}}",
+        "noResults": "No messages to display"
+      },
+      "dashboardGraphsComponent": {
+        "noData": "No data found",
+        "graphTitle": "Filings",
+        "total": "Total",
+        "loading": "Loading",
+        "doughnutChart": {
+          "noResults": "We haven't got any statistics for you at the moment. What about start a new filing using the button above?"
+        },
+        "submissionsList": {
+          "title": "{{ type }} Filings",
+          "viewAll": "View all {{type}} filings",
+          "cellTitle": "Filing",
+          "loading": "Loading",
+          "noResults": "No results for this filing status",
+          "createdAt": "Created at"
+        }
+      },
+      "statisticalOverviewComponent": {
+        "pendingSignature": "Pending signature",
+        "pendingPayment": "Pending payment",
+        "submissionsSubmitted": "Filings submitted",
+        "unreadMessages": "Unread messages",
+        "ordersAvailable": "Orders available",
+        "usersInGroup": "Users in group"
+      },
+      "paginatorComponent": {
+        "itemsPerPage": "Items per page",
+        "nextPage": "Next page",
+        "prevPage": "Previous page",
+        "of": "of"
+      },
+      "regsysHttpService": {
+        "unexpectedError": "Unexpected connectivity error. Please try later or contact the UCC office.",
+        "expiredSession": "Your session has expired. Please Log In again.",
+        "forbidden": "You have no privilege to access this information"
+      },
+      "myEntitiesComponent": {
+        "myEntities": "Update a financing statement",
+        "typeToFilter": "Type to filter...",
+        "tableDesc": "My entities table",
+        "loaderLoadingMyEntities": "Loading ",
+        "regName": "Name",
+        "regNameDesc": "Charity name is {{regName}}",
+        "regNumber": "Number",
+        "regNumberDesc": "Charity number is {{regNum}}",
+        "entityStatus": "Status",
+        "entityStatusDesc": "Status for {{regName}} is {{status}}",
+        "annualReturnDueDate": "Next annual return",
+        "annualReturnDueDateDesc": "Next annual return for {{regName}} is {{date}}",
+        "open": "Open",
+        "filings": "Filings",
+        "viewDesc": "Open details for {{regName}}",
+        "viewCompanyProfile": "View lien profile"
+      },
+      "entityInformationComponent": {
+        "filings": "Filings",
+        "relationships": "Related parties",
+        "catalog": "File a form"
+      },
+      "openCaseComponent": {
+        "openCase": "Open new case",
+        "caseSubtitle": "Case submitted",
+        "success": "Case successfully submitted!",
+        "submessage": "Our team will review the information submitted",
+        "new": "Open a new case",
+        "caseId": "Case number",
+        "openCaseBtn": "Open case"
+      },
+      "formChecklistComponent": {
+        "title": "Reminders",
+        "subTitle": "",
+        "openList": "Open checklist"
+      },
+      "realexComponent": {
+        "close": "Close"
+      },
+      "digitalSignatureComponent": {
+        "signaturePage": "Signature verification",
+        "downloadSignaturePage": "Download signature page",
+        "uploadAllSignatures": "Upload all signatures",
+        "guestRedirect": "Back to dashboard",
+        "proceedToPayment": "Proceed to payment"
+      },
+      "submissionDetailsComponent": {
+        "submissionDetails": "Filing details",
+        "submissionType": "Filing type",
+        "proposedName": "Proposed name",
+        "submissionReference": "Filing reference",
+        "viewSubmissionForm": "View filing form"
+      },
+      "attachmentDetailsComponent": {
+        "viewAttachments": "Filing attachments",
+        "attachment": "Attachment: {{value}}"
+      },
+      "signorDetailsComponent": {
+        "filedBy": "Filed by: {{value}}"
+      },
+      "digitalSignatureDocumentUploadComponent": {
+        "downloadSignaturePage": "Download signature page",
+        "closeUploader": "Close uploader",
+        "notHappyToSign": "Not happy to sign? Return to filer",
+        "step1": "Step 1: review filing details",
+        "step1Desc": "Review the filing and associated attachments before completing the signature process",
+        "signaturePageUpload": {
+          "step2": "Step 2: download signature file",
+          "step2Desc": "Please download the signature file for signing",
+          "step3": "Step 3: upload signature file",
+          "step3Desc": "Once you have the signed signature document, please upload it here. Thank you!",
+          "signed": "Signed",
+          "role": "Role: {{value}}",
+          "uploadSignaturePage": "Upload signature page",
+          "closeUploader": "Close Uploader"
+        },
+        "externalLink": {
+          "step2": "Step 2: complete digital signing with ROS",
+          "externalLinkDesc": "Sign the draft form {{draftId}} with a ROS certificate by clicking here",
+          "fetchingLink": "Generating link",
+          "allSignorsSigned": "All ROS signatures have been provided for this submission"
+        }
+      },
+      "returnDraftPanelComponent": {
+        "reasonForNotSigning": "Reason for not signing",
+        "return": "Return",
+        "confirmReturnMessage": "Are you sure you wish to return this filing?",
+        "yes": "Yes",
+        "no": "No",
+        "close": "Close",
+        "invalidReturnReason": "Please enter a valid return reason"
+      },
+      "submissionPaymentDetailsComponent": {
+        "submissionReference": "Filing reference",
+        "submissionType": "Filing type",
+        "proposedName": "Proposed name",
+        "totalDue": "Total amount due",
+        "viewSubmissionDocument": "View filing form"
+      },
+      "submitStatusBlockComponent": {
+        "submissionComplete": "Filing complete",
+        "paymentReceived": "Payment received. Thank you!",
+        "transactionNumber": "Transaction number",
+        "amountPaid": "Amount paid",
+        "date": "Date",
+        "submissionSuccess": "Filing successfully submitted",
+        "successSubmit": "was successfully submitted.",
+        "submissionReference": "Filing reference",
+        "dateReceived": "Date received",
+        "thanks": "Thank you!",
+        "paymentFailed": "Payment failed",
+        "returnToPaymentOptions": "Return to payment options",
+        "submissionNotSubmitted": "Filing not submitted",
+        "submissionNotSubmittedReason": "Filing was not submitted due to a payment error",
+        "submissionFailedSubmit": "Error during filing",
+        "submissionFailedSubmitReason": "Filing was not submitted due to an error",
+        "submittingPayment": "Submitting payment",
+        "submittingSubmission": "Submitting filing",
+        "noPaymentRequired": "No payment required",
+        "contactWithRefNum": "<br/>Please use the following reference number: {{value}}",
+        "downloadSubForm": "Download filing form",
+        "downloadReceipt": "Download receipt",
+        "newFilling": "Start new filing",
+        "dashboard": "Dashboard",
+        "messages": "Messages",
+        "returningSubmission": "Returning filing",
+        "draftReturnSuccess": "Filing returned successfully",
+        "draftReturnSuccessSubHead": "The submission has been returned to the draft status for the following reason",
+        "draftReturnFailed": "Filing return failed",
+        "draftReturnFailedReason": "Filing was not returned due to an error",
+        "filingSaved": "Filing saved. Thank you!",
+        "filingSavedMoreSteps": "We have saved your filing. Please note it is not yet complete, you still have {{value}} more steps to go",
+        "completeSignatureVerification": "Step 1: complete digital signature verification",
+        "completeSignatureVerificationDesc1": "You have defined a number of people who are required to sign off on this filing.",
+        "completeSignatureVerificationDesc2": "An email will be sent to all Signors where an email address is present.",
+        "completeSignatureVerificationDesc3": "You will be required to follow up with all signors to ensure they completed this task.",
+        "completePayment": "Step 2: Complete payment",
+        "completePaymentDesc1": "Once all signatures are complete you will be able to proceed to payment.",
+        "completePaymentDesc2": "Please note the filing will not be submitted until after payment is received.",
+        "filingInfo1": "<b>Please note:</b> This filing is now available from \"My filings\".",
+        "filingInfo2": "It has a status of \"Pending signature\"",
+        "returnToDashboard": "Return to dashboard",
+        "proceedToSignaturePage": "Proceed to signature Page",
+        "signorInfo": "Signor information",
+        "signorInfoNote1": "<b>Please note:</b> You did not provide a valid email address for the following Signors.",
+        "signorInfoNote2": "You must contact them directly",
+        "submissionHadBeenAddedToTheCart": "Your filing has been added to the cart",
+        "whatWouldYouLikeToDoNow": "What would you like to do now?",
+        "checkout": "Checkout",
+        "proceedToCheckout": "Proceed to checkout",
+        "startAnotherFiling": "Start another filing?",
+        "submissionReceived": "Filing received!",
+        "submissionReceivedMessage": "Thank you for your filing. You will get notified once it is processed."
+      },
+      "localizationComponent": {
+        "cannotLoadLanguage": "There was a problem trying to load this language. Please try later or contact the Registry"
+      },
+      "guestPaymentInfo": {
+        "cannotAccessWhileLoggedIn": "Cannot access this page while logged in",
+        "title": "Hi, {{ value }}",
+        "invitedToPay": "You have been invited to pay for this filing by the filer {{ value }}. ",
+        "payNowButtonInfo": "Please enter your credit card details in the panel beside and click the \"Payment\" button",
+        "thankYou": "Thank you."
+      },
+      "gpsPaymentComponent": {
+        "loadingConfig": "Loading configuration",
+        "proceedToGPS": "Proceed to GPS payment",
+        "infoText": "You will be redirected to our payment provider GPS for payment"
+      },
+      "cepasPaymentComponent": {
+        "loadingConfig": "Loading configuration",
+        "proceedToCEPAS": "Proceed to CEPAS payment",
+        "infoText": "A credit card payment processing fee of {{processingFee}} will be added to this transaction.<br/><br/>When using the credit card payment method, you agree to pay the full amount of {{totalAmount}} which includes this credit card processing fee.<br/><br/>You will be redirected to the State of Michigan's Central Electronic Payment Authorization System (CEPAS) Payment Module to enter your credit card information for processing. After your credit card transaction has been successfully completed, do not close the Internet browser window from the CEPAS website. You will be automatically redirected back to the Uniform Commercial Code website to complete your transaction. The Uniform Commercial Code website does not store personal credit card information.<br/><br/>"
+      },
+      "magicpayPaymentComponent": {
+        "loadingConfig": "Loading configuration",
+        "proceedToMagicPayCreditCard": "Proceed to MagicPay Credit Card Payment",
+        "proceedToMagicPayEcheck": "Proceed to MagicPay Electronic Check Payment",
+        "infoText": "You will be redirected to our payment provider MagicPay for payment"
+      },
+      "uccSearchComponent": {
+        "search": "Debtor name quick search",
+        "noResults": "No results for this search",
+        "downloadAsCsv": "Download results as CSV",
+        "downloadAsPdf": "Download results as PDF",
+        "downloadAsdoc": "Download results as Word Doc",
+        "download": "Download",
+        "financialStatementNumber": "Financing statement number",
+        "debtors": "Debtors",
+        "securedParty": "Secured party",
+        "filingType": "Lien type",
+        "fileDate": "Registered date",
+        "lapseDate": "Lapse date",
+        "status": "Status",
+        "clear": "Clear",
+        "btnSearch": "Search",
+        "formNumberTitle": "Search by financing statement number",
+        "formRelationShipTitleDebtor": "Search by debtor name",
+        "formRelationShipTitleSecParty": "Search by secured party name",
+        "formFinancingStatementNumber": "Financing statement number",
+        "formReferenceNumber": "Reference number",
+        "formDocId": "Doc. Id",
+        "formActiveFilings": "Active filings",
+        "formActiveFilingsPlusLapseWithinYear": "Active filings plus those lapsed within the last 12 months",
+        "formDebtorIs": "Debtor is",
+        "formSecuredPartyIs": "Secured party is",
+        "formIndividual": "Individual",
+        "formOrganization": "Organization",
+        "formOrganizationName": "Organization's name",
+        "formFirstName": "First name",
+        "formMiddleName": "Middle name",
+        "formLastName": "Surname",
+        "formsuffix": "Suffix",
+        "formCity": "City",
+        "formState": "State",
+        "searchDate": "Search date",
+        "tabs": {
+          "number": "Number",
+          "debtor": "Debtor",
+          "securedParty": "Secured party"
+        }
+      },
+      "citypayPaymentComponent": {
+        "loadingConfig": "Loading configuration",
+        "proceedToCityPay": "Proceed to CityPay payment",
+        "infoText": "You will be redirected to our payment provider CityPay for payment"
+      },
+      "paycapitaPaymentComponent": {
+        "loadingConfig": "Loading configuration",
+        "proceedToPayCapitaCreditCard": "Proceed to PayCapita credit card payment",
+        "proceedToPayCapitaEcheck": "Proceed to PayCapita electronic check payment",
+        "infoText": "You will be redirected to our payment provider PayCapita for payment",
+        "referenceData": "Customer reference"
+      },
+      "initializerServices": {
+        "problemLoadingLanguages": "There was a problem trying to load system languages, please refresh the page to try again. If this issue persists, please contact the registry",
+        "problemLoadingFormLocalizations": "There was a problem trying to load form translations, please refresh the page to try again. If this issue persists, please contact the registry",
+        "timezoneFailedToLoad": "Failed to load the timezone a default timezone {{timezoneName}} has been applied, please refresh the page to try again. If this issue persists, please contact the registry"
+      },
+      "customActionsSample": {
+        "renewRegistration": {
+          "title": "Annual return",
+          "description": "Example for the configuration of a renew registration",
+          "buttonText": "Renew registration"
+        },
+        "1": {
+          "title": "Update directors",
+          "description": "Example for the configuration of a custom action linked with an specific entity type",
+          "buttonText": "Update"
+        }
+      },
+      "personDetailsComponent": {
+        "tabs": {
+          "profile": "Profile"
+        },
+        "details": {
+          "regName": "Name",
+          "regDate": "Signed up on",
+          "regAddress": "Address"
+        }
+      },
+      "topUp": {
+        "accountDetails": "Account details",
+        "account": "Account",
+        "currentBalance": "Your current balance",
+        "creditLimit": "Credit limit",
+        "topUpTitle": "Account top-up",
+        "topUpAmount": "I want to top up by:",
+        "topUpAmountForPayment": "Your account will be topped up by",
+        "topUpBtn": "Top up",
+        "topUpProcessed": "Your account has been successfully topped up",
+        "topUpProcessedBy": "Your account has been successfully topped up by",
+        "downloadReceipt": "Download receipt",
+        "editAmount": "Edit amount",
+        "processingTopUp": "Processing top up",
+        "topUpError": "Problems processing the top up",
+        "topUpErrorSub": "Please contact the registry with the following reference number: {{tranRefNum}}",
+        "transaction": "Back to payments",
+        "magicPayUnexpectedNotification": "Unexpected error while processing payment by JetPay payment provider",
+        "loadingFinancialAccount": "Loading account details",
+        "accountTopUpDisabled": "The account top up is not enabled",
+        "topUpAgain": "Top-up again",
+        "validationMaxTopUp": "Maximum top up is {{amount}}",
+        "validationMinTopUp": "Minimum top up is {{amount}}"
+      },
+      "watchlist": {
+        "title": "Watchlist",
+        "loading": "Loading",
+        "errorFetching": "There is a problem fetching your watchlist. Please try later or contact the registry",
+        "errorAdding": "There is a problem adding the entity to your watchlist. Please try later or contact the registry",
+        "errorDeleting": "There is a problem deleting the entity from your watchlist. Please try later or contact the registry",
+        "errorFetchingEvents": "There is a problem fetching the entity's events. Please try later or contact the registry",
+        "add": {
+          "label": "Search and select an entity to add it to your watchlist",
+          "duplicatedWarning": "The entity selected is already on your watchlist",
+          "adding": "Adding"
+        },
+        "list": {
+          "filter": "Filter",
+          "noEntities": "No entities on your watchlist. Please use the search above to add them",
+          "tableDesc": "Watchlist table",
+          "entityRegNumber": "Financing statement number",
+          "entityRegNumberDesc": "Ref. number is {{refNum}}",
+          "entityRegName": "Financing statement name",
+          "entityRegNameDesc": "Entity name is {{name}}",
+          "entityRegDate": "Reg. date",
+          "entityRegDateDesc": "Entity register date for {{name}} is {{date}}",
+          "entityTypeDesc": "Type",
+          "entityTypeDescDesc": "Entity type of {{name}} is {{type}}",
+          "entityStatusDesc": "Status",
+          "entityStatusDescDesc": "Entity status of {{name}} is {{status}}",
+          "entityReturnDate": "Next annual return",
+          "entityReturnDateDesc": "Entity next annual return date for {{name}} is {{date}}",
+          "actionsDesc": "Actions for entity with number {{refNum}}",
+          "viewEvents": "Events",
+          "viewEventsDesc": "View events for {{name}}",
+          "viewDetails": "Details",
+          "viewDetailsDesc": "View details for {{name}}",
+          "delete": "Remove",
+          "deleteDesc": "Remove entity {{name}} from watchlist",
+          "removeMessage": "Are you sure you want to remove this entity from your watchlist?",
+          "no": "No",
+          "confirmRemove": "Yes, remove",
+          "added": "Entity added!",
+          "removed": "Entity removed!",
+          "orderBy": {
+            "label": "Order by",
+            "orderAsc": "Order ascending",
+            "orderDesc": "Order descending",
+            "entityRegNum": "Reg. number",
+            "entityRegName": "Name",
+            "entityRegDate": "Reg. date",
+            "entityTypeDesc": "Type",
+            "entityStatusDesc": "Status",
+            "entityReturnDate": "Next annual return"
+          }
+        },
+        "events": {
+          "title": "Events",
+          "noData": "There are no recent events for this entity"
+        }
+      },
+      "forms": {
+        "sample": {
+          "rangeValidation": "The number of Directors added to this list must be between 2 and 4 (both included)",
+          "rangeValidationDirectors": "The number of Directors added to this list must be between 2 and 4 (both included)",
+          "rangeValidationOfficers": "Only one officer can be added on this list"
+        },
+        "signupForm": {
+          "userDetails": "User details",
+          "loginName": "login name",
+          "password": "Password",
+          "passwordNotMatching": "The password does not match",
+          "confirmPassword": "Confirm password",
+          "firstName": "First name",
+          "lastName": "Last name",
+          "email": "Email",
+          "confirmEmail": "Confirm email",
+          "emailNotMatching": "The email does not match",
+          "phoneNumber": "Phone number",
+          "accountDetails": "Account details",
+          "accountName": "Ainm name",
+          "searchAddress": "Search address",
+          "address": "Address",
+          "address2": "Address 2",
+          "address3": "Address 3",
+          "city": "City",
+          "state": "State",
+          "country": "Country",
+          "postCode": "Post code",
+          "county": "County",
+          "eircode": "Eircode",
+          "preferredLanguage": "Preferred language"
+        },
+        "openCase": {
+          "filer": {
+            "sectionTitle": "Your details",
+            "title": "Title",
+            "forename": "Forename",
+            "surname": "Surname",
+            "phone": "Phone number",
+            "address": "Address",
+            "country": "Country",
+            "state": "County",
+            "email": "Email",
+            "confirmEmail": "Confirm email",
+            "anonConcernInfo": "While the Charities Regulator will accept anonymous concerns, it is difficult for us to investigate and respond effectively to information we receive this way",
+            "dataProtect": "The Charities Regulator takes appropriate precautions to protect the confidentiality of your personal information in accordance with Data Protection legislation. Personal information that you provide will only be used in line with the purpose for which you provided it and will not be shared with third parties unless allowed or required by law. The Charities Regulator may use your anonymised personal data for statistical purposes."
+          },
+          "charityDetails": {
+            "sectionTitle": "Charity details",
+            "title": "Charity details",
+            "entityNumber": "Charity number, if known",
+            "entityName": "Charity name (or entity representing itself as a charity)",
+            "organisationName": "Charity name",
+            "charityAddress": "Charity address",
+            "typeOfOrganisation": "Type of organisation",
+            "registeredType": "Registered type",
+            "unregisteredType": "Unregistered type",
+            "searchEntity": "Search entity"
+          },
+          "concern": {
+            "sectionTitle": "About your concern",
+            "title": "Details about your concern",
+            "showDetailsOfPreviousConcern": "Have you raised your concern with the charity?",
+            "pleaseProvideDetails": "If yes, please provide details. If no, why not?",
+            "pleaseProvideDetailsPlaceholder": "Please provide details",
+            "relationshipWithCharity": "What is your relationship with the charity (employee, trustee, beneficiary, etc)",
+            "relationshipWithCharityPlaceholder": "Relationship with the charity",
+            "issueDate": "When did the issue you are concerned about happen?",
+            "issueDatesPlaceholder": "Date(s)",
+            "mainPointOfConcern": "Please set out the main points of your concern? (Give enough detail for us to understand each point. For example, dates, and particulars of all parties involved)",
+            "concernEvidance": "Please set out what evidence you have to support your concerns (list below)",
+            "otherRegulators": "Have you approached any other regulator or enforcement body or An Garda S\u00edoch\u00e1na with this concern? If so, please provide details.",
+            "otherRegulatorsHint": "Please note concerns relating to criminal activity \u2013 for example, theft or embezzlement \u2013 that are matters for An Garda S\u00edoch\u00e1na should also be reported directly to them.",
+            "caseAttachments": "Please upload any attachment related to your case here"
+          },
+          "declaration": {
+            "sectionTitle": "Declaration",
+            "title": "Declaration",
+            "note1": "We have an evidence-based approach to our work and will test allegations as part of our assessment process before deciding on the most appropriate action to take.",
+            "note2": "A person who knowingly supplies us with false information may be guilty of an offence under Section 63 (False Statements) of the Charities Act 2009.",
+            "note3": "The information I have provided is true to the best of my knowledge.",
+            "knowledgeStatemenInd": "I confirm the above statement is true"
+          },
+          "summary": {
+            "sectionTitle": "Summary"
+          }
+        }
+      }
+    }
+  },
+  {
+    "url": "https://cpapi.ucc.michigan.gov/api/configuration/portal-timezone",
+    "data": {
+      "data": "Europe/Dublin|DMT IST GMT BST IST|p.l -y.D 0 -10 -10|01232323232324242424242424242424242424242424242424242424242424242424242424242424242424242424242424242424242424242424242424242424242424242424242424242424242424242424242424242424242424242424242424242424242424242424242424242424242|-2ax9y.D Rc0 1fzy.D 14M0 1fc0 1g00 1co0 1dc0 1co0 1oo0 1400 1dc0 19A0 1io0 1io0 WM0 1o00 14o0 1o00 17c0 1io0 17c0 1fA0 1a00 1lc0 17c0 1io0 17c0 1fA0 1a00 1io0 17c0 1io0 17c0 1fA0 1cM0 1io0 17c0 1fA0 1a00 1io0 17c0 1io0 17c0 1fA0 1a00 1io0 1qM0 Dc0 g600 14o0 1wo0 17c0 1io0 11A0 1o00 17c0 1fA0 1a00 1fA0 1cM0 1fA0 1a00 17c0 1fA0 1a00 1io0 17c0 1lc0 17c0 1fA0 1a00 1io0 17c0 1io0 17c0 1fA0 1a00 1a00 1qM0 WM0 1qM0 11A0 1o00 WM0 1qM0 WM0 1qM0 WM0 1qM0 WM0 1tA0 IM0 90o0 U00 1tA0 U00 1tA0 U00 1tA0 U00 1tA0 WM0 1qM0 WM0 1qM0 WM0 1tA0 U00 1tA0 U00 1tA0 11z0 1o00 11A0 1o00 11A0 1o00 11A0 1qM0 11A0 1o00 11A0 1o00 11A0 1o00 11A0 1o00 11A0 1qM0 WM0 1qM0 11A0 1o00 11A0 1o00 11A0 1o00 11A0 1o00 11A0 1o00 14o0 1o00 11A0 1o00 11A0 1o00 11A0 1qM0 WM0 1qM0 WM0 1qM0 11A0 1o00 11A0 1o00 11A0 1qM0 WM0 1qM0 WM0 1qM0 WM0 1qM0 11A0 1o00 11A0 1o00 11A0 1qM0 WM0 1qM0 WM0 1qM0 11A0 1o00 11A0 1o00 11A0 1o00 11A0 1qM0 WM0 1qM0 WM0 1qM0 11A0 1o00 11A0 1o00 11A0 1qM0 WM0 1qM0 WM0 1qM0 11A0 1o00 11A0 1o00 11A0 1o00 11A0 1qM0 WM0 1qM0 WM0 1qM0 11A0 1o00 11A0 1o00 11A0 1qM0 WM0 1qM0 WM0 1qM0 WM0 1qM0 11A0 1o00 11A0 1o00|12e5",
+      "message": null,
+      "statusCode": 200,
+      "success": true
+    }
+  },
+  {
+    "url": "https://cpapi.ucc.michigan.gov/api/configuration/states",
+    "data": {
+      "data": [
+        {
+          "countryId": null,
+          "stateAcr": null,
+          "stateId": 1,
+          "stateName": "Not in Canada or US",
+          "activeInd": true
+        },
+        {
+          "countryId": 38,
+          "stateAcr": "AB",
+          "stateId": 2,
+          "stateName": "Alberta",
+          "activeInd": true
+        },
+        {
+          "countryId": 38,
+          "stateAcr": "BC",
+          "stateId": 3,
+          "stateName": "British Columbia",
+          "activeInd": true
+        },
+        {
+          "countryId": 38,
+          "stateAcr": "MB",
+          "stateId": 4,
+          "stateName": "Manitoba",
+          "activeInd": true
+        },
+        {
+          "countryId": 38,
+          "stateAcr": "NB",
+          "stateId": 5,
+          "stateName": "New Brunswick",
+          "activeInd": true
+        },
+        {
+          "countryId": 38,
+          "stateAcr": "NL",
+          "stateId": 6,
+          "stateName": "Newfoundland and Labrador",
+          "activeInd": true
+        },
+        {
+          "countryId": 38,
+          "stateAcr": "NT",
+          "stateId": 7,
+          "stateName": "Northwest Territories",
+          "activeInd": true
+        },
+        {
+          "countryId": 38,
+          "stateAcr": "NS",
+          "stateId": 8,
+          "stateName": "Nova Scotia",
+          "activeInd": true
+        },
+        {
+          "countryId": 38,
+          "stateAcr": "NU",
+          "stateId": 9,
+          "stateName": "Nunavut",
+          "activeInd": true
+        },
+        {
+          "countryId": 38,
+          "stateAcr": "ON",
+          "stateId": 10,
+          "stateName": "Ontario",
+          "activeInd": true
+        },
+        {
+          "countryId": 38,
+          "stateAcr": "PE",
+          "stateId": 11,
+          "stateName": "Prince Edward Island",
+          "activeInd": true
+        },
+        {
+          "countryId": 38,
+          "stateAcr": "QC",
+          "stateId": 12,
+          "stateName": "Quebec",
+          "activeInd": true
+        },
+        {
+          "countryId": 38,
+          "stateAcr": "SK",
+          "stateId": 13,
+          "stateName": "Saskatchewan",
+          "activeInd": true
+        },
+        {
+          "countryId": 38,
+          "stateAcr": "YT",
+          "stateId": 14,
+          "stateName": "Yukon",
+          "activeInd": true
+        },
+        {
+          "countryId": 227,
+          "stateAcr": "AL",
+          "stateId": 15,
+          "stateName": "Alabama",
+          "activeInd": true
+        },
+        {
+          "countryId": 227,
+          "stateAcr": "AK",
+          "stateId": 16,
+          "stateName": "Alaska",
+          "activeInd": true
+        },
+        {
+          "countryId": 227,
+          "stateAcr": "AZ",
+          "stateId": 17,
+          "stateName": "Arizona",
+          "activeInd": true
+        },
+        {
+          "countryId": 227,
+          "stateAcr": "AR",
+          "stateId": 18,
+          "stateName": "Arkansas",
+          "activeInd": true
+        },
+        {
+          "countryId": 227,
+          "stateAcr": "CA",
+          "stateId": 19,
+          "stateName": "California",
+          "activeInd": true
+        },
+        {
+          "countryId": 227,
+          "stateAcr": "CO",
+          "stateId": 20,
+          "stateName": "Colorado",
+          "activeInd": true
+        },
+        {
+          "countryId": 227,
+          "stateAcr": "CT",
+          "stateId": 21,
+          "stateName": "Connecticut",
+          "activeInd": true
+        },
+        {
+          "countryId": 227,
+          "stateAcr": "DE",
+          "stateId": 22,
+          "stateName": "Delaware",
+          "activeInd": true
+        },
+        {
+          "countryId": 227,
+          "stateAcr": "FL",
+          "stateId": 23,
+          "stateName": "Florida",
+          "activeInd": true
+        },
+        {
+          "countryId": 227,
+          "stateAcr": "GA",
+          "stateId": 24,
+          "stateName": "Georgia",
+          "activeInd": true
+        },
+        {
+          "countryId": 227,
+          "stateAcr": "HI",
+          "stateId": 25,
+          "stateName": "Hawaii",
+          "activeInd": true
+        },
+        {
+          "countryId": 227,
+          "stateAcr": "ID",
+          "stateId": 26,
+          "stateName": "Idaho",
+          "activeInd": true
+        },
+        {
+          "countryId": 227,
+          "stateAcr": "IL",
+          "stateId": 27,
+          "stateName": "Illinois",
+          "activeInd": true
+        },
+        {
+          "countryId": 227,
+          "stateAcr": "IN",
+          "stateId": 28,
+          "stateName": "Indiana",
+          "activeInd": true
+        },
+        {
+          "countryId": 227,
+          "stateAcr": "IA",
+          "stateId": 29,
+          "stateName": "Iowa",
+          "activeInd": true
+        },
+        {
+          "countryId": 227,
+          "stateAcr": "KS",
+          "stateId": 30,
+          "stateName": "Kansas",
+          "activeInd": true
+        },
+        {
+          "countryId": 227,
+          "stateAcr": "KY",
+          "stateId": 31,
+          "stateName": "Kentucky",
+          "activeInd": true
+        },
+        {
+          "countryId": 227,
+          "stateAcr": "LA",
+          "stateId": 32,
+          "stateName": "Louisiana",
+          "activeInd": true
+        },
+        {
+          "countryId": 227,
+          "stateAcr": "ME",
+          "stateId": 33,
+          "stateName": "Maine",
+          "activeInd": true
+        },
+        {
+          "countryId": 227,
+          "stateAcr": "MD",
+          "stateId": 34,
+          "stateName": "Maryland",
+          "activeInd": true
+        },
+        {
+          "countryId": 227,
+          "stateAcr": "MA",
+          "stateId": 35,
+          "stateName": "Massachusetts",
+          "activeInd": true
+        },
+        {
+          "countryId": 227,
+          "stateAcr": "MI",
+          "stateId": 36,
+          "stateName": "Michigan",
+          "activeInd": true
+        },
+        {
+          "countryId": 227,
+          "stateAcr": "MN",
+          "stateId": 37,
+          "stateName": "Minnesota",
+          "activeInd": true
+        },
+        {
+          "countryId": 227,
+          "stateAcr": "MS",
+          "stateId": 38,
+          "stateName": "Mississippi",
+          "activeInd": true
+        },
+        {
+          "countryId": 227,
+          "stateAcr": "MO",
+          "stateId": 39,
+          "stateName": "Missouri",
+          "activeInd": true
+        },
+        {
+          "countryId": 227,
+          "stateAcr": "MT",
+          "stateId": 40,
+          "stateName": "Montana",
+          "activeInd": true
+        },
+        {
+          "countryId": 227,
+          "stateAcr": "NE",
+          "stateId": 41,
+          "stateName": "Nebraska",
+          "activeInd": true
+        },
+        {
+          "countryId": 227,
+          "stateAcr": "NV",
+          "stateId": 42,
+          "stateName": "Nevada",
+          "activeInd": true
+        },
+        {
+          "countryId": 227,
+          "stateAcr": "NH",
+          "stateId": 43,
+          "stateName": "New Hampshire",
+          "activeInd": true
+        },
+        {
+          "countryId": 227,
+          "stateAcr": "NJ",
+          "stateId": 44,
+          "stateName": "New Jersey",
+          "activeInd": true
+        },
+        {
+          "countryId": 227,
+          "stateAcr": "NM",
+          "stateId": 45,
+          "stateName": "New Mexico",
+          "activeInd": true
+        },
+        {
+          "countryId": 227,
+          "stateAcr": "NY",
+          "stateId": 46,
+          "stateName": "New York",
+          "activeInd": true
+        },
+        {
+          "countryId": 227,
+          "stateAcr": "NC",
+          "stateId": 47,
+          "stateName": "North Carolina",
+          "activeInd": true
+        },
+        {
+          "countryId": 227,
+          "stateAcr": "ND",
+          "stateId": 48,
+          "stateName": "North Dakota",
+          "activeInd": true
+        },
+        {
+          "countryId": 227,
+          "stateAcr": "OH",
+          "stateId": 49,
+          "stateName": "Ohio",
+          "activeInd": true
+        },
+        {
+          "countryId": 227,
+          "stateAcr": "OK",
+          "stateId": 50,
+          "stateName": "Oklahoma",
+          "activeInd": true
+        },
+        {
+          "countryId": 227,
+          "stateAcr": "OR",
+          "stateId": 51,
+          "stateName": "Oregon",
+          "activeInd": true
+        },
+        {
+          "countryId": 227,
+          "stateAcr": "PA",
+          "stateId": 52,
+          "stateName": "Pennsylvania",
+          "activeInd": true
+        },
+        {
+          "countryId": 227,
+          "stateAcr": "RI",
+          "stateId": 53,
+          "stateName": "Rhode Island",
+          "activeInd": true
+        },
+        {
+          "countryId": 227,
+          "stateAcr": "SC",
+          "stateId": 54,
+          "stateName": "South Carolina",
+          "activeInd": true
+        },
+        {
+          "countryId": 227,
+          "stateAcr": "SD",
+          "stateId": 55,
+          "stateName": "South Dakota",
+          "activeInd": true
+        },
+        {
+          "countryId": 227,
+          "stateAcr": "TN",
+          "stateId": 56,
+          "stateName": "Tennessee",
+          "activeInd": true
+        },
+        {
+          "countryId": 227,
+          "stateAcr": "TX",
+          "stateId": 57,
+          "stateName": "Texas",
+          "activeInd": true
+        },
+        {
+          "countryId": 227,
+          "stateAcr": "UT",
+          "stateId": 58,
+          "stateName": "Utah",
+          "activeInd": true
+        },
+        {
+          "countryId": 227,
+          "stateAcr": "VT",
+          "stateId": 59,
+          "stateName": "Vermont",
+          "activeInd": true
+        },
+        {
+          "countryId": 227,
+          "stateAcr": "VA",
+          "stateId": 60,
+          "stateName": "Virginia",
+          "activeInd": true
+        },
+        {
+          "countryId": 227,
+          "stateAcr": "WA",
+          "stateId": 61,
+          "stateName": "Washington",
+          "activeInd": true
+        },
+        {
+          "countryId": 227,
+          "stateAcr": "WV",
+          "stateId": 62,
+          "stateName": "West Virginia",
+          "activeInd": true
+        },
+        {
+          "countryId": 227,
+          "stateAcr": "WI",
+          "stateId": 63,
+          "stateName": "Wisconsin",
+          "activeInd": true
+        },
+        {
+          "countryId": 227,
+          "stateAcr": "WY",
+          "stateId": 64,
+          "stateName": "Wyoming",
+          "activeInd": true
+        },
+        {
+          "countryId": 227,
+          "stateAcr": "DC",
+          "stateId": 65,
+          "stateName": "District of Columbia",
+          "activeInd": true
+        },
+        {
+          "countryId": 227,
+          "stateAcr": "AA",
+          "stateId": 83,
+          "stateName": "Armed Forces Americas\n",
+          "activeInd": true
+        },
+        {
+          "countryId": 227,
+          "stateAcr": "AE",
+          "stateId": 84,
+          "stateName": "Armed Forces Europe\n",
+          "activeInd": true
+        },
+        {
+          "countryId": 227,
+          "stateAcr": "AP",
+          "stateId": 85,
+          "stateName": "Armed Forces Pacific\n",
+          "activeInd": true
+        },
+        {
+          "countryId": 227,
+          "stateAcr": "AS",
+          "stateId": 86,
+          "stateName": "American Samoa\n",
+          "activeInd": true
+        },
+        {
+          "countryId": 227,
+          "stateAcr": "GU",
+          "stateId": 87,
+          "stateName": "Guam\n",
+          "activeInd": true
+        },
+        {
+          "countryId": 227,
+          "stateAcr": "MP",
+          "stateId": 88,
+          "stateName": "Northern Mariana Islands\n",
+          "activeInd": true
+        },
+        {
+          "countryId": 227,
+          "stateAcr": "PR",
+          "stateId": 89,
+          "stateName": "Puerto Rico\n",
+          "activeInd": true
+        },
+        {
+          "countryId": 227,
+          "stateAcr": "VI",
+          "stateId": 90,
+          "stateName": "Virgin Islands\n",
+          "activeInd": true
+        },
+        {
+          "countryId": 227,
+          "stateAcr": "FM",
+          "stateId": 91,
+          "stateName": "Federated States of Micronesia",
+          "activeInd": true
+        },
+        {
+          "countryId": 227,
+          "stateAcr": "MH",
+          "stateId": 92,
+          "stateName": "Marshall Islands",
+          "activeInd": true
+        },
+        {
+          "countryId": 227,
+          "stateAcr": "PW",
+          "stateId": 93,
+          "stateName": "Palau",
+          "activeInd": true
+        }
+      ],
+      "message": null,
+      "statusCode": 200,
+      "success": true
+    }
+  }
+]

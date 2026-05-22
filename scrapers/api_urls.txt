@@ -1,0 +1,4 @@
+https://cpapi.ucc.michigan.gov/api/configuration/states
+https://cpapi.ucc.michigan.gov/api/configuration/languages
+https://ucc.michigan.gov/ucc-search
+https://cpapi.ucc.michigan.gov/api/configuration/portal-timezone
