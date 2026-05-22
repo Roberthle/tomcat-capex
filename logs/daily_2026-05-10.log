@@ -1,0 +1,6 @@
+2026-05-10 06:00:00,075 [DailyPipeline] INFO - ============================================================
+2026-05-10 06:00:00,075 [DailyPipeline] INFO -   TOMCAT CAPEX DAILY PIPELINE
+2026-05-10 06:00:00,075 [DailyPipeline] INFO -   2026-05-10 06:00:00
+2026-05-10 06:00:00,075 [DailyPipeline] INFO - ============================================================
+2026-05-10 06:00:00,329 [DailyPipeline] INFO - DB before: {'total': 33162, 'hot': 337, 'warm': 4499, 's4_prime': 28, 'expansion_hits': 64}
+2026-05-10 06:00:00,335 [DailyPipeline] INFO - Running Colorado scraper...

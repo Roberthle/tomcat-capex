@@ -1,0 +1,192 @@
+2026-05-08 11:12:45,117 [GA-UCC-v2] INFO - Logging to /Users/robertle/tomcat_capex/logs/ga_ucc_v2_20260508_111245.log
+2026-05-08 11:12:45,117 [GA-UCC-v2] INFO - Logging in to GSCCCA (tomcatmca)...
+2026-05-08 11:12:52,284 [GA-UCC-v2] INFO - ✅ Authenticated
+2026-05-08 11:12:52,284 [GA-UCC-v2] INFO - 
+────────────────────────────────────────────────────────────
+2026-05-08 11:12:52,284 [GA-UCC-v2] INFO - 🔍 DELL FINANCIAL SERVICES (IT_OEM)
+2026-05-08 11:12:52,284 [GA-UCC-v2] INFO -   → 11/07/2025 – 05/08/2026
+2026-05-08 11:12:54,148 [GA-UCC-v2] INFO -   1 variation(s) — ~14 total filings
+2026-05-08 11:12:54,148 [GA-UCC-v2] INFO -     Variation 0: 'DELL FINANCIAL SERVICES L.L.C.' (14 filings)
+2026-05-08 11:12:57,053 [GA-UCC-v2] INFO -     Page 1/1: 14 records
+2026-05-08 11:12:57,061 [GA-UCC-v2] INFO -   → 14 found, 0 new
+2026-05-08 11:12:57,061 [GA-UCC-v2] INFO -   → 05/09/2025 – 11/07/2025
+2026-05-08 11:12:59,004 [GA-UCC-v2] INFO -   2 variation(s) — ~18 total filings
+2026-05-08 11:12:59,004 [GA-UCC-v2] INFO -     Variation 0: 'DELL FINANCIAL SERVICES L.L.C.' (17 filings)
+2026-05-08 11:13:02,596 [GA-UCC-v2] INFO -     Page 1/1: 17 records
+2026-05-08 11:13:02,596 [GA-UCC-v2] INFO -     Variation 1: 'DELL FINANCIAL SERVICES, L.P.' (1 filing)
+2026-05-08 11:13:05,607 [GA-UCC-v2] INFO -     Page 1/1: 1 records
+2026-05-08 11:13:05,607 [GA-UCC-v2] INFO -   → 18 found, 0 new
+2026-05-08 11:13:05,607 [GA-UCC-v2] INFO -   → 11/08/2024 – 05/09/2025
+2026-05-08 11:13:07,609 [GA-UCC-v2] INFO -   2 variation(s) — ~42 total filings
+2026-05-08 11:13:07,609 [GA-UCC-v2] INFO -     Variation 0: 'DELL FINANCIAL SERVICES L.L.C.' (40 filings)
+2026-05-08 11:13:12,190 [GA-UCC-v2] INFO -     Page 1/1: 40 records
+2026-05-08 11:13:12,191 [GA-UCC-v2] INFO -     Variation 1: 'DELL FINANCIAL SERVICES, L.P.' (2 filings)
+2026-05-08 11:13:14,310 [GA-UCC-v2] INFO -     Page 1/1: 2 records
+2026-05-08 11:13:14,310 [GA-UCC-v2] INFO -   → 42 found, 0 new
+2026-05-08 11:13:14,310 [GA-UCC-v2] INFO -   → 05/10/2024 – 11/08/2024
+2026-05-08 11:13:16,451 [GA-UCC-v2] INFO -   3 variation(s) — ~42 total filings
+2026-05-08 11:13:16,451 [GA-UCC-v2] INFO -     Variation 0: 'DELL FINANCIAL SERVICES L.L.C.' (40 filings)
+2026-05-08 11:13:20,554 [GA-UCC-v2] INFO -     Page 1/1: 43 records
+2026-05-08 11:13:20,555 [GA-UCC-v2] INFO -     Variation 1: 'DELL FINANCIAL SERVICES L.P.' (1 filing)
+2026-05-08 11:13:22,992 [GA-UCC-v2] INFO -     Page 1/1: 2 records
+2026-05-08 11:13:22,992 [GA-UCC-v2] INFO -     Variation 2: 'DELL FINANCIAL SERVICES, L.P.' (1 filing)
+2026-05-08 11:13:25,133 [GA-UCC-v2] INFO -     Page 1/1: 2 records
+2026-05-08 11:13:25,134 [GA-UCC-v2] INFO -   → 47 found, 0 new
+2026-05-08 11:13:25,134 [GA-UCC-v2] INFO -   Lender total: 121 found, 0 new
+2026-05-08 11:13:26,638 [GA-UCC-v2] INFO - 
+────────────────────────────────────────────────────────────
+2026-05-08 11:13:26,638 [GA-UCC-v2] INFO - 🔍 HEWLETT PACKARD (IT_OEM)
+2026-05-08 11:13:26,638 [GA-UCC-v2] INFO -   → 11/07/2025 – 05/08/2026
+2026-05-08 11:13:28,655 [GA-UCC-v2] INFO -   1 variation(s) — ~10 total filings
+2026-05-08 11:13:28,655 [GA-UCC-v2] INFO -     Variation 0: 'HEWLETT-PACKARD FINANCIAL SERVICES COMPANY' (10 filings)
+2026-05-08 11:13:31,808 [GA-UCC-v2] INFO -     Page 1/1: 11 records
+2026-05-08 11:13:31,809 [GA-UCC-v2] INFO -   → 11 found, 0 new
+2026-05-08 11:13:31,809 [GA-UCC-v2] INFO -   → 05/09/2025 – 11/07/2025
+2026-05-08 11:13:33,761 [GA-UCC-v2] INFO -   1 variation(s) — ~12 total filings
+2026-05-08 11:13:33,762 [GA-UCC-v2] INFO -     Variation 0: 'HEWLETT-PACKARD FINANCIAL SERVICES COMPANY' (12 filings)
+2026-05-08 11:13:36,799 [GA-UCC-v2] INFO -     Page 1/1: 12 records
+2026-05-08 11:13:36,800 [GA-UCC-v2] INFO -   → 12 found, 0 new
+2026-05-08 11:13:36,800 [GA-UCC-v2] INFO -   → 11/08/2024 – 05/09/2025
+2026-05-08 11:13:38,949 [GA-UCC-v2] INFO -   1 variation(s) — ~19 total filings
+2026-05-08 11:13:38,950 [GA-UCC-v2] INFO -     Variation 0: 'HEWLETT-PACKARD FINANCIAL SERVICES COMPANY' (19 filings)
+2026-05-08 11:13:42,639 [GA-UCC-v2] INFO -     Page 1/1: 19 records
+2026-05-08 11:13:42,640 [GA-UCC-v2] INFO -   → 19 found, 0 new
+2026-05-08 11:13:42,640 [GA-UCC-v2] INFO -   → 05/10/2024 – 11/08/2024
+2026-05-08 11:13:44,779 [GA-UCC-v2] INFO -   1 variation(s) — ~8 total filings
+2026-05-08 11:13:44,780 [GA-UCC-v2] INFO -     Variation 0: 'HEWLETT-PACKARD FINANCIAL SERVICES COMPANY' (8 filings)
+2026-05-08 11:13:47,488 [GA-UCC-v2] INFO -     Page 1/1: 8 records
+2026-05-08 11:13:47,494 [GA-UCC-v2] INFO -   → 8 found, 0 new
+2026-05-08 11:13:47,494 [GA-UCC-v2] INFO -   Lender total: 50 found, 0 new
+2026-05-08 11:13:48,998 [GA-UCC-v2] INFO - 
+────────────────────────────────────────────────────────────
+2026-05-08 11:13:48,998 [GA-UCC-v2] INFO - 🔍 HP FINANCIAL (IT_OEM)
+2026-05-08 11:13:48,998 [GA-UCC-v2] INFO -   → 11/07/2025 – 05/08/2026
+2026-05-08 11:13:50,989 [GA-UCC-v2] INFO -   No results
+2026-05-08 11:13:50,989 [GA-UCC-v2] INFO -   → 05/09/2025 – 11/07/2025
+2026-05-08 11:13:52,897 [GA-UCC-v2] INFO -   No results
+2026-05-08 11:13:52,897 [GA-UCC-v2] INFO -   → 11/08/2024 – 05/09/2025
+2026-05-08 11:13:54,701 [GA-UCC-v2] INFO -   No results
+2026-05-08 11:13:54,701 [GA-UCC-v2] INFO -   → 05/10/2024 – 11/08/2024
+2026-05-08 11:13:56,799 [GA-UCC-v2] INFO -   No results
+2026-05-08 11:13:56,799 [GA-UCC-v2] INFO -   Lender total: 0 found, 0 new
+2026-05-08 11:13:58,301 [GA-UCC-v2] INFO - 
+────────────────────────────────────────────────────────────
+2026-05-08 11:13:58,301 [GA-UCC-v2] INFO - 🔍 IBM CREDIT (IT_OEM)
+2026-05-08 11:13:58,301 [GA-UCC-v2] INFO -   → 11/07/2025 – 05/08/2026
+2026-05-08 11:14:00,236 [GA-UCC-v2] INFO -   1 variation(s) — ~9 total filings
+2026-05-08 11:14:00,236 [GA-UCC-v2] INFO -     Variation 0: 'IBM CREDIT LLC' (9 filings)
+2026-05-08 11:14:02,749 [GA-UCC-v2] INFO -     Page 1/1: 9 records
+2026-05-08 11:14:02,749 [GA-UCC-v2] INFO -   → 9 found, 0 new
+2026-05-08 11:14:02,750 [GA-UCC-v2] INFO -   → 05/09/2025 – 11/07/2025
+2026-05-08 11:14:04,862 [GA-UCC-v2] INFO -   1 variation(s) — ~6 total filings
+2026-05-08 11:14:04,862 [GA-UCC-v2] INFO -     Variation 0: 'IBM CREDIT LLC' (6 filings)
+2026-05-08 11:14:07,446 [GA-UCC-v2] INFO -     Page 1/1: 6 records
+2026-05-08 11:14:07,452 [GA-UCC-v2] INFO -   → 6 found, 0 new
+2026-05-08 11:14:07,452 [GA-UCC-v2] INFO -   → 11/08/2024 – 05/09/2025
+2026-05-08 11:14:09,423 [GA-UCC-v2] INFO -   1 variation(s) — ~14 total filings
+2026-05-08 11:14:09,423 [GA-UCC-v2] INFO -     Variation 0: 'IBM CREDIT LLC' (14 filings)
+2026-05-08 11:14:12,797 [GA-UCC-v2] INFO -     Page 1/1: 14 records
+2026-05-08 11:14:12,797 [GA-UCC-v2] INFO -   → 14 found, 0 new
+2026-05-08 11:14:12,797 [GA-UCC-v2] INFO -   → 05/10/2024 – 11/08/2024
+2026-05-08 11:14:14,722 [GA-UCC-v2] INFO -   1 variation(s) — ~4 total filings
+2026-05-08 11:14:14,723 [GA-UCC-v2] INFO -     Variation 0: 'IBM CREDIT LLC' (4 filings)
+2026-05-08 11:14:17,028 [GA-UCC-v2] INFO -     Page 1/1: 4 records
+2026-05-08 11:14:17,031 [GA-UCC-v2] INFO -   → 4 found, 2 new
+2026-05-08 11:14:17,031 [GA-UCC-v2] INFO -   Lender total: 33 found, 2 new
+2026-05-08 11:14:18,536 [GA-UCC-v2] INFO - 
+────────────────────────────────────────────────────────────
+2026-05-08 11:14:18,537 [GA-UCC-v2] INFO - 🔍 CISCO SYSTEMS CAPITAL (IT_OEM)
+2026-05-08 11:14:18,537 [GA-UCC-v2] INFO -   → 11/07/2025 – 05/08/2026
+2026-05-08 11:14:20,457 [GA-UCC-v2] INFO -   2 variation(s) — ~17 total filings
+2026-05-08 11:14:20,457 [GA-UCC-v2] INFO -     Variation 0: 'CISCO SYSTEMS CAPITAL CORP' (5 filings)
+2026-05-08 11:14:22,821 [GA-UCC-v2] INFO -     Page 1/1: 5 records
+2026-05-08 11:14:22,821 [GA-UCC-v2] INFO -     Variation 1: 'CISCO SYSTEMS CAPITAL CORPORATION' (12 filings)
+2026-05-08 11:14:25,562 [GA-UCC-v2] INFO -     Page 1/1: 12 records
+2026-05-08 11:14:25,563 [GA-UCC-v2] INFO -   → 17 found, 0 new
+2026-05-08 11:14:25,563 [GA-UCC-v2] INFO -   → 05/09/2025 – 11/07/2025
+2026-05-08 11:14:27,659 [GA-UCC-v2] INFO -   2 variation(s) — ~12 total filings
+2026-05-08 11:14:27,659 [GA-UCC-v2] INFO -     Variation 0: 'CISCO SYSTEMS CAPITAL CORPORATION' (11 filings)
+2026-05-08 11:14:30,129 [GA-UCC-v2] INFO -     Page 1/1: 11 records
+2026-05-08 11:14:30,129 [GA-UCC-v2] INFO -     Variation 1: 'CISCO SYSTEMS CAPITAL CRP' (1 filing)
+2026-05-08 11:14:32,369 [GA-UCC-v2] INFO -     Page 1/1: 1 records
+2026-05-08 11:14:32,369 [GA-UCC-v2] INFO -   → 12 found, 0 new
+2026-05-08 11:14:32,369 [GA-UCC-v2] INFO -   → 11/08/2024 – 05/09/2025
+2026-05-08 11:14:34,237 [GA-UCC-v2] INFO -   2 variation(s) — ~19 total filings
+2026-05-08 11:14:34,238 [GA-UCC-v2] INFO -     Variation 0: 'CISCO SYSTEMS CAPITAL CORP' (1 filing)
+2026-05-08 11:14:36,282 [GA-UCC-v2] INFO -     Page 1/1: 1 records
+2026-05-08 11:14:36,282 [GA-UCC-v2] INFO -     Variation 1: 'CISCO SYSTEMS CAPITAL CORPORATION' (18 filings)
+2026-05-08 11:14:39,110 [GA-UCC-v2] INFO -     Page 1/1: 18 records
+2026-05-08 11:14:39,111 [GA-UCC-v2] INFO -   → 19 found, 0 new
+2026-05-08 11:14:39,111 [GA-UCC-v2] INFO -   → 05/10/2024 – 11/08/2024
+2026-05-08 11:14:40,967 [GA-UCC-v2] INFO -   1 variation(s) — ~10 total filings
+2026-05-08 11:14:40,967 [GA-UCC-v2] INFO -     Variation 0: 'CISCO SYSTEMS CAPITAL CORPORATION' (10 filings)
+2026-05-08 11:14:43,433 [GA-UCC-v2] INFO -     Page 1/1: 10 records
+2026-05-08 11:14:43,434 [GA-UCC-v2] INFO -   → 10 found, 0 new
+2026-05-08 11:14:43,434 [GA-UCC-v2] INFO -   Lender total: 58 found, 0 new
+2026-05-08 11:14:44,935 [GA-UCC-v2] INFO - 
+────────────────────────────────────────────────────────────
+2026-05-08 11:14:44,935 [GA-UCC-v2] INFO - 🔍 KONICA MINOLTA (PRINT_IMAGING)
+2026-05-08 11:14:44,935 [GA-UCC-v2] INFO -   → 11/07/2025 – 05/08/2026
+2026-05-08 11:14:46,800 [GA-UCC-v2] INFO -   2 variation(s) — ~8 total filings
+2026-05-08 11:14:46,800 [GA-UCC-v2] INFO -     Variation 0: 'KONICA MINOLTA BUSINESS SOLUTIONS INC.' (1 filing)
+2026-05-08 11:14:48,948 [GA-UCC-v2] INFO -     Page 1/1: 1 records
+2026-05-08 11:14:48,948 [GA-UCC-v2] INFO -     Variation 1: 'KONICA MINOLTA PREMIER FINANCE' (7 filings)
+2026-05-08 11:14:51,276 [GA-UCC-v2] INFO -     Page 1/1: 7 records
+2026-05-08 11:14:51,277 [GA-UCC-v2] INFO -   → 8 found, 0 new
+2026-05-08 11:14:51,277 [GA-UCC-v2] INFO -   → 05/09/2025 – 11/07/2025
+2026-05-08 11:14:53,154 [GA-UCC-v2] INFO -   2 variation(s) — ~6 total filings
+2026-05-08 11:14:53,154 [GA-UCC-v2] INFO -     Variation 0: 'KONICA MINOLTA BUSINESS SOLUTIONS' (1 filing)
+2026-05-08 11:14:55,141 [GA-UCC-v2] INFO -     Page 1/1: 1 records
+2026-05-08 11:14:55,141 [GA-UCC-v2] INFO -     Variation 1: 'KONICA MINOLTA PREMIER FINANCE' (5 filings)
+2026-05-08 11:14:57,334 [GA-UCC-v2] INFO -     Page 1/1: 5 records
+2026-05-08 11:14:57,335 [GA-UCC-v2] INFO -   → 6 found, 0 new
+2026-05-08 11:14:57,335 [GA-UCC-v2] INFO -   → 11/08/2024 – 05/09/2025
+2026-05-08 11:14:59,181 [GA-UCC-v2] INFO -   1 variation(s) — ~10 total filings
+2026-05-08 11:14:59,182 [GA-UCC-v2] INFO -     Variation 0: 'KONICA MINOLTA PREMIER FINANCE' (10 filings)
+2026-05-08 11:15:01,561 [GA-UCC-v2] INFO -     Page 1/1: 10 records
+2026-05-08 11:15:01,567 [GA-UCC-v2] INFO -   → 10 found, 0 new
+2026-05-08 11:15:01,567 [GA-UCC-v2] INFO -   → 05/10/2024 – 11/08/2024
+2026-05-08 11:15:03,437 [GA-UCC-v2] INFO -   2 variation(s) — ~7 total filings
+2026-05-08 11:15:03,437 [GA-UCC-v2] INFO -     Variation 0: 'KONICA MINOLTA BUSINESS SOLUTIONS' (1 filing)
+2026-05-08 11:15:05,436 [GA-UCC-v2] INFO -     Page 1/1: 1 records
+2026-05-08 11:15:05,436 [GA-UCC-v2] INFO -     Variation 1: 'KONICA MINOLTA PREMIER FINANCE' (6 filings)
+2026-05-08 11:15:07,797 [GA-UCC-v2] INFO -     Page 1/1: 6 records
+2026-05-08 11:15:07,797 [GA-UCC-v2] INFO -   → 7 found, 0 new
+2026-05-08 11:15:07,797 [GA-UCC-v2] INFO -   Lender total: 31 found, 0 new
+2026-05-08 11:15:09,301 [GA-UCC-v2] INFO - 
+────────────────────────────────────────────────────────────
+2026-05-08 11:15:09,302 [GA-UCC-v2] INFO - 🔍 XEROX FINANCIAL (PRINT_IMAGING)
+2026-05-08 11:15:09,302 [GA-UCC-v2] INFO -   → 11/07/2025 – 05/08/2026
+2026-05-08 11:15:11,428 [GA-UCC-v2] INFO -   1 variation(s) — ~2 total filings
+2026-05-08 11:15:11,428 [GA-UCC-v2] INFO -     Variation 0: 'XEROX FINANCIAL SERVICES' (2 filings)
+2026-05-08 11:15:13,631 [GA-UCC-v2] INFO -     Page 1/1: 2 records
+2026-05-08 11:15:13,631 [GA-UCC-v2] INFO -   → 2 found, 0 new
+2026-05-08 11:15:13,631 [GA-UCC-v2] INFO -   → 05/09/2025 – 11/07/2025
+2026-05-08 11:15:15,475 [GA-UCC-v2] INFO -   No results
+2026-05-08 11:15:15,475 [GA-UCC-v2] INFO -   → 11/08/2024 – 05/09/2025
+2026-05-08 11:15:17,336 [GA-UCC-v2] INFO -   1 variation(s) — ~11 total filings
+2026-05-08 11:15:17,336 [GA-UCC-v2] INFO -     Variation 0: 'XEROX FINANCIAL SERVICES' (11 filings)
+2026-05-08 11:15:19,768 [GA-UCC-v2] INFO -     Page 1/1: 11 records
+2026-05-08 11:15:19,768 [GA-UCC-v2] INFO -   → 11 found, 0 new
+2026-05-08 11:15:19,768 [GA-UCC-v2] INFO -   → 05/10/2024 – 11/08/2024
+2026-05-08 11:15:21,654 [GA-UCC-v2] INFO -   1 variation(s) — ~14 total filings
+2026-05-08 11:15:21,654 [GA-UCC-v2] INFO -     Variation 0: 'XEROX FINANCIAL SERVICES' (14 filings)
+2026-05-08 11:15:24,252 [GA-UCC-v2] INFO -     Page 1/1: 14 records
+2026-05-08 11:15:24,253 [GA-UCC-v2] INFO -   → 14 found, 0 new
+2026-05-08 11:15:24,253 [GA-UCC-v2] INFO -   Lender total: 27 found, 0 new
+2026-05-08 11:15:25,757 [GA-UCC-v2] INFO - 
+────────────────────────────────────────────────────────────
+2026-05-08 11:15:25,758 [GA-UCC-v2] INFO - 🔍 CANON FINANCIAL SERVICES (PRINT_IMAGING)
+2026-05-08 11:15:25,758 [GA-UCC-v2] INFO -   → 11/07/2025 – 05/08/2026
+2026-05-08 11:15:27,361 [GA-UCC-v2] INFO -   No results
+2026-05-08 11:15:27,361 [GA-UCC-v2] INFO -   → 05/09/2025 – 11/07/2025
+2026-05-08 11:15:28,959 [GA-UCC-v2] INFO -   No results
+2026-05-08 11:15:28,959 [GA-UCC-v2] INFO -   → 11/08/2024 – 05/09/2025
+2026-05-08 11:15:30,555 [GA-UCC-v2] INFO -   No results
+2026-05-08 11:15:30,556 [GA-UCC-v2] INFO -   → 05/10/2024 – 11/08/2024
+2026-05-08 11:15:32,153 [GA-UCC-v2] INFO -   No results
+2026-05-08 11:15:32,155 [GA-UCC-v2] INFO -   Lender total: 0 found, 0 new
+2026-05-08 11:15:33,659 [GA-UCC-v2] INFO - 
+============================================================
+2026-05-08 11:15:33,659 [GA-UCC-v2] INFO - COMPLETE: 320 found, 2 new
+2026-05-08 11:15:33,659 [GA-UCC-v2] INFO - ============================================================

@@ -1,0 +1,24 @@
+[
+  {
+    "name": "cf_chl_rc_ni",
+    "value": "4",
+    "domain": "www.sosnc.gov",
+    "path": "/",
+    "expires": 1778284606,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "None",
+    "partitionKey": "https://sosnc.gov",
+    "_crHasCrossSiteAncestor": false
+  },
+  {
+    "name": "__cf_bm",
+    "value": "YQv5ShpTG6PRzVByj4PsHOp09hmRyf0Pk7GMCcH_MG8-1778281021.987553-1.0.1.1-mSOpgNkTNHuzqS3WrkiGkSobkq9KKrHEpABMHFxLdhJ3ot0lz6KSRUQUzVKvl_bQ8KfspiHhCujC9txi1TrQeyFDVIBnXtV79fHtzwfAb4WJteO8aAPTkO29gLzuTpht",
+    "domain": ".sosnc.gov",
+    "path": "/",
+    "expires": 1778282822.014684,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": "Lax"
+  }
+]

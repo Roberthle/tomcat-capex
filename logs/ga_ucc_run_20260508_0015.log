@@ -1,0 +1,408 @@
+2026-05-08 00:15:56,331 [GA-UCC] INFO - ✅ Loaded 13 GSCCCA session cookies
+2026-05-08 00:16:00,671 [GA-UCC] INFO - ✅ Session verified — search form accessible
+2026-05-08 00:16:00,671 [GA-UCC] INFO - Date windows: 4 × 6mo = 2yr lookback
+2026-05-08 00:16:00,671 [GA-UCC] INFO - 
+────────────────────────────────────────────────────────────
+2026-05-08 00:16:00,671 [GA-UCC] INFO - 🔍 DELL FINANCIAL SERVICES (IT_OEM)
+2026-05-08 00:16:00,671 [GA-UCC] INFO -     → 11/09/2025–05/08/2026
+2026-05-08 00:16:03,102 [GA-UCC] INFO -     Form ✓
+2026-05-08 00:16:07,577 [GA-UCC] INFO -     Post-submit URL: https://search.gsccca.org/UCC_Search/search.asp?searchtype=SecuredParty
+2026-05-08 00:16:07,578 [GA-UCC] INFO -     No results (URL stayed at search.asp)
+2026-05-08 00:16:09,082 [GA-UCC] INFO -     → 05/13/2025–11/09/2025
+2026-05-08 00:16:11,405 [GA-UCC] INFO -     Form ✓
+2026-05-08 00:16:16,184 [GA-UCC] INFO -     Post-submit URL: https://search.gsccca.org/UCC_Search/securedresults.asp
+2026-05-08 00:16:16,195 [GA-UCC] INFO -     16 table rows on results page
+2026-05-08 00:16:24,342 [GA-UCC] INFO -     Parsed 3 leads from 16 rows
+2026-05-08 00:16:25,862 [GA-UCC] INFO -     → 11/14/2024–05/13/2025
+2026-05-08 00:16:28,253 [GA-UCC] INFO -     Form ✓
+2026-05-08 00:16:33,005 [GA-UCC] INFO -     Post-submit URL: https://search.gsccca.org/UCC_Search/securedresults.asp
+2026-05-08 00:16:33,018 [GA-UCC] INFO -     16 table rows on results page
+2026-05-08 00:16:41,146 [GA-UCC] INFO -     Parsed 3 leads from 16 rows
+2026-05-08 00:16:42,666 [GA-UCC] INFO -     → 05/18/2024–11/14/2024
+2026-05-08 00:16:44,911 [GA-UCC] INFO -     Form ✓
+2026-05-08 00:16:49,690 [GA-UCC] INFO -     Post-submit URL: https://search.gsccca.org/UCC_Search/securedresults.asp
+2026-05-08 00:16:49,702 [GA-UCC] INFO -     17 table rows on results page
+2026-05-08 00:16:57,836 [GA-UCC] INFO -     Parsed 3 leads from 17 rows
+2026-05-08 00:16:59,356 [GA-UCC] INFO -   → 9 found, 9 new
+2026-05-08 00:17:01,365 [GA-UCC] INFO - 
+────────────────────────────────────────────────────────────
+2026-05-08 00:17:01,365 [GA-UCC] INFO - 🔍 HEWLETT PACKARD (IT_OEM)
+2026-05-08 00:17:01,365 [GA-UCC] INFO -     → 11/09/2025–05/08/2026
+2026-05-08 00:17:03,611 [GA-UCC] INFO -     Form ✓
+2026-05-08 00:17:08,021 [GA-UCC] INFO -     Post-submit URL: https://search.gsccca.org/UCC_Search/search.asp?searchtype=SecuredParty
+2026-05-08 00:17:08,021 [GA-UCC] INFO -     No results (URL stayed at search.asp)
+2026-05-08 00:17:09,531 [GA-UCC] INFO -     → 05/13/2025–11/09/2025
+2026-05-08 00:17:11,791 [GA-UCC] INFO -     Form ✓
+2026-05-08 00:17:16,539 [GA-UCC] INFO -     Post-submit URL: https://search.gsccca.org/UCC_Search/securedresults.asp
+2026-05-08 00:17:16,553 [GA-UCC] INFO -     15 table rows on results page
+2026-05-08 00:17:24,668 [GA-UCC] INFO -     Parsed 3 leads from 15 rows
+2026-05-08 00:17:26,183 [GA-UCC] INFO -     → 11/14/2024–05/13/2025
+2026-05-08 00:17:28,432 [GA-UCC] INFO -     Form ✓
+2026-05-08 00:17:33,174 [GA-UCC] INFO -     Post-submit URL: https://search.gsccca.org/UCC_Search/securedresults.asp
+2026-05-08 00:17:33,202 [GA-UCC] INFO -     15 table rows on results page
+2026-05-08 00:17:41,369 [GA-UCC] INFO -     Parsed 3 leads from 15 rows
+2026-05-08 00:17:42,883 [GA-UCC] INFO -     → 05/18/2024–11/14/2024
+2026-05-08 00:17:45,143 [GA-UCC] INFO -     Form ✓
+2026-05-08 00:17:49,876 [GA-UCC] INFO -     Post-submit URL: https://search.gsccca.org/UCC_Search/securedresults.asp
+2026-05-08 00:17:49,892 [GA-UCC] INFO -     15 table rows on results page
+2026-05-08 00:17:58,031 [GA-UCC] INFO -     Parsed 3 leads from 15 rows
+2026-05-08 00:17:59,542 [GA-UCC] INFO -   → 9 found, 9 new
+2026-05-08 00:18:01,546 [GA-UCC] INFO - 
+────────────────────────────────────────────────────────────
+2026-05-08 00:18:01,546 [GA-UCC] INFO - 🔍 HP FINANCIAL SERVICES (IT_OEM)
+2026-05-08 00:18:01,546 [GA-UCC] INFO -     → 11/09/2025–05/08/2026
+2026-05-08 00:18:03,823 [GA-UCC] INFO -     Form ✓
+2026-05-08 00:18:08,249 [GA-UCC] INFO -     Post-submit URL: https://search.gsccca.org/UCC_Search/search.asp?searchtype=SecuredParty
+2026-05-08 00:18:08,249 [GA-UCC] INFO -     No results (URL stayed at search.asp)
+2026-05-08 00:18:09,753 [GA-UCC] INFO -     → 05/13/2025–11/09/2025
+2026-05-08 00:18:12,006 [GA-UCC] INFO -     Form ✓
+2026-05-08 00:18:16,676 [GA-UCC] INFO -     Post-submit URL: https://search.gsccca.org/UCC_Search/securedresults.asp
+2026-05-08 00:18:16,695 [GA-UCC] INFO -     6 table rows on results page
+2026-05-08 00:18:16,714 [GA-UCC] INFO -     Parsed 0 leads from 6 rows
+2026-05-08 00:18:18,218 [GA-UCC] INFO -     → 11/14/2024–05/13/2025
+2026-05-08 00:18:20,483 [GA-UCC] INFO -     Form ✓
+2026-05-08 00:18:25,283 [GA-UCC] INFO -     Post-submit URL: https://search.gsccca.org/UCC_Search/securedresults.asp
+2026-05-08 00:18:25,303 [GA-UCC] INFO -     6 table rows on results page
+2026-05-08 00:18:25,317 [GA-UCC] INFO -     Parsed 0 leads from 6 rows
+2026-05-08 00:18:26,819 [GA-UCC] INFO -     → 05/18/2024–11/14/2024
+2026-05-08 00:18:29,203 [GA-UCC] INFO -     Form ✓
+2026-05-08 00:18:33,987 [GA-UCC] INFO -     Post-submit URL: https://search.gsccca.org/UCC_Search/securedresults.asp
+2026-05-08 00:18:34,006 [GA-UCC] INFO -     6 table rows on results page
+2026-05-08 00:18:34,026 [GA-UCC] INFO -     Parsed 0 leads from 6 rows
+2026-05-08 00:18:35,530 [GA-UCC] INFO -   → 0 found, 0 new
+2026-05-08 00:18:37,534 [GA-UCC] INFO - 
+────────────────────────────────────────────────────────────
+2026-05-08 00:18:37,534 [GA-UCC] INFO - 🔍 IBM CREDIT (IT_OEM)
+2026-05-08 00:18:37,534 [GA-UCC] INFO -     → 11/09/2025–05/08/2026
+2026-05-08 00:18:39,902 [GA-UCC] INFO -     Form ✓
+2026-05-08 00:18:44,318 [GA-UCC] INFO -     Post-submit URL: https://search.gsccca.org/UCC_Search/search.asp?searchtype=SecuredParty
+2026-05-08 00:18:44,318 [GA-UCC] INFO -     No results (URL stayed at search.asp)
+2026-05-08 00:18:45,822 [GA-UCC] INFO -     → 05/13/2025–11/09/2025
+2026-05-08 00:18:48,191 [GA-UCC] INFO -     Form ✓
+2026-05-08 00:18:53,047 [GA-UCC] INFO -     Post-submit URL: https://search.gsccca.org/UCC_Search/securedresults.asp
+2026-05-08 00:18:53,065 [GA-UCC] INFO -     15 table rows on results page
+2026-05-08 00:19:01,197 [GA-UCC] INFO -     Parsed 3 leads from 15 rows
+2026-05-08 00:19:02,705 [GA-UCC] INFO -     → 11/14/2024–05/13/2025
+2026-05-08 00:19:05,070 [GA-UCC] INFO -     Form ✓
+2026-05-08 00:19:10,072 [GA-UCC] INFO -     Post-submit URL: https://search.gsccca.org/UCC_Search/securedresults.asp
+2026-05-08 00:19:10,091 [GA-UCC] INFO -     15 table rows on results page
+2026-05-08 00:19:18,252 [GA-UCC] INFO -     Parsed 3 leads from 15 rows
+2026-05-08 00:19:19,766 [GA-UCC] INFO -     → 05/18/2024–11/14/2024
+2026-05-08 00:19:22,128 [GA-UCC] INFO -     Form ✓
+2026-05-08 00:19:26,984 [GA-UCC] INFO -     Post-submit URL: https://search.gsccca.org/UCC_Search/securedresults.asp
+2026-05-08 00:19:27,000 [GA-UCC] INFO -     15 table rows on results page
+2026-05-08 00:19:35,167 [GA-UCC] INFO -     Parsed 3 leads from 15 rows
+2026-05-08 00:19:36,681 [GA-UCC] INFO -   → 9 found, 9 new
+2026-05-08 00:19:38,684 [GA-UCC] INFO - 
+────────────────────────────────────────────────────────────
+2026-05-08 00:19:38,684 [GA-UCC] INFO - 🔍 CISCO SYSTEMS CAPITAL (IT_OEM)
+2026-05-08 00:19:38,684 [GA-UCC] INFO -     → 11/09/2025–05/08/2026
+2026-05-08 00:19:41,043 [GA-UCC] INFO -     Form ✓
+2026-05-08 00:19:45,458 [GA-UCC] INFO -     Post-submit URL: https://search.gsccca.org/UCC_Search/search.asp?searchtype=SecuredParty
+2026-05-08 00:19:45,458 [GA-UCC] INFO -     No results (URL stayed at search.asp)
+2026-05-08 00:19:46,960 [GA-UCC] INFO -     → 05/13/2025–11/09/2025
+2026-05-08 00:19:49,294 [GA-UCC] INFO -     Form ✓
+2026-05-08 00:19:54,026 [GA-UCC] INFO -     Post-submit URL: https://search.gsccca.org/UCC_Search/securedresults.asp
+2026-05-08 00:19:54,051 [GA-UCC] INFO -     17 table rows on results page
+2026-05-08 00:20:02,224 [GA-UCC] INFO -     Parsed 3 leads from 17 rows
+2026-05-08 00:20:03,740 [GA-UCC] INFO -     → 11/14/2024–05/13/2025
+2026-05-08 00:20:06,112 [GA-UCC] INFO -     Form ✓
+2026-05-08 00:20:11,183 [GA-UCC] INFO -     Post-submit URL: https://search.gsccca.org/UCC_Search/securedresults.asp
+2026-05-08 00:20:11,201 [GA-UCC] INFO -     16 table rows on results page
+2026-05-08 00:20:19,355 [GA-UCC] INFO -     Parsed 3 leads from 16 rows
+2026-05-08 00:20:20,903 [GA-UCC] INFO -     → 05/18/2024–11/14/2024
+2026-05-08 00:20:23,319 [GA-UCC] INFO -     Form ✓
+2026-05-08 00:20:28,031 [GA-UCC] INFO -     Post-submit URL: https://search.gsccca.org/UCC_Search/securedresults.asp
+2026-05-08 00:20:28,053 [GA-UCC] INFO -     15 table rows on results page
+2026-05-08 00:20:36,216 [GA-UCC] INFO -     Parsed 3 leads from 15 rows
+2026-05-08 00:20:37,734 [GA-UCC] INFO -   → 9 found, 9 new
+2026-05-08 00:20:39,737 [GA-UCC] INFO - 
+────────────────────────────────────────────────────────────
+2026-05-08 00:20:39,737 [GA-UCC] INFO - 🔍 KONICA MINOLTA (PRINT_IMAGING)
+2026-05-08 00:20:39,737 [GA-UCC] INFO -     → 11/09/2025–05/08/2026
+2026-05-08 00:20:42,116 [GA-UCC] INFO -     Form ✓
+2026-05-08 00:20:46,537 [GA-UCC] INFO -     Post-submit URL: https://search.gsccca.org/UCC_Search/search.asp?searchtype=SecuredParty
+2026-05-08 00:20:46,537 [GA-UCC] INFO -     No results (URL stayed at search.asp)
+2026-05-08 00:20:48,041 [GA-UCC] INFO -     → 05/13/2025–11/09/2025
+2026-05-08 00:20:50,385 [GA-UCC] INFO -     Form ✓
+2026-05-08 00:20:55,243 [GA-UCC] INFO -     Post-submit URL: https://search.gsccca.org/UCC_Search/securedresults.asp
+2026-05-08 00:20:55,265 [GA-UCC] INFO -     17 table rows on results page
+2026-05-08 00:21:03,450 [GA-UCC] INFO -     Parsed 3 leads from 17 rows
+2026-05-08 00:21:04,972 [GA-UCC] INFO -     → 11/14/2024–05/13/2025
+2026-05-08 00:21:07,343 [GA-UCC] INFO -     Form ✓
+2026-05-08 00:21:12,144 [GA-UCC] INFO -     Post-submit URL: https://search.gsccca.org/UCC_Search/securedresults.asp
+2026-05-08 00:21:12,162 [GA-UCC] INFO -     15 table rows on results page
+2026-05-08 00:21:20,315 [GA-UCC] INFO -     Parsed 3 leads from 15 rows
+2026-05-08 00:21:21,826 [GA-UCC] INFO -     → 05/18/2024–11/14/2024
+2026-05-08 00:21:24,200 [GA-UCC] INFO -     Form ✓
+2026-05-08 00:21:29,036 [GA-UCC] INFO -     Post-submit URL: https://search.gsccca.org/UCC_Search/securedresults.asp
+2026-05-08 00:21:29,051 [GA-UCC] INFO -     17 table rows on results page
+2026-05-08 00:21:37,205 [GA-UCC] INFO -     Parsed 3 leads from 17 rows
+2026-05-08 00:21:38,724 [GA-UCC] INFO -   → 9 found, 9 new
+2026-05-08 00:21:40,727 [GA-UCC] INFO - 
+────────────────────────────────────────────────────────────
+2026-05-08 00:21:40,728 [GA-UCC] INFO - 🔍 XEROX FINANCIAL (PRINT_IMAGING)
+2026-05-08 00:21:40,728 [GA-UCC] INFO -     → 11/09/2025–05/08/2026
+2026-05-08 00:21:43,242 [GA-UCC] INFO -     Form ✓
+2026-05-08 00:21:47,667 [GA-UCC] INFO -     Post-submit URL: https://search.gsccca.org/UCC_Search/search.asp?searchtype=SecuredParty
+2026-05-08 00:21:47,667 [GA-UCC] INFO -     No results (URL stayed at search.asp)
+2026-05-08 00:21:49,171 [GA-UCC] INFO -     → 05/13/2025–11/09/2025
+2026-05-08 00:21:51,531 [GA-UCC] INFO -     Form ✓
+2026-05-08 00:21:56,365 [GA-UCC] INFO -     Post-submit URL: https://search.gsccca.org/UCC_Search/securedresults.asp
+2026-05-08 00:21:56,394 [GA-UCC] INFO -     6 table rows on results page
+2026-05-08 00:21:56,429 [GA-UCC] INFO -     Parsed 0 leads from 6 rows
+2026-05-08 00:21:57,933 [GA-UCC] INFO -     → 11/14/2024–05/13/2025
+2026-05-08 00:22:00,415 [GA-UCC] INFO -     Form ✓
+2026-05-08 00:22:05,403 [GA-UCC] INFO -     Post-submit URL: https://search.gsccca.org/UCC_Search/securedresults.asp
+2026-05-08 00:22:05,429 [GA-UCC] INFO -     15 table rows on results page
+2026-05-08 00:22:13,586 [GA-UCC] INFO -     Parsed 3 leads from 15 rows
+2026-05-08 00:22:15,103 [GA-UCC] INFO -     → 05/18/2024–11/14/2024
+2026-05-08 00:22:17,479 [GA-UCC] INFO -     Form ✓
+2026-05-08 00:22:22,450 [GA-UCC] INFO -     Post-submit URL: https://search.gsccca.org/UCC_Search/securedresults.asp
+2026-05-08 00:22:22,468 [GA-UCC] INFO -     15 table rows on results page
+2026-05-08 00:22:30,625 [GA-UCC] INFO -     Parsed 3 leads from 15 rows
+2026-05-08 00:22:32,134 [GA-UCC] INFO -   → 6 found, 6 new
+2026-05-08 00:22:34,139 [GA-UCC] INFO - 
+────────────────────────────────────────────────────────────
+2026-05-08 00:22:34,139 [GA-UCC] INFO - 🔍 CANON FINANCIAL SERVICES (PRINT_IMAGING)
+2026-05-08 00:22:34,139 [GA-UCC] INFO -     → 11/09/2025–05/08/2026
+2026-05-08 00:22:36,477 [GA-UCC] INFO -     Form ✓
+2026-05-08 00:22:40,903 [GA-UCC] INFO -     Post-submit URL: https://search.gsccca.org/UCC_Search/search.asp?searchtype=SecuredParty
+2026-05-08 00:22:40,903 [GA-UCC] INFO -     No results (URL stayed at search.asp)
+2026-05-08 00:22:42,409 [GA-UCC] INFO -     → 05/13/2025–11/09/2025
+2026-05-08 00:22:44,965 [GA-UCC] INFO -     Form ✓
+2026-05-08 00:22:49,908 [GA-UCC] INFO -     Post-submit URL: https://search.gsccca.org/UCC_Search/securedresults.asp
+2026-05-08 00:22:49,925 [GA-UCC] INFO -     17 table rows on results page
+2026-05-08 00:22:58,108 [GA-UCC] INFO -     Parsed 3 leads from 17 rows
+2026-05-08 00:22:59,627 [GA-UCC] INFO -     → 11/14/2024–05/13/2025
+2026-05-08 00:23:02,047 [GA-UCC] INFO -     Form ✓
+2026-05-08 00:23:06,877 [GA-UCC] INFO -     Post-submit URL: https://search.gsccca.org/UCC_Search/securedresults.asp
+2026-05-08 00:23:06,892 [GA-UCC] INFO -     15 table rows on results page
+2026-05-08 00:23:15,036 [GA-UCC] INFO -     Parsed 3 leads from 15 rows
+2026-05-08 00:23:16,553 [GA-UCC] INFO -     → 05/18/2024–11/14/2024
+2026-05-08 00:23:18,951 [GA-UCC] INFO -     Form ✓
+2026-05-08 00:23:23,943 [GA-UCC] INFO -     Post-submit URL: https://search.gsccca.org/UCC_Search/securedresults.asp
+2026-05-08 00:23:23,954 [GA-UCC] INFO -     16 table rows on results page
+2026-05-08 00:23:32,148 [GA-UCC] INFO -     Parsed 3 leads from 16 rows
+2026-05-08 00:23:33,669 [GA-UCC] INFO -   → 9 found, 9 new
+2026-05-08 00:23:35,674 [GA-UCC] INFO - 
+────────────────────────────────────────────────────────────
+2026-05-08 00:23:35,674 [GA-UCC] INFO - 🔍 RICOH USA (PRINT_IMAGING)
+2026-05-08 00:23:35,674 [GA-UCC] INFO -     → 11/09/2025–05/08/2026
+2026-05-08 00:23:38,063 [GA-UCC] INFO -     Form ✓
+2026-05-08 00:23:42,477 [GA-UCC] INFO -     Post-submit URL: https://search.gsccca.org/UCC_Search/search.asp?searchtype=SecuredParty
+2026-05-08 00:23:42,477 [GA-UCC] INFO -     No results (URL stayed at search.asp)
+2026-05-08 00:23:43,981 [GA-UCC] INFO -     → 05/13/2025–11/09/2025
+2026-05-08 00:23:46,365 [GA-UCC] INFO -     Form ✓
+2026-05-08 00:23:51,148 [GA-UCC] INFO -     Post-submit URL: https://search.gsccca.org/UCC_Search/securedresults.asp
+2026-05-08 00:23:51,170 [GA-UCC] INFO -     17 table rows on results page
+2026-05-08 00:23:59,341 [GA-UCC] INFO -     Parsed 3 leads from 17 rows
+2026-05-08 00:24:00,857 [GA-UCC] INFO -     → 11/14/2024–05/13/2025
+2026-05-08 00:24:03,513 [GA-UCC] INFO -     Form ✓
+2026-05-08 00:24:08,301 [GA-UCC] INFO -     Post-submit URL: https://search.gsccca.org/UCC_Search/securedresults.asp
+2026-05-08 00:24:08,321 [GA-UCC] INFO -     17 table rows on results page
+2026-05-08 00:24:16,474 [GA-UCC] INFO -     Parsed 3 leads from 17 rows
+2026-05-08 00:24:17,988 [GA-UCC] INFO -     → 05/18/2024–11/14/2024
+2026-05-08 00:24:20,413 [GA-UCC] INFO -     Form ✓
+2026-05-08 00:24:25,189 [GA-UCC] INFO -     Post-submit URL: https://search.gsccca.org/UCC_Search/securedresults.asp
+2026-05-08 00:24:25,210 [GA-UCC] INFO -     17 table rows on results page
+2026-05-08 00:24:33,375 [GA-UCC] INFO -     Parsed 3 leads from 17 rows
+2026-05-08 00:24:34,892 [GA-UCC] INFO -   → 9 found, 9 new
+2026-05-08 00:24:36,897 [GA-UCC] INFO - 
+────────────────────────────────────────────────────────────
+2026-05-08 00:24:36,897 [GA-UCC] INFO - 🔍 KYOCERA DOCUMENT SOLUTIONS (PRINT_IMAGING)
+2026-05-08 00:24:36,897 [GA-UCC] INFO -     → 11/09/2025–05/08/2026
+2026-05-08 00:24:39,354 [GA-UCC] INFO -     Form ✓
+2026-05-08 00:24:43,758 [GA-UCC] INFO -     Post-submit URL: https://search.gsccca.org/UCC_Search/search.asp?searchtype=SecuredParty
+2026-05-08 00:24:43,758 [GA-UCC] INFO -     No results (URL stayed at search.asp)
+2026-05-08 00:24:45,261 [GA-UCC] INFO -     → 05/13/2025–11/09/2025
+2026-05-08 00:24:47,626 [GA-UCC] INFO -     Form ✓
+2026-05-08 00:24:52,410 [GA-UCC] INFO -     Post-submit URL: https://search.gsccca.org/UCC_Search/securedresults.asp
+2026-05-08 00:24:52,427 [GA-UCC] INFO -     15 table rows on results page
+2026-05-08 00:25:00,574 [GA-UCC] INFO -     Parsed 3 leads from 15 rows
+2026-05-08 00:25:02,084 [GA-UCC] INFO -     → 11/14/2024–05/13/2025
+2026-05-08 00:25:04,456 [GA-UCC] INFO -     Form ✓
+2026-05-08 00:25:09,265 [GA-UCC] INFO -     Post-submit URL: https://search.gsccca.org/UCC_Search/securedresults.asp
+2026-05-08 00:25:09,283 [GA-UCC] INFO -     15 table rows on results page
+2026-05-08 00:25:17,439 [GA-UCC] INFO -     Parsed 3 leads from 15 rows
+2026-05-08 00:25:18,955 [GA-UCC] INFO -     → 05/18/2024–11/14/2024
+2026-05-08 00:25:21,357 [GA-UCC] INFO -     Form ✓
+2026-05-08 00:25:26,172 [GA-UCC] INFO -     Post-submit URL: https://search.gsccca.org/UCC_Search/securedresults.asp
+2026-05-08 00:25:26,191 [GA-UCC] INFO -     15 table rows on results page
+2026-05-08 00:25:34,428 [GA-UCC] INFO -     Parsed 3 leads from 15 rows
+2026-05-08 00:25:35,943 [GA-UCC] INFO -   → 9 found, 9 new
+2026-05-08 00:25:37,947 [GA-UCC] INFO - 
+────────────────────────────────────────────────────────────
+2026-05-08 00:25:37,947 [GA-UCC] INFO - 🔍 GREATAMERICA FINANCIAL (IT_CHANNEL)
+2026-05-08 00:25:37,948 [GA-UCC] INFO -     → 11/09/2025–05/08/2026
+2026-05-08 00:25:40,334 [GA-UCC] INFO -     Form ✓
+2026-05-08 00:25:44,799 [GA-UCC] INFO -     Post-submit URL: https://search.gsccca.org/UCC_Search/search.asp?searchtype=SecuredParty
+2026-05-08 00:25:44,799 [GA-UCC] INFO -     No results (URL stayed at search.asp)
+2026-05-08 00:25:46,303 [GA-UCC] INFO -     → 05/13/2025–11/09/2025
+2026-05-08 00:25:48,677 [GA-UCC] INFO -     Form ✓
+2026-05-08 00:25:53,483 [GA-UCC] INFO -     Post-submit URL: https://search.gsccca.org/UCC_Search/securedresults.asp
+2026-05-08 00:25:53,509 [GA-UCC] INFO -     15 table rows on results page
+2026-05-08 00:26:01,673 [GA-UCC] INFO -     Parsed 3 leads from 15 rows
+2026-05-08 00:26:03,189 [GA-UCC] INFO -     → 11/14/2024–05/13/2025
+2026-05-08 00:26:05,620 [GA-UCC] INFO -     Form ✓
+2026-05-08 00:26:10,436 [GA-UCC] INFO -     Post-submit URL: https://search.gsccca.org/UCC_Search/securedresults.asp
+2026-05-08 00:26:10,454 [GA-UCC] INFO -     17 table rows on results page
+2026-05-08 00:26:18,622 [GA-UCC] INFO -     Parsed 3 leads from 17 rows
+2026-05-08 00:26:20,132 [GA-UCC] INFO -     → 05/18/2024–11/14/2024
+2026-05-08 00:26:22,525 [GA-UCC] INFO -     Form ✓
+2026-05-08 00:26:27,499 [GA-UCC] INFO -     Post-submit URL: https://search.gsccca.org/UCC_Search/securedresults.asp
+2026-05-08 00:26:27,527 [GA-UCC] INFO -     15 table rows on results page
+2026-05-08 00:26:35,720 [GA-UCC] INFO -     Parsed 3 leads from 15 rows
+2026-05-08 00:26:37,238 [GA-UCC] INFO -   → 9 found, 9 new
+2026-05-08 00:26:39,242 [GA-UCC] INFO - 
+────────────────────────────────────────────────────────────
+2026-05-08 00:26:39,242 [GA-UCC] INFO - 🔍 MARLIN LEASING (IT_CHANNEL)
+2026-05-08 00:26:39,242 [GA-UCC] INFO -     → 11/09/2025–05/08/2026
+2026-05-08 00:26:41,574 [GA-UCC] INFO -     Form ✓
+2026-05-08 00:26:45,971 [GA-UCC] INFO -     Post-submit URL: https://search.gsccca.org/UCC_Search/search.asp?searchtype=SecuredParty
+2026-05-08 00:26:45,971 [GA-UCC] INFO -     No results (URL stayed at search.asp)
+2026-05-08 00:26:47,475 [GA-UCC] INFO -     → 05/13/2025–11/09/2025
+2026-05-08 00:26:49,846 [GA-UCC] INFO -     Form ✓
+2026-05-08 00:26:54,696 [GA-UCC] INFO -     Post-submit URL: https://search.gsccca.org/UCC_Search/securedresults.asp
+2026-05-08 00:26:54,714 [GA-UCC] INFO -     17 table rows on results page
+2026-05-08 00:27:02,872 [GA-UCC] INFO -     Parsed 3 leads from 17 rows
+2026-05-08 00:27:04,391 [GA-UCC] INFO -     → 11/14/2024–05/13/2025
+2026-05-08 00:27:06,759 [GA-UCC] INFO -     Form ✓
+2026-05-08 00:27:11,553 [GA-UCC] INFO -     Post-submit URL: https://search.gsccca.org/UCC_Search/securedresults.asp
+2026-05-08 00:27:11,569 [GA-UCC] INFO -     17 table rows on results page
+2026-05-08 00:27:19,718 [GA-UCC] INFO -     Parsed 3 leads from 17 rows
+2026-05-08 00:27:21,237 [GA-UCC] INFO -     → 05/18/2024–11/14/2024
+2026-05-08 00:27:23,634 [GA-UCC] INFO -     Form ✓
+2026-05-08 00:27:28,441 [GA-UCC] INFO -     Post-submit URL: https://search.gsccca.org/UCC_Search/securedresults.asp
+2026-05-08 00:27:28,458 [GA-UCC] INFO -     18 table rows on results page
+2026-05-08 00:27:36,639 [GA-UCC] INFO -     Parsed 3 leads from 18 rows
+2026-05-08 00:27:38,153 [GA-UCC] INFO -   → 9 found, 9 new
+2026-05-08 00:27:40,156 [GA-UCC] INFO - 
+────────────────────────────────────────────────────────────
+2026-05-08 00:27:40,156 [GA-UCC] INFO - 🔍 LEAF COMMERCIAL CAPITAL (IT_CHANNEL)
+2026-05-08 00:27:40,156 [GA-UCC] INFO -     → 11/09/2025–05/08/2026
+2026-05-08 00:27:42,580 [GA-UCC] INFO -     Form ✓
+2026-05-08 00:27:47,004 [GA-UCC] INFO -     Post-submit URL: https://search.gsccca.org/UCC_Search/search.asp?searchtype=SecuredParty
+2026-05-08 00:27:47,004 [GA-UCC] INFO -     No results (URL stayed at search.asp)
+2026-05-08 00:27:48,507 [GA-UCC] INFO -     → 05/13/2025–11/09/2025
+2026-05-08 00:27:51,110 [GA-UCC] INFO -     Form ✓
+2026-05-08 00:27:55,812 [GA-UCC] INFO -     Post-submit URL: https://search.gsccca.org/UCC_Search/securedresults.asp
+2026-05-08 00:27:55,837 [GA-UCC] INFO -     6 table rows on results page
+2026-05-08 00:27:55,855 [GA-UCC] INFO -     Parsed 0 leads from 6 rows
+2026-05-08 00:27:57,360 [GA-UCC] INFO -     → 11/14/2024–05/13/2025
+2026-05-08 00:27:59,728 [GA-UCC] INFO -     Form ✓
+2026-05-08 00:28:04,493 [GA-UCC] INFO -     Post-submit URL: https://search.gsccca.org/UCC_Search/securedresults.asp
+2026-05-08 00:28:04,512 [GA-UCC] INFO -     6 table rows on results page
+2026-05-08 00:28:04,530 [GA-UCC] INFO -     Parsed 0 leads from 6 rows
+2026-05-08 00:28:06,034 [GA-UCC] INFO -     → 05/18/2024–11/14/2024
+2026-05-08 00:28:08,482 [GA-UCC] INFO -     Form ✓
+2026-05-08 00:28:13,237 [GA-UCC] INFO -     Post-submit URL: https://search.gsccca.org/UCC_Search/securedresults.asp
+2026-05-08 00:28:13,255 [GA-UCC] INFO -     6 table rows on results page
+2026-05-08 00:28:13,280 [GA-UCC] INFO -     Parsed 0 leads from 6 rows
+2026-05-08 00:28:14,785 [GA-UCC] INFO -   → 0 found, 0 new
+2026-05-08 00:28:16,789 [GA-UCC] INFO - 
+────────────────────────────────────────────────────────────
+2026-05-08 00:28:16,789 [GA-UCC] INFO - 🔍 BALBOA CAPITAL (IT_CHANNEL)
+2026-05-08 00:28:16,789 [GA-UCC] INFO -     → 11/09/2025–05/08/2026
+2026-05-08 00:28:19,182 [GA-UCC] INFO -     Form ✓
+2026-05-08 00:28:23,603 [GA-UCC] INFO -     Post-submit URL: https://search.gsccca.org/UCC_Search/search.asp?searchtype=SecuredParty
+2026-05-08 00:28:23,603 [GA-UCC] INFO -     No results (URL stayed at search.asp)
+2026-05-08 00:28:25,107 [GA-UCC] INFO -     → 05/13/2025–11/09/2025
+2026-05-08 00:28:27,445 [GA-UCC] INFO -     Form ✓
+2026-05-08 00:28:32,187 [GA-UCC] INFO -     Post-submit URL: https://search.gsccca.org/UCC_Search/securedresults.asp
+2026-05-08 00:28:32,204 [GA-UCC] INFO -     6 table rows on results page
+2026-05-08 00:28:32,221 [GA-UCC] INFO -     Parsed 0 leads from 6 rows
+2026-05-08 00:28:33,727 [GA-UCC] INFO -     → 11/14/2024–05/13/2025
+2026-05-08 00:28:36,107 [GA-UCC] INFO -     Form ✓
+2026-05-08 00:28:40,774 [GA-UCC] INFO -     Post-submit URL: https://search.gsccca.org/UCC_Search/securedresults.asp
+2026-05-08 00:28:40,793 [GA-UCC] INFO -     6 table rows on results page
+2026-05-08 00:28:40,823 [GA-UCC] INFO -     Parsed 0 leads from 6 rows
+2026-05-08 00:28:42,325 [GA-UCC] INFO -     → 05/18/2024–11/14/2024
+2026-05-08 00:28:44,700 [GA-UCC] INFO -     Form ✓
+2026-05-08 00:28:49,439 [GA-UCC] INFO -     Post-submit URL: https://search.gsccca.org/UCC_Search/securedresults.asp
+2026-05-08 00:28:49,455 [GA-UCC] INFO -     15 table rows on results page
+2026-05-08 00:28:57,595 [GA-UCC] INFO -     Parsed 3 leads from 15 rows
+2026-05-08 00:28:59,110 [GA-UCC] INFO -   → 3 found, 3 new
+2026-05-08 00:29:01,114 [GA-UCC] INFO - 
+────────────────────────────────────────────────────────────
+2026-05-08 00:29:01,114 [GA-UCC] INFO - 🔍 PAWNEE LEASING (IT_CHANNEL)
+2026-05-08 00:29:01,114 [GA-UCC] INFO -     → 11/09/2025–05/08/2026
+2026-05-08 00:29:03,515 [GA-UCC] INFO -     Form ✓
+2026-05-08 00:29:07,945 [GA-UCC] INFO -     Post-submit URL: https://search.gsccca.org/UCC_Search/search.asp?searchtype=SecuredParty
+2026-05-08 00:29:07,945 [GA-UCC] INFO -     No results (URL stayed at search.asp)
+2026-05-08 00:29:09,450 [GA-UCC] INFO -     → 05/13/2025–11/09/2025
+2026-05-08 00:29:11,772 [GA-UCC] INFO -     Form ✓
+2026-05-08 00:29:16,490 [GA-UCC] INFO -     Post-submit URL: https://search.gsccca.org/UCC_Search/securedresults.asp
+2026-05-08 00:29:16,506 [GA-UCC] INFO -     15 table rows on results page
+2026-05-08 00:29:24,662 [GA-UCC] INFO -     Parsed 3 leads from 15 rows
+2026-05-08 00:29:26,175 [GA-UCC] INFO -     → 11/14/2024–05/13/2025
+2026-05-08 00:29:28,542 [GA-UCC] INFO -     Form ✓
+2026-05-08 00:29:33,313 [GA-UCC] INFO -     Post-submit URL: https://search.gsccca.org/UCC_Search/securedresults.asp
+2026-05-08 00:29:33,333 [GA-UCC] INFO -     6 table rows on results page
+2026-05-08 00:29:33,364 [GA-UCC] INFO -     Parsed 0 leads from 6 rows
+2026-05-08 00:29:34,868 [GA-UCC] INFO -     → 05/18/2024–11/14/2024
+2026-05-08 00:29:37,292 [GA-UCC] INFO -     Form ✓
+2026-05-08 00:29:42,019 [GA-UCC] INFO -     Post-submit URL: https://search.gsccca.org/UCC_Search/securedresults.asp
+2026-05-08 00:29:42,040 [GA-UCC] INFO -     15 table rows on results page
+2026-05-08 00:29:50,193 [GA-UCC] INFO -     Parsed 3 leads from 15 rows
+2026-05-08 00:29:51,707 [GA-UCC] INFO -   → 6 found, 6 new
+2026-05-08 00:29:53,713 [GA-UCC] INFO - 
+────────────────────────────────────────────────────────────
+2026-05-08 00:29:53,713 [GA-UCC] INFO - 🔍 DLL FINANCE (EQUIP_FINANCE)
+2026-05-08 00:29:53,713 [GA-UCC] INFO -     → 11/09/2025–05/08/2026
+2026-05-08 00:29:56,044 [GA-UCC] INFO -     Form ✓
+2026-05-08 00:30:00,450 [GA-UCC] INFO -     Post-submit URL: https://search.gsccca.org/UCC_Search/search.asp?searchtype=SecuredParty
+2026-05-08 00:30:00,451 [GA-UCC] INFO -     No results (URL stayed at search.asp)
+2026-05-08 00:30:01,955 [GA-UCC] INFO -     → 05/13/2025–11/09/2025
+2026-05-08 00:30:04,293 [GA-UCC] INFO -     Form ✓
+2026-05-08 00:30:09,446 [GA-UCC] INFO -     Post-submit URL: https://search.gsccca.org/UCC_Search/securedresults.asp
+2026-05-08 00:30:09,469 [GA-UCC] INFO -     18 table rows on results page
+2026-05-08 00:30:17,687 [GA-UCC] INFO -     Parsed 3 leads from 18 rows
+2026-05-08 00:30:19,205 [GA-UCC] INFO -     → 11/14/2024–05/13/2025
+2026-05-08 00:30:21,569 [GA-UCC] INFO -     Form ✓
+2026-05-08 00:30:26,431 [GA-UCC] INFO -     Post-submit URL: https://search.gsccca.org/UCC_Search/securedresults.asp
+2026-05-08 00:30:26,452 [GA-UCC] INFO -     17 table rows on results page
+2026-05-08 00:30:34,644 [GA-UCC] INFO -     Parsed 3 leads from 17 rows
+2026-05-08 00:30:36,165 [GA-UCC] INFO -     → 05/18/2024–11/14/2024
+2026-05-08 00:30:38,600 [GA-UCC] INFO -     Form ✓
+2026-05-08 00:30:43,319 [GA-UCC] INFO -     Post-submit URL: https://search.gsccca.org/UCC_Search/securedresults.asp
+2026-05-08 00:30:43,337 [GA-UCC] INFO -     19 table rows on results page
+2026-05-08 00:30:51,550 [GA-UCC] INFO -     Parsed 3 leads from 19 rows
+2026-05-08 00:30:53,066 [GA-UCC] INFO -   → 9 found, 9 new
+2026-05-08 00:30:55,070 [GA-UCC] INFO - 
+────────────────────────────────────────────────────────────
+2026-05-08 00:30:55,070 [GA-UCC] INFO - 🔍 DE LAGE LANDEN (EQUIP_FINANCE)
+2026-05-08 00:30:55,070 [GA-UCC] INFO -     → 11/09/2025–05/08/2026
+2026-05-08 00:30:57,426 [GA-UCC] INFO -     Form ✓
+2026-05-08 00:31:01,843 [GA-UCC] INFO -     Post-submit URL: https://search.gsccca.org/UCC_Search/search.asp?searchtype=SecuredParty
+2026-05-08 00:31:01,843 [GA-UCC] INFO -     No results (URL stayed at search.asp)
+2026-05-08 00:31:03,349 [GA-UCC] INFO -     → 05/13/2025–11/09/2025
+2026-05-08 00:31:05,689 [GA-UCC] INFO -     Form ✓
+2026-05-08 00:31:11,395 [GA-UCC] INFO -     Post-submit URL: https://search.gsccca.org/UCC_Search/securedresults.asp
+2026-05-08 00:31:11,419 [GA-UCC] INFO -     20 table rows on results page
+2026-05-08 00:31:19,644 [GA-UCC] INFO -     Parsed 3 leads from 20 rows
+2026-05-08 00:31:21,160 [GA-UCC] INFO -     → 11/14/2024–05/13/2025
+2026-05-08 00:31:23,537 [GA-UCC] INFO -     Form ✓
+2026-05-08 00:31:29,051 [GA-UCC] INFO -     Post-submit URL: https://search.gsccca.org/UCC_Search/securedresults.asp
+2026-05-08 00:31:29,071 [GA-UCC] INFO -     18 table rows on results page
+2026-05-08 00:31:37,292 [GA-UCC] INFO -     Parsed 3 leads from 18 rows
+2026-05-08 00:31:38,808 [GA-UCC] INFO -     → 05/18/2024–11/14/2024
+2026-05-08 00:31:41,268 [GA-UCC] INFO -     Form ✓
+2026-05-08 00:31:46,793 [GA-UCC] INFO -     Post-submit URL: https://search.gsccca.org/UCC_Search/securedresults.asp
+2026-05-08 00:31:46,809 [GA-UCC] INFO -     18 table rows on results page
+2026-05-08 00:31:54,998 [GA-UCC] INFO -     Parsed 3 leads from 18 rows
+2026-05-08 00:31:56,513 [GA-UCC] INFO -   → 9 found, 9 new
+2026-05-08 00:31:58,518 [GA-UCC] INFO - 
+────────────────────────────────────────────────────────────
+2026-05-08 00:31:58,518 [GA-UCC] INFO - 🔍 WELLS FARGO EQUIPMENT FINANCE (EQUIP_FINANCE)
+2026-05-08 00:31:58,518 [GA-UCC] INFO -     → 11/09/2025–05/08/2026
+2026-05-08 00:32:00,868 [GA-UCC] INFO -     Form ✓
+2026-05-08 00:32:05,359 [GA-UCC] INFO -     Post-submit URL: https://search.gsccca.org/UCC_Search/search.asp?searchtype=SecuredParty
+2026-05-08 00:32:05,359 [GA-UCC] INFO -     No results (URL stayed at search.asp)
+2026-05-08 00:32:06,863 [GA-UCC] INFO -     → 05/13/2025–11/09/2025
+2026-05-08 00:32:09,235 [GA-UCC] INFO -     Form ✓
+2026-05-08 00:32:14,135 [GA-UCC] INFO -     Post-submit URL: https://search.gsccca.org/UCC_Search/securedresults.asp
+2026-05-08 00:32:14,151 [GA-UCC] INFO -     17 table rows on results page
+2026-05-08 00:32:22,336 [GA-UCC] INFO -     Parsed 3 leads from 17 rows
+2026-05-08 00:32:23,850 [GA-UCC] INFO -     → 11/14/2024–05/13/2025
+2026-05-08 00:32:26,226 [GA-UCC] INFO -     Form ✓

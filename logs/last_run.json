@@ -1,0 +1,17 @@
+{
+  "ran_at": "2026-05-21T16:03:44.669962",
+  "new_leads": 134,
+  "stats": {
+    "total": 40821,
+    "hot": 890,
+    "warm": 1467,
+    "s4_prime": 0,
+    "expansion_hits": 15
+  },
+  "scrapers": {
+    "co": true,
+    "ct": true,
+    "tx": false,
+    "ga": false
+  }
+}

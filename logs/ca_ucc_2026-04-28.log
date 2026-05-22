@@ -1,0 +1,28 @@
+2026-04-28 10:45:50,370 [CA-UCC] INFO - Navigating to CA bizfile UCC search...
+2026-04-28 10:45:59,895 [CA-UCC] INFO - ✅ Page loaded successfully
+2026-04-28 10:45:59,895 [CA-UCC] INFO - 
+───────────────────────────────────────────────────────
+2026-04-28 10:45:59,895 [CA-UCC] INFO - 🔍 Searching CA for: DELL FINANCIAL SERVICES (IT_OEM)
+2026-04-28 10:46:34,596 [CA-UCC] INFO -   10/30/2025-04/28/2026: 26 results
+2026-04-28 10:47:11,624 [CA-UCC] INFO -   05/03/2025-10/30/2025: 45 results
+2026-04-28 10:47:49,200 [CA-UCC] INFO -   11/04/2024-05/03/2025: 44 results
+2026-04-28 10:48:26,910 [CA-UCC] INFO -   05/08/2024-11/04/2024: 29 results
+2026-04-28 10:49:04,006 [CA-UCC] INFO -   11/10/2023-05/08/2024: 30 results
+2026-04-28 10:49:41,133 [CA-UCC] INFO -   05/14/2023-11/10/2023: 33 results
+2026-04-28 10:50:18,274 [CA-UCC] INFO -   11/15/2022-05/14/2023: 23 results
+2026-04-28 10:50:55,118 [CA-UCC] INFO -   05/19/2022-11/15/2022: 48 results
+2026-04-28 10:51:32,821 [CA-UCC] INFO -   11/20/2021-05/19/2022: 34 results
+2026-04-28 10:52:10,038 [CA-UCC] INFO -   05/24/2021-11/20/2021: 50 results
+2026-04-28 10:52:13,098 [CA-UCC] INFO -   CA DELL FINANCIAL SERVICES: 351 found, 349 new
+2026-04-28 10:52:14,130 [CA-UCC] INFO - 
+───────────────────────────────────────────────────────
+2026-04-28 10:52:14,130 [CA-UCC] INFO - 🔍 Searching CA for: HEWLETT PACKARD (IT_OEM)
+2026-04-28 10:55:02,718 [CA-UCC] INFO -   05/08/2024-11/04/2024: 1 results
+2026-04-28 10:59:32,067 [CA-UCC] INFO -   CA HEWLETT PACKARD: 0 found, 0 new
+2026-04-28 10:59:33,172 [CA-UCC] INFO - 
+=======================================================
+2026-04-28 10:59:33,172 [CA-UCC] INFO -   California Tech UCC Scrape Complete
+2026-04-28 10:59:33,172 [CA-UCC] INFO -   Lenders searched: 2
+2026-04-28 10:59:33,172 [CA-UCC] INFO -   Total found:     351
+2026-04-28 10:59:33,172 [CA-UCC] INFO -   New leads saved: 349
+2026-04-28 10:59:33,172 [CA-UCC] INFO - =======================================================

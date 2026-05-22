@@ -1,0 +1,12 @@
+2026-05-11 02:12:41,523 [DailyPipeline] INFO - ============================================================
+2026-05-11 02:12:41,523 [DailyPipeline] INFO -   TOMCAT CAPEX DAILY PIPELINE
+2026-05-11 02:12:41,523 [DailyPipeline] INFO -   2026-05-11 02:12:41
+2026-05-11 02:12:41,523 [DailyPipeline] INFO - ============================================================
+2026-05-11 02:12:41,528 [DailyPipeline] INFO - DB before: {'total': 0, 'hot': 0, 'warm': 0, 's4_prime': 0, 'expansion_hits': 0}
+2026-05-11 02:12:41,541 [DailyPipeline] INFO - Running Colorado scraper...
+2026-05-11 06:00:00,087 [DailyPipeline] INFO - ============================================================
+2026-05-11 06:00:00,087 [DailyPipeline] INFO -   TOMCAT CAPEX DAILY PIPELINE
+2026-05-11 06:00:00,087 [DailyPipeline] INFO -   2026-05-11 06:00:00
+2026-05-11 06:00:00,087 [DailyPipeline] INFO - ============================================================
+2026-05-11 06:00:00,208 [DailyPipeline] INFO - DB before: {'total': 15921, 'hot': 560, 'warm': 894, 's4_prime': 0, 'expansion_hits': 0}
+2026-05-11 06:00:00,213 [DailyPipeline] INFO - Running Colorado scraper...

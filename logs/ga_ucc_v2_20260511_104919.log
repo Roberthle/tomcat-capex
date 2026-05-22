@@ -1,0 +1,253 @@
+2026-05-11 10:49:19,465 [GA-UCC-v2] INFO - Logging to /Users/robertle/tomcat_capex/logs/ga_ucc_v2_20260511_104919.log
+2026-05-11 10:49:19,465 [GA-UCC-v2] INFO - Logging in to GSCCCA (tomcatmca)...
+2026-05-11 10:49:21,863 [GA-UCC-v2] INFO - ✅ Authenticated
+2026-05-11 10:49:21,864 [GA-UCC-v2] INFO - 
+────────────────────────────────────────────────────────────
+2026-05-11 10:49:21,864 [GA-UCC-v2] INFO - 🔍 DELL FINANCIAL SERVICES (IT_OEM)
+2026-05-11 10:49:21,864 [GA-UCC-v2] INFO -   → 11/10/2025 – 05/11/2026
+2026-05-11 10:49:23,826 [GA-UCC-v2] INFO -   1 variation(s) — ~14 total filings
+2026-05-11 10:49:23,826 [GA-UCC-v2] INFO -     Variation 0: 'DELL FINANCIAL SERVICES L.L.C.' (14 filings)
+2026-05-11 10:49:28,317 [GA-UCC-v2] INFO - DEBUG: date_raw = '11/19/20253:09:00 PM' -> date_filed = '11/19/20253:09:00'
+2026-05-11 10:49:28,317 [GA-UCC-v2] INFO - DEBUG: date_raw = '12/9/20253:00:00 PM' -> date_filed = '12/9/20253:00:00'
+2026-05-11 10:49:28,317 [GA-UCC-v2] INFO - DEBUG: date_raw = '12/24/20252:58:00 PM' -> date_filed = '12/24/20252:58:00'
+2026-05-11 10:49:28,317 [GA-UCC-v2] INFO - DEBUG: date_raw = '1/14/202612:31:00 PM' -> date_filed = '1/14/202612:31:00'
+2026-05-11 10:49:28,318 [GA-UCC-v2] INFO - DEBUG: date_raw = '1/21/20263:49:00 PM' -> date_filed = '1/21/20263:49:00'
+2026-05-11 10:49:28,318 [GA-UCC-v2] INFO - DEBUG: date_raw = '1/27/20263:32:00 PM' -> date_filed = '1/27/20263:32:00'
+2026-05-11 10:49:28,318 [GA-UCC-v2] INFO - DEBUG: date_raw = '3/17/20263:05:00 PM' -> date_filed = '3/17/20263:05:00'
+2026-05-11 10:49:28,318 [GA-UCC-v2] INFO - DEBUG: date_raw = '3/17/20263:05:00 PM' -> date_filed = '3/17/20263:05:00'
+2026-05-11 10:49:28,318 [GA-UCC-v2] INFO - DEBUG: date_raw = '3/20/202611:58:00 AM' -> date_filed = '3/20/202611:58:00'
+2026-05-11 10:49:28,318 [GA-UCC-v2] INFO - DEBUG: date_raw = '3/20/202611:58:00 AM' -> date_filed = '3/20/202611:58:00'
+2026-05-11 10:49:28,318 [GA-UCC-v2] INFO - DEBUG: date_raw = '3/24/20262:17:00 PM' -> date_filed = '3/24/20262:17:00'
+2026-05-11 10:49:28,318 [GA-UCC-v2] INFO - DEBUG: date_raw = '3/24/20262:17:00 PM' -> date_filed = '3/24/20262:17:00'
+2026-05-11 10:49:28,318 [GA-UCC-v2] INFO - DEBUG: date_raw = '4/2/20262:59:00 PM' -> date_filed = '4/2/20262:59:00'
+2026-05-11 10:49:28,319 [GA-UCC-v2] INFO - DEBUG: date_raw = '4/8/20262:18:00 PM' -> date_filed = '4/8/20262:18:00'
+2026-05-11 10:49:28,319 [GA-UCC-v2] INFO -     Page 1/1: 14 records
+2026-05-11 10:49:28,324 [GA-UCC-v2] INFO -   → 14 found, 0 new
+2026-05-11 10:49:28,324 [GA-UCC-v2] INFO -   → 05/12/2025 – 11/10/2025
+2026-05-11 10:49:30,265 [GA-UCC-v2] INFO -   2 variation(s) — ~18 total filings
+2026-05-11 10:49:30,265 [GA-UCC-v2] INFO -     Variation 0: 'DELL FINANCIAL SERVICES L.L.C.' (17 filings)
+2026-05-11 10:49:33,330 [GA-UCC-v2] INFO - DEBUG: date_raw = '5/15/20259:36:00 AM' -> date_filed = '5/15/20259:36:00'
+2026-05-11 10:49:33,330 [GA-UCC-v2] INFO - DEBUG: date_raw = '5/28/20251:59:00 PM' -> date_filed = '5/28/20251:59:00'
+2026-05-11 10:49:33,330 [GA-UCC-v2] INFO - DEBUG: date_raw = '6/3/20253:51:00 PM' -> date_filed = '6/3/20253:51:00'
+2026-05-11 10:49:33,330 [GA-UCC-v2] INFO - DEBUG: date_raw = '6/12/202511:27:00 AM' -> date_filed = '6/12/202511:27:00'
+2026-05-11 10:49:33,331 [GA-UCC-v2] INFO - DEBUG: date_raw = '7/2/20252:40:00 PM' -> date_filed = '7/2/20252:40:00'
+2026-05-11 10:49:33,331 [GA-UCC-v2] INFO - DEBUG: date_raw = '7/11/202511:48:00 AM' -> date_filed = '7/11/202511:48:00'
+2026-05-11 10:49:33,331 [GA-UCC-v2] INFO - DEBUG: date_raw = '7/23/20252:57:00 PM' -> date_filed = '7/23/20252:57:00'
+2026-05-11 10:49:33,331 [GA-UCC-v2] INFO - DEBUG: date_raw = '7/30/20252:47:00 PM' -> date_filed = '7/30/20252:47:00'
+2026-05-11 10:49:33,331 [GA-UCC-v2] INFO - DEBUG: date_raw = '8/1/202511:45:00 AM' -> date_filed = '8/1/202511:45:00'
+2026-05-11 10:49:33,331 [GA-UCC-v2] INFO - DEBUG: date_raw = '8/5/20253:38:00 PM' -> date_filed = '8/5/20253:38:00'
+2026-05-11 10:49:33,332 [GA-UCC-v2] INFO - DEBUG: date_raw = '8/14/20253:02:00 PM' -> date_filed = '8/14/20253:02:00'
+2026-05-11 10:49:33,332 [GA-UCC-v2] INFO - DEBUG: date_raw = '8/14/20253:45:00 PM' -> date_filed = '8/14/20253:45:00'
+2026-05-11 10:49:33,332 [GA-UCC-v2] INFO - DEBUG: date_raw = '8/20/202511:10:00 AM' -> date_filed = '8/20/202511:10:00'
+2026-05-11 10:49:33,332 [GA-UCC-v2] INFO - DEBUG: date_raw = '9/15/202510:03:00 AM' -> date_filed = '9/15/202510:03:00'
+2026-05-11 10:49:33,332 [GA-UCC-v2] INFO - DEBUG: date_raw = '10/17/20253:44:00 PM' -> date_filed = '10/17/20253:44:00'
+2026-05-11 10:49:33,332 [GA-UCC-v2] INFO - DEBUG: date_raw = '10/22/202512:28:00 PM' -> date_filed = '10/22/202512:28:00'
+2026-05-11 10:49:33,332 [GA-UCC-v2] INFO - DEBUG: date_raw = '7/3/202510:30:00 AM' -> date_filed = '7/3/202510:30:00'
+2026-05-11 10:49:33,333 [GA-UCC-v2] INFO -     Page 1/1: 17 records
+2026-05-11 10:49:33,333 [GA-UCC-v2] INFO -     Variation 1: 'DELL FINANCIAL SERVICES, L.P.' (1 filing)
+2026-05-11 10:49:37,359 [GA-UCC-v2] INFO - DEBUG: date_raw = '8/11/20259:37:00 AM' -> date_filed = '8/11/20259:37:00'
+2026-05-11 10:49:37,360 [GA-UCC-v2] INFO -     Page 1/1: 1 records
+2026-05-11 10:49:37,361 [GA-UCC-v2] INFO -   → 18 found, 0 new
+2026-05-11 10:49:37,361 [GA-UCC-v2] INFO -   → 11/11/2024 – 05/12/2025
+2026-05-11 10:49:39,245 [GA-UCC-v2] INFO -   2 variation(s) — ~41 total filings
+2026-05-11 10:49:39,245 [GA-UCC-v2] INFO -     Variation 0: 'DELL FINANCIAL SERVICES L.L.C.' (39 filings)
+2026-05-11 10:49:43,456 [GA-UCC-v2] INFO - DEBUG: date_raw = '11/14/20241:06:00 PM' -> date_filed = '11/14/20241:06:00'
+2026-05-11 10:49:43,456 [GA-UCC-v2] INFO - DEBUG: date_raw = '11/22/20241:32:00 PM' -> date_filed = '11/22/20241:32:00'
+2026-05-11 10:49:43,456 [GA-UCC-v2] INFO - DEBUG: date_raw = '11/27/202412:19:00 PM' -> date_filed = '11/27/202412:19:00'
+2026-05-11 10:49:43,456 [GA-UCC-v2] INFO - DEBUG: date_raw = '12/4/20242:55:00 PM' -> date_filed = '12/4/20242:55:00'
+2026-05-11 10:49:43,456 [GA-UCC-v2] INFO - DEBUG: date_raw = '12/9/20249:25:00 AM' -> date_filed = '12/9/20249:25:00'
+2026-05-11 10:49:43,456 [GA-UCC-v2] INFO - DEBUG: date_raw = '12/9/202411:01:00 AM' -> date_filed = '12/9/202411:01:00'
+2026-05-11 10:49:43,456 [GA-UCC-v2] INFO - DEBUG: date_raw = '12/11/202410:38:00 AM' -> date_filed = '12/11/202410:38:00'
+2026-05-11 10:49:43,456 [GA-UCC-v2] INFO - DEBUG: date_raw = '1/2/20252:54:00 PM' -> date_filed = '1/2/20252:54:00'
+2026-05-11 10:49:43,457 [GA-UCC-v2] INFO - DEBUG: date_raw = '1/9/20253:26:00 PM' -> date_filed = '1/9/20253:26:00'
+2026-05-11 10:49:43,457 [GA-UCC-v2] INFO - DEBUG: date_raw = '1/16/20259:52:00 AM' -> date_filed = '1/16/20259:52:00'
+2026-05-11 10:49:43,457 [GA-UCC-v2] INFO - DEBUG: date_raw = '1/21/20251:52:00 PM' -> date_filed = '1/21/20251:52:00'
+2026-05-11 10:49:43,457 [GA-UCC-v2] INFO - DEBUG: date_raw = '1/23/20253:31:00 PM' -> date_filed = '1/23/20253:31:00'
+2026-05-11 10:49:43,457 [GA-UCC-v2] INFO - DEBUG: date_raw = '1/24/202510:33:00 AM' -> date_filed = '1/24/202510:33:00'
+2026-05-11 10:49:43,458 [GA-UCC-v2] INFO - DEBUG: date_raw = '1/30/20253:30:00 PM' -> date_filed = '1/30/20253:30:00'
+2026-05-11 10:49:43,459 [GA-UCC-v2] INFO - DEBUG: date_raw = '2/10/20252:42:00 PM' -> date_filed = '2/10/20252:42:00'
+2026-05-11 10:49:43,459 [GA-UCC-v2] INFO - DEBUG: date_raw = '2/13/20252:01:00 PM' -> date_filed = '2/13/20252:01:00'
+2026-05-11 10:49:43,460 [GA-UCC-v2] INFO - DEBUG: date_raw = '2/17/202510:21:00 AM' -> date_filed = '2/17/202510:21:00'
+2026-05-11 10:49:43,460 [GA-UCC-v2] INFO - DEBUG: date_raw = '2/20/20258:46:00 AM' -> date_filed = '2/20/20258:46:00'
+2026-05-11 10:49:43,461 [GA-UCC-v2] INFO - DEBUG: date_raw = '2/26/20259:16:00 AM' -> date_filed = '2/26/20259:16:00'
+2026-05-11 10:49:43,461 [GA-UCC-v2] INFO - DEBUG: date_raw = '3/6/20253:48:00 PM' -> date_filed = '3/6/20253:48:00'
+2026-05-11 10:49:43,462 [GA-UCC-v2] INFO - DEBUG: date_raw = '3/11/202510:30:00 AM' -> date_filed = '3/11/202510:30:00'
+2026-05-11 10:49:43,462 [GA-UCC-v2] INFO - DEBUG: date_raw = '3/11/202510:30:00 AM' -> date_filed = '3/11/202510:30:00'
+2026-05-11 10:49:43,462 [GA-UCC-v2] INFO - DEBUG: date_raw = '3/12/202510:27:00 AM' -> date_filed = '3/12/202510:27:00'
+2026-05-11 10:49:43,462 [GA-UCC-v2] INFO - DEBUG: date_raw = '3/14/20253:30:00 PM' -> date_filed = '3/14/20253:30:00'
+2026-05-11 10:49:43,462 [GA-UCC-v2] INFO - DEBUG: date_raw = '3/18/20258:59:00 AM' -> date_filed = '3/18/20258:59:00'
+2026-05-11 10:49:43,462 [GA-UCC-v2] INFO - DEBUG: date_raw = '3/18/20258:59:00 AM' -> date_filed = '3/18/20258:59:00'
+2026-05-11 10:49:43,462 [GA-UCC-v2] INFO - DEBUG: date_raw = '3/25/202510:06:00 AM' -> date_filed = '3/25/202510:06:00'
+2026-05-11 10:49:43,463 [GA-UCC-v2] INFO - DEBUG: date_raw = '3/26/20252:51:00 PM' -> date_filed = '3/26/20252:51:00'
+2026-05-11 10:49:43,463 [GA-UCC-v2] INFO - DEBUG: date_raw = '4/2/20251:56:00 PM' -> date_filed = '4/2/20251:56:00'
+2026-05-11 10:49:43,463 [GA-UCC-v2] INFO - DEBUG: date_raw = '4/3/202511:36:00 AM' -> date_filed = '4/3/202511:36:00'
+2026-05-11 10:49:43,463 [GA-UCC-v2] INFO - DEBUG: date_raw = '4/3/20251:06:00 PM' -> date_filed = '4/3/20251:06:00'
+2026-05-11 10:49:43,463 [GA-UCC-v2] INFO - DEBUG: date_raw = '4/4/20253:57:00 PM' -> date_filed = '4/4/20253:57:00'
+2026-05-11 10:49:43,463 [GA-UCC-v2] INFO - DEBUG: date_raw = '4/10/20252:41:00 PM' -> date_filed = '4/10/20252:41:00'
+2026-05-11 10:49:43,463 [GA-UCC-v2] INFO - DEBUG: date_raw = '4/29/20252:34:00 PM' -> date_filed = '4/29/20252:34:00'
+2026-05-11 10:49:43,464 [GA-UCC-v2] INFO - DEBUG: date_raw = '4/29/20253:49:00 PM' -> date_filed = '4/29/20253:49:00'
+2026-05-11 10:49:43,464 [GA-UCC-v2] INFO - DEBUG: date_raw = '4/30/20252:16:00 PM' -> date_filed = '4/30/20252:16:00'
+2026-05-11 10:49:43,464 [GA-UCC-v2] INFO - DEBUG: date_raw = '5/6/20251:11:00 PM' -> date_filed = '5/6/20251:11:00'
+2026-05-11 10:49:43,465 [GA-UCC-v2] INFO - DEBUG: date_raw = '5/7/20251:46:00 PM' -> date_filed = '5/7/20251:46:00'
+2026-05-11 10:49:43,465 [GA-UCC-v2] INFO - DEBUG: date_raw = '3/18/20258:33:00 AM' -> date_filed = '3/18/20258:33:00'
+2026-05-11 10:49:43,466 [GA-UCC-v2] INFO -     Page 1/1: 39 records
+2026-05-11 10:49:43,470 [GA-UCC-v2] INFO -     Variation 1: 'DELL FINANCIAL SERVICES, L.P.' (2 filings)
+2026-05-11 10:49:46,544 [GA-UCC-v2] INFO - DEBUG: date_raw = '3/18/20258:59:00 AM' -> date_filed = '3/18/20258:59:00'
+2026-05-11 10:49:46,544 [GA-UCC-v2] INFO - DEBUG: date_raw = '3/19/20259:16:00 AM' -> date_filed = '3/19/20259:16:00'
+2026-05-11 10:49:46,545 [GA-UCC-v2] INFO -     Page 1/1: 2 records
+2026-05-11 10:49:46,546 [GA-UCC-v2] INFO -   → 41 found, 0 new
+2026-05-11 10:49:46,546 [GA-UCC-v2] INFO -   → 05/13/2024 – 11/11/2024
+2026-05-11 10:49:48,539 [GA-UCC-v2] INFO -   3 variation(s) — ~41 total filings
+2026-05-11 10:49:48,539 [GA-UCC-v2] INFO -     Variation 0: 'DELL FINANCIAL SERVICES L.L.C.' (39 filings)
+2026-05-11 10:49:53,303 [GA-UCC-v2] INFO - DEBUG: date_raw = '5/15/20241:49:00 PM' -> date_filed = '5/15/20241:49:00'
+2026-05-11 10:49:53,303 [GA-UCC-v2] INFO - DEBUG: date_raw = '5/29/202410:56:00 AM' -> date_filed = '5/29/202410:56:00'
+2026-05-11 10:49:53,303 [GA-UCC-v2] INFO - DEBUG: date_raw = '6/5/202411:33:00 AM' -> date_filed = '6/5/202411:33:00'
+2026-05-11 10:49:53,303 [GA-UCC-v2] INFO - DEBUG: date_raw = '6/5/202411:33:00 AM' -> date_filed = '6/5/202411:33:00'
+2026-05-11 10:49:53,304 [GA-UCC-v2] INFO - DEBUG: date_raw = '6/5/20242:46:00 PM' -> date_filed = '6/5/20242:46:00'
+2026-05-11 10:49:53,304 [GA-UCC-v2] INFO - DEBUG: date_raw = '6/10/202410:18:00 AM' -> date_filed = '6/10/202410:18:00'
+2026-05-11 10:49:53,304 [GA-UCC-v2] INFO - DEBUG: date_raw = '6/10/20242:39:00 PM' -> date_filed = '6/10/20242:39:00'
+2026-05-11 10:49:53,304 [GA-UCC-v2] INFO - DEBUG: date_raw = '6/10/20242:39:00 PM' -> date_filed = '6/10/20242:39:00'
+2026-05-11 10:49:53,304 [GA-UCC-v2] INFO - DEBUG: date_raw = '6/11/20249:28:00 AM' -> date_filed = '6/11/20249:28:00'
+2026-05-11 10:49:53,304 [GA-UCC-v2] INFO - DEBUG: date_raw = '6/13/20248:52:00 AM' -> date_filed = '6/13/20248:52:00'
+2026-05-11 10:49:53,304 [GA-UCC-v2] INFO - DEBUG: date_raw = '6/18/20241:21:00 PM' -> date_filed = '6/18/20241:21:00'
+2026-05-11 10:49:53,305 [GA-UCC-v2] INFO - DEBUG: date_raw = '6/24/202411:32:00 AM' -> date_filed = '6/24/202411:32:00'
+2026-05-11 10:49:53,305 [GA-UCC-v2] INFO - DEBUG: date_raw = '7/16/202411:28:00 AM' -> date_filed = '7/16/202411:28:00'
+2026-05-11 10:49:53,305 [GA-UCC-v2] INFO - DEBUG: date_raw = '7/17/20249:56:00 AM' -> date_filed = '7/17/20249:56:00'
+2026-05-11 10:49:53,305 [GA-UCC-v2] INFO - DEBUG: date_raw = '7/17/20249:56:00 AM' -> date_filed = '7/17/20249:56:00'
+2026-05-11 10:49:53,305 [GA-UCC-v2] INFO - DEBUG: date_raw = '7/17/202410:02:00 AM' -> date_filed = '7/17/202410:02:00'
+2026-05-11 10:49:53,305 [GA-UCC-v2] INFO - DEBUG: date_raw = '7/22/20243:23:00 PM' -> date_filed = '7/22/20243:23:00'
+2026-05-11 10:49:53,305 [GA-UCC-v2] INFO - DEBUG: date_raw = '7/22/20243:23:00 PM' -> date_filed = '7/22/20243:23:00'
+2026-05-11 10:49:53,305 [GA-UCC-v2] INFO - DEBUG: date_raw = '7/22/20243:41:00 PM' -> date_filed = '7/22/20243:41:00'
+2026-05-11 10:49:53,305 [GA-UCC-v2] INFO - DEBUG: date_raw = '7/22/20243:41:00 PM' -> date_filed = '7/22/20243:41:00'
+2026-05-11 10:49:53,306 [GA-UCC-v2] INFO - DEBUG: date_raw = '7/25/20243:21:00 PM' -> date_filed = '7/25/20243:21:00'
+2026-05-11 10:49:53,306 [GA-UCC-v2] INFO - DEBUG: date_raw = '7/25/20243:21:00 PM' -> date_filed = '7/25/20243:21:00'
+2026-05-11 10:49:53,306 [GA-UCC-v2] INFO - DEBUG: date_raw = '7/26/20242:41:00 PM' -> date_filed = '7/26/20242:41:00'
+2026-05-11 10:49:53,306 [GA-UCC-v2] INFO - DEBUG: date_raw = '7/30/202410:18:00 AM' -> date_filed = '7/30/202410:18:00'
+2026-05-11 10:49:53,306 [GA-UCC-v2] INFO - DEBUG: date_raw = '7/30/202410:27:00 AM' -> date_filed = '7/30/202410:27:00'
+2026-05-11 10:49:53,306 [GA-UCC-v2] INFO - DEBUG: date_raw = '7/30/202410:31:00 AM' -> date_filed = '7/30/202410:31:00'
+2026-05-11 10:49:53,306 [GA-UCC-v2] INFO - DEBUG: date_raw = '7/30/20243:41:00 PM' -> date_filed = '7/30/20243:41:00'
+2026-05-11 10:49:53,306 [GA-UCC-v2] INFO - DEBUG: date_raw = '8/2/202410:30:00 AM' -> date_filed = '8/2/202410:30:00'
+2026-05-11 10:49:53,306 [GA-UCC-v2] INFO - DEBUG: date_raw = '8/2/202410:30:00 AM' -> date_filed = '8/2/202410:30:00'
+2026-05-11 10:49:53,306 [GA-UCC-v2] INFO - DEBUG: date_raw = '8/7/20243:36:00 PM' -> date_filed = '8/7/20243:36:00'
+2026-05-11 10:49:53,307 [GA-UCC-v2] INFO - DEBUG: date_raw = '8/15/20241:34:00 PM' -> date_filed = '8/15/20241:34:00'
+2026-05-11 10:49:53,307 [GA-UCC-v2] INFO - DEBUG: date_raw = '8/15/20241:34:00 PM' -> date_filed = '8/15/20241:34:00'
+2026-05-11 10:49:53,307 [GA-UCC-v2] INFO - DEBUG: date_raw = '9/10/202410:59:00 AM' -> date_filed = '9/10/202410:59:00'
+2026-05-11 10:49:53,307 [GA-UCC-v2] INFO - DEBUG: date_raw = '9/10/202411:07:00 AM' -> date_filed = '9/10/202411:07:00'
+2026-05-11 10:49:53,307 [GA-UCC-v2] INFO - DEBUG: date_raw = '9/11/20242:50:00 PM' -> date_filed = '9/11/20242:50:00'
+2026-05-11 10:49:53,307 [GA-UCC-v2] INFO - DEBUG: date_raw = '9/16/20249:13:00 AM' -> date_filed = '9/16/20249:13:00'
+2026-05-11 10:49:53,307 [GA-UCC-v2] INFO - DEBUG: date_raw = '10/9/20243:46:00 PM' -> date_filed = '10/9/20243:46:00'
+2026-05-11 10:49:53,307 [GA-UCC-v2] INFO - DEBUG: date_raw = '10/17/202412:18:00 PM' -> date_filed = '10/17/202412:18:00'
+2026-05-11 10:49:53,307 [GA-UCC-v2] INFO - DEBUG: date_raw = '10/24/20243:39:00 PM' -> date_filed = '10/24/20243:39:00'
+2026-05-11 10:49:53,307 [GA-UCC-v2] INFO - DEBUG: date_raw = '10/24/20243:46:00 PM' -> date_filed = '10/24/20243:46:00'
+2026-05-11 10:49:53,308 [GA-UCC-v2] INFO - DEBUG: date_raw = '11/8/20242:33:00 PM' -> date_filed = '11/8/20242:33:00'
+2026-05-11 10:49:53,308 [GA-UCC-v2] INFO - DEBUG: date_raw = '7/17/202411:26:00 AM' -> date_filed = '7/17/202411:26:00'
+2026-05-11 10:49:53,308 [GA-UCC-v2] INFO -     Page 1/1: 42 records
+2026-05-11 10:49:53,309 [GA-UCC-v2] INFO -     Variation 1: 'DELL FINANCIAL SERVICES L.P.' (1 filing)
+2026-05-11 10:49:55,838 [GA-UCC-v2] INFO - DEBUG: date_raw = '6/18/20242:01:00 PM' -> date_filed = '6/18/20242:01:00'
+2026-05-11 10:49:55,838 [GA-UCC-v2] INFO - DEBUG: date_raw = '6/18/20242:01:00 PM' -> date_filed = '6/18/20242:01:00'
+2026-05-11 10:49:55,839 [GA-UCC-v2] INFO -     Page 1/1: 2 records
+2026-05-11 10:49:55,839 [GA-UCC-v2] INFO -     Variation 2: 'DELL FINANCIAL SERVICES, L.P.' (1 filing)
+2026-05-11 10:49:58,108 [GA-UCC-v2] INFO - DEBUG: date_raw = '6/25/20249:15:00 AM' -> date_filed = '6/25/20249:15:00'
+2026-05-11 10:49:58,109 [GA-UCC-v2] INFO - DEBUG: date_raw = '6/25/20249:15:00 AM' -> date_filed = '6/25/20249:15:00'
+2026-05-11 10:49:58,109 [GA-UCC-v2] INFO -     Page 1/1: 2 records
+2026-05-11 10:49:58,110 [GA-UCC-v2] INFO -   → 46 found, 0 new
+2026-05-11 10:49:58,115 [GA-UCC-v2] INFO -   → 11/13/2023 – 05/13/2024
+2026-05-11 10:50:00,078 [GA-UCC-v2] INFO -   3 variation(s) — ~49 total filings
+2026-05-11 10:50:00,078 [GA-UCC-v2] INFO -     Variation 0: 'DELL FINANCIAL SERVICES L.L.C.' (46 filings)
+2026-05-11 10:50:06,759 [GA-UCC-v2] INFO - DEBUG: date_raw = '12/5/20231:17:00 PM' -> date_filed = '12/5/20231:17:00'
+2026-05-11 10:50:06,760 [GA-UCC-v2] INFO - DEBUG: date_raw = '12/7/20233:10:00 PM' -> date_filed = '12/7/20233:10:00'
+2026-05-11 10:50:06,760 [GA-UCC-v2] INFO - DEBUG: date_raw = '12/11/20232:36:00 PM' -> date_filed = '12/11/20232:36:00'
+2026-05-11 10:50:06,760 [GA-UCC-v2] INFO - DEBUG: date_raw = '12/18/20233:35:00 PM' -> date_filed = '12/18/20233:35:00'
+2026-05-11 10:50:06,760 [GA-UCC-v2] INFO - DEBUG: date_raw = '12/22/20231:40:00 PM' -> date_filed = '12/22/20231:40:00'
+2026-05-11 10:50:06,760 [GA-UCC-v2] INFO - DEBUG: date_raw = '1/5/20249:39:00 AM' -> date_filed = '1/5/20249:39:00'
+2026-05-11 10:50:06,760 [GA-UCC-v2] INFO - DEBUG: date_raw = '1/11/20242:10:00 PM' -> date_filed = '1/11/20242:10:00'
+2026-05-11 10:50:06,760 [GA-UCC-v2] INFO - DEBUG: date_raw = '1/25/20249:06:00 AM' -> date_filed = '1/25/20249:06:00'
+2026-05-11 10:50:06,760 [GA-UCC-v2] INFO - DEBUG: date_raw = '2/6/202410:29:00 AM' -> date_filed = '2/6/202410:29:00'
+2026-05-11 10:50:06,761 [GA-UCC-v2] INFO - DEBUG: date_raw = '2/13/20248:37:00 AM' -> date_filed = '2/13/20248:37:00'
+2026-05-11 10:50:06,761 [GA-UCC-v2] INFO - DEBUG: date_raw = '2/13/20249:25:00 AM' -> date_filed = '2/13/20249:25:00'
+2026-05-11 10:50:06,761 [GA-UCC-v2] INFO - DEBUG: date_raw = '2/13/20249:25:00 AM' -> date_filed = '2/13/20249:25:00'
+2026-05-11 10:50:06,761 [GA-UCC-v2] INFO - DEBUG: date_raw = '2/13/20249:55:00 AM' -> date_filed = '2/13/20249:55:00'
+2026-05-11 10:50:06,761 [GA-UCC-v2] INFO - DEBUG: date_raw = '2/19/20241:49:00 PM' -> date_filed = '2/19/20241:49:00'
+2026-05-11 10:50:06,761 [GA-UCC-v2] INFO - DEBUG: date_raw = '2/28/20241:12:00 PM' -> date_filed = '2/28/20241:12:00'
+2026-05-11 10:50:06,761 [GA-UCC-v2] INFO - DEBUG: date_raw = '3/5/202412:56:00 PM' -> date_filed = '3/5/202412:56:00'
+2026-05-11 10:50:06,761 [GA-UCC-v2] INFO - DEBUG: date_raw = '3/11/20242:22:00 PM' -> date_filed = '3/11/20242:22:00'
+2026-05-11 10:50:06,762 [GA-UCC-v2] INFO - DEBUG: date_raw = '3/14/20242:45:00 PM' -> date_filed = '3/14/20242:45:00'
+2026-05-11 10:50:06,762 [GA-UCC-v2] INFO - DEBUG: date_raw = '3/15/20242:36:00 PM' -> date_filed = '3/15/20242:36:00'
+2026-05-11 10:50:06,762 [GA-UCC-v2] INFO - DEBUG: date_raw = '3/28/20249:51:00 AM' -> date_filed = '3/28/20249:51:00'
+2026-05-11 10:50:06,762 [GA-UCC-v2] INFO - DEBUG: date_raw = '3/28/20249:53:00 AM' -> date_filed = '3/28/20249:53:00'
+2026-05-11 10:50:06,762 [GA-UCC-v2] INFO - DEBUG: date_raw = '3/28/20242:53:00 PM' -> date_filed = '3/28/20242:53:00'
+2026-05-11 10:50:06,762 [GA-UCC-v2] INFO - DEBUG: date_raw = '4/10/20242:25:00 PM' -> date_filed = '4/10/20242:25:00'
+2026-05-11 10:50:06,762 [GA-UCC-v2] INFO - DEBUG: date_raw = '4/10/20244:30:00 PM' -> date_filed = '4/10/20244:30:00'
+2026-05-11 10:50:06,762 [GA-UCC-v2] INFO - DEBUG: date_raw = '4/11/20241:34:00 PM' -> date_filed = '4/11/20241:34:00'
+2026-05-11 10:50:06,762 [GA-UCC-v2] INFO - DEBUG: date_raw = '4/12/20249:05:00 AM' -> date_filed = '4/12/20249:05:00'
+2026-05-11 10:50:06,763 [GA-UCC-v2] INFO - DEBUG: date_raw = '4/22/202411:45:00 AM' -> date_filed = '4/22/202411:45:00'
+2026-05-11 10:50:06,763 [GA-UCC-v2] INFO - DEBUG: date_raw = '4/25/202410:04:00 AM' -> date_filed = '4/25/202410:04:00'
+2026-05-11 10:50:06,763 [GA-UCC-v2] INFO - DEBUG: date_raw = '4/25/202411:12:00 AM' -> date_filed = '4/25/202411:12:00'
+2026-05-11 10:50:06,763 [GA-UCC-v2] INFO - DEBUG: date_raw = '4/25/202411:12:00 AM' -> date_filed = '4/25/202411:12:00'
+2026-05-11 10:50:06,763 [GA-UCC-v2] INFO - DEBUG: date_raw = '4/25/20243:45:00 PM' -> date_filed = '4/25/20243:45:00'
+2026-05-11 10:50:06,764 [GA-UCC-v2] INFO - DEBUG: date_raw = '4/29/20243:42:00 PM' -> date_filed = '4/29/20243:42:00'
+2026-05-11 10:50:06,764 [GA-UCC-v2] INFO - DEBUG: date_raw = '4/29/20243:44:00 PM' -> date_filed = '4/29/20243:44:00'
+2026-05-11 10:50:06,764 [GA-UCC-v2] INFO - DEBUG: date_raw = '4/30/20242:11:00 PM' -> date_filed = '4/30/20242:11:00'
+2026-05-11 10:50:06,764 [GA-UCC-v2] INFO - DEBUG: date_raw = '4/30/20242:11:00 PM' -> date_filed = '4/30/20242:11:00'
+2026-05-11 10:50:06,764 [GA-UCC-v2] INFO - DEBUG: date_raw = '5/3/20243:01:00 PM' -> date_filed = '5/3/20243:01:00'
+2026-05-11 10:50:06,764 [GA-UCC-v2] INFO - DEBUG: date_raw = '5/7/20241:57:00 PM' -> date_filed = '5/7/20241:57:00'
+2026-05-11 10:50:06,764 [GA-UCC-v2] INFO - DEBUG: date_raw = '5/7/20241:58:00 PM' -> date_filed = '5/7/20241:58:00'
+2026-05-11 10:50:06,765 [GA-UCC-v2] INFO - DEBUG: date_raw = '5/8/20243:24:00 PM' -> date_filed = '5/8/20243:24:00'
+2026-05-11 10:50:06,765 [GA-UCC-v2] INFO - DEBUG: date_raw = '5/8/20243:25:00 PM' -> date_filed = '5/8/20243:25:00'
+2026-05-11 10:50:06,765 [GA-UCC-v2] INFO - DEBUG: date_raw = '5/8/20243:36:00 PM' -> date_filed = '5/8/20243:36:00'
+2026-05-11 10:50:06,766 [GA-UCC-v2] INFO - DEBUG: date_raw = '5/10/202410:45:00 AM' -> date_filed = '5/10/202410:45:00'
+2026-05-11 10:50:06,766 [GA-UCC-v2] INFO - DEBUG: date_raw = '1/12/202411:44:00 AM' -> date_filed = '1/12/202411:44:00'
+2026-05-11 10:50:06,766 [GA-UCC-v2] INFO - DEBUG: date_raw = '1/12/202411:44:00 AM' -> date_filed = '1/12/202411:44:00'
+2026-05-11 10:50:06,767 [GA-UCC-v2] INFO - DEBUG: date_raw = '2/29/202410:47:00 AM' -> date_filed = '2/29/202410:47:00'
+2026-05-11 10:50:06,767 [GA-UCC-v2] INFO - DEBUG: date_raw = '2/29/202410:47:00 AM' -> date_filed = '2/29/202410:47:00'
+2026-05-11 10:50:06,767 [GA-UCC-v2] INFO - DEBUG: date_raw = '12/11/20233:45:00 PM' -> date_filed = '12/11/20233:45:00'
+2026-05-11 10:50:06,767 [GA-UCC-v2] INFO - DEBUG: date_raw = '12/11/20233:45:00 PM' -> date_filed = '12/11/20233:45:00'
+2026-05-11 10:50:06,767 [GA-UCC-v2] INFO - DEBUG: date_raw = '12/11/20233:48:00 PM' -> date_filed = '12/11/20233:48:00'
+2026-05-11 10:50:06,768 [GA-UCC-v2] INFO - DEBUG: date_raw = '12/11/20233:48:00 PM' -> date_filed = '12/11/20233:48:00'
+2026-05-11 10:50:06,768 [GA-UCC-v2] INFO - DEBUG: date_raw = '3/7/20241:43:00 PM' -> date_filed = '3/7/20241:43:00'
+2026-05-11 10:50:06,768 [GA-UCC-v2] INFO - DEBUG: date_raw = '3/8/20247:55:00 AM' -> date_filed = '3/8/20247:55:00'
+2026-05-11 10:50:06,770 [GA-UCC-v2] INFO -     Page 1/1: 52 records
+2026-05-11 10:50:06,772 [GA-UCC-v2] INFO -     Variation 1: 'DELL FINANCIAL SERVICES L.P.' (2 filings)
+2026-05-11 10:50:09,371 [GA-UCC-v2] INFO - DEBUG: date_raw = '4/3/20241:44:00 PM' -> date_filed = '4/3/20241:44:00'
+2026-05-11 10:50:09,371 [GA-UCC-v2] INFO - DEBUG: date_raw = '4/3/20242:03:00 PM' -> date_filed = '4/3/20242:03:00'
+2026-05-11 10:50:09,371 [GA-UCC-v2] INFO -     Page 1/1: 2 records
+2026-05-11 10:50:09,372 [GA-UCC-v2] INFO -     Variation 2: 'DELL FINANCIAL SERVICES, L.P.' (1 filing)
+2026-05-11 10:50:11,744 [GA-UCC-v2] INFO - DEBUG: date_raw = '4/11/20248:24:00 AM' -> date_filed = '4/11/20248:24:00'
+2026-05-11 10:50:11,744 [GA-UCC-v2] INFO - DEBUG: date_raw = '4/11/20248:24:00 AM' -> date_filed = '4/11/20248:24:00'
+2026-05-11 10:50:11,745 [GA-UCC-v2] INFO -     Page 1/1: 2 records
+2026-05-11 10:50:11,757 [GA-UCC-v2] INFO -   → 56 found, 0 new
+2026-05-11 10:50:11,758 [GA-UCC-v2] INFO -   → 05/15/2023 – 11/13/2023
+2026-05-11 10:50:13,813 [GA-UCC-v2] INFO -   1 variation(s) — ~24 total filings
+2026-05-11 10:50:13,813 [GA-UCC-v2] INFO -     Variation 0: 'DELL FINANCIAL SERVICES L.L.C.' (24 filings)
+2026-05-11 10:50:19,292 [GA-UCC-v2] INFO - DEBUG: date_raw = '5/16/20239:03:00 AM' -> date_filed = '5/16/20239:03:00'
+2026-05-11 10:50:19,292 [GA-UCC-v2] INFO - DEBUG: date_raw = '5/16/20239:49:00 AM' -> date_filed = '5/16/20239:49:00'
+2026-05-11 10:50:19,292 [GA-UCC-v2] INFO - DEBUG: date_raw = '5/18/20239:27:00 AM' -> date_filed = '5/18/20239:27:00'
+2026-05-11 10:50:19,293 [GA-UCC-v2] INFO - DEBUG: date_raw = '5/18/20232:57:00 PM' -> date_filed = '5/18/20232:57:00'
+2026-05-11 10:50:19,293 [GA-UCC-v2] INFO - DEBUG: date_raw = '6/15/20232:58:00 PM' -> date_filed = '6/15/20232:58:00'
+2026-05-11 10:50:19,293 [GA-UCC-v2] INFO - DEBUG: date_raw = '6/20/20239:10:00 AM' -> date_filed = '6/20/20239:10:00'
+2026-05-11 10:50:19,293 [GA-UCC-v2] INFO - DEBUG: date_raw = '7/7/20233:38:00 PM' -> date_filed = '7/7/20233:38:00'
+2026-05-11 10:50:19,293 [GA-UCC-v2] INFO - DEBUG: date_raw = '7/24/20233:30:00 PM' -> date_filed = '7/24/20233:30:00'
+2026-05-11 10:50:19,294 [GA-UCC-v2] INFO - DEBUG: date_raw = '7/28/20239:32:00 AM' -> date_filed = '7/28/20239:32:00'
+2026-05-11 10:50:19,294 [GA-UCC-v2] INFO - DEBUG: date_raw = '8/3/202310:47:00 AM' -> date_filed = '8/3/202310:47:00'
+2026-05-11 10:50:19,295 [GA-UCC-v2] INFO - DEBUG: date_raw = '8/3/20233:53:00 PM' -> date_filed = '8/3/20233:53:00'
+2026-05-11 10:50:19,296 [GA-UCC-v2] INFO - DEBUG: date_raw = '8/11/202311:13:00 AM' -> date_filed = '8/11/202311:13:00'
+2026-05-11 10:50:19,296 [GA-UCC-v2] INFO - DEBUG: date_raw = '8/15/202310:08:00 AM' -> date_filed = '8/15/202310:08:00'
+2026-05-11 10:50:19,296 [GA-UCC-v2] INFO - DEBUG: date_raw = '8/15/202310:59:00 AM' -> date_filed = '8/15/202310:59:00'
+2026-05-11 10:50:19,296 [GA-UCC-v2] INFO - DEBUG: date_raw = '8/30/20231:12:00 PM' -> date_filed = '8/30/20231:12:00'
+2026-05-11 10:50:19,297 [GA-UCC-v2] INFO - DEBUG: date_raw = '9/5/20232:26:00 PM' -> date_filed = '9/5/20232:26:00'
+2026-05-11 10:50:19,297 [GA-UCC-v2] INFO - DEBUG: date_raw = '9/14/202310:03:00 AM' -> date_filed = '9/14/202310:03:00'
+2026-05-11 10:50:19,297 [GA-UCC-v2] INFO - DEBUG: date_raw = '9/15/20239:22:00 AM' -> date_filed = '9/15/20239:22:00'
+2026-05-11 10:50:19,297 [GA-UCC-v2] INFO - DEBUG: date_raw = '9/20/202310:18:00 AM' -> date_filed = '9/20/202310:18:00'
+2026-05-11 10:50:19,297 [GA-UCC-v2] INFO - DEBUG: date_raw = '5/26/20238:58:00 AM' -> date_filed = '5/26/20238:58:00'
+2026-05-11 10:50:19,297 [GA-UCC-v2] INFO - DEBUG: date_raw = '6/26/202312:17:00 PM' -> date_filed = '6/26/202312:17:00'
+2026-05-11 10:50:19,298 [GA-UCC-v2] INFO - DEBUG: date_raw = '6/26/202312:17:00 PM' -> date_filed = '6/26/202312:17:00'
+2026-05-11 10:50:19,298 [GA-UCC-v2] INFO - DEBUG: date_raw = '8/4/202312:51:00 PM' -> date_filed = '8/4/202312:51:00'
+2026-05-11 10:50:19,298 [GA-UCC-v2] INFO - DEBUG: date_raw = '8/4/202312:51:00 PM' -> date_filed = '8/4/202312:51:00'
+2026-05-11 10:50:19,298 [GA-UCC-v2] INFO - DEBUG: date_raw = '9/12/202311:49:00 AM' -> date_filed = '9/12/202311:49:00'
+2026-05-11 10:50:19,298 [GA-UCC-v2] INFO - DEBUG: date_raw = '9/12/202311:49:00 AM' -> date_filed = '9/12/202311:49:00'
+2026-05-11 10:50:19,298 [GA-UCC-v2] INFO - DEBUG: date_raw = '8/31/20238:55:00 AM' -> date_filed = '8/31/20238:55:00'
+2026-05-11 10:50:19,299 [GA-UCC-v2] INFO -     Page 1/1: 27 records
+2026-05-11 10:50:19,301 [GA-UCC-v2] INFO -   → 27 found, 0 new
+2026-05-11 10:50:19,301 [GA-UCC-v2] INFO -   → 11/14/2022 – 05/15/2023
+2026-05-11 10:50:20,917 [GA-UCC-v2] INFO -   No results
+2026-05-11 10:50:20,917 [GA-UCC-v2] INFO -   → 05/16/2022 – 11/14/2022

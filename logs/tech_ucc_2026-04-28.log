@@ -1,0 +1,293 @@
+2026-04-28 10:05:55,857 [TechUCC] INFO - 
+───────────────────────────────────────────────────────
+2026-04-28 10:05:55,857 [TechUCC] INFO - 🔍 Searching for: DELL FINANCIAL (IT_OEM)
+2026-04-28 10:05:56,559 [TechUCC] INFO -   CT: Found 119 leads for DELL FINANCIAL
+2026-04-28 10:05:56,865 [TechUCC] INFO -   CT: 99 NEW leads saved
+2026-04-28 10:05:57,867 [TechUCC] INFO - 
+───────────────────────────────────────────────────────
+2026-04-28 10:05:57,867 [TechUCC] INFO - 🔍 Searching for: DELL TECHNOLOGIES (IT_OEM)
+2026-04-28 10:05:58,426 [TechUCC] INFO -   CT: Found 0 leads for DELL TECHNOLOGIES
+2026-04-28 10:05:58,426 [TechUCC] INFO -   CT: 0 NEW leads saved
+2026-04-28 10:05:59,426 [TechUCC] INFO - 
+───────────────────────────────────────────────────────
+2026-04-28 10:05:59,427 [TechUCC] INFO - 🔍 Searching for: HEWLETT-PACKARD (IT_OEM)
+2026-04-28 10:05:59,941 [TechUCC] INFO -   CT: Found 89 leads for HEWLETT-PACKARD
+2026-04-28 10:06:00,095 [TechUCC] INFO -   CT: 84 NEW leads saved
+2026-04-28 10:06:01,097 [TechUCC] INFO - 
+───────────────────────────────────────────────────────
+2026-04-28 10:06:01,097 [TechUCC] INFO - 🔍 Searching for: HP FINANCIAL (IT_OEM)
+2026-04-28 10:06:01,661 [TechUCC] INFO -   CT: Found 0 leads for HP FINANCIAL
+2026-04-28 10:06:01,661 [TechUCC] INFO -   CT: 0 NEW leads saved
+2026-04-28 10:06:02,664 [TechUCC] INFO - 
+───────────────────────────────────────────────────────
+2026-04-28 10:06:02,664 [TechUCC] INFO - 🔍 Searching for: LENOVO (IT_OEM)
+2026-04-28 10:06:03,195 [TechUCC] INFO -   CT: Found 117 leads for LENOVO
+2026-04-28 10:06:03,464 [TechUCC] INFO -   CT: 108 NEW leads saved
+2026-04-28 10:06:04,483 [TechUCC] INFO - 
+───────────────────────────────────────────────────────
+2026-04-28 10:06:04,483 [TechUCC] INFO - 🔍 Searching for: IBM CREDIT (IT_OEM)
+2026-04-28 10:06:05,047 [TechUCC] INFO -   CT: Found 10 leads for IBM CREDIT
+2026-04-28 10:06:05,072 [TechUCC] INFO -   CT: 10 NEW leads saved
+2026-04-28 10:06:06,076 [TechUCC] INFO - 
+───────────────────────────────────────────────────────
+2026-04-28 10:06:06,076 [TechUCC] INFO - 🔍 Searching for: IBM CORP (IT_OEM)
+2026-04-28 10:06:06,579 [TechUCC] INFO -   CT: Found 0 leads for IBM CORP
+2026-04-28 10:06:06,579 [TechUCC] INFO -   CT: 0 NEW leads saved
+2026-04-28 10:06:07,579 [TechUCC] INFO - 
+───────────────────────────────────────────────────────
+2026-04-28 10:06:07,579 [TechUCC] INFO - 🔍 Searching for: CISCO (IT_OEM)
+2026-04-28 10:06:09,092 [TechUCC] INFO -   CT: Found 28 leads for CISCO
+2026-04-28 10:06:09,138 [TechUCC] INFO -   CT: 24 NEW leads saved
+2026-04-28 10:06:10,141 [TechUCC] INFO - 
+───────────────────────────────────────────────────────
+2026-04-28 10:06:10,142 [TechUCC] INFO - 🔍 Searching for: ORACLE (IT_OEM)
+2026-04-28 10:06:10,700 [TechUCC] INFO -   CT: Found 0 leads for ORACLE
+2026-04-28 10:06:10,701 [TechUCC] INFO -   CT: 0 NEW leads saved
+2026-04-28 10:06:11,702 [TechUCC] INFO - 
+───────────────────────────────────────────────────────
+2026-04-28 10:06:11,710 [TechUCC] INFO - 🔍 Searching for: XEROX (PRINT_IMAGING)
+2026-04-28 10:06:12,402 [TechUCC] INFO -   CT: Found 92 leads for XEROX
+2026-04-28 10:06:12,616 [TechUCC] INFO -   CT: 67 NEW leads saved
+2026-04-28 10:06:13,622 [TechUCC] INFO - 
+───────────────────────────────────────────────────────
+2026-04-28 10:06:13,623 [TechUCC] INFO - 🔍 Searching for: CANON FINANCIAL (PRINT_IMAGING)
+2026-04-28 10:06:14,111 [TechUCC] INFO -   CT: Found 156 leads for CANON FINANCIAL
+2026-04-28 10:06:14,411 [TechUCC] INFO -   CT: 149 NEW leads saved
+2026-04-28 10:06:15,412 [TechUCC] INFO - 
+───────────────────────────────────────────────────────
+2026-04-28 10:06:15,412 [TechUCC] INFO - 🔍 Searching for: KONICA MINOLTA (PRINT_IMAGING)
+2026-04-28 10:06:15,906 [TechUCC] INFO -   CT: Found 52 leads for KONICA MINOLTA
+2026-04-28 10:06:16,027 [TechUCC] INFO -   CT: 52 NEW leads saved
+2026-04-28 10:06:17,027 [TechUCC] INFO - 
+───────────────────────────────────────────────────────
+2026-04-28 10:06:17,028 [TechUCC] INFO - 🔍 Searching for: RICOH (PRINT_IMAGING)
+2026-04-28 10:06:17,760 [TechUCC] INFO -   CT: Found 6 leads for RICOH
+2026-04-28 10:06:17,769 [TechUCC] INFO -   CT: 6 NEW leads saved
+2026-04-28 10:06:18,771 [TechUCC] INFO - 
+───────────────────────────────────────────────────────
+2026-04-28 10:06:18,771 [TechUCC] INFO - 🔍 Searching for: SHARP ELECTRONICS (PRINT_IMAGING)
+2026-04-28 10:06:19,236 [TechUCC] INFO -   CT: Found 0 leads for SHARP ELECTRONICS
+2026-04-28 10:06:19,236 [TechUCC] INFO -   CT: 0 NEW leads saved
+2026-04-28 10:06:20,240 [TechUCC] INFO - 
+───────────────────────────────────────────────────────
+2026-04-28 10:06:20,241 [TechUCC] INFO - 🔍 Searching for: KYOCERA (PRINT_IMAGING)
+2026-04-28 10:06:20,708 [TechUCC] INFO -   CT: Found 8 leads for KYOCERA
+2026-04-28 10:06:20,719 [TechUCC] INFO -   CT: 6 NEW leads saved
+2026-04-28 10:06:21,723 [TechUCC] INFO - 
+───────────────────────────────────────────────────────
+2026-04-28 10:06:21,724 [TechUCC] INFO - 🔍 Searching for: GREATAMERICA (IT_CHANNEL)
+2026-04-28 10:06:22,298 [TechUCC] INFO -   CT: Found 70 leads for GREATAMERICA
+2026-04-28 10:06:22,428 [TechUCC] INFO -   CT: 64 NEW leads saved
+2026-04-28 10:06:23,428 [TechUCC] INFO - 
+───────────────────────────────────────────────────────
+2026-04-28 10:06:23,428 [TechUCC] INFO - 🔍 Searching for: MARLIN BUSINESS (IT_CHANNEL)
+2026-04-28 10:06:23,918 [TechUCC] INFO -   CT: Found 22 leads for MARLIN BUSINESS
+2026-04-28 10:06:24,063 [TechUCC] INFO -   CT: 21 NEW leads saved
+2026-04-28 10:06:25,067 [TechUCC] INFO - 
+───────────────────────────────────────────────────────
+2026-04-28 10:06:25,067 [TechUCC] INFO - 🔍 Searching for: LEAF COMMERCIAL (IT_CHANNEL)
+2026-04-28 10:06:25,586 [TechUCC] INFO -   CT: Found 0 leads for LEAF COMMERCIAL
+2026-04-28 10:06:25,586 [TechUCC] INFO -   CT: 0 NEW leads saved
+2026-04-28 10:06:26,587 [TechUCC] INFO - 
+───────────────────────────────────────────────────────
+2026-04-28 10:06:26,587 [TechUCC] INFO - 🔍 Searching for: ECS FINANCIAL (IT_CHANNEL)
+2026-04-28 10:06:27,103 [TechUCC] INFO -   CT: Found 0 leads for ECS FINANCIAL
+2026-04-28 10:06:27,103 [TechUCC] INFO -   CT: 0 NEW leads saved
+2026-04-28 10:06:28,112 [TechUCC] INFO - 
+───────────────────────────────────────────────────────
+2026-04-28 10:06:28,112 [TechUCC] INFO - 🔍 Searching for: CIT TECHNOLOGY (IT_CHANNEL)
+2026-04-28 10:06:28,590 [TechUCC] INFO -   CT: Found 1 leads for CIT TECHNOLOGY
+2026-04-28 10:06:28,598 [TechUCC] INFO -   CT: 1 NEW leads saved
+2026-04-28 10:06:29,601 [TechUCC] INFO - 
+───────────────────────────────────────────────────────
+2026-04-28 10:06:29,602 [TechUCC] INFO - 🔍 Searching for: AMAZON CAPITAL (CLOUD_SAAS)
+2026-04-28 10:06:30,099 [TechUCC] INFO -   CT: Found 65 leads for AMAZON CAPITAL
+2026-04-28 10:06:30,207 [TechUCC] INFO -   CT: 58 NEW leads saved
+2026-04-28 10:06:31,212 [TechUCC] INFO - 
+───────────────────────────────────────────────────────
+2026-04-28 10:06:31,213 [TechUCC] INFO - 🔍 Searching for: MICROSOFT (CLOUD_SAAS)
+2026-04-28 10:06:31,680 [TechUCC] INFO -   CT: Found 0 leads for MICROSOFT
+2026-04-28 10:06:31,680 [TechUCC] INFO -   CT: 0 NEW leads saved
+2026-04-28 10:06:32,682 [TechUCC] INFO - 
+───────────────────────────────────────────────────────
+2026-04-28 10:06:32,682 [TechUCC] INFO - 🔍 Searching for: SALESFORCE (CLOUD_SAAS)
+2026-04-28 10:06:33,154 [TechUCC] INFO -   CT: Found 0 leads for SALESFORCE
+2026-04-28 10:06:33,154 [TechUCC] INFO -   CT: 0 NEW leads saved
+2026-04-28 10:06:34,158 [TechUCC] INFO - 
+=======================================================
+2026-04-28 10:06:34,158 [TechUCC] INFO -   Tech UCC Scrape Complete
+2026-04-28 10:06:34,158 [TechUCC] INFO -   States:     CT
+2026-04-28 10:06:34,158 [TechUCC] INFO -   Lenders:    23
+2026-04-28 10:06:34,158 [TechUCC] INFO -   Found:      835
+2026-04-28 10:06:34,158 [TechUCC] INFO -   New leads:  749
+2026-04-28 10:06:34,158 [TechUCC] INFO - =======================================================
+2026-04-28 10:06:41,955 [TechUCC] INFO - 
+───────────────────────────────────────────────────────
+2026-04-28 10:06:41,955 [TechUCC] INFO - 🔍 Searching for: DELL FINANCIAL (IT_OEM)
+2026-04-28 10:06:41,955 [TechUCC] INFO -   CO: Searching secured parties for 'DELL FINANCIAL'...
+2026-04-28 10:06:50,354 [TechUCC] INFO -   CO: Found 2625 file IDs
+2026-04-28 10:08:33,331 [TechUCC] INFO -   CO: Found 2130 leads for DELL FINANCIAL
+2026-04-28 10:08:36,750 [TechUCC] INFO -   CO: 2130 NEW leads saved
+2026-04-28 10:08:37,754 [TechUCC] INFO - 
+───────────────────────────────────────────────────────
+2026-04-28 10:08:37,754 [TechUCC] INFO - 🔍 Searching for: DELL TECHNOLOGIES (IT_OEM)
+2026-04-28 10:08:37,754 [TechUCC] INFO -   CO: Searching secured parties for 'DELL TECHNOLOGIES'...
+2026-04-28 10:08:38,618 [TechUCC] INFO -   CO: Found 0 file IDs
+2026-04-28 10:08:38,619 [TechUCC] INFO -   CO: Found 0 leads for DELL TECHNOLOGIES
+2026-04-28 10:08:38,620 [TechUCC] INFO -   CO: 0 NEW leads saved
+2026-04-28 10:08:39,621 [TechUCC] INFO - 
+───────────────────────────────────────────────────────
+2026-04-28 10:08:39,621 [TechUCC] INFO - 🔍 Searching for: HEWLETT-PACKARD (IT_OEM)
+2026-04-28 10:08:39,621 [TechUCC] INFO -   CO: Searching secured parties for 'HEWLETT-PACKARD'...
+2026-04-28 10:08:40,231 [TechUCC] INFO -   CO: Found 274 file IDs
+2026-04-28 10:08:52,175 [TechUCC] INFO -   CO: Found 264 leads for HEWLETT-PACKARD
+2026-04-28 10:08:52,812 [TechUCC] INFO -   CO: 264 NEW leads saved
+2026-04-28 10:08:53,823 [TechUCC] INFO - 
+───────────────────────────────────────────────────────
+2026-04-28 10:08:53,823 [TechUCC] INFO - 🔍 Searching for: HP FINANCIAL (IT_OEM)
+2026-04-28 10:08:53,823 [TechUCC] INFO -   CO: Searching secured parties for 'HP FINANCIAL'...
+2026-04-28 10:08:55,611 [TechUCC] INFO -   CO: Found 1 file IDs
+2026-04-28 10:08:57,241 [TechUCC] INFO -   CO: Found 0 leads for HP FINANCIAL
+2026-04-28 10:08:57,241 [TechUCC] INFO -   CO: 0 NEW leads saved
+2026-04-28 10:08:58,245 [TechUCC] INFO - 
+───────────────────────────────────────────────────────
+2026-04-28 10:08:58,245 [TechUCC] INFO - 🔍 Searching for: LENOVO (IT_OEM)
+2026-04-28 10:08:58,245 [TechUCC] INFO -   CO: Searching secured parties for 'LENOVO'...
+2026-04-28 10:08:58,960 [TechUCC] INFO -   CO: Found 51 file IDs
+2026-04-28 10:09:02,689 [TechUCC] INFO -   CO: Found 49 leads for LENOVO
+2026-04-28 10:09:02,789 [TechUCC] INFO -   CO: 49 NEW leads saved
+2026-04-28 10:09:03,789 [TechUCC] INFO - 
+───────────────────────────────────────────────────────
+2026-04-28 10:09:03,789 [TechUCC] INFO - 🔍 Searching for: IBM CREDIT (IT_OEM)
+2026-04-28 10:09:03,789 [TechUCC] INFO -   CO: Searching secured parties for 'IBM CREDIT'...
+2026-04-28 10:09:07,691 [TechUCC] INFO -   CO: Found 553 file IDs
+2026-04-28 10:09:31,430 [TechUCC] INFO -   CO: Found 497 leads for IBM CREDIT
+2026-04-28 10:09:32,302 [TechUCC] INFO -   CO: 497 NEW leads saved
+2026-04-28 10:09:33,307 [TechUCC] INFO - 
+───────────────────────────────────────────────────────
+2026-04-28 10:09:33,307 [TechUCC] INFO - 🔍 Searching for: IBM CORP (IT_OEM)
+2026-04-28 10:09:33,307 [TechUCC] INFO -   CO: Searching secured parties for 'IBM CORP'...
+2026-04-28 10:09:33,932 [TechUCC] INFO -   CO: Found 0 file IDs
+2026-04-28 10:09:33,932 [TechUCC] INFO -   CO: Found 0 leads for IBM CORP
+2026-04-28 10:09:33,932 [TechUCC] INFO -   CO: 0 NEW leads saved
+2026-04-28 10:09:34,934 [TechUCC] INFO - 
+───────────────────────────────────────────────────────
+2026-04-28 10:09:34,935 [TechUCC] INFO - 🔍 Searching for: CISCO (IT_OEM)
+2026-04-28 10:09:34,935 [TechUCC] INFO -   CO: Searching secured parties for 'CISCO'...
+2026-04-28 10:09:35,673 [TechUCC] INFO -   CO: Found 402 file IDs
+2026-04-28 10:09:51,870 [TechUCC] INFO -   CO: Found 355 leads for CISCO
+2026-04-28 10:09:52,551 [TechUCC] INFO -   CO: 355 NEW leads saved
+2026-04-28 10:09:53,552 [TechUCC] INFO - 
+───────────────────────────────────────────────────────
+2026-04-28 10:09:53,552 [TechUCC] INFO - 🔍 Searching for: ORACLE (IT_OEM)
+2026-04-28 10:09:53,553 [TechUCC] INFO -   CO: Searching secured parties for 'ORACLE'...
+2026-04-28 10:09:54,559 [TechUCC] INFO -   CO: Found 22 file IDs
+2026-04-28 10:09:56,204 [TechUCC] INFO -   CO: Found 11 leads for ORACLE
+2026-04-28 10:09:56,231 [TechUCC] INFO -   CO: 11 NEW leads saved
+2026-04-28 10:09:57,233 [TechUCC] INFO - 
+───────────────────────────────────────────────────────
+2026-04-28 10:09:57,234 [TechUCC] INFO - 🔍 Searching for: XEROX (PRINT_IMAGING)
+2026-04-28 10:09:57,234 [TechUCC] INFO -   CO: Searching secured parties for 'XEROX'...
+2026-04-28 10:10:00,228 [TechUCC] INFO -   CO: Found 1226 file IDs
+2026-04-28 10:10:38,197 [TechUCC] ERROR - CO Debtor API error: 500 Server Error: Server Error for url: https://data.colorado.gov/resource/8upq-58vz.json?%24where=fileid+in+%28%27449215%27%2C%27979555%27%2C%271515520%27%2C%27528129%27%2C%272113852%27%2C%271606605%27%2C%272325602%27%2C%27282851%27%2C%272106225%27%2C%271723782%27%2C%271115997%27%2C%271235087%27%2C%271906963%27%2C%271597465%27%2C%271876060%27%2C%271196042%27%2C%271894943%27%2C%27706586%27%2C%272154468%27%2C%271820880%27%2C%27591500%27%2C%27854375%27%2C%27493715%27%2C%271866717%27%2C%272006571%27%2C%271309658%27%2C%271641698%27%2C%27279270%27%2C%272118912%27%2C%271943506%27%2C%272054419%27%2C%27917650%27%2C%27936482%27%2C%27777867%27%2C%27906884%27%2C%272117348%27%2C%271988880%27%2C%271100346%27%2C%27870918%27%2C%27643910%27%2C%272139862%27%2C%271210970%27%2C%271933750%27%2C%27887044%27%2C%27541989%27%2C%27970703%27%2C%272216589%27%2C%27284060%27%2C%271426094%27%2C%271033294%27%29&%24select=fileid%2Corganizationname%2Caddress1%2Ccity%2Cstate%2Czipcode
+2026-04-28 10:10:44,589 [TechUCC] INFO -   CO: Found 1151 leads for XEROX
+2026-04-28 10:10:46,470 [TechUCC] INFO -   CO: 1151 NEW leads saved
+2026-04-28 10:10:47,470 [TechUCC] INFO - 
+───────────────────────────────────────────────────────
+2026-04-28 10:10:47,470 [TechUCC] INFO - 🔍 Searching for: CANON FINANCIAL (PRINT_IMAGING)
+2026-04-28 10:10:47,470 [TechUCC] INFO -   CO: Searching secured parties for 'CANON FINANCIAL'...
+2026-04-28 10:10:48,492 [TechUCC] INFO -   CO: Found 571 file IDs
+2026-04-28 10:11:11,291 [TechUCC] INFO -   CO: Found 561 leads for CANON FINANCIAL
+2026-04-28 10:11:12,282 [TechUCC] INFO -   CO: 561 NEW leads saved
+2026-04-28 10:11:13,288 [TechUCC] INFO - 
+───────────────────────────────────────────────────────
+2026-04-28 10:11:13,288 [TechUCC] INFO - 🔍 Searching for: KONICA MINOLTA (PRINT_IMAGING)
+2026-04-28 10:11:13,288 [TechUCC] INFO -   CO: Searching secured parties for 'KONICA MINOLTA'...
+2026-04-28 10:11:17,292 [TechUCC] INFO -   CO: Found 474 file IDs
+2026-04-28 10:11:36,625 [TechUCC] INFO -   CO: Found 466 leads for KONICA MINOLTA
+2026-04-28 10:11:37,432 [TechUCC] INFO -   CO: 466 NEW leads saved
+2026-04-28 10:11:38,435 [TechUCC] INFO - 
+───────────────────────────────────────────────────────
+2026-04-28 10:11:38,436 [TechUCC] INFO - 🔍 Searching for: RICOH (PRINT_IMAGING)
+2026-04-28 10:11:38,436 [TechUCC] INFO -   CO: Searching secured parties for 'RICOH'...
+2026-04-28 10:11:39,017 [TechUCC] INFO -   CO: Found 123 file IDs
+2026-04-28 10:11:44,286 [TechUCC] INFO -   CO: Found 119 leads for RICOH
+2026-04-28 10:11:44,547 [TechUCC] INFO -   CO: 119 NEW leads saved
+2026-04-28 10:11:45,550 [TechUCC] INFO - 
+───────────────────────────────────────────────────────
+2026-04-28 10:11:45,550 [TechUCC] INFO - 🔍 Searching for: SHARP ELECTRONICS (PRINT_IMAGING)
+2026-04-28 10:11:45,550 [TechUCC] INFO -   CO: Searching secured parties for 'SHARP ELECTRONICS'...
+2026-04-28 10:11:46,761 [TechUCC] INFO -   CO: Found 0 file IDs
+2026-04-28 10:11:46,761 [TechUCC] INFO -   CO: Found 0 leads for SHARP ELECTRONICS
+2026-04-28 10:11:46,761 [TechUCC] INFO -   CO: 0 NEW leads saved
+2026-04-28 10:11:47,768 [TechUCC] INFO - 
+───────────────────────────────────────────────────────
+2026-04-28 10:11:47,768 [TechUCC] INFO - 🔍 Searching for: KYOCERA (PRINT_IMAGING)
+2026-04-28 10:11:47,768 [TechUCC] INFO -   CO: Searching secured parties for 'KYOCERA'...
+2026-04-28 10:11:48,691 [TechUCC] INFO -   CO: Found 58 file IDs
+2026-04-28 10:11:52,159 [TechUCC] INFO -   CO: Found 33 leads for KYOCERA
+2026-04-28 10:11:52,228 [TechUCC] INFO -   CO: 33 NEW leads saved
+2026-04-28 10:11:53,233 [TechUCC] INFO - 
+───────────────────────────────────────────────────────
+2026-04-28 10:11:53,233 [TechUCC] INFO - 🔍 Searching for: GREATAMERICA (IT_CHANNEL)
+2026-04-28 10:11:53,233 [TechUCC] INFO -   CO: Searching secured parties for 'GREATAMERICA'...
+2026-04-28 10:11:55,461 [TechUCC] INFO -   CO: Found 1905 file IDs
+2026-04-28 10:13:06,488 [TechUCC] INFO -   CO: Found 1774 leads for GREATAMERICA
+2026-04-28 10:13:09,578 [TechUCC] INFO -   CO: 1774 NEW leads saved
+2026-04-28 10:13:10,581 [TechUCC] INFO - 
+───────────────────────────────────────────────────────
+2026-04-28 10:13:10,581 [TechUCC] INFO - 🔍 Searching for: MARLIN BUSINESS (IT_CHANNEL)
+2026-04-28 10:13:10,581 [TechUCC] INFO -   CO: Searching secured parties for 'MARLIN BUSINESS'...
+2026-04-28 10:13:11,322 [TechUCC] INFO -   CO: Found 502 file IDs
+2026-04-28 10:13:32,006 [TechUCC] INFO -   CO: Found 469 leads for MARLIN BUSINESS
+2026-04-28 10:13:32,864 [TechUCC] INFO -   CO: 469 NEW leads saved
+2026-04-28 10:13:33,870 [TechUCC] INFO - 
+───────────────────────────────────────────────────────
+2026-04-28 10:13:33,870 [TechUCC] INFO - 🔍 Searching for: LEAF COMMERCIAL (IT_CHANNEL)
+2026-04-28 10:13:33,870 [TechUCC] INFO -   CO: Searching secured parties for 'LEAF COMMERCIAL'...
+2026-04-28 10:13:34,530 [TechUCC] INFO -   CO: Found 1 file IDs
+2026-04-28 10:13:36,040 [TechUCC] INFO -   CO: Found 0 leads for LEAF COMMERCIAL
+2026-04-28 10:13:36,040 [TechUCC] INFO -   CO: 0 NEW leads saved
+2026-04-28 10:13:37,047 [TechUCC] INFO - 
+───────────────────────────────────────────────────────
+2026-04-28 10:13:37,047 [TechUCC] INFO - 🔍 Searching for: ECS FINANCIAL (IT_CHANNEL)
+2026-04-28 10:13:37,047 [TechUCC] INFO -   CO: Searching secured parties for 'ECS FINANCIAL'...
+2026-04-28 10:13:40,414 [TechUCC] INFO -   CO: Found 0 file IDs
+2026-04-28 10:13:40,414 [TechUCC] INFO -   CO: Found 0 leads for ECS FINANCIAL
+2026-04-28 10:13:40,414 [TechUCC] INFO -   CO: 0 NEW leads saved
+2026-04-28 10:13:41,416 [TechUCC] INFO - 
+───────────────────────────────────────────────────────
+2026-04-28 10:13:41,417 [TechUCC] INFO - 🔍 Searching for: CIT TECHNOLOGY (IT_CHANNEL)
+2026-04-28 10:13:41,417 [TechUCC] INFO -   CO: Searching secured parties for 'CIT TECHNOLOGY'...
+2026-04-28 10:13:42,136 [TechUCC] INFO -   CO: Found 390 file IDs
+2026-04-28 10:13:56,945 [TechUCC] INFO -   CO: Found 341 leads for CIT TECHNOLOGY
+2026-04-28 10:13:57,779 [TechUCC] INFO -   CO: 341 NEW leads saved
+2026-04-28 10:13:58,786 [TechUCC] INFO - 
+───────────────────────────────────────────────────────
+2026-04-28 10:13:58,787 [TechUCC] INFO - 🔍 Searching for: AMAZON CAPITAL (CLOUD_SAAS)
+2026-04-28 10:13:58,787 [TechUCC] INFO -   CO: Searching secured parties for 'AMAZON CAPITAL'...
+2026-04-28 10:13:59,594 [TechUCC] INFO -   CO: Found 162 file IDs
+2026-04-28 10:14:06,946 [TechUCC] INFO -   CO: Found 142 leads for AMAZON CAPITAL
+2026-04-28 10:14:07,302 [TechUCC] INFO -   CO: 142 NEW leads saved
+2026-04-28 10:14:08,304 [TechUCC] INFO - 
+───────────────────────────────────────────────────────
+2026-04-28 10:14:08,305 [TechUCC] INFO - 🔍 Searching for: MICROSOFT (CLOUD_SAAS)
+2026-04-28 10:14:08,305 [TechUCC] INFO -   CO: Searching secured parties for 'MICROSOFT'...
+2026-04-28 10:14:08,913 [TechUCC] INFO -   CO: Found 1 file IDs
+2026-04-28 10:14:10,506 [TechUCC] INFO -   CO: Found 1 leads for MICROSOFT
+2026-04-28 10:14:10,509 [TechUCC] INFO -   CO: 1 NEW leads saved
+2026-04-28 10:14:11,513 [TechUCC] INFO - 
+───────────────────────────────────────────────────────
+2026-04-28 10:14:11,513 [TechUCC] INFO - 🔍 Searching for: SALESFORCE (CLOUD_SAAS)
+2026-04-28 10:14:11,514 [TechUCC] INFO -   CO: Searching secured parties for 'SALESFORCE'...
+2026-04-28 10:14:12,213 [TechUCC] INFO -   CO: Found 0 file IDs
+2026-04-28 10:14:12,214 [TechUCC] INFO -   CO: Found 0 leads for SALESFORCE
+2026-04-28 10:14:12,214 [TechUCC] INFO -   CO: 0 NEW leads saved
+2026-04-28 10:14:13,220 [TechUCC] INFO - 
+=======================================================
+2026-04-28 10:14:13,220 [TechUCC] INFO -   Tech UCC Scrape Complete
+2026-04-28 10:14:13,220 [TechUCC] INFO -   States:     CO
+2026-04-28 10:14:13,220 [TechUCC] INFO -   Lenders:    23
+2026-04-28 10:14:13,221 [TechUCC] INFO -   Found:      8,363
+2026-04-28 10:14:13,221 [TechUCC] INFO -   New leads:  8,363
+2026-04-28 10:14:13,221 [TechUCC] INFO - =======================================================

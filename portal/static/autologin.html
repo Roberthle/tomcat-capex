@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head><title>Logging in...</title></head>
+<body style="background:#060d1a;color:#fff;font-family:sans-serif;display:flex;align-items:center;justify-content:center;height:100vh;margin:0">
+  <div style="text-align:center">
+    <div style="font-size:18px;font-weight:700;letter-spacing:2px;margin-bottom:12px">TOMCAT CAPEX</div>
+    <div style="color:#00d4ff;font-size:13px">Loading your intelligence dashboard...</div>
+  </div>
+  <script>
+    // Fetch a fresh token and store it, then redirect to portal
+    fetch('/api/login', {
+      method: 'POST',
+      headers: {'Content-Type': 'application/json'},
+      body: JSON.stringify({username: 'demo', password: 'demo2026'})
+    })
+    .then(r => r.json())
+    .then(d => {
+      if (d.token) {
+        localStorage.setItem('tc_token', d.token);
+        window.location.href = '/';
+      }
+    })
+    .catch(() => { window.location.href = '/'; });
+  </script>
+</body>
+</html>

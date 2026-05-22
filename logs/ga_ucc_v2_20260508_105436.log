@@ -1,0 +1,63 @@
+2026-05-08 10:54:36,898 [GA-UCC-v2] INFO - DRY RUN — Logging to /Users/robertle/tomcat_capex/logs/ga_ucc_v2_20260508_105436.log
+2026-05-08 10:54:36,898 [GA-UCC-v2] INFO - Logging in to GSCCCA (tomcatmca)...
+2026-05-08 10:54:41,432 [GA-UCC-v2] INFO - ✅ Authenticated
+2026-05-08 10:54:41,432 [GA-UCC-v2] INFO - 
+────────────────────────────────────────────────────────────
+2026-05-08 10:54:41,432 [GA-UCC-v2] INFO - 🔍 DELL FINANCIAL SERVICES (IT_OEM)
+2026-05-08 10:54:41,432 [GA-UCC-v2] INFO -   → 11/07/2025 – 05/08/2026
+2026-05-08 10:54:43,306 [GA-UCC-v2] INFO -   1 variation(s) — ~14 total filings
+2026-05-08 10:54:43,306 [GA-UCC-v2] INFO -     Variation 0: 'DELL FINANCIAL SERVICES L.L.C.' (14 filings)
+2026-05-08 10:54:47,342 [GA-UCC-v2] INFO -     Page 1/1: 14 records
+2026-05-08 10:54:47,346 [GA-UCC-v2] INFO -   → 14 found, 14 new
+2026-05-08 10:54:47,346 [GA-UCC-v2] INFO -   → 05/09/2025 – 11/07/2025
+2026-05-08 10:54:49,345 [GA-UCC-v2] INFO -   2 variation(s) — ~18 total filings
+2026-05-08 10:54:49,346 [GA-UCC-v2] INFO -     Variation 0: 'DELL FINANCIAL SERVICES L.L.C.' (17 filings)
+2026-05-08 10:54:52,361 [GA-UCC-v2] INFO -     Page 1/1: 17 records
+2026-05-08 10:54:52,361 [GA-UCC-v2] INFO -     Variation 1: 'DELL FINANCIAL SERVICES, L.P.' (1 filing)
+2026-05-08 10:54:55,977 [GA-UCC-v2] INFO -     Page 1/1: 1 records
+2026-05-08 10:54:55,977 [GA-UCC-v2] INFO -   → 18 found, 18 new
+2026-05-08 10:54:55,977 [GA-UCC-v2] INFO -   → 11/08/2024 – 05/09/2025
+2026-05-08 10:54:57,929 [GA-UCC-v2] INFO -   2 variation(s) — ~42 total filings
+2026-05-08 10:54:57,929 [GA-UCC-v2] INFO -     Variation 0: 'DELL FINANCIAL SERVICES L.L.C.' (40 filings)
+2026-05-08 10:55:02,504 [GA-UCC-v2] INFO -     Page 1/1: 40 records
+2026-05-08 10:55:02,504 [GA-UCC-v2] INFO -     Variation 1: 'DELL FINANCIAL SERVICES, L.P.' (2 filings)
+2026-05-08 10:55:04,631 [GA-UCC-v2] INFO -     Page 1/1: 2 records
+2026-05-08 10:55:04,631 [GA-UCC-v2] INFO -   → 42 found, 42 new
+2026-05-08 10:55:04,631 [GA-UCC-v2] INFO -   → 05/10/2024 – 11/08/2024
+2026-05-08 10:55:06,593 [GA-UCC-v2] INFO -   3 variation(s) — ~42 total filings
+2026-05-08 10:55:06,593 [GA-UCC-v2] INFO -     Variation 0: 'DELL FINANCIAL SERVICES L.L.C.' (40 filings)
+2026-05-08 10:55:10,877 [GA-UCC-v2] INFO -     Page 1/1: 43 records
+2026-05-08 10:55:10,878 [GA-UCC-v2] INFO -     Variation 1: 'DELL FINANCIAL SERVICES L.P.' (1 filing)
+2026-05-08 10:55:13,453 [GA-UCC-v2] INFO -     Page 1/1: 2 records
+2026-05-08 10:55:13,453 [GA-UCC-v2] INFO -     Variation 2: 'DELL FINANCIAL SERVICES, L.P.' (1 filing)
+2026-05-08 10:55:15,596 [GA-UCC-v2] INFO -     Page 1/1: 2 records
+2026-05-08 10:55:15,597 [GA-UCC-v2] INFO -   → 47 found, 47 new
+2026-05-08 10:55:15,597 [GA-UCC-v2] INFO -   Lender total: 121 found, 121 new
+2026-05-08 10:55:17,102 [GA-UCC-v2] INFO - 
+────────────────────────────────────────────────────────────
+2026-05-08 10:55:17,102 [GA-UCC-v2] INFO - 🔍 HEWLETT PACKARD (IT_OEM)
+2026-05-08 10:55:17,102 [GA-UCC-v2] INFO -   → 11/07/2025 – 05/08/2026
+2026-05-08 10:55:18,959 [GA-UCC-v2] INFO -   1 variation(s) — ~10 total filings
+2026-05-08 10:55:18,959 [GA-UCC-v2] INFO -     Variation 0: 'HEWLETT-PACKARD FINANCIAL SERVICES COMPANY' (10 filings)
+2026-05-08 10:55:21,962 [GA-UCC-v2] INFO -     Page 1/1: 11 records
+2026-05-08 10:55:21,962 [GA-UCC-v2] INFO -   → 11 found, 11 new
+2026-05-08 10:55:21,962 [GA-UCC-v2] INFO -   → 05/09/2025 – 11/07/2025
+2026-05-08 10:55:24,150 [GA-UCC-v2] INFO -   1 variation(s) — ~12 total filings
+2026-05-08 10:55:24,151 [GA-UCC-v2] INFO -     Variation 0: 'HEWLETT-PACKARD FINANCIAL SERVICES COMPANY' (12 filings)
+2026-05-08 10:55:26,775 [GA-UCC-v2] INFO -     Page 1/1: 12 records
+2026-05-08 10:55:26,775 [GA-UCC-v2] INFO -   → 12 found, 12 new
+2026-05-08 10:55:26,776 [GA-UCC-v2] INFO -   → 11/08/2024 – 05/09/2025
+2026-05-08 10:55:28,690 [GA-UCC-v2] INFO -   1 variation(s) — ~19 total filings
+2026-05-08 10:55:28,691 [GA-UCC-v2] INFO -     Variation 0: 'HEWLETT-PACKARD FINANCIAL SERVICES COMPANY' (19 filings)
+2026-05-08 10:55:31,846 [GA-UCC-v2] INFO -     Page 1/1: 19 records
+2026-05-08 10:55:31,847 [GA-UCC-v2] INFO -   → 19 found, 19 new
+2026-05-08 10:55:31,847 [GA-UCC-v2] INFO -   → 05/10/2024 – 11/08/2024
+2026-05-08 10:55:33,826 [GA-UCC-v2] INFO -   1 variation(s) — ~8 total filings
+2026-05-08 10:55:33,826 [GA-UCC-v2] INFO -     Variation 0: 'HEWLETT-PACKARD FINANCIAL SERVICES COMPANY' (8 filings)
+2026-05-08 10:55:36,425 [GA-UCC-v2] INFO -     Page 1/1: 8 records
+2026-05-08 10:55:36,425 [GA-UCC-v2] INFO -   → 8 found, 8 new
+2026-05-08 10:55:36,425 [GA-UCC-v2] INFO -   Lender total: 50 found, 50 new
+2026-05-08 10:55:37,930 [GA-UCC-v2] INFO - 
+============================================================
+2026-05-08 10:55:37,930 [GA-UCC-v2] INFO - [DRY RUN] COMPLETE: 171 found, 171 new
+2026-05-08 10:55:37,931 [GA-UCC-v2] INFO - ============================================================

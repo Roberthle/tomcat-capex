@@ -1,0 +1,1359 @@
+2026-05-21 06:00:00,354 [DailyPipeline] INFO - ============================================================
+2026-05-21 06:00:00,355 [DailyPipeline] INFO -   TOMCAT CAPEX DAILY PIPELINE
+2026-05-21 06:00:00,355 [DailyPipeline] INFO -   2026-05-21 06:00:00
+2026-05-21 06:00:00,355 [DailyPipeline] INFO - ============================================================
+2026-05-21 06:00:00,473 [DailyPipeline] INFO - DB before: {'total': 40687, 'hot': 890, 'warm': 1467, 's4_prime': 0, 'expansion_hits': 0}
+2026-05-21 06:00:00,528 [DailyPipeline] INFO - Running Colorado scraper...
+2026-05-21 13:01:28,463 [DailyPipeline] INFO - ============================================================
+2026-05-21 13:01:28,464 [DailyPipeline] INFO -   TOMCAT CAPEX DAILY PIPELINE
+2026-05-21 13:01:28,464 [DailyPipeline] INFO -   2026-05-21 13:01:28
+2026-05-21 13:01:28,464 [DailyPipeline] INFO - ============================================================
+2026-05-21 13:01:28,544 [DailyPipeline] INFO - DB before: {'total': 40687, 'hot': 890, 'warm': 1467, 's4_prime': 0, 'expansion_hits': 0}
+2026-05-21 13:01:28,554 [DailyPipeline] INFO - Running Colorado scraper...
+2026-05-21 13:11:59,835 [DailyPipeline] INFO - ============================================================
+2026-05-21 13:11:59,835 [DailyPipeline] INFO -   TOMCAT CAPEX DAILY PIPELINE
+2026-05-21 13:11:59,836 [DailyPipeline] INFO -   2026-05-21 13:11:59
+2026-05-21 13:11:59,837 [DailyPipeline] INFO - ============================================================
+2026-05-21 13:11:59,932 [DailyPipeline] INFO - DB before: {'total': 40687, 'hot': 890, 'warm': 1467, 's4_prime': 0, 'expansion_hits': 0}
+2026-05-21 13:11:59,940 [DailyPipeline] INFO - Running Colorado scraper...
+2026-05-21 13:22:25,943 [DailyPipeline] INFO - Running Connecticut scraper...
+2026-05-21 13:22:36,894 [DailyPipeline] INFO - Running Texas scraper...
+2026-05-21 13:22:36,966 [DailyPipeline] ERROR -   Texas failed: 
+2026-05-21 13:22:36,966 [DailyPipeline] INFO -   Georgia scraper skipped — GSCCCA_USER not set
+2026-05-21 13:22:36,966 [DailyPipeline] INFO - Running expansion signal check (limit=300)...
+2026-05-21 13:22:37,186 [DailyPipeline] INFO - Checking expansion signals for 300 leads
+2026-05-21 13:22:37,186 [DailyPipeline] INFO - [1/300] PAOLI FARMERS COOPERATIVE ELEVATOR (Colorado) — -20033d
+2026-05-21 13:22:41,536 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 13:22:44,030 [DailyPipeline] INFO - [2/300] STANDARD MOTOR SUPPLY (Colorado) — -14582d
+2026-05-21 13:22:48,299 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 13:22:50,460 [DailyPipeline] INFO - [3/300] COLORADO UTE ELECTRIC ASSOCIATION (Colorado) — -13399d
+2026-05-21 13:22:55,126 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 13:22:57,136 [DailyPipeline] INFO - [4/300] COLORADO UTE ELECTRIC ASSOCIATION (Colorado) — -13399d
+2026-05-21 13:23:00,819 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 13:23:02,842 [DailyPipeline] INFO - [5/300] COLORADO UTE ELECTRIC ASSOCIATION (Colorado) — -13399d
+2026-05-21 13:23:05,859 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 13:23:07,831 [DailyPipeline] INFO - [6/300] FLEMING DISTRIBUTORS, LTD. (Connecticut) — -12714d
+2026-05-21 13:23:11,989 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 13:23:13,654 [DailyPipeline] INFO - [7/300] PIKES PEAK HARLEY-DAVIDSON INC (Colorado) — -12691d
+2026-05-21 13:23:18,026 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 13:23:20,267 [DailyPipeline] INFO - [8/300] LIBBY'S SALES AND SERVICE, INCORPORATED (Connecticut) — -12659d
+2026-05-21 13:23:24,572 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 13:23:26,408 [DailyPipeline] INFO - [9/300] KELSER CORPORATION (Connecticut) — -11133d
+2026-05-21 13:23:30,862 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 13:23:33,316 [DailyPipeline] INFO - [10/300] H.F. BROWN, INC. (Connecticut) — -10913d
+2026-05-21 13:23:37,972 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 13:23:39,546 [DailyPipeline] INFO - [11/300] LITTLE RIVER POWER EQUIPMENT, INC. (Connecticut) — -10845d
+2026-05-21 13:23:44,228 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 13:23:46,052 [DailyPipeline] INFO - [12/300] MICRO CONNECTION INC (THE) (Colorado) — -10837d
+2026-05-21 13:23:50,439 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 13:23:52,264 [DailyPipeline] INFO - [13/300] UNIVERSAL TRACTOR CO (Colorado) — -10830d
+2026-05-21 13:23:55,948 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 13:23:58,231 [DailyPipeline] INFO - [14/300] HOLDRIDGE FARM NURSERY, INC. (Connecticut) — -10818d
+2026-05-21 13:24:02,707 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 13:24:04,707 [DailyPipeline] INFO - [15/300] WILLIAM J. PETZOLD, INCORPORATED (Connecticut) — -10794d
+2026-05-21 13:24:08,626 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 13:24:10,489 [DailyPipeline] INFO - [16/300] LITTLE RIVER POWER EQUIPMENT, INC. (Connecticut) — -10783d
+2026-05-21 13:24:14,794 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 13:24:17,007 [DailyPipeline] INFO - [17/300] AAA RUTHER CONSTRUCTION (Colorado) — -9151d
+2026-05-21 13:24:21,552 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 13:24:23,505 [DailyPipeline] INFO - [18/300] RAMPART PLUMBING & HEATING SUPPLY (Colorado) — -9134d
+2026-05-21 13:24:27,614 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 13:24:29,550 [DailyPipeline] INFO - [19/300] STEVE STOCK & ASSOCIATES INC (Colorado) — -9127d
+2026-05-21 13:24:34,189 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 13:24:36,602 [DailyPipeline] INFO - [20/300] JOHNSON MYRTIS (Colorado) — -9123d
+2026-05-21 13:24:41,625 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 13:24:43,287 [DailyPipeline] INFO - [21/300] ROCKY MOUNTAIN CHOCOLATE FACTO (Colorado) — -9122d
+2026-05-21 13:24:47,563 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 13:24:49,178 [DailyPipeline] INFO - [22/300] PERRY TECHNOLOGY CORPORATION (Connecticut) — -9110d
+2026-05-21 13:24:53,664 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 13:24:55,800 [DailyPipeline] INFO - [23/300] KWIKI TIRE SERVICE INC (Colorado) — -9110d
+2026-05-21 13:25:00,230 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 13:25:02,000 [DailyPipeline] INFO - [24/300] GALE FARMS DAIRY (Connecticut) — -9109d
+2026-05-21 13:25:06,892 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 13:25:08,554 [DailyPipeline] INFO - [25/300] WHITT TRANSFER & STORAGE CO (Colorado) — -9102d
+2026-05-21 13:25:12,828 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 13:25:14,629 [DailyPipeline] INFO - [26/300] INDOCHINE INC (Colorado) — -9066d
+2026-05-21 13:25:19,720 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 13:25:22,178 [DailyPipeline] INFO - [27/300] ROBERT A. & THOMAS R. SHELDON PARTNERSHIP (Connecticut) — -9064d
+2026-05-21 13:25:26,482 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 13:25:28,655 [DailyPipeline] INFO - [28/300] SHIPMAN & GOODWIN LLP (Connecticut) — -9051d
+2026-05-21 13:25:33,574 [DailyPipeline] INFO -   ✅ EXPANSION: Business Activity — Shipman & Goodwin expands in Boston and Connecticut - Hartfo
+2026-05-21 13:25:35,274 [DailyPipeline] INFO - [29/300] KENSYL TYRE OF DURANGO INC (Colorado) — -9046d
+2026-05-21 13:25:39,825 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 13:25:42,026 [DailyPipeline] INFO - [30/300] ART C KLEIN CONSTRUCTION INC (Colorado) — -9039d
+2026-05-21 13:25:46,287 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 13:25:47,812 [DailyPipeline] INFO - [31/300] SHOAFF-BEMBRY PHOTOGRAPHY INC (Colorado) — -9038d
+2026-05-21 13:25:52,537 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 13:25:54,132 [DailyPipeline] INFO - [32/300] SUN CONSTRUCTION INC (Colorado) — -9009d
+2026-05-21 13:25:59,465 [DailyPipeline] INFO -   ✅ EXPANSION: Business Activity — WORK UNDER SCORCHING SUN Construction workers pressed on wit
+2026-05-21 13:26:01,301 [DailyPipeline] INFO - [33/300] GURLEY ALVIN J (Colorado) — -9001d
+2026-05-21 13:26:05,850 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 13:26:08,243 [DailyPipeline] INFO - [34/300] ATLANTIC OUTBOARD, INC. (Connecticut) — -8997d
+2026-05-21 13:26:13,039 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 13:26:14,578 [DailyPipeline] INFO - [35/300] CW RESOURCES, INC. (Connecticut) — -8956d
+2026-05-21 13:26:19,210 [DailyPipeline] INFO -   ✅ EXPANSION: Business Activity — CW Resources - Hartford Business Journal
+2026-05-21 13:26:20,738 [DailyPipeline] INFO - [36/300] CW RESOURCES, INC. (Connecticut) — -8956d
+2026-05-21 13:26:23,765 [DailyPipeline] INFO -   ✅ EXPANSION: Business Activity — CW Resources - Hartford Business Journal
+2026-05-21 13:26:25,469 [DailyPipeline] INFO - [37/300] PRIDES CORNER FARMS, INC. (Connecticut) — -8953d
+2026-05-21 13:26:29,436 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 13:26:30,982 [DailyPipeline] INFO - [38/300] OPERA COLORADO (Colorado) — -8858d
+2026-05-21 13:26:36,017 [DailyPipeline] INFO -   ✅ EXPANSION: Business Activity — Opera Colorado Offers 'Pay What You Wish' Tickets To All Per
+2026-05-21 13:26:37,568 [DailyPipeline] INFO - [39/300] PARKER KIPP A (Colorado) — -8808d
+2026-05-21 13:26:42,130 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 13:26:43,936 [DailyPipeline] INFO - [40/300] WALLACE GAS & OIL INC (Colorado) — -8800d
+2026-05-21 13:26:48,000 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 13:26:49,805 [DailyPipeline] INFO - [41/300] RUBYS AUTO BODY INC (Colorado) — -8794d
+2026-05-21 13:26:53,983 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 13:26:55,833 [DailyPipeline] INFO - [42/300] BITNER, MARK (Colorado) — -8774d
+2026-05-21 13:27:00,140 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 13:27:02,451 [DailyPipeline] INFO - [43/300] PUBLIC SERVICE COMPANY OF COLORADO (Colorado) — -8721d
+2026-05-21 13:27:07,171 [DailyPipeline] INFO -   ✅ EXPANSION: Business Activity — Public Service Company of Colorado Completes Construction of
+2026-05-21 13:27:09,062 [DailyPipeline] INFO - [44/300] PUBLIC SERVICE COMPANY OF COLORADO (Colorado) — -8721d
+2026-05-21 13:27:12,925 [DailyPipeline] INFO -   ✅ EXPANSION: Business Activity — Public Service Company of Colorado Completes Construction of
+2026-05-21 13:27:15,112 [DailyPipeline] INFO - [45/300] BROPHY, ALFRED E. (Colorado) — -8675d
+2026-05-21 13:27:19,918 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 13:27:21,900 [DailyPipeline] INFO - [46/300] AAA RUTHER CONSTRUCTION (Colorado) — -8431d
+2026-05-21 13:27:27,043 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 13:27:29,387 [DailyPipeline] INFO - [47/300] RECYCLING INDUSTRIES INC (Colorado) — -8374d
+2026-05-21 13:27:33,710 [DailyPipeline] INFO -   ✅ EXPANSION: Business Activity — Siyaram Recycling Secures Order For Brass Ingots - Construct
+2026-05-21 13:27:37,426 [DailyPipeline] INFO - [48/300] RECYCLING INDUSTRIES INC (Colorado) — -8329d
+2026-05-21 13:27:41,900 [DailyPipeline] INFO -   ✅ EXPANSION: Business Activity — Siyaram Recycling Secures Order For Brass Ingots - Construct
+2026-05-21 13:27:44,400 [DailyPipeline] INFO - [49/300] PACIFIC MARINE ENERGY INC (Colorado) — -8254d
+2026-05-21 13:27:48,850 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 13:27:51,354 [DailyPipeline] INFO - [50/300] CCS FITNESS INC (Colorado) — -8091d
+2026-05-21 13:27:55,323 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 13:27:57,281 [DailyPipeline] INFO - [51/300] DAYMON ASSOCIATES, INC. (Connecticut) — -8022d
+2026-05-21 13:28:02,019 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 13:28:04,119 [DailyPipeline] INFO - [52/300] DEXTER CORPORATION (Connecticut) — -7924d
+2026-05-21 13:28:08,339 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 13:28:10,605 [DailyPipeline] INFO - [53/300] WINDLION INC (Colorado) — -7923d
+2026-05-21 13:28:14,350 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 13:28:15,920 [DailyPipeline] INFO - [54/300] IMAGINE DIGITAL PRODUCTIONS LLC (Colorado) — -7923d
+2026-05-21 13:28:20,306 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 13:28:22,604 [DailyPipeline] INFO - [55/300] CONTRACTOR.COM, LLC (Colorado) — -7898d
+2026-05-21 13:28:27,433 [DailyPipeline] INFO -   ✅ EXPANSION: Expands Into — Richards Building Supply Expands Into Colorado - Roofing Contract
+2026-05-21 13:28:29,210 [DailyPipeline] INFO - [56/300] GLACIER DISTRIBUTION COMPANY (Colorado) — -7882d
+2026-05-21 13:28:33,887 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 13:28:36,392 [DailyPipeline] INFO - [57/300] THOMAS & PERKINS INC (Colorado) — -7862d
+2026-05-21 13:28:40,851 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 13:28:42,743 [DailyPipeline] INFO - [58/300] VARI-L COMPANY INC (Colorado) — -7834d
+2026-05-21 13:28:47,925 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 13:28:49,940 [DailyPipeline] INFO - [59/300] TEAMSHARE INC (Colorado) — -7834d
+2026-05-21 13:28:55,103 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 13:28:56,631 [DailyPipeline] INFO - [60/300] CAVION TECHNOLOGIES INC (Colorado) — -7828d
+2026-05-21 13:29:00,049 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 13:29:01,737 [DailyPipeline] INFO - [61/300] MACTEC  INC (Colorado) — -7806d
+2026-05-21 13:29:06,604 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 13:29:08,224 [DailyPipeline] INFO - [62/300] INTERNET GLOBAL SERVICES INC (Colorado) — -7776d
+2026-05-21 13:29:12,371 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 13:29:14,374 [DailyPipeline] INFO - [63/300] ART LICENSING CORP (Colorado) — -7757d
+2026-05-21 13:29:19,210 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 13:29:21,117 [DailyPipeline] INFO - [64/300] CITY OF COLORADO SPRINGS (Colorado) — -7751d
+2026-05-21 13:29:25,868 [DailyPipeline] INFO -   ✅ EXPANSION: Business Activity — Looking ahead in 2026: Trails, open spaces and parks improve
+2026-05-21 13:29:30,902 [DailyPipeline] INFO - [65/300] POLICY STUDIES INCORPORATED (Colorado) — -7738d
+2026-05-21 13:29:35,159 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 13:29:37,288 [DailyPipeline] INFO - [66/300] INERGY NETWORKS INCORPORATED (Colorado) — -7721d
+2026-05-21 13:29:41,568 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 13:29:43,697 [DailyPipeline] INFO - [67/300] TAVA TECHNOLOGIES  INCORPORATED (Colorado) — -7706d
+2026-05-21 13:29:48,316 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 13:29:49,901 [DailyPipeline] INFO - [68/300] CLC ASSOCIATES (Colorado) — -7706d
+2026-05-21 13:29:54,704 [DailyPipeline] INFO -   ✅ EXPANSION: Business Activity — CLC Music students awarded $20K in scholarships - MessageMed
+2026-05-21 13:29:56,843 [DailyPipeline] INFO - [69/300] SCHOOL DISTRICT NO 1 IN THE CITY (Colorado) — -7699d
+2026-05-21 13:30:01,813 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 13:30:03,751 [DailyPipeline] INFO - [70/300] ELECTRON CORP (Colorado) — -7685d
+2026-05-21 13:30:08,795 [DailyPipeline] INFO -   ✅ EXPANSION: Business Activity — Dramatic expansion of bimodal redox window of indigo by two-
+2026-05-21 13:30:10,553 [DailyPipeline] INFO - [71/300] RADIOLOGY IMAGING ASSOCIATES (Colorado) — -7681d
+2026-05-21 13:30:14,792 [DailyPipeline] INFO -   ✅ EXPANSION: Business Activity — Radiology AI Market Report 2025-2030, By Offering, Function,
+2026-05-21 13:30:18,890 [DailyPipeline] INFO - [72/300] COPY MACHINE SERVICE INC (Colorado) — -7659d
+2026-05-21 13:30:24,284 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 13:30:26,130 [DailyPipeline] INFO - [73/300] NETVOICE TECHNOLOGIES CORPORATION (Connecticut) — -7658d
+2026-05-21 13:30:30,649 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 13:30:32,281 [DailyPipeline] INFO - [74/300] ESPIAL INC (Colorado) — -7623d
+2026-05-21 13:30:37,201 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 13:30:39,292 [DailyPipeline] INFO - [75/300] SENTRY SYTEMS INC (Colorado) — -7617d
+2026-05-21 13:30:43,287 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 13:30:45,102 [DailyPipeline] INFO - [76/300] MONEY HUNT PROPERTIES, INC. (Connecticut) — -7608d
+2026-05-21 13:30:49,199 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 13:30:51,127 [DailyPipeline] INFO - [77/300] ELECTRON CORP (THE) (Colorado) — -7602d
+2026-05-21 13:30:55,346 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 13:30:57,220 [DailyPipeline] INFO - [78/300] NAVIDEC INC (Colorado) — -7597d
+2026-05-21 13:31:01,920 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 13:31:03,915 [DailyPipeline] INFO - [79/300] PBJC CORP (Colorado) — -7595d
+2026-05-21 13:31:08,346 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 13:31:10,642 [DailyPipeline] INFO - [80/300] DREAM JEWELS, LLC (Connecticut) — -7589d
+2026-05-21 13:31:15,364 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 13:31:17,689 [DailyPipeline] INFO - [81/300] CONVERGENT GROUP CORPORATION (Colorado) — -7583d
+2026-05-21 13:31:22,849 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 13:31:25,011 [DailyPipeline] INFO - [82/300] INTERPLAN ARCHITECTURE INC (Colorado) — -7580d
+2026-05-21 13:31:29,502 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 13:31:31,282 [DailyPipeline] INFO - [83/300] BUDGET COMPUTERS INC (Colorado) — -7580d
+2026-05-21 13:31:35,392 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 13:31:37,669 [DailyPipeline] INFO - [84/300] MEDICAL IMAGING OF COLORADO (Colorado) — -7548d
+2026-05-21 13:31:42,610 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 13:31:44,877 [DailyPipeline] INFO - [85/300] NAVIDEC INC (Colorado) — -7547d
+2026-05-21 13:31:48,181 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 13:31:50,449 [DailyPipeline] INFO - [86/300] EINVESTMENTCLUBS, INC (Connecticut) — -7542d
+2026-05-21 13:31:55,249 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 13:31:56,982 [DailyPipeline] INFO - [87/300] MWIRED INC (Colorado) — -7538d
+2026-05-21 13:32:01,870 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 13:32:03,599 [DailyPipeline] INFO - [88/300] TIMBERLAN INC (Colorado) — -7534d
+2026-05-21 13:32:08,334 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 13:32:10,418 [DailyPipeline] INFO - [89/300] CLC ASSOCIATES INC (Colorado) — -7526d
+2026-05-21 13:32:14,979 [DailyPipeline] INFO -   ✅ EXPANSION: Business Activity — CLC Music students awarded $20K in scholarships - MessageMed
+2026-05-21 13:32:16,513 [DailyPipeline] INFO - [90/300] MACTEC INC (Colorado) — -7524d
+2026-05-21 13:32:28,887 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 13:32:30,428 [DailyPipeline] INFO - [91/300] HERB COMPANION PRESS (Colorado) — -7524d
+2026-05-21 13:32:55,330 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 13:32:57,326 [DailyPipeline] INFO - [92/300] MANCALA INCORPORATED (Colorado) — -7517d
+2026-05-21 13:33:23,464 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 13:33:25,288 [DailyPipeline] INFO - [93/300] FINZER BUSINESS SYSTEMS OF COLORADO (Colorado) — -7517d
+2026-05-21 13:33:49,299 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 13:33:50,978 [DailyPipeline] INFO - [94/300] AUTHENTOR SYSTEMS INC (Colorado) — -7517d
+2026-05-21 13:34:13,419 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 13:34:15,533 [DailyPipeline] INFO - [95/300] SUN CONSTRUCTION (Colorado) — -7511d
+2026-05-21 13:34:40,749 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 13:34:42,274 [DailyPipeline] INFO - [96/300] TERRACE FLOWERS INCORPORATED (Colorado) — -7499d
+2026-05-21 13:35:08,963 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 13:35:11,341 [DailyPipeline] INFO - [97/300] CASH NOW STORE INC (THE) (Colorado) — -7499d
+2026-05-21 13:35:42,548 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 13:35:44,150 [DailyPipeline] INFO - [98/300] FRONT RANGE SOLUTIONS INC (Colorado) — -7492d
+2026-05-21 13:36:14,301 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 13:36:16,307 [DailyPipeline] INFO - [99/300] RYTHMS NETCONNECTIONS INC (Colorado) — -7492d
+2026-05-21 13:36:40,108 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 13:36:42,385 [DailyPipeline] INFO - [100/300] SNOWMASS MOUNTAIN CHALET (Colorado) — -7490d
+2026-05-21 13:37:07,071 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 13:37:09,305 [DailyPipeline] INFO - [101/300] RHYTHMS NETCONNECTIONS INC (Colorado) — -7486d
+2026-05-21 13:37:36,922 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 13:37:38,872 [DailyPipeline] INFO - [102/300] CAC INC (Colorado) — -7465d
+2026-05-21 13:38:03,854 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 13:38:05,738 [DailyPipeline] INFO - [103/300] MUCHOINFO.COM INC (Colorado) — -7462d
+2026-05-21 13:38:33,794 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 13:38:35,862 [DailyPipeline] INFO - [104/300] APPLIED FILMS CORPORATION (Colorado) — -7458d
+2026-05-21 13:39:03,120 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 13:39:05,574 [DailyPipeline] INFO - [105/300] GLACIER DISTRIBUTION COMPANY (Colorado) — -7457d
+2026-05-21 13:39:37,516 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 13:39:39,954 [DailyPipeline] INFO - [106/300] TABOR INTERACTIVE INC (Colorado) — -7450d
+2026-05-21 13:40:06,759 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 13:40:08,354 [DailyPipeline] INFO - [107/300] PEAK RESOURCES INC (Colorado) — -7450d
+2026-05-21 13:40:35,462 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 13:40:37,223 [DailyPipeline] INFO - [108/300] WINDSOR BOARD OF EDUCATION (Connecticut) — -7443d
+2026-05-21 13:41:03,280 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 13:41:05,448 [DailyPipeline] INFO - [109/300] AMERICAN FRONTEER FINANCIAL (Colorado) — -7443d
+2026-05-21 13:41:32,682 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 13:41:34,872 [DailyPipeline] INFO - [110/300] SCHOOL DISTRICT #1 IN THE CITY AND (Colorado) — -7443d
+2026-05-21 13:41:56,436 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 13:41:58,233 [DailyPipeline] INFO - [111/300] TIMBERLAN INC (Colorado) — -7443d
+2026-05-21 13:42:23,440 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 13:42:25,398 [DailyPipeline] INFO - [112/300] TIMBERLAN INC (Colorado) — -7442d
+2026-05-21 13:42:50,515 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 13:42:52,823 [DailyPipeline] INFO - [113/300] SOUTHERNVIEW TECHNOLOGIES INC (Colorado) — -7436d
+2026-05-21 13:43:19,207 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 13:43:20,716 [DailyPipeline] INFO - [114/300] CYBERCROP.COM INCORPORATED (Colorado) — -7433d
+2026-05-21 13:43:45,811 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 13:43:48,009 [DailyPipeline] INFO - [115/300] OBELISK TECHNOLOGY INC (Colorado) — -7427d
+2026-05-21 13:44:16,822 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 13:44:18,765 [DailyPipeline] INFO - [116/300] NAVIDEC INC (Colorado) — -7422d
+2026-05-21 13:44:45,854 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 13:44:48,038 [DailyPipeline] INFO - [117/300] FINZER IMAGING SYSTEMS INC (Colorado) — -7422d
+2026-05-21 13:45:13,768 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 13:45:15,814 [DailyPipeline] INFO - [118/300] DEBRUYN ENTERPRISES INC (Colorado) — -7422d
+2026-05-21 13:45:38,973 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 13:45:40,982 [DailyPipeline] INFO - [119/300] PLANETOUTDOORS.COM (INC) (Colorado) — -7421d
+2026-05-21 13:46:07,197 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 13:46:09,122 [DailyPipeline] INFO - [120/300] LEVEL 3 COMMUNICATIONS LLC (Colorado) — -7415d
+2026-05-21 13:46:36,830 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 13:46:38,883 [DailyPipeline] INFO - [121/300] ACCESS INTERNATIONAL FINANCIAL (Colorado) — -7415d
+2026-05-21 13:47:04,629 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 13:47:07,135 [DailyPipeline] INFO - [122/300] BELENOS INC (Colorado) — -7415d
+2026-05-21 13:47:36,543 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 13:47:38,130 [DailyPipeline] INFO - [123/300] FINZER IMAGING SYSTEMS INC (Colorado) — -7400d
+2026-05-21 13:47:59,921 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 13:48:02,236 [DailyPipeline] INFO - [124/300] AIRSURE LTD HOLDINGS INC (Colorado) — -7400d
+2026-05-21 13:48:26,917 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 13:48:29,381 [DailyPipeline] INFO - [125/300] ELECTRON CORP (THE) (Colorado) — -7399d
+2026-05-21 13:48:54,556 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 13:48:56,367 [DailyPipeline] INFO - [126/300] EXPANETS INCORPORATED (Colorado) — -7398d
+2026-05-21 13:49:25,446 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 13:49:27,213 [DailyPipeline] INFO - [127/300] EXPANENTS INCORPORATED (Colorado) — -7398d
+2026-05-21 13:49:52,175 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 13:49:54,387 [DailyPipeline] INFO - [128/300] NORTHEAST UTILITIES SERVICE COMPANY (Connecticut) — -7394d
+2026-05-21 13:50:20,471 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 13:50:22,221 [DailyPipeline] INFO - [129/300] PRECISION AUTOMATED MACHINING INC (Colorado) — -7394d
+2026-05-21 13:50:50,051 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 13:50:52,446 [DailyPipeline] INFO - [130/300] NAVIDEC INC (Colorado) — -7393d
+2026-05-21 13:51:18,046 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 13:51:19,979 [DailyPipeline] INFO - [131/300] GERBER DISTRIBUTING COMPANY INC (Colorado) — -7392d
+2026-05-21 13:51:46,073 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 13:51:47,996 [DailyPipeline] INFO - [132/300] SUN CONSTRUCTION (Colorado) — -7386d
+2026-05-21 13:52:16,571 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 13:52:18,571 [DailyPipeline] INFO - [133/300] GUINNESS BASS IMPORT COMPANY (Connecticut) — -7385d
+2026-05-21 13:52:43,473 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 13:52:45,596 [DailyPipeline] INFO - [134/300] PLANETOUTDOORS.COM (INC) (Colorado) — -7385d
+2026-05-21 13:53:13,365 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 13:53:15,196 [DailyPipeline] INFO - [135/300] SENSATIONAL FLOORING LLC (Colorado) — -7384d
+2026-05-21 13:53:39,596 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 13:53:41,146 [DailyPipeline] INFO - [136/300] AVALANCHE MANUACTURING (Colorado) — -7381d
+2026-05-21 13:54:04,061 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 13:54:06,552 [DailyPipeline] INFO - [137/300] PAT BECK MARKETING (Colorado) — -7371d
+2026-05-21 13:54:35,971 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 13:54:37,922 [DailyPipeline] INFO - [138/300] DEBRUYN ENTERPRISES INC (Colorado) — -7363d
+2026-05-21 13:55:05,430 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 13:55:07,165 [DailyPipeline] INFO - [139/300] ACCESS INTERNATIONAL (Colorado) — -7353d
+2026-05-21 13:55:38,020 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 13:55:39,874 [DailyPipeline] INFO - [140/300] PAT BECK MARKETING (Colorado) — -7349d
+2026-05-21 13:56:12,150 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 13:56:13,870 [DailyPipeline] INFO - [141/300] PAT BECK MARKETING (Colorado) — -7343d
+2026-05-21 13:56:38,549 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 13:56:40,824 [DailyPipeline] INFO - [142/300] ACCESS INTERNATIONAL (Colorado) — -7339d
+2026-05-21 13:57:08,210 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 13:57:09,970 [DailyPipeline] INFO - [143/300] PRECISION AUTOMATED (Colorado) — -7336d
+2026-05-21 13:57:35,282 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 13:57:37,032 [DailyPipeline] INFO - [144/300] CYBERCROP.COM INCORPORATED (Colorado) — -7329d
+2026-05-21 13:58:03,123 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 13:58:04,773 [DailyPipeline] INFO - [145/300] THE CENTER FOR GASTROINTESTINAL MEDICINE, P.C. (Connecticut) — -7324d
+2026-05-21 13:58:34,182 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 13:58:36,645 [DailyPipeline] INFO - [146/300] INTERNET COMMERCE & COMMUICATIONS (Colorado) — -7324d
+2026-05-21 13:59:00,438 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 13:59:02,873 [DailyPipeline] INFO - [147/300] STADIUM MANAGEMENT COMPANY LLC (Colorado) — -7322d
+2026-05-21 13:59:27,575 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 13:59:29,908 [DailyPipeline] INFO - [148/300] CH2M HILL INC (Colorado) — -7316d
+2026-05-21 13:59:52,753 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 13:59:54,325 [DailyPipeline] INFO - [149/300] ACCESS-STP INC (Colorado) — -7315d
+2026-05-21 14:00:21,452 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 14:00:23,439 [DailyPipeline] INFO - [150/300] ALLIANCE STAFFING OF CT, LLC (Connecticut) — -7314d
+2026-05-21 14:00:52,308 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 14:00:54,098 [DailyPipeline] INFO - [151/300] VIESELMEYER, DALE A (Colorado) — -7309d
+2026-05-21 14:01:23,185 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 14:01:24,828 [DailyPipeline] INFO - [152/300] JOSLIN QUINN AND CO. LLC (Connecticut) — -7309d
+2026-05-21 14:01:48,895 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 14:01:50,857 [DailyPipeline] INFO - [153/300] BERKSHIRE AUTO SALES AND SERVICE, INC. (Connecticut) — -7309d
+2026-05-21 14:02:18,931 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 14:02:21,008 [DailyPipeline] INFO - [154/300] DBDOCTOR, INC (Colorado) — -7308d
+2026-05-21 14:02:46,323 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 14:02:47,890 [DailyPipeline] INFO - [155/300] CONVAL, INC (Connecticut) — -7307d
+2026-05-21 14:03:11,956 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 14:03:14,398 [DailyPipeline] INFO - [156/300] WORDS WAVES & WIRES LLC (Colorado) — -7304d
+2026-05-21 14:03:42,363 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 14:03:44,222 [DailyPipeline] INFO - [157/300] TABOR INTERACTIVE INC (Colorado) — -7303d
+2026-05-21 14:04:14,444 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 14:04:16,672 [DailyPipeline] INFO - [158/300] PHILLIPS, DOUGLAS R (Colorado) — -7302d
+2026-05-21 14:04:41,275 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 14:04:43,689 [DailyPipeline] INFO - [159/300] AUTO SALES, INC. (Connecticut) — -7300d
+2026-05-21 14:05:07,574 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 14:05:09,333 [DailyPipeline] INFO - [160/300] AIRSURE LTD HOLDINGS INC (Colorado) — -7296d
+2026-05-21 14:05:35,549 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 14:05:37,887 [DailyPipeline] INFO - [161/300] ENCOMPASS NETORK SERVICES WEST (Colorado) — -7288d
+2026-05-21 14:06:07,635 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 14:06:09,221 [DailyPipeline] INFO - [162/300] AVALANCHE MANUFACTURING (Colorado) — -7282d
+2026-05-21 14:06:34,108 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 14:06:36,346 [DailyPipeline] INFO - [163/300] ROBERT MOTORCARS, LLC (Connecticut) — -7281d
+2026-05-21 14:07:02,189 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 14:07:04,175 [DailyPipeline] INFO - [164/300] A G ANDRIKOPOULOS  RESOURCES INC. (Colorado) — -7279d
+2026-05-21 14:07:31,482 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 14:07:33,884 [DailyPipeline] INFO - [165/300] ALLWEST SYSTEMS (Colorado) — -7274d
+2026-05-21 14:07:57,820 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 14:08:00,188 [DailyPipeline] INFO - [166/300] TRANSPORTATION MANAGEMENT (Colorado) — -7274d
+2026-05-21 14:08:22,971 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 14:08:24,995 [DailyPipeline] INFO - [167/300] MARTINEZ, BARBARA (Colorado) — -7265d
+2026-05-21 14:08:48,372 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 14:08:50,103 [DailyPipeline] INFO - [168/300] COLORADO ACCESS (Colorado) — -7265d
+2026-05-21 14:09:15,421 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 14:09:17,769 [DailyPipeline] INFO - [169/300] CORDILLERA ENERGY PARTNERS LLC (Colorado) — -7260d
+2026-05-21 14:09:44,619 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 14:09:47,015 [DailyPipeline] INFO - [170/300] PE CORPORATION (Connecticut) — -7259d
+2026-05-21 14:10:10,094 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 14:10:12,269 [DailyPipeline] INFO - [171/300] DANBURY PUBLIC SCHOOL SYSTEM (Connecticut) — -7259d
+2026-05-21 14:10:41,119 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 14:10:42,769 [DailyPipeline] INFO - [172/300] ARAPAHOE COUNTY SCHOOL DISTRICT (Colorado) — -7259d
+2026-05-21 14:11:13,483 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 14:11:15,344 [DailyPipeline] INFO - [173/300] KUEGLER ASSOCIATES (Connecticut) — -7241d
+2026-05-21 14:11:43,805 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 14:11:45,872 [DailyPipeline] INFO - [174/300] COLORADO SATELLITE BROADCASTING, INC (Colorado) — -7238d
+2026-05-21 14:12:14,247 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 14:12:16,293 [DailyPipeline] INFO - [175/300] NEW FRONTIER MEDIA, INC (Colorado) — -7238d
+2026-05-21 14:12:44,135 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 14:12:46,472 [DailyPipeline] INFO - [176/300] ROBINSON MECHANICAL CO. (Colorado) — -7233d
+2026-05-21 14:13:10,272 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 14:13:12,398 [DailyPipeline] INFO - [177/300] ALL-PHASE ENTERPRISES, INC. (Connecticut) — -7223d
+2026-05-21 14:13:38,892 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 14:13:41,357 [DailyPipeline] INFO - [178/300] SIGMA NETWORKS, INC. (Colorado) — -7220d
+2026-05-21 14:14:03,719 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 14:14:05,413 [DailyPipeline] INFO - [179/300] INTERNATIONAL FLEX TECHNOLOGIES INC (Colorado) — -7219d
+2026-05-21 14:14:34,503 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 14:14:36,246 [DailyPipeline] INFO - [180/300] K.T.M. ELECTRICAL CONSTRUCTION, LLC. (Connecticut) — -7210d
+2026-05-21 14:15:04,309 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 14:15:05,885 [DailyPipeline] INFO - [181/300] McDonald Electric, L.L.C. (Colorado) — -7206d
+2026-05-21 14:15:30,592 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 14:15:32,535 [DailyPipeline] INFO - [182/300] THE HIDEAWAY SPA, INC. (Connecticut) — -7199d
+2026-05-21 14:15:56,769 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 14:15:58,701 [DailyPipeline] INFO - [183/300] REGIONAL NETWORK OF PROGRAMS, INC. (Connecticut) — -7199d
+2026-05-21 14:16:27,028 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 14:16:29,460 [DailyPipeline] INFO - [184/300] JOHN COUNCILMAN, INC (Colorado) — -7198d
+2026-05-21 14:16:54,924 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 14:16:56,796 [DailyPipeline] INFO - [185/300] THE NEW HAVEN FAMILY ALLIANCE, INC. (Connecticut) — -7190d
+2026-05-21 14:17:22,083 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 14:17:23,971 [DailyPipeline] INFO - [186/300] ELECTRONIC CALCULATORS, LTD. (Colorado) — -7189d
+2026-05-21 14:17:53,102 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 14:17:55,356 [DailyPipeline] INFO - [187/300] MONY LIFE INSURANCE COMPANY (Connecticut) — -7188d
+2026-05-21 14:18:21,635 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 14:18:23,980 [DailyPipeline] INFO - [188/300] KARSH CONSULTING P.C. (Colorado) — -7185d
+2026-05-21 14:18:49,052 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 14:18:51,053 [DailyPipeline] INFO - [189/300] VAN WILGEN'S GARDEN CENTER (Connecticut) — -7184d
+2026-05-21 14:19:20,271 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 14:19:22,452 [DailyPipeline] INFO - [190/300] EAGLE AUTOMOTIVE INC (Colorado) — -7184d
+2026-05-21 14:19:47,003 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 14:19:48,721 [DailyPipeline] INFO - [191/300] EAGLE AUTOMOTIVE INC (Colorado) — -7178d
+2026-05-21 14:20:10,209 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 14:20:11,792 [DailyPipeline] INFO - [192/300] WRAY MEAT PACKING, INC. (Colorado) — -7177d
+2026-05-21 14:20:37,820 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 14:20:39,478 [DailyPipeline] INFO - [193/300] EFTC CORPORATION (Colorado) — -7177d
+2026-05-21 14:21:09,769 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 14:21:11,864 [DailyPipeline] INFO - [194/300] BASICALLY BUSINESS, INC. (Colorado) — -7175d
+2026-05-21 14:21:38,527 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 14:21:40,977 [DailyPipeline] INFO - [195/300] Sterkel Interiors, Inc. (Colorado) — -7175d
+2026-05-21 14:22:06,713 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 14:22:08,513 [DailyPipeline] INFO - [196/300] DOCUMENT SOLUTIONS USA,LLC (Colorado) — -7171d
+2026-05-21 14:22:35,244 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 14:22:36,789 [DailyPipeline] INFO - [197/300] BONFIGLIO DRUG INC (Colorado) — -7153d
+2026-05-21 14:23:06,148 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 14:23:08,623 [DailyPipeline] INFO - [198/300] CORPORATE EXPRESS (Colorado) — -7147d
+2026-05-21 14:23:35,587 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 14:23:37,812 [DailyPipeline] INFO - [199/300] SHAWMUT EQUIPMENT COMPANY, INCORPORATED (Connecticut) — -7141d
+2026-05-21 14:24:09,028 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 14:24:11,211 [DailyPipeline] INFO - [200/300] ST. MARY MERCY HOSPITAL (Connecticut) — -7139d
+2026-05-21 14:24:37,345 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 14:24:39,583 [DailyPipeline] INFO - [201/300] AMERICAN CONTRACTORS, LLC (Connecticut) — -7136d
+2026-05-21 14:25:03,882 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 14:25:06,094 [DailyPipeline] INFO - [202/300] OMS ACCOCIATES--COLORADO,P.C. (Colorado) — -7135d
+2026-05-21 14:25:33,239 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 14:25:35,202 [DailyPipeline] INFO - [203/300] KENNETH CLARK ASSOCIATES INC (Colorado) — -7091d
+2026-05-21 14:26:05,382 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 14:26:07,460 [DailyPipeline] INFO - [204/300] KENNETH CLARK ASSOCIATES INC (Colorado) — -7087d
+2026-05-21 14:26:35,910 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 14:26:37,603 [DailyPipeline] INFO - [205/300] ASPEN CLUB INTERNATIONAL LLC (Colorado) — -7086d
+2026-05-21 14:27:00,256 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 14:27:02,303 [DailyPipeline] INFO - [206/300] MWH AMERICAS, INC (Colorado) — -7057d
+2026-05-21 14:27:29,471 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 14:27:31,910 [DailyPipeline] INFO - [207/300] FOWLER REAL ESTATE SERVICES, INC (Colorado) — -7044d
+2026-05-21 14:27:55,336 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 14:27:57,810 [DailyPipeline] INFO - [208/300] LEISURE TRENDS, INC. (Colorado) — -6993d
+2026-05-21 14:28:22,934 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 14:28:24,804 [DailyPipeline] INFO - [209/300] FOWLER REAL ESTATE SERVICES, INC. (Colorado) — -6988d
+2026-05-21 14:28:52,932 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 14:28:54,684 [DailyPipeline] INFO - [210/300] ACCESS INTERNATIONAL FINANCIAL SERVICES, INC (Colorado) — -6974d
+2026-05-21 14:29:22,410 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 14:29:24,777 [DailyPipeline] INFO - [211/300] VIRGIN ATLANTIC AIRWAYS LTD (Connecticut) — -6925d
+2026-05-21 14:29:51,461 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 14:29:53,885 [DailyPipeline] INFO - [212/300] SECURITY CENTRAL, INC. (Colorado) — -6924d
+2026-05-21 14:30:20,421 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 14:30:22,419 [DailyPipeline] INFO - [213/300] COPIER WORKS OF LONGMONT (THE) (Colorado) — -6912d
+2026-05-21 14:30:46,994 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 14:30:48,647 [DailyPipeline] INFO - [214/300] THE SOUTHERN CONNECTICUT GAS COMPANY (Connecticut) — -6887d
+2026-05-21 14:31:09,493 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 14:31:11,142 [DailyPipeline] INFO - [215/300] CONNECTICUT NATURAL GAS CORPORATION (Connecticut) — -6887d
+2026-05-21 14:31:37,626 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 14:31:39,944 [DailyPipeline] INFO - [216/300] METROPOLITAN PATHOLOGISTS PROFESSIONAL COMPANY (Colorado) — -6862d
+2026-05-21 14:32:07,129 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 14:32:08,919 [DailyPipeline] INFO - [217/300] ARROWHEAD TECHNLOGIES INC (Colorado) — -6849d
+2026-05-21 14:32:36,156 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 14:32:38,442 [DailyPipeline] INFO - [218/300] ACCESS INTERNATIONAL FINANCIAL SERIVCES, INC (Colorado) — -6846d
+2026-05-21 14:33:07,389 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 14:33:08,970 [DailyPipeline] INFO - [219/300] BEST CARE INC (Colorado) — -6835d
+2026-05-21 14:33:36,548 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 14:33:38,817 [DailyPipeline] INFO - [220/300] PREMIERE COPY, LLC (Colorado) — -6772d
+2026-05-21 14:34:03,622 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 14:34:05,745 [DailyPipeline] INFO - [221/300] COMTEC TELESERVICES, INC (Colorado) — -6735d
+2026-05-21 14:34:32,446 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 14:34:34,784 [DailyPipeline] INFO - [222/300] J.D. EDWARDS WORLD SOLUTIONS COMPANY (Colorado) — -6722d
+2026-05-21 14:35:01,425 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 14:35:03,629 [DailyPipeline] INFO - [223/300] RAC TRANSPORT COMPANY, INC. (Colorado) — -6720d
+2026-05-21 14:35:30,318 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 14:35:32,485 [DailyPipeline] INFO - [224/300] SERVICE INDUSTRIAL, INC. (Colorado) — -6720d
+2026-05-21 14:35:59,430 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 14:36:01,854 [DailyPipeline] INFO - [225/300] J D EDWARDS WORLD SOLUTIONS COMPANY (Colorado) — -6720d
+2026-05-21 14:36:28,492 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 14:36:30,722 [DailyPipeline] INFO - [226/300] COPIER WORKS OF LONGMONT (Colorado) — -6695d
+2026-05-21 14:36:55,478 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 14:36:57,599 [DailyPipeline] INFO - [227/300] ZANTOP HYNDS INCORPORATED (Colorado) — -6681d
+2026-05-21 14:37:27,910 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 14:37:29,922 [DailyPipeline] INFO - [228/300] SOUTH DENVER CARDIOLOGY ASSOCIATES, P.C. (Colorado) — -6650d
+2026-05-21 14:37:55,106 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 14:37:57,433 [DailyPipeline] INFO - [229/300] ACCESS INTERNATIONAL FINANCIAL SERVICES, INC. (Colorado) — -6645d
+2026-05-21 14:38:22,210 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 14:38:24,394 [DailyPipeline] INFO - [230/300] SPECTRUM HUMAN RESOURCE SYSTEMS CORPORATION (Colorado) — -6539d
+2026-05-21 14:38:54,059 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 14:38:56,011 [DailyPipeline] INFO - [231/300] CENTRIX FINANCIAL LLC (Colorado) — -6527d
+2026-05-21 14:39:24,427 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 14:39:26,024 [DailyPipeline] INFO - [232/300] SHRINERS HOSPITALS FOR CHILDREN (Colorado) — -6518d
+2026-05-21 14:39:52,300 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 14:39:54,274 [DailyPipeline] INFO - [233/300] OFFICE NOW, INC (Colorado) — -6513d
+2026-05-21 14:40:20,515 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 14:40:23,011 [DailyPipeline] INFO - [234/300] COLORADO FOUNDATION FOR MEDICAL CARE (Colorado) — -6510d
+2026-05-21 14:40:48,921 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 14:40:51,188 [DailyPipeline] INFO - [235/300] FRANKTOWN SYSTEMS, INC. (Colorado) — -6496d
+2026-05-21 14:41:19,739 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 14:41:22,100 [DailyPipeline] INFO - [236/300] BI HOLDINGS, INC (Colorado) — -6485d
+2026-05-21 14:41:51,512 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 14:41:53,882 [DailyPipeline] INFO - [237/300] XS ENGINEERING LLC (Colorado) — -6454d
+2026-05-21 14:42:22,003 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 14:42:23,563 [DailyPipeline] INFO - [238/300] UNDERGROUND FAMILY ORGANIZATION LLC (Colorado) — -6446d
+2026-05-21 14:42:47,518 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 14:42:49,518 [DailyPipeline] INFO - [239/300] VISTAR CORPORATION (Colorado) — -6432d
+2026-05-21 14:43:17,437 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 14:43:19,459 [DailyPipeline] INFO - [240/300] CSP INC (Colorado) — -6421d
+2026-05-21 14:43:45,051 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 14:43:46,584 [DailyPipeline] INFO - [241/300] ALEXANDER CAPITAL VENDOR FINANCE, INC (Colorado) — -6397d
+2026-05-21 14:44:11,497 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 14:44:13,083 [DailyPipeline] INFO - [242/300] XS ENGINEERING L.L.C. (Colorado) — -6393d
+2026-05-21 14:44:34,387 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 14:44:36,305 [DailyPipeline] INFO - [243/300] AUTOGLASS DISCOUNTERS LLC (Colorado) — -6392d
+2026-05-21 14:44:58,206 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 14:45:00,041 [DailyPipeline] INFO - [244/300] MSN COMMUNICATIONS, INC (Colorado) — -6386d
+2026-05-21 14:45:27,101 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 14:45:29,061 [DailyPipeline] INFO - [245/300] MILE HIGH CAPITAL GROUP, LTD. (Colorado) — -6356d
+2026-05-21 14:45:53,827 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 14:45:55,972 [DailyPipeline] INFO - [246/300] DOCUMENT SOLUTIONS USA, LLC (Colorado) — -6337d
+2026-05-21 14:46:21,930 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 14:46:23,618 [DailyPipeline] INFO - [247/300] KREMMLING MEMORIAL HOSPITAL DISTRICT (Colorado) — -6331d
+2026-05-21 14:46:49,572 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 14:46:51,578 [DailyPipeline] INFO - [248/300] ARBOR FINANCIAL LLC (Colorado) — -6302d
+2026-05-21 14:47:15,307 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 14:47:17,161 [DailyPipeline] INFO - [249/300] COPY SHOP, INC. DBA: OFFICE OUTPOST (Colorado) — -6301d
+2026-05-21 14:47:48,365 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 14:47:49,903 [DailyPipeline] INFO - [250/300] REED GROUP, LTD (Colorado) — -6286d
+2026-05-21 14:48:16,779 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 14:48:18,346 [DailyPipeline] INFO - [251/300] THE INTEGER GROUP LLC (Colorado) — -6280d
+2026-05-21 14:48:47,485 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 14:48:49,846 [DailyPipeline] INFO - [252/300] TWO ROADS MORTGAGE (Colorado) — -6257d
+2026-05-21 14:49:13,100 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 14:49:15,235 [DailyPipeline] INFO - [253/300] STOREPERFORM TECHNOLOGIES, INC. (Colorado) — -6240d
+2026-05-21 14:49:46,529 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 14:49:48,280 [DailyPipeline] INFO - [254/300] BEAUDIN GANZE CONSULTING ENGINEERS, INC. (Colorado) — -6237d
+2026-05-21 14:50:16,931 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 14:50:18,612 [DailyPipeline] INFO - [255/300] DOCUMENT IMAGING, INC (Colorado) — -6223d
+2026-05-21 14:50:46,730 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 14:50:48,668 [DailyPipeline] INFO - [256/300] CORPORATE EXPRESS, INC (Colorado) — -6215d
+2026-05-21 14:51:14,121 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 14:51:16,607 [DailyPipeline] INFO - [257/300] OMNICOM CAPITAL INC (Connecticut) — -6198d
+2026-05-21 14:51:42,174 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 14:51:44,612 [DailyPipeline] INFO - [258/300] SKI COUNTRY IMPORTS, INC (Colorado) — -6195d
+2026-05-21 14:52:06,932 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 14:52:08,695 [DailyPipeline] INFO - [259/300] LERCH, BATES & ASSOCIATES INC. (Colorado) — -6188d
+2026-05-21 14:52:37,182 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 14:52:39,163 [DailyPipeline] INFO - [260/300] SKI COUNTRY IMPORTS, INC (Colorado) — -6184d
+2026-05-21 14:53:02,333 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 14:53:04,791 [DailyPipeline] INFO - [261/300] SKI COUNTRY IMPORTS, INC (Colorado) — -6162d
+2026-05-21 14:53:30,860 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 14:53:33,278 [DailyPipeline] INFO - [262/300] CHEMRITE INDUSTRIES LLC (Colorado) — -6160d
+2026-05-21 14:54:00,504 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 14:54:02,943 [DailyPipeline] INFO - [263/300] ARBOR FINANCIAL LLC (Colorado) — -6153d
+2026-05-21 14:54:34,000 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 14:54:35,973 [DailyPipeline] INFO - [264/300] CONTRACTOR.COM, LLC (Colorado) — -6147d
+2026-05-21 14:55:00,025 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 14:55:02,521 [DailyPipeline] INFO - [265/300] TWO ROADS MORTGAGE (Colorado) — -6145d
+2026-05-21 14:55:31,458 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 14:55:33,504 [DailyPipeline] INFO - [266/300] SKI COUNTRY IMPORTS, INC. (Colorado) — -6145d
+2026-05-21 14:55:58,333 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 14:56:00,762 [DailyPipeline] INFO - [267/300] MILE HIGH CAPITAL GROUP, LTD. (Colorado) — -6117d
+2026-05-21 14:56:28,770 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 14:56:30,448 [DailyPipeline] INFO - [268/300] MICRO MOTION, INC. (Colorado) — -6078d
+2026-05-21 14:56:55,374 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 14:56:57,799 [DailyPipeline] INFO - [269/300] CELERITY CORPORATION (Colorado) — -6075d
+2026-05-21 14:57:27,170 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 14:57:28,805 [DailyPipeline] INFO - [270/300] ADVANCED OFFICE SYSTEMS, INC. (Connecticut) — -6061d
+2026-05-21 14:57:52,102 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 14:57:53,972 [DailyPipeline] INFO - [271/300] MACTEC, INC. (Colorado) — -6055d
+2026-05-21 14:58:19,721 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 14:58:22,018 [DailyPipeline] INFO - [272/300] GDXDATA (Colorado) — -6040d
+2026-05-21 14:58:46,146 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 14:58:48,079 [DailyPipeline] INFO - [273/300] DOUBLE EAGLE HOTEL AND CASINO (Colorado) — -6037d
+2026-05-21 14:59:13,978 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 14:59:15,492 [DailyPipeline] INFO - [274/300] GDXDATA (Colorado) — -6036d
+2026-05-21 14:59:38,922 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 14:59:40,858 [DailyPipeline] INFO - [275/300] COPY SHOP, INC. (Colorado) — -5974d
+2026-05-21 15:00:05,547 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 15:00:07,790 [DailyPipeline] INFO - [276/300] VESSCO INC (Colorado) — -5970d
+2026-05-21 15:00:33,393 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 15:00:35,806 [DailyPipeline] INFO - [277/300] RED HAT PRODUCE, INC. (Colorado) — -5966d
+2026-05-21 15:01:02,947 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 15:01:05,161 [DailyPipeline] INFO - [278/300] HEIN + ASSOCIATES LLP (Colorado) — -5959d
+2026-05-21 15:01:31,662 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 15:01:33,784 [DailyPipeline] INFO - [279/300] NOBEL SYSCO (Colorado) — -5952d
+2026-05-21 15:02:04,457 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 15:02:06,185 [DailyPipeline] INFO - [280/300] OFFICE OUTPOST (Colorado) — -5952d
+2026-05-21 15:02:31,793 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 15:02:33,850 [DailyPipeline] INFO - [281/300] HERMAN GROUP, LLC (THE) (Colorado) — -5944d
+2026-05-21 15:03:02,760 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 15:03:04,352 [DailyPipeline] INFO - [282/300] GENERAL AIR SERVICE & SUPPLY CO. (Colorado) — -5939d
+2026-05-21 15:03:25,340 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 15:03:27,017 [DailyPipeline] INFO - [283/300] SPECTRUM HUMAN RESOURCE SYSTEMS CORPORATION (Colorado) — -5938d
+2026-05-21 15:03:55,485 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 15:03:57,610 [DailyPipeline] INFO - [284/300] OZ ARCHITECTURE, INC. (Colorado) — -5925d
+2026-05-21 15:04:24,254 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 15:04:26,723 [DailyPipeline] INFO - [285/300] ELECTRON CORPORATION (Colorado) — -5907d
+2026-05-21 15:04:53,167 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 15:04:54,778 [DailyPipeline] INFO - [286/300] GDXDATA (Colorado) — -5889d
+2026-05-21 15:05:22,568 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 15:05:24,407 [DailyPipeline] INFO - [287/300] MICRO MOTION, INC. (Colorado) — -5886d
+2026-05-21 15:05:51,875 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 15:05:53,901 [DailyPipeline] INFO - [288/300] KATZKE PAPER CO. (Colorado) — -5866d
+2026-05-21 15:06:18,717 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 15:06:20,376 [DailyPipeline] INFO - [289/300] STELLAR TECHNOLOGIES INC (Colorado) — -5860d
+2026-05-21 15:06:43,640 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 15:06:45,838 [DailyPipeline] INFO - [290/300] GDXDATA (Colorado) — -5858d
+2026-05-21 15:07:13,967 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 15:07:16,237 [DailyPipeline] INFO - [291/300] EL PASO COUNTY SCHOOL DISTRICT NO. 38 (Colorado) — -5845d
+2026-05-21 15:07:39,433 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 15:07:41,031 [DailyPipeline] INFO - [292/300] EDUCATION COMMISSION OF THE STATES (Colorado) — -5832d
+2026-05-21 15:08:05,204 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 15:08:07,467 [DailyPipeline] INFO - [293/300] STONE CREEK FUNDING CORPORATION (Colorado) — -5832d
+2026-05-21 15:08:31,867 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 15:08:34,251 [DailyPipeline] INFO - [294/300] FARAH, BARRY LLC (Colorado) — -5832d
+2026-05-21 15:09:00,175 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 15:09:01,809 [DailyPipeline] INFO - [295/300] GRAND VALLEY RURAL POWER LINES, INC (Colorado) — -5832d
+2026-05-21 15:09:30,793 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 15:09:32,597 [DailyPipeline] INFO - [296/300] MOVER'S SUITE SOFTWARE (Colorado) — -5831d
+2026-05-21 15:09:56,036 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 15:09:57,811 [DailyPipeline] INFO - [297/300] COORS GLOBAL PROPERTIES, INC (Colorado) — -5831d
+2026-05-21 15:10:25,090 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 15:10:27,223 [DailyPipeline] INFO - [298/300] ACME DELIVERY SERVICE, INC (Colorado) — -5831d
+2026-05-21 15:10:58,274 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 15:11:00,537 [DailyPipeline] INFO - [299/300] LANGE GRAPHICS, INC. (Colorado) — -5831d
+2026-05-21 15:11:25,289 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 15:11:27,224 [DailyPipeline] INFO - [300/300] PROPP REALTY MANAGEMENT LLC (Colorado) — -5831d
+2026-05-21 15:11:52,090 [DailyPipeline] INFO -   ⚪ No expansion news found
+2026-05-21 15:11:53,886 [DailyPipeline] INFO - 
+=======================================================
+2026-05-21 15:11:53,886 [DailyPipeline] INFO -   Expansion Signal Run Complete
+2026-05-21 15:11:53,886 [DailyPipeline] INFO -   Processed : 300
+2026-05-21 15:11:53,886 [DailyPipeline] INFO -   Hits      : 15 (5%)
+2026-05-21 15:11:53,886 [DailyPipeline] INFO -   Miss      : 285
+2026-05-21 15:11:53,886 [DailyPipeline] INFO -   Expansion signals: 15 new hits
+2026-05-21 15:11:53,886 [DailyPipeline] INFO - Running hiring signal check (limit=200, hot leads only)...
+2026-05-21 15:11:54,049 [DailyPipeline] INFO - Running hiring signal check on 200 leads
+2026-05-21 15:11:54,049 [DailyPipeline] INFO - [1/200] NISSAN OF MIDDLETOWN CT LLC (CT) — 0d
+2026-05-21 15:11:58,568 [DailyPipeline] INFO -   ✅ HIRING: 15 open positions (Associate Analyst, Consumer Credit Analyst II) | Weight: 15
+2026-05-21 15:12:01,540 [DailyPipeline] INFO - [2/200] INLINE PLASTICS CORP. (CT) — 0d
+2026-05-21 15:12:11,025 [DailyPipeline] INFO -   ⚪ Not actively hiring (for this company)
+2026-05-21 15:12:13,284 [DailyPipeline] INFO - [3/200] PUTNAM LEASING COMPANY I, LLC (CT) — 0d
+2026-05-21 15:12:19,543 [DailyPipeline] INFO -   ✅ HIRING: 6 open positions (Consultant, Medical & Scientific Affairs, Consultant - Value,  | Weight: 15
+2026-05-21 15:12:22,820 [DailyPipeline] INFO - [4/200] THE LIFE PLANNING RETIREMENT GROUP LLC (CT) — 0d
+2026-05-21 15:12:33,782 [DailyPipeline] INFO -   ⚪ Not actively hiring (for this company)
+2026-05-21 15:12:36,794 [DailyPipeline] INFO - [5/200] DARCARS OF RAILROAD AVENUE, INC. (CT) — 0d
+2026-05-21 15:12:40,747 [DailyPipeline] INFO -   ✅ HIRING: 15 open positions (Car Sales Representative, Automotive Service Advisor / Writer | Weight: 15
+2026-05-21 15:12:44,118 [DailyPipeline] INFO - [6/200] BUDNEY INDUSTRIES, INC. (CT) — 0d
+2026-05-21 15:12:54,137 [DailyPipeline] INFO -   ⚪ Not actively hiring (for this company)
+2026-05-21 15:12:56,592 [DailyPipeline] INFO - [7/200] PRECISION CUTTING SERVICES, LLC (CT) — 0d
+2026-05-21 15:13:07,815 [DailyPipeline] INFO -   ⚪ Not actively hiring (for this company)
+2026-05-21 15:13:11,232 [DailyPipeline] INFO - [8/200] DARCARS OF RAILROAD AVENUE, INC. (CT) — 0d
+2026-05-21 15:13:15,675 [DailyPipeline] INFO -   ✅ HIRING: 15 open positions (Car Sales Representative, Automotive Service Advisor / Writer | Weight: 15
+2026-05-21 15:13:18,526 [DailyPipeline] INFO - [9/200] DARCARS OF MILBANK AVENUE, INC (CT) — 0d
+2026-05-21 15:13:23,771 [DailyPipeline] INFO -   ✅ HIRING: 15 open positions (Car Sales Representative) | Weight: 15
+2026-05-21 15:13:27,163 [DailyPipeline] INFO - [10/200] URBANI LAWN & LANDSCAPING, LLC (CT) — 0d
+2026-05-21 15:13:32,164 [DailyPipeline] INFO -   ✅ HIRING: 2 open positions (Crewmember, Crew Member - Santa Rita Landscaping) | Weight: 15
+2026-05-21 15:13:34,914 [DailyPipeline] INFO - [11/200] PALLADINO REAL ESTATE MANAGEMENT & SERVICES, LLC (CT) — 0d
+2026-05-21 15:13:39,260 [DailyPipeline] INFO -   ✅ HIRING: 4 open positions (Portfolio Property Manager, Multi-Family Property Manager) | Weight: 15
+2026-05-21 15:13:41,545 [DailyPipeline] INFO - [12/200] BLUE FOX RUN GOLF COURSE, LLC (CT) — 0d
+2026-05-21 15:13:48,266 [DailyPipeline] INFO -   ✅ HIRING: 6 open positions (Bay Host, Bellperson (Full Time)) | Weight: 15
+2026-05-21 15:13:51,504 [DailyPipeline] INFO - [13/200] STATE OF COLORADO JUDICIAL DEPT (CO) — 0d
+2026-05-21 15:13:56,152 [DailyPipeline] INFO -   ✅ HIRING: 15 open positions (Criminal Background Check Lead., Division of Community and Fa | Weight: 15
+2026-05-21 15:14:00,843 [DailyPipeline] INFO - [14/200] GRINER'S GRADING & GRASSING, LLC (GA) — 0d
+2026-05-21 15:14:11,720 [DailyPipeline] INFO -   ⚪ Not actively hiring (for this company)
+2026-05-21 15:14:14,805 [DailyPipeline] INFO - [15/200] JAR FLORES SERVICES LLC (GA) — 0d
+2026-05-21 15:14:19,229 [DailyPipeline] INFO -   ✅ HIRING: 1 open position (Project Support Associate) | Weight: 15
+2026-05-21 15:14:22,175 [DailyPipeline] INFO - [16/200] BING ENTERPRISES, LLC (GA) — 0d
+2026-05-21 15:14:32,475 [DailyPipeline] INFO -   ⚪ Not actively hiring (for this company)
+2026-05-21 15:14:34,639 [DailyPipeline] INFO - [17/200] MILES, BARBARA A. (GA) — 0d
+2026-05-21 15:14:45,497 [DailyPipeline] INFO -   ⚪ Not actively hiring (for this company)
+2026-05-21 15:14:48,110 [DailyPipeline] INFO - [18/200] CANNON, JAMES PATRICK (GA) — 0d
+2026-05-21 15:14:57,289 [DailyPipeline] INFO -   ⚪ Not actively hiring (for this company)
+2026-05-21 15:14:59,953 [DailyPipeline] INFO - [19/200] LOPEZ, ROBERT TYLER (GA) — 0d
+2026-05-21 15:15:06,196 [DailyPipeline] INFO -   ✅ HIRING: 2 open positions (PT/FT Groomer, Mobile Groomer-Top Pay-Awesome Team) | Weight: 15
+2026-05-21 15:15:08,552 [DailyPipeline] INFO - [20/200] SHAW, DEREK MANNING (GA) — 0d
+2026-05-21 15:15:18,319 [DailyPipeline] INFO -   ⚪ Not actively hiring (for this company)
+2026-05-21 15:15:21,226 [DailyPipeline] INFO - [21/200] DIVERSIFIED NETWORKING SOLUTIONS, LLC (GA) — 0d
+2026-05-21 15:15:24,929 [DailyPipeline] INFO -   ✅ HIRING: 1 open position (Network Engineer) | Weight: 15
+2026-05-21 15:15:27,988 [DailyPipeline] INFO - [22/200] APPLE HILL ENTERPRISES, L.L.C. (CT) — 1d
+2026-05-21 15:15:33,849 [DailyPipeline] INFO -   ✅ HIRING: 1 equipment role open (Equipment Operator) | Weight: 35
+2026-05-21 15:15:37,119 [DailyPipeline] INFO - [23/200] INSURED RETIREMENT INSTITUTE, INC. (DC) — 1d
+2026-05-21 15:15:48,406 [DailyPipeline] INFO -   ⚪ Not actively hiring (for this company)
+2026-05-21 15:15:50,485 [DailyPipeline] INFO - [24/200] REGIONAL SCHOOL DISTRICT 16 (CT) — 1d
+2026-05-21 15:15:54,924 [DailyPipeline] INFO -   ✅ HIRING: 10 open positions (* District Supervisor, Social Studies, Assistant Superintende | Weight: 15
+2026-05-21 15:15:57,642 [DailyPipeline] INFO - [25/200] CONSTITUTION SURGERY CENTER EAST, LLC (CT) — 1d
+2026-05-21 15:16:02,071 [DailyPipeline] INFO -   ✅ HIRING: 1 open position (Surgical Technician) | Weight: 15
+2026-05-21 15:16:05,073 [DailyPipeline] INFO - [26/200] S. CARPENTER, LLC (CT) — 1d
+2026-05-21 15:16:08,504 [DailyPipeline] INFO -   ✅ HIRING: 2 open positions (Dispatcher Traffic, VCC Operator Furniture Mfg) | Weight: 15
+2026-05-21 15:16:10,583 [DailyPipeline] INFO - [27/200] RANDALL D. HARRIS DDS, P.C. (CT) — 1d
+2026-05-21 15:16:20,448 [DailyPipeline] INFO -   ⚪ Not actively hiring (for this company)
+2026-05-21 15:16:23,636 [DailyPipeline] INFO - [28/200] SHARON FAMILY FARM LLC (CT) — 1d
+2026-05-21 15:16:33,507 [DailyPipeline] INFO -   ⚪ Not actively hiring (for this company)
+2026-05-21 15:16:36,170 [DailyPipeline] INFO - [29/200] FOSDICK FULFILLMENT CORPORATION (CT) — 1d
+2026-05-21 15:16:44,986 [DailyPipeline] INFO -   ⚪ Not actively hiring (for this company)
+2026-05-21 15:16:47,700 [DailyPipeline] INFO - [30/200] FAIRFIELD STONE & LANDSCAPE SUPPLY LLC (CT) — 1d
+2026-05-21 15:16:51,925 [DailyPipeline] INFO -   ✅ HIRING: 1 equipment role open (Site Supervisor) | Weight: 35
+2026-05-21 15:16:56,306 [DailyPipeline] INFO - [31/200] IBASE OF FAIRFIELD COUNTY, LLC (CT) — 1d
+2026-05-21 15:17:07,269 [DailyPipeline] INFO -   ⚪ Not actively hiring (for this company)
+2026-05-21 15:17:10,589 [DailyPipeline] INFO - [32/200] GRILLO ORGANIC INC. (CT) — 1d
+2026-05-21 15:17:15,566 [DailyPipeline] INFO -   ✅ HIRING: 1 open position (Join Our Flock!) | Weight: 15
+2026-05-21 15:17:17,921 [DailyPipeline] INFO - [33/200] RI-CHE LLC (CT) — 1d
+2026-05-21 15:17:28,635 [DailyPipeline] INFO -   ⚪ Not actively hiring (for this company)
+2026-05-21 15:17:31,288 [DailyPipeline] INFO - [34/200] THE BULL'S BRIDGE GOLF CLUB, INC. (CT) — 1d
+2026-05-21 15:17:37,087 [DailyPipeline] INFO -   ✅ HIRING: 15 open positions (Sales Coordinator--$15/hr, Revenue Specialist--Full Time) | Weight: 15
+2026-05-21 15:17:39,789 [DailyPipeline] INFO - [35/200] PLAINFIELD VISION CARE CENTER, INC. (CT) — 1d
+2026-05-21 15:17:46,291 [DailyPipeline] INFO -   ✅ HIRING: 11 open positions (Assistant Manager, Retail General Manager) | Weight: 15
+2026-05-21 15:17:48,669 [DailyPipeline] INFO - [36/200] TURNGATE HOLDINGS, INC. (GA) — 1d
+2026-05-21 15:18:00,160 [DailyPipeline] INFO -   ⚪ Not actively hiring (for this company)
+2026-05-21 15:18:02,548 [DailyPipeline] INFO - [37/200] PULASKI COUNTY SCHOOL DISTRICT (GA) — 1d
+2026-05-21 15:18:12,139 [DailyPipeline] INFO -   ⚪ Not actively hiring (for this company)
+2026-05-21 15:18:15,434 [DailyPipeline] INFO - [38/200] PULASKI COUNTY SCHOOL DISTRICT (GA) — 1d
+2026-05-21 15:18:25,958 [DailyPipeline] INFO -   ⚪ Not actively hiring (for this company)
+2026-05-21 15:18:29,147 [DailyPipeline] INFO - [39/200] M4M RESTAURANTS LLC (GA) — 1d
+2026-05-21 15:18:39,977 [DailyPipeline] INFO -   ⚪ Not actively hiring (for this company)
+2026-05-21 15:18:43,460 [DailyPipeline] INFO - [40/200] ROGERS, ASHLEY H (GA) — 1d
+2026-05-21 15:18:53,397 [DailyPipeline] INFO -   ⚪ Not actively hiring (for this company)
+2026-05-21 15:18:55,945 [DailyPipeline] INFO - [41/200] ADKINS, KATHY JEAN (GA) — 1d
+2026-05-21 15:19:06,264 [DailyPipeline] INFO -   ⚪ Not actively hiring (for this company)
+2026-05-21 15:19:09,689 [DailyPipeline] INFO - [42/200] ADKINS, KATHY JEAN (GA) — 1d
+2026-05-21 15:19:20,004 [DailyPipeline] INFO -   ⚪ Not actively hiring (for this company)
+2026-05-21 15:19:22,811 [DailyPipeline] INFO - [43/200] MCCOGGLE, LARRY (GA) — 1d
+2026-05-21 15:19:33,808 [DailyPipeline] INFO -   ⚪ Not actively hiring (for this company)
+2026-05-21 15:19:35,858 [DailyPipeline] INFO - [44/200] JACOB M. TAYLOR, CPA (GA) — 1d
+2026-05-21 15:19:46,484 [DailyPipeline] INFO -   ⚪ Not actively hiring (for this company)
+2026-05-21 15:19:48,614 [DailyPipeline] INFO - [45/200] TENDERFOOT TV, LLC (GA) — 1d
+2026-05-21 15:19:59,202 [DailyPipeline] INFO -   ⚪ Not actively hiring (for this company)
+2026-05-21 15:20:01,357 [DailyPipeline] INFO - [46/200] WEST CHATHAM PARKWAY, LLC (GA) — 1d
+2026-05-21 15:20:12,487 [DailyPipeline] INFO -   ⚪ Not actively hiring (for this company)
+2026-05-21 15:20:15,595 [DailyPipeline] INFO - [47/200] AV OFFICE 2, LLC (GA) — 1d
+2026-05-21 15:20:23,538 [DailyPipeline] INFO -   ✅ HIRING: 4 open positions (Records Clerk III - Office of Judicial Administration, Trial C | Weight: 15
+2026-05-21 15:20:26,807 [DailyPipeline] INFO - [48/200] STONEWORKS MASONRY, LLC (CT) — 2d
+2026-05-21 15:20:36,466 [DailyPipeline] INFO -   ⚪ Not actively hiring (for this company)
+2026-05-21 15:20:39,179 [DailyPipeline] INFO - [49/200] HOFFMAN LANDSCAPES, INC. (CT) — 2d
+2026-05-21 15:20:43,977 [DailyPipeline] INFO -   ✅ HIRING: 1 open position (Yard Attendant) | Weight: 15
+2026-05-21 15:20:46,041 [DailyPipeline] INFO - [50/200] HOFFMAN LANDSCAPES, INC. (CT) — 2d
+2026-05-21 15:20:50,575 [DailyPipeline] INFO -   ✅ HIRING: 1 open position (Yard Attendant) | Weight: 15
+2026-05-21 15:20:53,049 [DailyPipeline] INFO - [51/200] MDZ HOLDINGS LLC (CT) — 4d
+2026-05-21 15:20:59,061 [DailyPipeline] INFO -   ✅ HIRING: 1 open position (Escrow Officer Regional - Boynton Beach, FL) | Weight: 15
+2026-05-21 15:21:01,937 [DailyPipeline] INFO - [52/200] Z&L CAPITAL LLC (CT) — 4d
+2026-05-21 15:21:08,737 [DailyPipeline] INFO -   ✅ HIRING: 12 open positions (Investment Banking Analyst, Investment Professional, Technolo | Weight: 15
+2026-05-21 15:21:11,897 [DailyPipeline] INFO - [53/200] PERCO, INC. (CT) — 4d
+2026-05-21 15:21:21,612 [DailyPipeline] INFO -   ⚪ Not actively hiring (for this company)
+2026-05-21 15:21:23,988 [DailyPipeline] INFO - [54/200] SVL LLC (CT) — 4d
+2026-05-21 15:21:32,648 [DailyPipeline] INFO -   ⚪ Not actively hiring (for this company)
+2026-05-21 15:21:35,664 [DailyPipeline] INFO - [55/200] BAS OUTDOOR SERVICES LLC (CT) — 4d
+2026-05-21 15:21:39,784 [DailyPipeline] INFO -   ✅ HIRING: 1 open position (Special Events Service Technician) | Weight: 15
+2026-05-21 15:21:43,148 [DailyPipeline] INFO - [56/200] SIMPLY LANDSCAPING, LLC (CT) — 4d
+2026-05-21 15:21:49,020 [DailyPipeline] INFO -   ✅ HIRING: 4 open positions (Landscape Crew Member, Landscape Technician) | Weight: 15
+2026-05-21 15:21:52,529 [DailyPipeline] INFO - [57/200] MDZ HOLDINGS LLC (CT) — 4d
+2026-05-21 15:21:59,146 [DailyPipeline] INFO -   ✅ HIRING: 1 open position (Escrow Officer Regional - Boynton Beach, FL) | Weight: 15
+2026-05-21 15:22:01,676 [DailyPipeline] INFO - [58/200] BLOOMFIELD ASC, LLC (CT) — 4d
+2026-05-21 15:22:07,926 [DailyPipeline] INFO -   ✅ HIRING: 1 open position (Receptionist) | Weight: 15
+2026-05-21 15:22:11,407 [DailyPipeline] INFO - [59/200] VASQUEZ TREE SERVICES LLC (CT) — 4d
+2026-05-21 15:22:18,284 [DailyPipeline] INFO -   ✅ HIRING: 9 open positions (Sales Arborist, General Manager - Construction Trades & Tree C | Weight: 15
+2026-05-21 15:22:20,488 [DailyPipeline] INFO - [60/200] BANE PROPERTY MANAGEMENT LLC (CT) — 4d
+2026-05-21 15:22:26,790 [DailyPipeline] INFO -   ✅ HIRING: 2 open positions (Property Manager, Assistant Property Manager) | Weight: 15
+2026-05-21 15:22:29,912 [DailyPipeline] INFO - [61/200] M & R MASONRY LLC (CT) — 4d
+2026-05-21 15:22:35,770 [DailyPipeline] INFO -   ✅ HIRING: 4 open positions (Masonry Superintendent, Mason) | Weight: 15
+2026-05-21 15:22:38,656 [DailyPipeline] INFO - [62/200] TAUNTON HILL LANDSCAPE CO., INC. (CT) — 4d
+2026-05-21 15:22:42,776 [DailyPipeline] INFO -   ✅ HIRING: 3 open positions (Project Manager, Account Manager) | Weight: 15
+2026-05-21 15:22:45,389 [DailyPipeline] INFO - [63/200] ROMANCZUK LANDSCAPING, LLC (CT) — 4d
+2026-05-21 15:22:49,299 [DailyPipeline] INFO -   ✅ HIRING: 2 open positions (Landscape Crew Foreman – Crew Leader, Project Manager) | Weight: 15
+2026-05-21 15:22:52,076 [DailyPipeline] INFO - [64/200] ZACKS YOGURT, LLC (CT) — 4d
+2026-05-21 15:23:02,432 [DailyPipeline] INFO -   ⚪ Not actively hiring (for this company)
+2026-05-21 15:23:04,463 [DailyPipeline] INFO - [65/200] MURRAY COUNTY SCHOOL DISTRICT (GA) — 4d
+2026-05-21 15:23:08,527 [DailyPipeline] INFO -   ✅ HIRING: 15 open positions (Instructional Media and Learning Coordinator, 2026 - 2027 Sch | Weight: 15
+2026-05-21 15:23:12,002 [DailyPipeline] INFO - [66/200] MURRAY COUNTY SCHOOL DISTRICT (GA) — 4d
+2026-05-21 15:23:22,345 [DailyPipeline] INFO -   ⚪ Not actively hiring (for this company)
+2026-05-21 15:23:24,770 [DailyPipeline] INFO - [67/200] NORTHGATEARNISO, INC. (GA) — 4d
+2026-05-21 15:23:35,487 [DailyPipeline] INFO -   ⚪ Not actively hiring (for this company)
+2026-05-21 15:23:38,398 [DailyPipeline] INFO - [68/200] DANKER PRINT SOLUTIONS, INC. (GA) — 4d
+2026-05-21 15:23:47,122 [DailyPipeline] INFO -   ⚪ Not actively hiring (for this company)
+2026-05-21 15:23:49,893 [DailyPipeline] INFO - [69/200] DC REALTY, LLC (GA) — 4d
+2026-05-21 15:23:54,520 [DailyPipeline] INFO -   ✅ HIRING: 1 open position (Assistant Property Manager) | Weight: 15
+2026-05-21 15:23:57,584 [DailyPipeline] INFO - [70/200] PAULK, CURT (GA) — 4d
+2026-05-21 15:24:07,288 [DailyPipeline] INFO -   ⚪ Not actively hiring (for this company)
+2026-05-21 15:24:09,385 [DailyPipeline] INFO - [71/200] POTTS, PHILIP LAMAR-SR (GA) — 4d
+2026-05-21 15:24:19,954 [DailyPipeline] INFO -   ⚪ Not actively hiring (for this company)
+2026-05-21 15:24:23,320 [DailyPipeline] INFO - [72/200] ALDRIDGE, JEFFREY SCOTT (GA) — 4d
+2026-05-21 15:24:33,696 [DailyPipeline] INFO -   ⚪ Not actively hiring (for this company)
+2026-05-21 15:24:35,915 [DailyPipeline] INFO - [73/200] BELL, ANDREW LEWIS (GA) — 4d
+2026-05-21 15:24:47,481 [DailyPipeline] INFO -   ⚪ Not actively hiring (for this company)
+2026-05-21 15:24:49,489 [DailyPipeline] INFO - [74/200] WATTS, ROBERT (GA) — 4d
+2026-05-21 15:24:59,759 [DailyPipeline] INFO -   ⚪ Not actively hiring (for this company)
+2026-05-21 15:25:02,923 [DailyPipeline] INFO - [75/200] MEDEIROS, EUGENE (GA) — 4d
+2026-05-21 15:25:12,585 [DailyPipeline] INFO -   ⚪ Not actively hiring (for this company)
+2026-05-21 15:25:15,517 [DailyPipeline] INFO - [76/200] MEDEIROS, EUGENE ALEXANDER (GA) — 4d
+2026-05-21 15:25:24,374 [DailyPipeline] INFO -   ⚪ Not actively hiring (for this company)
+2026-05-21 15:25:27,042 [DailyPipeline] INFO - [77/200] EDDINS, DAVID EUGENE (GA) — 4d
+2026-05-21 15:25:38,753 [DailyPipeline] INFO -   ⚪ Not actively hiring (for this company)
+2026-05-21 15:25:40,997 [DailyPipeline] INFO - [78/200] FOWLER, GARY HILLER (GA) — 4d
+2026-05-21 15:25:51,694 [DailyPipeline] INFO -   ⚪ Not actively hiring (for this company)
+2026-05-21 15:25:53,872 [DailyPipeline] INFO - [79/200] HILL, MICHAEL WAYNE (GA) — 4d
+2026-05-21 15:26:04,442 [DailyPipeline] INFO -   ⚪ Not actively hiring (for this company)
+2026-05-21 15:26:07,909 [DailyPipeline] INFO - [80/200] DATACOM PROFESSIONALS, LLC (GA) — 4d
+2026-05-21 15:26:18,683 [DailyPipeline] INFO -   ⚪ Not actively hiring (for this company)
+2026-05-21 15:26:20,820 [DailyPipeline] INFO - [81/200] HARPER, GRADY LEONARD (GA) — 4d
+2026-05-21 15:26:31,791 [DailyPipeline] INFO -   ⚪ Not actively hiring (for this company)
+2026-05-21 15:26:35,080 [DailyPipeline] INFO - [82/200] SELLERS, CHARLES WESLEY (GA) — 4d
+2026-05-21 15:26:45,777 [DailyPipeline] INFO -   ⚪ Not actively hiring (for this company)
+2026-05-21 15:26:49,198 [DailyPipeline] INFO - [83/200] SMITH, OLIVER LAMAR (GA) — 4d
+2026-05-21 15:26:59,121 [DailyPipeline] INFO -   ⚪ Not actively hiring (for this company)
+2026-05-21 15:27:01,371 [DailyPipeline] INFO - [84/200] ATLANTA'S BEST CONSTRUCTION, INC. (GA) — 4d
+2026-05-21 15:27:10,851 [DailyPipeline] INFO -   ⚪ Not actively hiring (for this company)
+2026-05-21 15:27:13,307 [DailyPipeline] INFO - [85/200] SUGAR & BROWN'S, LLC (GA) — 4d
+2026-05-21 15:27:23,324 [DailyPipeline] INFO -   ⚪ Not actively hiring (for this company)
+2026-05-21 15:27:25,561 [DailyPipeline] INFO - [86/200] CAMERON HOMEOWNER'S ASSOCIATION (GA) — 4d
+2026-05-21 15:27:35,636 [DailyPipeline] INFO -   ⚪ Not actively hiring (for this company)
+2026-05-21 15:27:38,084 [DailyPipeline] INFO - [87/200] AGILE RESOURCES, INC. (GA) — 4d
+2026-05-21 15:27:42,442 [DailyPipeline] INFO -   ✅ HIRING: 15 open positions (Marketing Content Specialist, Talent Acquisition Coordinator) | Weight: 15
+2026-05-21 15:27:45,705 [DailyPipeline] INFO - [88/200] LUKE YODER CONSTRUCTION, INC. (GA) — 4d
+2026-05-21 15:27:51,987 [DailyPipeline] INFO -   ✅ HIRING: 5 open positions (Project Manager - Erie, Construction Manager) | Weight: 15
+2026-05-21 15:27:54,443 [DailyPipeline] INFO - [89/200] MURPHY, JAMES EVAN (GA) — 4d
+2026-05-21 15:28:06,724 [DailyPipeline] INFO -   ⚪ Not actively hiring (for this company)
+2026-05-21 15:28:09,326 [DailyPipeline] INFO - [90/200] ABBOTT, JOHN STEPHEN (GA) — 4d
+2026-05-21 15:28:19,496 [DailyPipeline] INFO -   ⚪ Not actively hiring (for this company)
+2026-05-21 15:28:21,854 [DailyPipeline] INFO - [91/200] DOUBERLEY, GLINARD W (GA) — 4d
+2026-05-21 15:28:32,771 [DailyPipeline] INFO -   ⚪ Not actively hiring (for this company)
+2026-05-21 15:28:36,136 [DailyPipeline] INFO - [92/200] LAMPLIGHTER APARTMENTS, LLC (GA) — 4d
+2026-05-21 15:28:45,384 [DailyPipeline] INFO -   ⚪ Not actively hiring (for this company)
+2026-05-21 15:28:47,842 [DailyPipeline] INFO - [93/200] MOON HARVEST FARMS, LLC (GA) — 4d
+2026-05-21 15:28:53,653 [DailyPipeline] INFO -   ✅ HIRING: 3 open positions (Cannabis Farm Worker, Farmer) | Weight: 15
+2026-05-21 15:28:57,365 [DailyPipeline] INFO - [94/200] E. R. SNELL CONTRACTOR, INC. (GA) — 4d
+2026-05-21 15:29:04,035 [DailyPipeline] INFO -   ✅ HIRING: 1 open position (Surveyor) | Weight: 15
+2026-05-21 15:29:06,641 [DailyPipeline] INFO - [95/200] SCOGIN, JACOB REED (GA) — 4d
+2026-05-21 15:29:10,853 [DailyPipeline] INFO -   ✅ HIRING: 1 open position (Subcontracts Administrator) | Weight: 15
+2026-05-21 15:29:12,991 [DailyPipeline] INFO - [96/200] ROZELL CONSTRUCTION & GRADING, LLC (GA) — 4d
+2026-05-21 15:29:21,246 [DailyPipeline] INFO -   ✅ HIRING: 1 equipment role open (Heavy Equipment Operator) | Weight: 35
+2026-05-21 15:29:23,290 [DailyPipeline] INFO - [97/200] CYCLONE LAND DEVELOPMENT COMPANY, INC. (GA) — 4d
+2026-05-21 15:29:32,515 [DailyPipeline] INFO -   ⚪ Not actively hiring (for this company)
+2026-05-21 15:29:34,802 [DailyPipeline] INFO - [98/200] DIRTQUEST, LLC (GA) — 4d
+2026-05-21 15:29:45,050 [DailyPipeline] INFO -   ⚪ Not actively hiring (for this company)
+2026-05-21 15:29:48,093 [DailyPipeline] INFO - [99/200] COLUMBIA DIVERSIFIED, INC. (GA) — 4d
+2026-05-21 15:29:58,246 [DailyPipeline] INFO -   ⚪ Not actively hiring (for this company)
+2026-05-21 15:30:00,552 [DailyPipeline] INFO - [100/200] IDEAL HAY & LITTER, LLC (GA) — 4d
+2026-05-21 15:30:11,090 [DailyPipeline] INFO -   ⚪ Not actively hiring (for this company)
+2026-05-21 15:30:14,579 [DailyPipeline] INFO - [101/200] TAYLOR, PEGGY JEANE (GA) — 4d
+2026-05-21 15:30:25,153 [DailyPipeline] INFO -   ⚪ Not actively hiring (for this company)
+2026-05-21 15:30:27,796 [DailyPipeline] INFO - [102/200] CARLTON, WILLIAM B (GA) — 4d
+2026-05-21 15:30:36,500 [DailyPipeline] INFO -   ⚪ Not actively hiring (for this company)
+2026-05-21 15:30:39,991 [DailyPipeline] INFO - [103/200] MUSSELWHITE, CODEY KEITH (GA) — 4d
+2026-05-21 15:30:44,710 [DailyPipeline] INFO -   ✅ HIRING: 15 open positions (Professional Surveyor and Mapper - Transportation (Remote or  | Weight: 15
+2026-05-21 15:30:47,994 [DailyPipeline] INFO - [104/200] EPH ENTERPRISES INC. (GA) — 4d
+2026-05-21 15:30:57,357 [DailyPipeline] INFO -   ⚪ Not actively hiring (for this company)
+2026-05-21 15:30:59,365 [DailyPipeline] INFO - [105/200] BARTHOLOMEW ELECTRIC, LLC (CT) — 5d
+2026-05-21 15:31:03,416 [DailyPipeline] INFO -   ✅ HIRING: 6 open positions (Field Service Technician - South Bend, IN, Field Technician I) | Weight: 15
+2026-05-21 15:31:06,171 [DailyPipeline] INFO - [106/200] KENNEDY AND PERKINS, INCORPORATED (CT) — 5d
+2026-05-21 15:31:17,959 [DailyPipeline] INFO -   ⚪ Not actively hiring (for this company)
+2026-05-21 15:31:21,196 [DailyPipeline] INFO - [107/200] THE LANE CONSTRUCTION CORPORATION (CT) — 5d
+2026-05-21 15:31:25,515 [DailyPipeline] INFO -   ✅ HIRING: 15 open positions (Field Engineer, Project Director) | Weight: 15
+2026-05-21 15:31:28,671 [DailyPipeline] INFO - [108/200] QUISENBERRY ARCARI MALIK, LLC (CT) — 5d
+2026-05-21 15:31:39,121 [DailyPipeline] INFO -   ⚪ Not actively hiring (for this company)
+2026-05-21 15:31:42,520 [DailyPipeline] INFO - [109/200] AGOSTO ON THE GO LLC (CT) — 5d
+2026-05-21 15:31:52,623 [DailyPipeline] INFO -   ⚪ Not actively hiring (for this company)
+2026-05-21 15:31:55,349 [DailyPipeline] INFO - [110/200] THE LANE CONSTRUCTION CORPORATION (CT) — 5d
+2026-05-21 15:32:00,078 [DailyPipeline] INFO -   ✅ HIRING: 13 open positions (Project Engineer, Construction Manager) | Weight: 15
+2026-05-21 15:32:02,921 [DailyPipeline] INFO - [111/200] SinglePoint, LLC dba Sharp Business Innovations (CO) — 5d
+2026-05-21 15:32:12,488 [DailyPipeline] INFO -   ⚪ Not actively hiring (for this company)
+2026-05-21 15:32:15,833 [DailyPipeline] INFO - [112/200] B3 SOLUTIONS, LLC (GA) — 5d
+2026-05-21 15:32:22,872 [DailyPipeline] INFO -   ✅ HIRING: 14 open positions (Executive Assistant to CEO, Talent Acquisition Specialist) | Weight: 15
+2026-05-21 15:32:24,996 [DailyPipeline] INFO - [113/200] VIEW POINT HEALTH (GA) — 5d
+2026-05-21 15:32:30,576 [DailyPipeline] INFO -   ✅ HIRING: 15 open positions (Community Health Worker, Medication Access & Care Coordinator | Weight: 15
+2026-05-21 15:32:33,136 [DailyPipeline] INFO - [114/200] POOL, RANDALL THOMAS (GA) — 5d
+2026-05-21 15:32:36,303 [DailyPipeline] INFO -   ✅ HIRING: 1 equipment role open (Commercial Electrician with Low Voltage Controls) | Weight: 35
+2026-05-21 15:32:39,360 [DailyPipeline] INFO - [115/200] MCDOWELL, ALBERT KENNETH-JR (GA) — 5d
+2026-05-21 15:32:51,092 [DailyPipeline] INFO -   ⚪ Not actively hiring (for this company)
+2026-05-21 15:32:53,272 [DailyPipeline] INFO - [116/200] ALLEN, JOSHUA MILES (GA) — 5d
+2026-05-21 15:33:03,187 [DailyPipeline] INFO -   ⚪ Not actively hiring (for this company)
+2026-05-21 15:33:05,244 [DailyPipeline] INFO - [117/200] SMALLWOOD, JEREMY MATTHEW (GA) — 5d
+2026-05-21 15:33:15,821 [DailyPipeline] INFO -   ⚪ Not actively hiring (for this company)
+2026-05-21 15:33:18,009 [DailyPipeline] INFO - [118/200] ELROD, JOHN LEE (GA) — 5d
+2026-05-21 15:33:29,111 [DailyPipeline] INFO -   ⚪ Not actively hiring (for this company)
+2026-05-21 15:33:31,684 [DailyPipeline] INFO - [119/200] ALLEN, HAYWARD EDWIN-III (GA) — 5d
+2026-05-21 15:33:41,732 [DailyPipeline] INFO -   ⚪ Not actively hiring (for this company)
+2026-05-21 15:33:44,695 [DailyPipeline] INFO - [120/200] F&S UTILITIES LLC (GA) — 5d
+2026-05-21 15:33:51,153 [DailyPipeline] INFO -   ✅ HIRING: 2 open positions (EV Technician I (Entry-Level / Ground Support), Manager, Power | Weight: 15
+2026-05-21 15:33:53,392 [DailyPipeline] INFO - [121/200] ATLANTA COMMERCIAL MOVERS, INC. (GA) — 5d
+2026-05-21 15:34:00,704 [DailyPipeline] INFO -   ✅ HIRING: 1 open position (Team Lead) | Weight: 15
+2026-05-21 15:34:04,118 [DailyPipeline] INFO - [122/200] DM DISTRIBUTING, LLC (GA) — 5d
+2026-05-21 15:34:10,229 [DailyPipeline] INFO -   ✅ HIRING: 1 open position (Hiring for all positions) | Weight: 15
+2026-05-21 15:34:13,141 [DailyPipeline] INFO - [123/200] FISHER DISTRIBUTION LLC (GA) — 5d
+2026-05-21 15:34:16,376 [DailyPipeline] INFO -   ✅ HIRING: 1 open position (Entry Level Sales Representative) | Weight: 15
+2026-05-21 15:34:19,328 [DailyPipeline] INFO - [124/200] JBETTIS LLC (GA) — 5d
+2026-05-21 15:34:30,209 [DailyPipeline] INFO -   ⚪ Not actively hiring (for this company)
+2026-05-21 15:34:32,905 [DailyPipeline] INFO - [125/200] WEBB DISTRIBUTING LLC (GA) — 5d
+2026-05-21 15:34:44,286 [DailyPipeline] INFO -   ⚪ Not actively hiring (for this company)
+2026-05-21 15:34:47,399 [DailyPipeline] INFO - [126/200] COLLARD VALLEY DISTRIBUTION CO LLC (GA) — 5d
+2026-05-21 15:34:58,400 [DailyPipeline] INFO -   ⚪ Not actively hiring (for this company)
+2026-05-21 15:35:01,879 [DailyPipeline] INFO - [127/200] LIGHTNING DELIVERY LLC (GA) — 5d
+2026-05-21 15:35:11,503 [DailyPipeline] INFO -   ⚪ Not actively hiring (for this company)
+2026-05-21 15:35:14,577 [DailyPipeline] INFO - [128/200] KNOT JUST PRETZELS DISTRIBUTING LLC (GA) — 5d
+2026-05-21 15:35:24,436 [DailyPipeline] INFO -   ⚪ Not actively hiring (for this company)
+2026-05-21 15:35:26,722 [DailyPipeline] INFO - [129/200] THE JACKSON ADMINISTRATION, LLC (GA) — 5d
+2026-05-21 15:35:36,654 [DailyPipeline] INFO -   ⚪ Not actively hiring (for this company)
+2026-05-21 15:35:38,889 [DailyPipeline] INFO - [130/200] C&G SNACKS LLC. (GA) — 5d
+2026-05-21 15:35:49,947 [DailyPipeline] INFO -   ⚪ Not actively hiring (for this company)
+2026-05-21 15:35:52,273 [DailyPipeline] INFO - [131/200] SUGAR & BROWN'S, LLC (GA) — 5d
+2026-05-21 15:35:57,035 [DailyPipeline] INFO -   ✅ HIRING: 2 open positions (Assistant Store Manager, Supervisor) | Weight: 15
+2026-05-21 15:36:02,418 [DailyPipeline] INFO - [132/200] ONE ROUND AT A TIME, LLC (GA) — 5d
+2026-05-21 15:36:08,892 [DailyPipeline] INFO -   ✅ HIRING: 2 open positions (VP, Production, Studios, Director, Partnerships (San Francisco | Weight: 15
+2026-05-21 15:36:10,922 [DailyPipeline] INFO - [133/200] MAD BEAVER FIREWOOD AND TREE SERVICE, LLC (GA) — 5d
+2026-05-21 15:36:21,947 [DailyPipeline] INFO -   ⚪ Not actively hiring (for this company)
+2026-05-21 15:36:24,293 [DailyPipeline] INFO - [134/200] MAD BEAVER FIREWOOD AND TREE SERVICE, LLC (GA) — 5d
+2026-05-21 15:36:31,234 [DailyPipeline] INFO -   ✅ HIRING: 14 open positions (Groundperson - NON-UNION) | Weight: 15
+2026-05-21 15:36:34,329 [DailyPipeline] INFO - [135/200] KORTING, SUZANNE (GA) — 5d
+2026-05-21 15:36:44,524 [DailyPipeline] INFO -   ⚪ Not actively hiring (for this company)
+2026-05-21 15:36:47,844 [DailyPipeline] INFO - [136/200] MAD BEAVER FIREWOOD AND TREE SERVICE LLC (GA) — 5d
+2026-05-21 15:36:52,179 [DailyPipeline] INFO -   ✅ HIRING: 3 open positions (Groundperson - Union, Groundperson I - Union) | Weight: 15
+2026-05-21 15:36:55,009 [DailyPipeline] INFO - [137/200] MAD BEAVER FIREWOOD AND TREE SERVICE LLC (GA) — 5d
+2026-05-21 15:36:58,525 [DailyPipeline] INFO -   ✅ HIRING: 3 open positions (Groundperson - Union, Groundperson I - Union) | Weight: 15
+2026-05-21 15:37:01,298 [DailyPipeline] INFO - [138/200] MAD BEAVER FIREWOOD AND TREE SERVICE LLC (GA) — 5d
+2026-05-21 15:37:11,410 [DailyPipeline] INFO -   ⚪ Not actively hiring (for this company)
+2026-05-21 15:37:13,720 [DailyPipeline] INFO - [139/200] MAD BEAVER FIREWOOD AND TREE SERVICE, LLC (GA) — 5d
+2026-05-21 15:37:20,707 [DailyPipeline] INFO -   ✅ HIRING: 14 open positions (Groundperson - NON-UNION) | Weight: 15
+2026-05-21 15:37:23,157 [DailyPipeline] INFO - [140/200] MAD BEAVER FIREWOOD AND TREE SERVICE, LLC (GA) — 5d
+2026-05-21 15:37:33,488 [DailyPipeline] INFO -   ⚪ Not actively hiring (for this company)
+2026-05-21 15:37:36,116 [DailyPipeline] INFO - [141/200] HARTMEYER, CHARLES DEREK (GA) — 5d
+2026-05-21 15:37:46,564 [DailyPipeline] INFO -   ⚪ Not actively hiring (for this company)
+2026-05-21 15:37:49,897 [DailyPipeline] INFO - [142/200] ETHERIDGE, DANIEL HUGH (GA) — 5d
+2026-05-21 15:37:58,050 [DailyPipeline] INFO -   ⚪ Not actively hiring (for this company)
+2026-05-21 15:38:00,528 [DailyPipeline] INFO - [143/200] FRASER, BRANDON KEITH (GA) — 5d
+2026-05-21 15:38:10,936 [DailyPipeline] INFO -   ⚪ Not actively hiring (for this company)
+2026-05-21 15:38:14,263 [DailyPipeline] INFO - [144/200] LOCHER, KENNETH ASHLEY (GA) — 5d
+2026-05-21 15:38:24,586 [DailyPipeline] INFO -   ⚪ Not actively hiring (for this company)
+2026-05-21 15:38:27,754 [DailyPipeline] INFO - [145/200] TURNER, GREGORY PAUL (GA) — 5d
+2026-05-21 15:38:38,349 [DailyPipeline] INFO -   ⚪ Not actively hiring (for this company)
+2026-05-21 15:38:40,607 [DailyPipeline] INFO - [146/200] WILLS, MARK DENNIS (GA) — 5d
+2026-05-21 15:38:51,298 [DailyPipeline] INFO -   ⚪ Not actively hiring (for this company)
+2026-05-21 15:38:53,528 [DailyPipeline] INFO - [147/200] MCCULLOUGH CLEARING, LLP (GA) — 5d
+2026-05-21 15:39:04,179 [DailyPipeline] INFO -   ⚪ Not actively hiring (for this company)
+2026-05-21 15:39:07,065 [DailyPipeline] INFO - [148/200] SAVANNAH RIVER UTILITIES CO. (GA) — 5d
+2026-05-21 15:39:17,516 [DailyPipeline] INFO -   ⚪ Not actively hiring (for this company)
+2026-05-21 15:39:20,751 [DailyPipeline] INFO - [149/200] FOSTER LOGGING, INC. (GA) — 5d
+2026-05-21 15:39:30,784 [DailyPipeline] INFO -   ⚪ Not actively hiring (for this company)
+2026-05-21 15:39:33,084 [DailyPipeline] INFO - [150/200] SOUTHLAND PAVING CO., LLC (GA) — 5d
+2026-05-21 15:39:39,742 [DailyPipeline] INFO -   ✅ HIRING: 1 open position (SA Superintendent) | Weight: 15
+2026-05-21 15:39:41,937 [DailyPipeline] INFO - [151/200] TEAM EXCAVATING CO. (GA) — 5d
+2026-05-21 15:39:45,998 [DailyPipeline] INFO -   ✅ HIRING: 15 open positions (Event Coordinator (Remote), Events Manager (Remote)) | Weight: 15
+2026-05-21 15:39:50,484 [DailyPipeline] INFO - [152/200] THC, INC. (GA) — 5d
+2026-05-21 15:39:58,628 [DailyPipeline] INFO -   ⚪ Not actively hiring (for this company)
+2026-05-21 15:40:01,978 [DailyPipeline] INFO - [153/200] WOODLAND WORKS (INC.) (GA) — 5d
+2026-05-21 15:40:11,854 [DailyPipeline] INFO -   ⚪ Not actively hiring (for this company)
+2026-05-21 15:40:14,342 [DailyPipeline] INFO - [154/200] ALAN CAWTHON, INC. (GA) — 5d
+2026-05-21 15:40:24,357 [DailyPipeline] INFO -   ⚪ Not actively hiring (for this company)
+2026-05-21 15:40:27,608 [DailyPipeline] INFO - [155/200] SUMMIT GRADING SERVICES CORP. (GA) — 5d
+2026-05-21 15:40:38,153 [DailyPipeline] INFO -   ⚪ Not actively hiring (for this company)
+2026-05-21 15:40:40,975 [DailyPipeline] INFO - [156/200] SAVANNAH RIVER UTILITIES CO. (GA) — 5d
+2026-05-21 15:40:52,166 [DailyPipeline] INFO -   ⚪ Not actively hiring (for this company)
+2026-05-21 15:40:55,101 [DailyPipeline] INFO - [157/200] ALLIED PAVING EQUIPMENT, LLC (GA) — 5d
+2026-05-21 15:41:04,829 [DailyPipeline] INFO -   ⚪ Not actively hiring (for this company)
+2026-05-21 15:41:08,048 [DailyPipeline] INFO - [158/200] SELLERS CONTRACTING SERVICES, LLC (GA) — 5d
+2026-05-21 15:41:17,793 [DailyPipeline] INFO -   ⚪ Not actively hiring (for this company)
+2026-05-21 15:41:20,581 [DailyPipeline] INFO - [159/200] DIAZ, FELIPE ZARATE (GA) — 5d
+2026-05-21 15:41:32,331 [DailyPipeline] INFO -   ⚪ Not actively hiring (for this company)
+2026-05-21 15:41:35,134 [DailyPipeline] INFO - [160/200] TEMPLETON, JOHNATHAN (GA) — 5d
+2026-05-21 15:41:46,211 [DailyPipeline] INFO -   ⚪ Not actively hiring (for this company)
+2026-05-21 15:41:48,625 [DailyPipeline] INFO - [161/200] MILLER BROTHERS PAVING, INC. (GA) — 5d
+2026-05-21 15:41:57,362 [DailyPipeline] INFO -   ⚪ Not actively hiring (for this company)
+2026-05-21 15:41:59,369 [DailyPipeline] INFO - [162/200] F.S.SCARBROUGH, LLC (GA) — 5d
+2026-05-21 15:42:09,548 [DailyPipeline] INFO -   ⚪ Not actively hiring (for this company)
+2026-05-21 15:42:11,949 [DailyPipeline] INFO - [163/200] HOLLIDAY, RONALD STACEY (GA) — 5d
+2026-05-21 15:42:21,554 [DailyPipeline] INFO -   ⚪ Not actively hiring (for this company)
+2026-05-21 15:42:24,010 [DailyPipeline] INFO - [164/200] HERNDON, JERRY LEE (GA) — 5d
+2026-05-21 15:42:34,679 [DailyPipeline] INFO -   ⚪ Not actively hiring (for this company)
+2026-05-21 15:42:37,574 [DailyPipeline] INFO - [165/200] SPARROW COTTON COMPANY, INC. (GA) — 5d
+2026-05-21 15:42:49,537 [DailyPipeline] INFO -   ⚪ Not actively hiring (for this company)
+2026-05-21 15:42:52,339 [DailyPipeline] INFO - [166/200] SPARROW, CLIFFORD FATE (GA) — 5d
+2026-05-21 15:43:02,938 [DailyPipeline] INFO -   ⚪ Not actively hiring (for this company)
+2026-05-21 15:43:05,737 [DailyPipeline] INFO - [167/200] MOTORWAY TOURING LLC (GA) — 5d
+2026-05-21 15:43:15,648 [DailyPipeline] INFO -   ⚪ Not actively hiring (for this company)
+2026-05-21 15:43:17,709 [DailyPipeline] INFO - [168/200] B&H CONSTRUCTION CONSULTING GROUP LIMITED LIABILITY LIMITED PARTNERSHIP (GA) — 5d
+2026-05-21 15:43:27,639 [DailyPipeline] INFO -   ⚪ Not actively hiring (for this company)
+2026-05-21 15:43:30,573 [DailyPipeline] INFO - [169/200] ADVANCE CHEMICAL PRODUCTS CO. (GA) — 5d
+2026-05-21 15:43:39,948 [DailyPipeline] INFO -   ⚪ Not actively hiring (for this company)
+2026-05-21 15:43:43,164 [DailyPipeline] INFO - [170/200] SOUTHEASTERN SUPPLY, LLC (GA) — 5d
+2026-05-21 15:43:48,498 [DailyPipeline] INFO -   ✅ HIRING: 1 open position (Buyer) | Weight: 15
+2026-05-21 15:43:51,239 [DailyPipeline] INFO - [171/200] ATHENA HEALTH CARE ASSOCIATES, INC. (CT) — 6d
+2026-05-21 15:43:55,298 [DailyPipeline] INFO -   ✅ HIRING: 15 open positions (Hospice Executive Director, Graduate Nurse) | Weight: 15
+2026-05-21 15:43:57,362 [DailyPipeline] INFO - [172/200] BETTER PROPERTIES LLC (CT) — 6d
+2026-05-21 15:44:06,815 [DailyPipeline] INFO -   ⚪ Not actively hiring (for this company)
+2026-05-21 15:44:09,266 [DailyPipeline] INFO - [173/200] SOMERSET CAPITAL GROUP, LTD. (CT) — 6d
+2026-05-21 15:44:13,923 [DailyPipeline] INFO -   ✅ HIRING: 8 open positions (Investment Officer, Investment Professional - Originations) | Weight: 15
+2026-05-21 15:44:16,566 [DailyPipeline] INFO - [174/200] JAZZY'S RESTAURANT LLC (CT) — 6d
+2026-05-21 15:44:20,719 [DailyPipeline] INFO -   ✅ HIRING: 15 open positions (Events Administrative Assistant, ADMINISTRATIVE ASSISTANT (FU | Weight: 15
+2026-05-21 15:44:23,163 [DailyPipeline] INFO - [175/200] TRADEMARK CONTRACTORS, LLC (CT) — 6d
+2026-05-21 15:44:31,873 [DailyPipeline] INFO -   ⚪ Not actively hiring (for this company)
+2026-05-21 15:44:34,935 [DailyPipeline] INFO - [176/200] YOU GUYS INC. (CT) — 6d
+2026-05-21 15:44:45,967 [DailyPipeline] INFO -   ⚪ Not actively hiring (for this company)
+2026-05-21 15:44:48,452 [DailyPipeline] INFO - [177/200] DOUGLAS ALLEN INVESTMENT GROUP LLC (CT) — 6d
+2026-05-21 15:44:58,816 [DailyPipeline] INFO -   ⚪ Not actively hiring (for this company)
+2026-05-21 15:45:02,199 [DailyPipeline] INFO - [178/200] 145 NORTH BROOKSVALE, LLC (CT) — 6d
+2026-05-21 15:45:05,774 [DailyPipeline] INFO -   ✅ HIRING: 15 open positions (Sales Director, Director, Direct Field Sales) | Weight: 15
+2026-05-21 15:45:08,223 [DailyPipeline] INFO - [179/200] DAVIDA LANDSCAPE DESIGNS LLC (CT) — 6d
+2026-05-21 15:45:14,328 [DailyPipeline] INFO -   ✅ HIRING: 9 open positions (Landscape Design and sales, Landscape Designer & Estimator) | Weight: 15
+2026-05-21 15:45:17,262 [DailyPipeline] INFO - [180/200] NEWCITY BUILDERS, LLC (CT) — 6d
+2026-05-21 15:45:27,285 [DailyPipeline] INFO -   ⚪ Not actively hiring (for this company)
+2026-05-21 15:45:30,441 [DailyPipeline] INFO - [181/200] GREENTREE L.L.C. (CT) — 6d
+2026-05-21 15:45:41,003 [DailyPipeline] INFO -   ⚪ Not actively hiring (for this company)
+2026-05-21 15:45:43,020 [DailyPipeline] INFO - [182/200] P. NUTRIENTS, INC (NY) — 6d
+2026-05-21 15:45:46,549 [DailyPipeline] INFO -   ✅ HIRING: 3 open positions (Warehouse Supervisor, HR Specialist - Payroll & Benefits) | Weight: 15
+2026-05-21 15:45:48,624 [DailyPipeline] INFO - [183/200] AV + J PROPERTIES LLC (CT) — 6d
+2026-05-21 15:45:58,125 [DailyPipeline] INFO -   ⚪ Not actively hiring (for this company)
+2026-05-21 15:46:00,624 [DailyPipeline] INFO - [184/200] IANNINI DEVELOPMENT, L.L.C. (CT) — 6d
+2026-05-21 15:46:11,424 [DailyPipeline] INFO -   ⚪ Not actively hiring (for this company)
+2026-05-21 15:46:13,690 [DailyPipeline] INFO - [185/200] BRAEGER VENTURES LLC (CO) — 6d
+2026-05-21 15:46:24,008 [DailyPipeline] INFO -   ⚪ Not actively hiring (for this company)
+2026-05-21 15:46:27,010 [DailyPipeline] INFO - [186/200] HISTORICAL CONCEPTS, LLC (GA) — 6d
+2026-05-21 15:46:30,857 [DailyPipeline] INFO -   ✅ HIRING: 1 open position (History: Visiting Assistant Professor/Instructor) | Weight: 15
+2026-05-21 15:46:33,241 [DailyPipeline] INFO - [187/200] FSL ACQUISITIONS COMPANY INC. (GA) — 6d
+2026-05-21 15:46:44,680 [DailyPipeline] INFO -   ⚪ Not actively hiring (for this company)
+2026-05-21 15:46:47,178 [DailyPipeline] INFO - [188/200] WARD'S AUTO SUPPLY, INC. (GA) — 6d
+2026-05-21 15:46:56,777 [DailyPipeline] INFO -   ⚪ Not actively hiring (for this company)
+2026-05-21 15:46:59,224 [DailyPipeline] INFO - [189/200] CYCLONE LAND DEVELOPMENT COMPANY, INC. (GA) — 6d
+2026-05-21 15:47:08,520 [DailyPipeline] INFO -   ⚪ Not actively hiring (for this company)
+2026-05-21 15:47:11,555 [DailyPipeline] INFO - [190/200] CHEWING, MARY CATHERINE (GA) — 6d
+2026-05-21 15:47:20,720 [DailyPipeline] INFO -   ⚪ Not actively hiring (for this company)
+2026-05-21 15:47:23,276 [DailyPipeline] INFO - [191/200] LUALLEN, ROGER WAYNE (GA) — 6d
+2026-05-21 15:47:33,155 [DailyPipeline] INFO -   ⚪ Not actively hiring (for this company)
+2026-05-21 15:47:35,760 [DailyPipeline] INFO - [192/200] DODD, MITCHELL ODDIE (GA) — 6d
+2026-05-21 15:47:44,158 [DailyPipeline] INFO -   ⚪ Not actively hiring (for this company)
+2026-05-21 15:47:47,310 [DailyPipeline] INFO - [193/200] BRENNER, CHRISTOPHER GREGORY (GA) — 6d
+2026-05-21 15:47:51,115 [DailyPipeline] INFO -   ✅ HIRING: 1 open position (Senior Account Executive, Public Relations) | Weight: 15
+2026-05-21 15:47:53,386 [DailyPipeline] INFO - [194/200] MAYS & VALLE, P.C. (GA) — 6d
+2026-05-21 15:48:03,861 [DailyPipeline] INFO -   ⚪ Not actively hiring (for this company)
+2026-05-21 15:48:07,165 [DailyPipeline] INFO - [195/200] PARADISE CONCEPTS, INC. (GA) — 6d
+2026-05-21 15:48:16,959 [DailyPipeline] INFO -   ⚪ Not actively hiring (for this company)
+2026-05-21 15:48:19,985 [DailyPipeline] INFO - [196/200] LUCAS, BRIAN J (GA) — 6d
+2026-05-21 15:48:30,190 [DailyPipeline] INFO -   ⚪ Not actively hiring (for this company)
+2026-05-21 15:48:33,590 [DailyPipeline] INFO - [197/200] SINYARD, JASON A (GA) — 6d
+2026-05-21 15:48:45,384 [DailyPipeline] INFO -   ⚪ Not actively hiring (for this company)
+2026-05-21 15:48:47,704 [DailyPipeline] INFO - [198/200] THROWER, JON (GA) — 6d
+2026-05-21 15:48:58,154 [DailyPipeline] INFO -   ⚪ Not actively hiring (for this company)
+2026-05-21 15:49:01,310 [DailyPipeline] INFO - [199/200] Debtor Name Not Required Under Revised Article 9 (GA) — 6d
+2026-05-21 15:49:10,924 [DailyPipeline] INFO -   ⚪ Not actively hiring (for this company)
+2026-05-21 15:49:13,571 [DailyPipeline] INFO - [200/200] WILLIAMS, SANTANA DANIELLE (GA) — 6d
+2026-05-21 15:49:24,040 [DailyPipeline] INFO -   ⚪ Not actively hiring (for this company)
+2026-05-21 15:49:26,968 [DailyPipeline] INFO - 
+=======================================================
+2026-05-21 15:49:26,968 [DailyPipeline] INFO -   Hiring Signal Run Complete
+2026-05-21 15:49:26,968 [DailyPipeline] INFO -   Processed     : 200
+2026-05-21 15:49:26,969 [DailyPipeline] INFO -   Any hiring    : 70 (35%)
+2026-05-21 15:49:26,969 [DailyPipeline] INFO -   Equipment roles: 4 (2%) 👷
+2026-05-21 15:49:26,969 [DailyPipeline] INFO -   Hiring signals: 70 new hits
+2026-05-21 15:49:26,969 [DailyPipeline] INFO - Running EDGAR signal check (limit=150, hot leads only)...
+2026-05-21 15:49:27,026 [DailyPipeline] INFO - Running EDGAR signal check on 150 leads
+2026-05-21 15:49:27,027 [DailyPipeline] INFO - [1/150] NISSAN OF MIDDLETOWN CT LLC (CT) — 0d
+2026-05-21 15:49:30,391 [DailyPipeline] INFO -   ⚪ No EDGAR signal
+2026-05-21 15:49:31,960 [DailyPipeline] INFO - [2/150] INLINE PLASTICS CORP. (CT) — 0d
+2026-05-21 15:49:35,314 [DailyPipeline] INFO -   ⚪ No EDGAR signal
+2026-05-21 15:49:37,810 [DailyPipeline] INFO - [3/150] PUTNAM LEASING COMPANY I, LLC (CT) — 0d
+2026-05-21 15:49:42,408 [DailyPipeline] INFO -   ⚪ No EDGAR signal
+2026-05-21 15:49:44,799 [DailyPipeline] INFO - [4/150] THE LIFE PLANNING RETIREMENT GROUP LLC (CT) — 0d
+2026-05-21 15:49:47,769 [DailyPipeline] INFO -   ⚪ No EDGAR signal
+2026-05-21 15:49:49,661 [DailyPipeline] INFO - [5/150] DARCARS OF RAILROAD AVENUE, INC. (CT) — 0d
+2026-05-21 15:49:53,067 [DailyPipeline] INFO -   ⚪ No EDGAR signal
+2026-05-21 15:49:54,775 [DailyPipeline] INFO - [6/150] BUDNEY INDUSTRIES, INC. (CT) — 0d
+2026-05-21 15:49:58,144 [DailyPipeline] INFO -   ⚪ No EDGAR signal
+2026-05-21 15:50:00,608 [DailyPipeline] INFO - [7/150] PRECISION CUTTING SERVICES, LLC (CT) — 0d
+2026-05-21 15:50:05,427 [DailyPipeline] INFO -   ⚪ No EDGAR signal
+2026-05-21 15:50:07,336 [DailyPipeline] INFO - [8/150] DARCARS OF RAILROAD AVENUE, INC. (CT) — 0d
+2026-05-21 15:50:11,008 [DailyPipeline] INFO -   ⚪ No EDGAR signal
+2026-05-21 15:50:13,258 [DailyPipeline] INFO - [9/150] DARCARS OF MILBANK AVENUE, INC (CT) — 0d
+2026-05-21 15:50:16,995 [DailyPipeline] INFO -   ⚪ No EDGAR signal
+2026-05-21 15:50:18,731 [DailyPipeline] INFO - [10/150] URBANI LAWN & LANDSCAPING, LLC (CT) — 0d
+2026-05-21 15:50:23,539 [DailyPipeline] INFO -   ⚪ No EDGAR signal
+2026-05-21 15:50:25,374 [DailyPipeline] INFO - [11/150] PALLADINO REAL ESTATE MANAGEMENT & SERVICES, LLC (CT) — 0d
+2026-05-21 15:50:28,888 [DailyPipeline] INFO -   ⚪ No EDGAR signal
+2026-05-21 15:50:30,776 [DailyPipeline] INFO - [12/150] BLUE FOX RUN GOLF COURSE, LLC (CT) — 0d
+2026-05-21 15:50:33,825 [DailyPipeline] INFO -   ⚪ No EDGAR signal
+2026-05-21 15:50:35,958 [DailyPipeline] INFO - [13/150] STATE OF COLORADO JUDICIAL DEPT (CO) — 0d
+2026-05-21 15:50:39,412 [DailyPipeline] INFO -   ⚪ No EDGAR signal
+2026-05-21 15:50:41,145 [DailyPipeline] INFO - [14/150] GRINER'S GRADING & GRASSING, LLC (GA) — 0d
+2026-05-21 15:50:44,162 [DailyPipeline] INFO -   ⚪ No EDGAR signal
+2026-05-21 15:50:46,371 [DailyPipeline] INFO - [15/150] JAR FLORES SERVICES LLC (GA) — 0d
+2026-05-21 15:50:50,542 [DailyPipeline] INFO -   ⚪ No EDGAR signal
+2026-05-21 15:50:52,418 [DailyPipeline] INFO - [16/150] BING ENTERPRISES, LLC (GA) — 0d
+2026-05-21 15:50:56,311 [DailyPipeline] INFO -   ⚪ No EDGAR signal
+2026-05-21 15:50:57,984 [DailyPipeline] INFO - [17/150] MILES, BARBARA A. (GA) — 0d
+2026-05-21 15:51:02,246 [DailyPipeline] INFO -   ⚪ No EDGAR signal
+2026-05-21 15:51:04,672 [DailyPipeline] INFO - [18/150] CANNON, JAMES PATRICK (GA) — 0d
+2026-05-21 15:51:07,359 [DailyPipeline] INFO -   ⚪ No EDGAR signal
+2026-05-21 15:51:09,521 [DailyPipeline] INFO - [19/150] LOPEZ, ROBERT TYLER (GA) — 0d
+2026-05-21 15:51:14,715 [DailyPipeline] INFO -   ⚪ No EDGAR signal
+2026-05-21 15:51:17,111 [DailyPipeline] INFO - [20/150] SHAW, DEREK MANNING (GA) — 0d
+2026-05-21 15:51:20,601 [DailyPipeline] INFO -   ⚪ No EDGAR signal
+2026-05-21 15:51:22,218 [DailyPipeline] INFO - [21/150] DIVERSIFIED NETWORKING SOLUTIONS, LLC (GA) — 0d
+2026-05-21 15:51:25,100 [DailyPipeline] INFO -   ⚪ No EDGAR signal
+2026-05-21 15:51:26,824 [DailyPipeline] INFO - [22/150] APPLE HILL ENTERPRISES, L.L.C. (CT) — 1d
+2026-05-21 15:51:29,475 [DailyPipeline] INFO -   ⚪ No EDGAR signal
+2026-05-21 15:51:31,921 [DailyPipeline] INFO - [23/150] INSURED RETIREMENT INSTITUTE, INC. (DC) — 1d
+2026-05-21 15:51:34,367 [DailyPipeline] INFO -   ⚪ No EDGAR signal
+2026-05-21 15:51:35,950 [DailyPipeline] INFO - [24/150] REGIONAL SCHOOL DISTRICT 16 (CT) — 1d
+2026-05-21 15:51:41,221 [DailyPipeline] INFO -   ⚪ No EDGAR signal
+2026-05-21 15:51:43,065 [DailyPipeline] INFO - [25/150] CONSTITUTION SURGERY CENTER EAST, LLC (CT) — 1d
+2026-05-21 15:51:46,395 [DailyPipeline] INFO -   ⚪ No EDGAR signal
+2026-05-21 15:51:48,811 [DailyPipeline] INFO - [26/150] S. CARPENTER, LLC (CT) — 1d
+2026-05-21 15:51:52,386 [DailyPipeline] INFO -   ⚪ No EDGAR signal
+2026-05-21 15:51:54,862 [DailyPipeline] INFO - [27/150] RANDALL D. HARRIS DDS, P.C. (CT) — 1d
+2026-05-21 15:51:57,634 [DailyPipeline] INFO -   ⚪ No EDGAR signal
+2026-05-21 15:51:59,471 [DailyPipeline] INFO - [28/150] SHARON FAMILY FARM LLC (CT) — 1d
+2026-05-21 15:52:04,021 [DailyPipeline] INFO -   ⚪ No EDGAR signal
+2026-05-21 15:52:05,656 [DailyPipeline] INFO - [29/150] FOSDICK FULFILLMENT CORPORATION (CT) — 1d
+2026-05-21 15:52:10,870 [DailyPipeline] INFO -   ⚪ No EDGAR signal
+2026-05-21 15:52:12,416 [DailyPipeline] INFO - [30/150] FAIRFIELD STONE & LANDSCAPE SUPPLY LLC (CT) — 1d
+2026-05-21 15:52:17,925 [DailyPipeline] INFO -   ⚪ No EDGAR signal
+2026-05-21 15:52:20,416 [DailyPipeline] INFO - [31/150] IBASE OF FAIRFIELD COUNTY, LLC (CT) — 1d
+2026-05-21 15:52:23,126 [DailyPipeline] INFO -   ⚪ No EDGAR signal
+2026-05-21 15:52:25,052 [DailyPipeline] INFO - [32/150] GRILLO ORGANIC INC. (CT) — 1d
+2026-05-21 15:52:29,245 [DailyPipeline] INFO -   ⚪ No EDGAR signal
+2026-05-21 15:52:31,205 [DailyPipeline] INFO - [33/150] RI-CHE LLC (CT) — 1d
+2026-05-21 15:52:33,661 [DailyPipeline] INFO -   ⚪ No EDGAR signal
+2026-05-21 15:52:35,706 [DailyPipeline] INFO - [34/150] THE BULL'S BRIDGE GOLF CLUB, INC. (CT) — 1d
+2026-05-21 15:52:40,225 [DailyPipeline] INFO -   ⚪ No EDGAR signal
+2026-05-21 15:52:42,588 [DailyPipeline] INFO - [35/150] PLAINFIELD VISION CARE CENTER, INC. (CT) — 1d
+2026-05-21 15:52:46,731 [DailyPipeline] INFO -   ⚪ No EDGAR signal
+2026-05-21 15:52:48,256 [DailyPipeline] INFO - [36/150] TURNGATE HOLDINGS, INC. (GA) — 1d
+2026-05-21 15:52:51,101 [DailyPipeline] INFO -   ⚪ No EDGAR signal
+2026-05-21 15:52:53,085 [DailyPipeline] INFO - [37/150] PULASKI COUNTY SCHOOL DISTRICT (GA) — 1d
+2026-05-21 15:52:58,906 [DailyPipeline] INFO -   ⚪ No EDGAR signal
+2026-05-21 15:53:00,454 [DailyPipeline] INFO - [38/150] PULASKI COUNTY SCHOOL DISTRICT (GA) — 1d
+2026-05-21 15:53:03,155 [DailyPipeline] INFO -   ⚪ No EDGAR signal
+2026-05-21 15:53:05,169 [DailyPipeline] INFO - [39/150] M4M RESTAURANTS LLC (GA) — 1d
+2026-05-21 15:53:09,055 [DailyPipeline] INFO -   ⚪ No EDGAR signal
+2026-05-21 15:53:11,556 [DailyPipeline] INFO - [40/150] ROGERS, ASHLEY H (GA) — 1d
+2026-05-21 15:53:15,801 [DailyPipeline] INFO -   ⚪ No EDGAR signal
+2026-05-21 15:53:17,584 [DailyPipeline] INFO - [41/150] ADKINS, KATHY JEAN (GA) — 1d
+2026-05-21 15:53:21,562 [DailyPipeline] INFO -   ⚪ No EDGAR signal
+2026-05-21 15:53:23,881 [DailyPipeline] INFO - [42/150] ADKINS, KATHY JEAN (GA) — 1d
+2026-05-21 15:53:26,736 [DailyPipeline] INFO -   ⚪ No EDGAR signal
+2026-05-21 15:53:28,329 [DailyPipeline] INFO - [43/150] MCCOGGLE, LARRY (GA) — 1d
+2026-05-21 15:53:31,475 [DailyPipeline] INFO -   ⚪ No EDGAR signal
+2026-05-21 15:53:33,489 [DailyPipeline] INFO - [44/150] JACOB M. TAYLOR, CPA (GA) — 1d
+2026-05-21 15:53:36,850 [DailyPipeline] INFO -   ⚪ No EDGAR signal
+2026-05-21 15:53:38,843 [DailyPipeline] INFO - [45/150] TENDERFOOT TV, LLC (GA) — 1d
+2026-05-21 15:53:41,558 [DailyPipeline] INFO -   ⚪ No EDGAR signal
+2026-05-21 15:53:43,501 [DailyPipeline] INFO - [46/150] WEST CHATHAM PARKWAY, LLC (GA) — 1d
+2026-05-21 15:53:46,693 [DailyPipeline] INFO -   ⚪ No EDGAR signal
+2026-05-21 15:53:48,735 [DailyPipeline] INFO - [47/150] AV OFFICE 2, LLC (GA) — 1d
+2026-05-21 15:53:52,209 [DailyPipeline] INFO -   ⚪ No EDGAR signal
+2026-05-21 15:53:53,900 [DailyPipeline] INFO - [48/150] STONEWORKS MASONRY, LLC (CT) — 2d
+2026-05-21 15:53:57,811 [DailyPipeline] INFO -   ⚪ No EDGAR signal
+2026-05-21 15:53:59,751 [DailyPipeline] INFO - [49/150] HOFFMAN LANDSCAPES, INC. (CT) — 2d
+2026-05-21 15:54:03,775 [DailyPipeline] INFO -   ⚪ No EDGAR signal
+2026-05-21 15:54:05,523 [DailyPipeline] INFO - [50/150] HOFFMAN LANDSCAPES, INC. (CT) — 2d
+2026-05-21 15:54:07,607 [DailyPipeline] INFO -   ⚪ No EDGAR signal
+2026-05-21 15:54:09,952 [DailyPipeline] INFO - [51/150] MDZ HOLDINGS LLC (CT) — 4d
+2026-05-21 15:54:14,685 [DailyPipeline] INFO -   ⚪ No EDGAR signal
+2026-05-21 15:54:17,128 [DailyPipeline] INFO - [52/150] Z&L CAPITAL LLC (CT) — 4d
+2026-05-21 15:54:22,433 [DailyPipeline] INFO -   ⚪ No EDGAR signal
+2026-05-21 15:54:24,561 [DailyPipeline] INFO - [53/150] PERCO, INC. (CT) — 4d
+2026-05-21 15:54:26,960 [DailyPipeline] INFO -   ⚪ No EDGAR signal
+2026-05-21 15:54:29,392 [DailyPipeline] INFO - [54/150] SVL LLC (CT) — 4d
+2026-05-21 15:54:31,772 [DailyPipeline] INFO -   ⚪ No EDGAR signal
+2026-05-21 15:54:33,927 [DailyPipeline] INFO - [55/150] BAS OUTDOOR SERVICES LLC (CT) — 4d
+2026-05-21 15:54:39,352 [DailyPipeline] INFO -   ⚪ No EDGAR signal
+2026-05-21 15:54:41,529 [DailyPipeline] INFO - [56/150] SIMPLY LANDSCAPING, LLC (CT) — 4d
+2026-05-21 15:54:43,861 [DailyPipeline] INFO -   ⚪ No EDGAR signal
+2026-05-21 15:54:45,517 [DailyPipeline] INFO - [57/150] MDZ HOLDINGS LLC (CT) — 4d
+2026-05-21 15:54:49,404 [DailyPipeline] INFO -   ⚪ No EDGAR signal
+2026-05-21 15:54:51,220 [DailyPipeline] INFO - [58/150] BLOOMFIELD ASC, LLC (CT) — 4d
+2026-05-21 15:54:54,790 [DailyPipeline] INFO -   ⚪ No EDGAR signal
+2026-05-21 15:54:56,583 [DailyPipeline] INFO - [59/150] VASQUEZ TREE SERVICES LLC (CT) — 4d
+2026-05-21 15:55:01,601 [DailyPipeline] INFO -   ⚪ No EDGAR signal
+2026-05-21 15:55:03,355 [DailyPipeline] INFO - [60/150] BANE PROPERTY MANAGEMENT LLC (CT) — 4d
+2026-05-21 15:55:07,933 [DailyPipeline] INFO -   ⚪ No EDGAR signal
+2026-05-21 15:55:10,134 [DailyPipeline] INFO - [61/150] M & R MASONRY LLC (CT) — 4d
+2026-05-21 15:55:13,468 [DailyPipeline] INFO -   ⚪ No EDGAR signal
+2026-05-21 15:55:15,827 [DailyPipeline] INFO - [62/150] TAUNTON HILL LANDSCAPE CO., INC. (CT) — 4d
+2026-05-21 15:55:19,303 [DailyPipeline] INFO -   ⚪ No EDGAR signal
+2026-05-21 15:55:21,739 [DailyPipeline] INFO - [63/150] ROMANCZUK LANDSCAPING, LLC (CT) — 4d
+2026-05-21 15:55:24,579 [DailyPipeline] INFO -   ⚪ No EDGAR signal
+2026-05-21 15:55:26,765 [DailyPipeline] INFO - [64/150] ZACKS YOGURT, LLC (CT) — 4d
+2026-05-21 15:55:30,501 [DailyPipeline] INFO -   ⚪ No EDGAR signal
+2026-05-21 15:55:32,944 [DailyPipeline] INFO - [65/150] MURRAY COUNTY SCHOOL DISTRICT (GA) — 4d
+2026-05-21 15:55:37,028 [DailyPipeline] INFO -   ⚪ No EDGAR signal
+2026-05-21 15:55:39,276 [DailyPipeline] INFO - [66/150] MURRAY COUNTY SCHOOL DISTRICT (GA) — 4d
+2026-05-21 15:55:42,259 [DailyPipeline] INFO -   ⚪ No EDGAR signal
+2026-05-21 15:55:44,695 [DailyPipeline] INFO - [67/150] NORTHGATEARNISO, INC. (GA) — 4d
+2026-05-21 15:55:47,322 [DailyPipeline] INFO -   ⚪ No EDGAR signal
+2026-05-21 15:55:49,698 [DailyPipeline] INFO - [68/150] DANKER PRINT SOLUTIONS, INC. (GA) — 4d
+2026-05-21 15:55:53,060 [DailyPipeline] INFO -   ⚪ No EDGAR signal
+2026-05-21 15:55:54,610 [DailyPipeline] INFO - [69/150] DC REALTY, LLC (GA) — 4d
+2026-05-21 15:55:58,573 [DailyPipeline] INFO -   ⚪ No EDGAR signal
+2026-05-21 15:56:00,431 [DailyPipeline] INFO - [70/150] PAULK, CURT (GA) — 4d
+2026-05-21 15:56:05,119 [DailyPipeline] INFO -   ⚪ No EDGAR signal
+2026-05-21 15:56:06,902 [DailyPipeline] INFO - [71/150] POTTS, PHILIP LAMAR-SR (GA) — 4d
+2026-05-21 15:56:11,437 [DailyPipeline] INFO -   ⚪ No EDGAR signal
+2026-05-21 15:56:12,960 [DailyPipeline] INFO - [72/150] ALDRIDGE, JEFFREY SCOTT (GA) — 4d
+2026-05-21 15:56:16,939 [DailyPipeline] INFO -   ⚪ No EDGAR signal
+2026-05-21 15:56:18,930 [DailyPipeline] INFO - [73/150] BELL, ANDREW LEWIS (GA) — 4d
+2026-05-21 15:56:23,306 [DailyPipeline] INFO -   ⚪ No EDGAR signal
+2026-05-21 15:56:25,525 [DailyPipeline] INFO - [74/150] WATTS, ROBERT (GA) — 4d
+2026-05-21 15:56:29,612 [DailyPipeline] INFO -   ⚪ No EDGAR signal
+2026-05-21 15:56:31,496 [DailyPipeline] INFO - [75/150] MEDEIROS, EUGENE (GA) — 4d
+2026-05-21 15:56:35,344 [DailyPipeline] INFO -   ⚪ No EDGAR signal
+2026-05-21 15:56:36,887 [DailyPipeline] INFO - [76/150] MEDEIROS, EUGENE ALEXANDER (GA) — 4d
+2026-05-21 15:56:40,185 [DailyPipeline] INFO -   ⚪ No EDGAR signal
+2026-05-21 15:56:41,746 [DailyPipeline] INFO - [77/150] EDDINS, DAVID EUGENE (GA) — 4d
+2026-05-21 15:56:47,059 [DailyPipeline] INFO -   ⚪ No EDGAR signal
+2026-05-21 15:56:49,162 [DailyPipeline] INFO - [78/150] FOWLER, GARY HILLER (GA) — 4d
+2026-05-21 15:56:52,887 [DailyPipeline] INFO -   ⚪ No EDGAR signal
+2026-05-21 15:56:55,366 [DailyPipeline] INFO - [79/150] HILL, MICHAEL WAYNE (GA) — 4d
+2026-05-21 15:56:58,709 [DailyPipeline] INFO -   ⚪ No EDGAR signal
+2026-05-21 15:57:01,106 [DailyPipeline] INFO - [80/150] DATACOM PROFESSIONALS, LLC (GA) — 4d
+2026-05-21 15:57:05,592 [DailyPipeline] INFO -   ⚪ No EDGAR signal
+2026-05-21 15:57:07,668 [DailyPipeline] INFO - [81/150] HARPER, GRADY LEONARD (GA) — 4d
+2026-05-21 15:57:12,523 [DailyPipeline] INFO -   ⚪ No EDGAR signal
+2026-05-21 15:57:14,891 [DailyPipeline] INFO - [82/150] SELLERS, CHARLES WESLEY (GA) — 4d
+2026-05-21 15:57:18,187 [DailyPipeline] INFO -   ⚪ No EDGAR signal
+2026-05-21 15:57:20,523 [DailyPipeline] INFO - [83/150] SMITH, OLIVER LAMAR (GA) — 4d
+2026-05-21 15:57:24,476 [DailyPipeline] INFO -   ⚪ No EDGAR signal
+2026-05-21 15:57:26,253 [DailyPipeline] INFO - [84/150] ATLANTA'S BEST CONSTRUCTION, INC. (GA) — 4d
+2026-05-21 15:57:31,496 [DailyPipeline] INFO -   ⚪ No EDGAR signal
+2026-05-21 15:57:33,278 [DailyPipeline] INFO - [85/150] SUGAR & BROWN'S, LLC (GA) — 4d
+2026-05-21 15:57:38,183 [DailyPipeline] INFO -   ⚪ No EDGAR signal
+2026-05-21 15:57:39,990 [DailyPipeline] INFO - [86/150] CAMERON HOMEOWNER'S ASSOCIATION (GA) — 4d
+2026-05-21 15:57:43,242 [DailyPipeline] INFO -   ⚪ No EDGAR signal
+2026-05-21 15:57:44,891 [DailyPipeline] INFO - [87/150] AGILE RESOURCES, INC. (GA) — 4d
+2026-05-21 15:57:48,866 [DailyPipeline] INFO -   ⚪ No EDGAR signal
+2026-05-21 15:57:50,681 [DailyPipeline] INFO - [88/150] LUKE YODER CONSTRUCTION, INC. (GA) — 4d
+2026-05-21 15:57:54,833 [DailyPipeline] INFO -   ⚪ No EDGAR signal
+2026-05-21 15:57:56,953 [DailyPipeline] INFO - [89/150] MURPHY, JAMES EVAN (GA) — 4d
+2026-05-21 15:58:01,040 [DailyPipeline] INFO -   ⚪ No EDGAR signal
+2026-05-21 15:58:02,621 [DailyPipeline] INFO - [90/150] ABBOTT, JOHN STEPHEN (GA) — 4d
+2026-05-21 15:58:06,501 [DailyPipeline] INFO -   ⚪ No EDGAR signal
+2026-05-21 15:58:08,814 [DailyPipeline] INFO - [91/150] DOUBERLEY, GLINARD W (GA) — 4d
+2026-05-21 15:58:12,345 [DailyPipeline] INFO -   ⚪ No EDGAR signal
+2026-05-21 15:58:14,147 [DailyPipeline] INFO - [92/150] LAMPLIGHTER APARTMENTS, LLC (GA) — 4d
+2026-05-21 15:58:18,099 [DailyPipeline] INFO -   ⚪ No EDGAR signal
+2026-05-21 15:58:19,848 [DailyPipeline] INFO - [93/150] MOON HARVEST FARMS, LLC (GA) — 4d
+2026-05-21 15:58:23,760 [DailyPipeline] INFO -   ⚪ No EDGAR signal
+2026-05-21 15:58:25,967 [DailyPipeline] INFO - [94/150] E. R. SNELL CONTRACTOR, INC. (GA) — 4d
+2026-05-21 15:58:29,930 [DailyPipeline] INFO -   ⚪ No EDGAR signal
+2026-05-21 15:58:31,744 [DailyPipeline] INFO - [95/150] SCOGIN, JACOB REED (GA) — 4d
+2026-05-21 15:58:34,985 [DailyPipeline] INFO -   ⚪ No EDGAR signal
+2026-05-21 15:58:37,412 [DailyPipeline] INFO - [96/150] ROZELL CONSTRUCTION & GRADING, LLC (GA) — 4d
+2026-05-21 15:58:40,778 [DailyPipeline] INFO -   ⚪ No EDGAR signal
+2026-05-21 15:58:43,051 [DailyPipeline] INFO - [97/150] CYCLONE LAND DEVELOPMENT COMPANY, INC. (GA) — 4d
+2026-05-21 15:58:46,943 [DailyPipeline] INFO -   ⚪ No EDGAR signal
+2026-05-21 15:58:48,820 [DailyPipeline] INFO - [98/150] DIRTQUEST, LLC (GA) — 4d
+2026-05-21 15:58:51,763 [DailyPipeline] INFO -   ⚪ No EDGAR signal
+2026-05-21 15:58:53,976 [DailyPipeline] INFO - [99/150] COLUMBIA DIVERSIFIED, INC. (GA) — 4d
+2026-05-21 15:58:57,909 [DailyPipeline] INFO -   ⚪ No EDGAR signal
+2026-05-21 15:58:59,728 [DailyPipeline] INFO - [100/150] IDEAL HAY & LITTER, LLC (GA) — 4d
+2026-05-21 15:59:04,324 [DailyPipeline] INFO -   ⚪ No EDGAR signal
+2026-05-21 15:59:06,269 [DailyPipeline] INFO - [101/150] TAYLOR, PEGGY JEANE (GA) — 4d
+2026-05-21 15:59:09,713 [DailyPipeline] INFO -   ⚪ No EDGAR signal
+2026-05-21 15:59:11,741 [DailyPipeline] INFO - [102/150] CARLTON, WILLIAM B (GA) — 4d
+2026-05-21 15:59:15,290 [DailyPipeline] INFO -   ⚪ No EDGAR signal
+2026-05-21 15:59:17,301 [DailyPipeline] INFO - [103/150] MUSSELWHITE, CODEY KEITH (GA) — 4d
+2026-05-21 15:59:20,777 [DailyPipeline] INFO -   ⚪ No EDGAR signal
+2026-05-21 15:59:22,778 [DailyPipeline] INFO - [104/150] EPH ENTERPRISES INC. (GA) — 4d
+2026-05-21 15:59:26,279 [DailyPipeline] INFO -   ⚪ No EDGAR signal
+2026-05-21 15:59:28,703 [DailyPipeline] INFO - [105/150] BARTHOLOMEW ELECTRIC, LLC (CT) — 5d
+2026-05-21 15:59:31,986 [DailyPipeline] INFO -   ⚪ No EDGAR signal
+2026-05-21 15:59:33,771 [DailyPipeline] INFO - [106/150] KENNEDY AND PERKINS, INCORPORATED (CT) — 5d
+2026-05-21 15:59:37,161 [DailyPipeline] INFO -   ⚪ No EDGAR signal
+2026-05-21 15:59:38,908 [DailyPipeline] INFO - [107/150] THE LANE CONSTRUCTION CORPORATION (CT) — 5d
+2026-05-21 15:59:43,573 [DailyPipeline] INFO -   ⚪ No EDGAR signal
+2026-05-21 15:59:45,097 [DailyPipeline] INFO - [108/150] QUISENBERRY ARCARI MALIK, LLC (CT) — 5d
+2026-05-21 15:59:48,713 [DailyPipeline] INFO -   ⚪ No EDGAR signal
+2026-05-21 15:59:50,995 [DailyPipeline] INFO - [109/150] AGOSTO ON THE GO LLC (CT) — 5d
+2026-05-21 15:59:54,288 [DailyPipeline] INFO -   ⚪ No EDGAR signal
+2026-05-21 15:59:56,607 [DailyPipeline] INFO - [110/150] THE LANE CONSTRUCTION CORPORATION (CT) — 5d
+2026-05-21 16:00:02,254 [DailyPipeline] INFO -   ⚪ No EDGAR signal
+2026-05-21 16:00:04,513 [DailyPipeline] INFO - [111/150] SinglePoint, LLC dba Sharp Business Innovations (CO) — 5d
+2026-05-21 16:00:07,569 [DailyPipeline] INFO -   ⚪ No EDGAR signal
+2026-05-21 16:00:09,683 [DailyPipeline] INFO - [112/150] B3 SOLUTIONS, LLC (GA) — 5d
+2026-05-21 16:00:12,686 [DailyPipeline] INFO -   ⚪ No EDGAR signal
+2026-05-21 16:00:14,333 [DailyPipeline] INFO - [113/150] VIEW POINT HEALTH (GA) — 5d
+2026-05-21 16:00:18,880 [DailyPipeline] INFO -   ⚪ No EDGAR signal
+2026-05-21 16:00:20,956 [DailyPipeline] INFO - [114/150] POOL, RANDALL THOMAS (GA) — 5d
+2026-05-21 16:00:24,677 [DailyPipeline] INFO -   ⚪ No EDGAR signal
+2026-05-21 16:00:26,751 [DailyPipeline] INFO - [115/150] MCDOWELL, ALBERT KENNETH-JR (GA) — 5d
+2026-05-21 16:00:30,882 [DailyPipeline] INFO -   ⚪ No EDGAR signal
+2026-05-21 16:00:32,528 [DailyPipeline] INFO - [116/150] ALLEN, JOSHUA MILES (GA) — 5d
+2026-05-21 16:00:34,698 [DailyPipeline] INFO -   ⚪ No EDGAR signal
+2026-05-21 16:00:36,452 [DailyPipeline] INFO - [117/150] SMALLWOOD, JEREMY MATTHEW (GA) — 5d
+2026-05-21 16:00:39,902 [DailyPipeline] INFO -   ⚪ No EDGAR signal
+2026-05-21 16:00:41,797 [DailyPipeline] INFO - [118/150] ELROD, JOHN LEE (GA) — 5d
+2026-05-21 16:00:46,477 [DailyPipeline] INFO -   ⚪ No EDGAR signal
+2026-05-21 16:00:48,330 [DailyPipeline] INFO - [119/150] ALLEN, HAYWARD EDWIN-III (GA) — 5d
+2026-05-21 16:00:50,959 [DailyPipeline] INFO -   ⚪ No EDGAR signal
+2026-05-21 16:00:53,206 [DailyPipeline] INFO - [120/150] F&S UTILITIES LLC (GA) — 5d
+2026-05-21 16:00:55,914 [DailyPipeline] INFO -   ⚪ No EDGAR signal
+2026-05-21 16:00:57,844 [DailyPipeline] INFO - [121/150] ATLANTA COMMERCIAL MOVERS, INC. (GA) — 5d
+2026-05-21 16:01:01,374 [DailyPipeline] INFO -   ⚪ No EDGAR signal
+2026-05-21 16:01:03,798 [DailyPipeline] INFO - [122/150] DM DISTRIBUTING, LLC (GA) — 5d
+2026-05-21 16:01:07,487 [DailyPipeline] INFO -   ⚪ No EDGAR signal
+2026-05-21 16:01:09,726 [DailyPipeline] INFO - [123/150] FISHER DISTRIBUTION LLC (GA) — 5d
+2026-05-21 16:01:13,816 [DailyPipeline] INFO -   ⚪ No EDGAR signal
+2026-05-21 16:01:15,760 [DailyPipeline] INFO - [124/150] JBETTIS LLC (GA) — 5d
+2026-05-21 16:01:21,840 [DailyPipeline] INFO -   ⚪ No EDGAR signal
+2026-05-21 16:01:23,704 [DailyPipeline] INFO - [125/150] WEBB DISTRIBUTING LLC (GA) — 5d
+2026-05-21 16:01:26,791 [DailyPipeline] INFO -   ⚪ No EDGAR signal
+2026-05-21 16:01:28,726 [DailyPipeline] INFO - [126/150] COLLARD VALLEY DISTRIBUTION CO LLC (GA) — 5d
+2026-05-21 16:01:32,463 [DailyPipeline] INFO -   ⚪ No EDGAR signal
+2026-05-21 16:01:34,852 [DailyPipeline] INFO - [127/150] LIGHTNING DELIVERY LLC (GA) — 5d
+2026-05-21 16:01:37,471 [DailyPipeline] INFO -   ⚪ No EDGAR signal
+2026-05-21 16:01:39,108 [DailyPipeline] INFO - [128/150] KNOT JUST PRETZELS DISTRIBUTING LLC (GA) — 5d
+2026-05-21 16:01:41,937 [DailyPipeline] INFO -   ⚪ No EDGAR signal
+2026-05-21 16:01:43,967 [DailyPipeline] INFO - [129/150] THE JACKSON ADMINISTRATION, LLC (GA) — 5d
+2026-05-21 16:01:46,906 [DailyPipeline] INFO -   ⚪ No EDGAR signal
+2026-05-21 16:01:49,237 [DailyPipeline] INFO - [130/150] C&G SNACKS LLC. (GA) — 5d
+2026-05-21 16:01:54,383 [DailyPipeline] INFO -   ⚪ No EDGAR signal
+2026-05-21 16:01:56,306 [DailyPipeline] INFO - [131/150] SUGAR & BROWN'S, LLC (GA) — 5d
+2026-05-21 16:02:00,571 [DailyPipeline] INFO -   ⚪ No EDGAR signal
+2026-05-21 16:02:02,213 [DailyPipeline] INFO - [132/150] ONE ROUND AT A TIME, LLC (GA) — 5d
+2026-05-21 16:02:04,542 [DailyPipeline] INFO -   ⚪ No EDGAR signal
+2026-05-21 16:02:06,810 [DailyPipeline] INFO - [133/150] MAD BEAVER FIREWOOD AND TREE SERVICE, LLC (GA) — 5d
+2026-05-21 16:02:09,391 [DailyPipeline] INFO -   ⚪ No EDGAR signal
+2026-05-21 16:02:11,251 [DailyPipeline] INFO - [134/150] MAD BEAVER FIREWOOD AND TREE SERVICE, LLC (GA) — 5d
+2026-05-21 16:02:13,821 [DailyPipeline] INFO -   ⚪ No EDGAR signal
+2026-05-21 16:02:15,651 [DailyPipeline] INFO - [135/150] KORTING, SUZANNE (GA) — 5d
+2026-05-21 16:02:19,271 [DailyPipeline] INFO -   ⚪ No EDGAR signal
+2026-05-21 16:02:20,900 [DailyPipeline] INFO - [136/150] MAD BEAVER FIREWOOD AND TREE SERVICE LLC (GA) — 5d
+2026-05-21 16:02:24,668 [DailyPipeline] INFO -   ⚪ No EDGAR signal
+2026-05-21 16:02:27,020 [DailyPipeline] INFO - [137/150] MAD BEAVER FIREWOOD AND TREE SERVICE LLC (GA) — 5d
+2026-05-21 16:02:29,437 [DailyPipeline] INFO -   ⚪ No EDGAR signal
+2026-05-21 16:02:31,670 [DailyPipeline] INFO - [138/150] MAD BEAVER FIREWOOD AND TREE SERVICE LLC (GA) — 5d
+2026-05-21 16:02:34,680 [DailyPipeline] INFO -   ⚪ No EDGAR signal
+2026-05-21 16:02:36,204 [DailyPipeline] INFO - [139/150] MAD BEAVER FIREWOOD AND TREE SERVICE, LLC (GA) — 5d
+2026-05-21 16:02:39,227 [DailyPipeline] INFO -   ⚪ No EDGAR signal
+2026-05-21 16:02:40,765 [DailyPipeline] INFO - [140/150] MAD BEAVER FIREWOOD AND TREE SERVICE, LLC (GA) — 5d
+2026-05-21 16:02:43,660 [DailyPipeline] INFO -   ⚪ No EDGAR signal
+2026-05-21 16:02:46,158 [DailyPipeline] INFO - [141/150] HARTMEYER, CHARLES DEREK (GA) — 5d
+2026-05-21 16:02:49,861 [DailyPipeline] INFO -   ⚪ No EDGAR signal
+2026-05-21 16:02:51,634 [DailyPipeline] INFO - [142/150] ETHERIDGE, DANIEL HUGH (GA) — 5d
+2026-05-21 16:02:54,766 [DailyPipeline] INFO -   ⚪ No EDGAR signal
+2026-05-21 16:02:56,337 [DailyPipeline] INFO - [143/150] FRASER, BRANDON KEITH (GA) — 5d
+2026-05-21 16:03:00,713 [DailyPipeline] INFO -   ⚪ No EDGAR signal
+2026-05-21 16:03:02,517 [DailyPipeline] INFO - [144/150] LOCHER, KENNETH ASHLEY (GA) — 5d
+2026-05-21 16:03:08,287 [DailyPipeline] INFO -   ⚪ No EDGAR signal
+2026-05-21 16:03:10,526 [DailyPipeline] INFO - [145/150] TURNER, GREGORY PAUL (GA) — 5d
+2026-05-21 16:03:15,478 [DailyPipeline] INFO -   ⚪ No EDGAR signal
+2026-05-21 16:03:17,026 [DailyPipeline] INFO - [146/150] WILLS, MARK DENNIS (GA) — 5d
+2026-05-21 16:03:20,869 [DailyPipeline] INFO -   ⚪ No EDGAR signal
+2026-05-21 16:03:23,225 [DailyPipeline] INFO - [147/150] MCCULLOUGH CLEARING, LLP (GA) — 5d
+2026-05-21 16:03:25,443 [DailyPipeline] INFO -   ⚪ No EDGAR signal
+2026-05-21 16:03:27,888 [DailyPipeline] INFO - [148/150] SAVANNAH RIVER UTILITIES CO. (GA) — 5d
+2026-05-21 16:03:30,203 [DailyPipeline] INFO -   ⚪ No EDGAR signal
+2026-05-21 16:03:32,100 [DailyPipeline] INFO - [149/150] FOSTER LOGGING, INC. (GA) — 5d
+2026-05-21 16:03:35,241 [DailyPipeline] INFO -   ⚪ No EDGAR signal
+2026-05-21 16:03:37,425 [DailyPipeline] INFO - [150/150] SOUTHLAND PAVING CO., LLC (GA) — 5d
+2026-05-21 16:03:42,791 [DailyPipeline] INFO -   ⚪ No EDGAR signal
+2026-05-21 16:03:44,547 [DailyPipeline] INFO - 
+=======================================================
+2026-05-21 16:03:44,547 [DailyPipeline] INFO -   EDGAR Signal Run Complete
+2026-05-21 16:03:44,547 [DailyPipeline] INFO -   Processed : 150
+2026-05-21 16:03:44,547 [DailyPipeline] INFO -   Hits      : 0 (0%)
+2026-05-21 16:03:44,547 [DailyPipeline] INFO -   EDGAR signals: 0 new hits
+2026-05-21 16:03:44,658 [DailyPipeline] INFO - ============================================================
+2026-05-21 16:03:44,658 [DailyPipeline] INFO -   DAILY SUMMARY
+2026-05-21 16:03:44,658 [DailyPipeline] INFO -   New leads added : 134
+2026-05-21 16:03:44,658 [DailyPipeline] INFO -   Total in DB     : 40821
+2026-05-21 16:03:44,658 [DailyPipeline] INFO -   HOT (≤30d)      : 890
+2026-05-21 16:03:44,658 [DailyPipeline] INFO -   WARM (≤90d)     : 1467
+2026-05-21 16:03:44,658 [DailyPipeline] INFO -   S4 PRIME        : 0 ⭐
+2026-05-21 16:03:44,659 [DailyPipeline] INFO -   Expansion hits  : 15 📰
+2026-05-21 16:03:44,659 [DailyPipeline] INFO -   Scrapers OK     : CO=True CT=True TX=False GA=False
+2026-05-21 16:03:44,659 [DailyPipeline] INFO - ============================================================
+2026-05-21 16:03:44,671 [DailyPipeline] INFO -   Summary written: /Users/robertle/tomcat_capex/logs/last_run.json

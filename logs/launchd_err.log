@@ -1,0 +1,320 @@
+Traceback (most recent call last):
+  File "/Users/robertle/tomcat_capex/run_daily.py", line 151, in <module>
+    main()
+  File "/Users/robertle/tomcat_capex/run_daily.py", line 110, in main
+    co_ok = run_scraper(
+  File "/Users/robertle/tomcat_capex/run_daily.py", line 50, in run_scraper
+    result = subprocess.run(
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py", line 507, in run
+    stdout, stderr = process.communicate(input, timeout=timeout)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py", line 1134, in communicate
+    stdout, stderr = self._communicate(input, endtime, timeout)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py", line 1980, in _communicate
+    self._check_timeout(endtime, orig_timeout, stdout, stderr)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py", line 1178, in _check_timeout
+    raise TimeoutExpired(
+subprocess.TimeoutExpired: Command '['/Library/Developer/CommandLineTools/usr/bin/python3', '/Users/robertle/tomcat_capex/scrapers/ucc_scraper.py']' timed out after 600 seconds
+Traceback (most recent call last):
+  File "/Users/robertle/tomcat_capex/run_daily.py", line 151, in <module>
+    main()
+  File "/Users/robertle/tomcat_capex/run_daily.py", line 110, in main
+    co_ok = run_scraper(
+  File "/Users/robertle/tomcat_capex/run_daily.py", line 50, in run_scraper
+    result = subprocess.run(
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py", line 507, in run
+    stdout, stderr = process.communicate(input, timeout=timeout)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py", line 1134, in communicate
+    stdout, stderr = self._communicate(input, endtime, timeout)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py", line 1980, in _communicate
+    self._check_timeout(endtime, orig_timeout, stdout, stderr)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py", line 1178, in _check_timeout
+    raise TimeoutExpired(
+subprocess.TimeoutExpired: Command '['/Library/Developer/CommandLineTools/usr/bin/python3', '/Users/robertle/tomcat_capex/scrapers/ucc_scraper.py']' timed out after 600 seconds
+Traceback (most recent call last):
+  File "/Users/robertle/tomcat_capex/run_daily.py", line 151, in <module>
+    main()
+  File "/Users/robertle/tomcat_capex/run_daily.py", line 110, in main
+    co_ok = run_scraper(
+  File "/Users/robertle/tomcat_capex/run_daily.py", line 50, in run_scraper
+    result = subprocess.run(
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py", line 507, in run
+    stdout, stderr = process.communicate(input, timeout=timeout)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py", line 1134, in communicate
+    stdout, stderr = self._communicate(input, endtime, timeout)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py", line 1980, in _communicate
+    self._check_timeout(endtime, orig_timeout, stdout, stderr)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py", line 1178, in _check_timeout
+    raise TimeoutExpired(
+subprocess.TimeoutExpired: Command '['/Library/Developer/CommandLineTools/usr/bin/python3', '/Users/robertle/tomcat_capex/scrapers/ucc_scraper.py']' timed out after 600 seconds
+Traceback (most recent call last):
+  File "/Users/robertle/tomcat_capex/run_daily.py", line 151, in <module>
+    main()
+  File "/Users/robertle/tomcat_capex/run_daily.py", line 110, in main
+    co_ok = run_scraper(
+  File "/Users/robertle/tomcat_capex/run_daily.py", line 50, in run_scraper
+    result = subprocess.run(
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py", line 507, in run
+    stdout, stderr = process.communicate(input, timeout=timeout)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py", line 1134, in communicate
+    stdout, stderr = self._communicate(input, endtime, timeout)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py", line 1980, in _communicate
+    self._check_timeout(endtime, orig_timeout, stdout, stderr)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py", line 1178, in _check_timeout
+    raise TimeoutExpired(
+subprocess.TimeoutExpired: Command '['/Library/Developer/CommandLineTools/usr/bin/python3', '/Users/robertle/tomcat_capex/scrapers/ucc_scraper.py']' timed out after 600 seconds
+Traceback (most recent call last):
+  File "/Users/robertle/tomcat_capex/run_daily.py", line 151, in <module>
+    main()
+  File "/Users/robertle/tomcat_capex/run_daily.py", line 110, in main
+    co_ok = run_scraper(
+  File "/Users/robertle/tomcat_capex/run_daily.py", line 50, in run_scraper
+    result = subprocess.run(
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py", line 507, in run
+    stdout, stderr = process.communicate(input, timeout=timeout)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py", line 1134, in communicate
+    stdout, stderr = self._communicate(input, endtime, timeout)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py", line 1980, in _communicate
+    self._check_timeout(endtime, orig_timeout, stdout, stderr)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py", line 1178, in _check_timeout
+    raise TimeoutExpired(
+subprocess.TimeoutExpired: Command '['/Library/Developer/CommandLineTools/usr/bin/python3', '/Users/robertle/tomcat_capex/scrapers/ucc_scraper.py']' timed out after 600 seconds
+Traceback (most recent call last):
+  File "/Users/robertle/tomcat_capex/run_daily.py", line 151, in <module>
+    main()
+  File "/Users/robertle/tomcat_capex/run_daily.py", line 110, in main
+    co_ok = run_scraper(
+  File "/Users/robertle/tomcat_capex/run_daily.py", line 50, in run_scraper
+    result = subprocess.run(
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py", line 507, in run
+    stdout, stderr = process.communicate(input, timeout=timeout)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py", line 1134, in communicate
+    stdout, stderr = self._communicate(input, endtime, timeout)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py", line 1980, in _communicate
+    self._check_timeout(endtime, orig_timeout, stdout, stderr)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py", line 1178, in _check_timeout
+    raise TimeoutExpired(
+subprocess.TimeoutExpired: Command '['/Library/Developer/CommandLineTools/usr/bin/python3', '/Users/robertle/tomcat_capex/scrapers/ucc_scraper.py']' timed out after 600 seconds
+Traceback (most recent call last):
+  File "/Users/robertle/tomcat_capex/run_daily.py", line 164, in <module>
+    main()
+  File "/Users/robertle/tomcat_capex/run_daily.py", line 110, in main
+    co_ok = run_scraper(
+  File "/Users/robertle/tomcat_capex/run_daily.py", line 50, in run_scraper
+    result = subprocess.run(
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py", line 507, in run
+    stdout, stderr = process.communicate(input, timeout=timeout)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py", line 1134, in communicate
+    stdout, stderr = self._communicate(input, endtime, timeout)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py", line 1980, in _communicate
+    self._check_timeout(endtime, orig_timeout, stdout, stderr)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py", line 1178, in _check_timeout
+    raise TimeoutExpired(
+subprocess.TimeoutExpired: Command '['/Library/Developer/CommandLineTools/usr/bin/python3', '/Users/robertle/tomcat_capex/scrapers/ucc_scraper.py']' timed out after 600 seconds
+Traceback (most recent call last):
+  File "/Users/robertle/tomcat_capex/run_daily.py", line 164, in <module>
+    main()
+  File "/Users/robertle/tomcat_capex/run_daily.py", line 110, in main
+    co_ok = run_scraper(
+  File "/Users/robertle/tomcat_capex/run_daily.py", line 50, in run_scraper
+    result = subprocess.run(
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py", line 507, in run
+    stdout, stderr = process.communicate(input, timeout=timeout)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py", line 1134, in communicate
+    stdout, stderr = self._communicate(input, endtime, timeout)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py", line 1980, in _communicate
+    self._check_timeout(endtime, orig_timeout, stdout, stderr)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py", line 1178, in _check_timeout
+    raise TimeoutExpired(
+subprocess.TimeoutExpired: Command '['/Library/Developer/CommandLineTools/usr/bin/python3', '/Users/robertle/tomcat_capex/scrapers/ucc_scraper.py']' timed out after 600 seconds
+Traceback (most recent call last):
+  File "/Users/robertle/tomcat_capex/run_daily.py", line 164, in <module>
+    main()
+  File "/Users/robertle/tomcat_capex/run_daily.py", line 110, in main
+    co_ok = run_scraper(
+  File "/Users/robertle/tomcat_capex/run_daily.py", line 50, in run_scraper
+    result = subprocess.run(
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py", line 507, in run
+    stdout, stderr = process.communicate(input, timeout=timeout)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py", line 1134, in communicate
+    stdout, stderr = self._communicate(input, endtime, timeout)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py", line 1980, in _communicate
+    self._check_timeout(endtime, orig_timeout, stdout, stderr)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py", line 1178, in _check_timeout
+    raise TimeoutExpired(
+subprocess.TimeoutExpired: Command '['/Library/Developer/CommandLineTools/usr/bin/python3', '/Users/robertle/tomcat_capex/scrapers/ucc_scraper.py']' timed out after 600 seconds
+Traceback (most recent call last):
+  File "/Users/robertle/tomcat_capex/run_daily.py", line 164, in <module>
+    main()
+  File "/Users/robertle/tomcat_capex/run_daily.py", line 110, in main
+    co_ok = run_scraper(
+  File "/Users/robertle/tomcat_capex/run_daily.py", line 50, in run_scraper
+    result = subprocess.run(
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py", line 507, in run
+    stdout, stderr = process.communicate(input, timeout=timeout)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py", line 1134, in communicate
+    stdout, stderr = self._communicate(input, endtime, timeout)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py", line 1980, in _communicate
+    self._check_timeout(endtime, orig_timeout, stdout, stderr)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py", line 1178, in _check_timeout
+    raise TimeoutExpired(
+subprocess.TimeoutExpired: Command '['/Library/Developer/CommandLineTools/usr/bin/python3', '/Users/robertle/tomcat_capex/scrapers/ucc_scraper.py']' timed out after 600 seconds
+Traceback (most recent call last):
+  File "/Users/robertle/tomcat_capex/run_daily.py", line 164, in <module>
+    main()
+  File "/Users/robertle/tomcat_capex/run_daily.py", line 110, in main
+    co_ok = run_scraper(
+  File "/Users/robertle/tomcat_capex/run_daily.py", line 50, in run_scraper
+    result = subprocess.run(
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py", line 507, in run
+    stdout, stderr = process.communicate(input, timeout=timeout)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py", line 1134, in communicate
+    stdout, stderr = self._communicate(input, endtime, timeout)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py", line 1980, in _communicate
+    self._check_timeout(endtime, orig_timeout, stdout, stderr)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py", line 1178, in _check_timeout
+    raise TimeoutExpired(
+subprocess.TimeoutExpired: Command '['/Library/Developer/CommandLineTools/usr/bin/python3', '/Users/robertle/tomcat_capex/scrapers/ucc_scraper.py']' timed out after 600 seconds
+Traceback (most recent call last):
+  File "/Users/robertle/tomcat_capex/run_daily.py", line 164, in <module>
+    main()
+  File "/Users/robertle/tomcat_capex/run_daily.py", line 110, in main
+    co_ok = run_scraper(
+  File "/Users/robertle/tomcat_capex/run_daily.py", line 50, in run_scraper
+    result = subprocess.run(
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py", line 507, in run
+    stdout, stderr = process.communicate(input, timeout=timeout)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py", line 1134, in communicate
+    stdout, stderr = self._communicate(input, endtime, timeout)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py", line 1980, in _communicate
+    self._check_timeout(endtime, orig_timeout, stdout, stderr)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py", line 1178, in _check_timeout
+    raise TimeoutExpired(
+subprocess.TimeoutExpired: Command '['/Library/Developer/CommandLineTools/usr/bin/python3', '/Users/robertle/tomcat_capex/scrapers/ucc_scraper.py']' timed out after 600 seconds
+Traceback (most recent call last):
+  File "/Users/robertle/tomcat_capex/run_daily.py", line 164, in <module>
+    main()
+  File "/Users/robertle/tomcat_capex/run_daily.py", line 110, in main
+    co_ok = run_scraper(
+  File "/Users/robertle/tomcat_capex/run_daily.py", line 50, in run_scraper
+    result = subprocess.run(
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py", line 507, in run
+    stdout, stderr = process.communicate(input, timeout=timeout)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py", line 1134, in communicate
+    stdout, stderr = self._communicate(input, endtime, timeout)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py", line 1980, in _communicate
+    self._check_timeout(endtime, orig_timeout, stdout, stderr)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py", line 1178, in _check_timeout
+    raise TimeoutExpired(
+subprocess.TimeoutExpired: Command '['/Library/Developer/CommandLineTools/usr/bin/python3', '/Users/robertle/tomcat_capex/scrapers/ucc_scraper.py']' timed out after 600 seconds
+Traceback (most recent call last):
+  File "/Users/robertle/tomcat_capex/run_daily.py", line 164, in <module>
+    main()
+  File "/Users/robertle/tomcat_capex/run_daily.py", line 110, in main
+    co_ok = run_scraper(
+  File "/Users/robertle/tomcat_capex/run_daily.py", line 50, in run_scraper
+    result = subprocess.run(
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py", line 507, in run
+    stdout, stderr = process.communicate(input, timeout=timeout)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py", line 1134, in communicate
+    stdout, stderr = self._communicate(input, endtime, timeout)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py", line 1980, in _communicate
+    self._check_timeout(endtime, orig_timeout, stdout, stderr)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py", line 1178, in _check_timeout
+    raise TimeoutExpired(
+subprocess.TimeoutExpired: Command '['/Library/Developer/CommandLineTools/usr/bin/python3', '/Users/robertle/tomcat_capex/scrapers/ucc_scraper.py']' timed out after 600 seconds
+Traceback (most recent call last):
+  File "/Users/robertle/tomcat_capex/run_daily.py", line 164, in <module>
+    main()
+  File "/Users/robertle/tomcat_capex/run_daily.py", line 110, in main
+    co_ok = run_scraper(
+  File "/Users/robertle/tomcat_capex/run_daily.py", line 50, in run_scraper
+    result = subprocess.run(
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py", line 507, in run
+    stdout, stderr = process.communicate(input, timeout=timeout)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py", line 1134, in communicate
+    stdout, stderr = self._communicate(input, endtime, timeout)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py", line 1980, in _communicate
+    self._check_timeout(endtime, orig_timeout, stdout, stderr)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py", line 1178, in _check_timeout
+    raise TimeoutExpired(
+subprocess.TimeoutExpired: Command '['/Library/Developer/CommandLineTools/usr/bin/python3', '/Users/robertle/tomcat_capex/scrapers/ucc_scraper.py']' timed out after 600 seconds
+Traceback (most recent call last):
+  File "/Users/robertle/tomcat_capex/run_daily.py", line 164, in <module>
+    main()
+  File "/Users/robertle/tomcat_capex/run_daily.py", line 110, in main
+    co_ok = run_scraper(
+  File "/Users/robertle/tomcat_capex/run_daily.py", line 50, in run_scraper
+    result = subprocess.run(
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py", line 507, in run
+    stdout, stderr = process.communicate(input, timeout=timeout)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py", line 1134, in communicate
+    stdout, stderr = self._communicate(input, endtime, timeout)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py", line 1980, in _communicate
+    self._check_timeout(endtime, orig_timeout, stdout, stderr)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py", line 1178, in _check_timeout
+    raise TimeoutExpired(
+subprocess.TimeoutExpired: Command '['/Library/Developer/CommandLineTools/usr/bin/python3', '/Users/robertle/tomcat_capex/scrapers/ucc_scraper.py']' timed out after 600 seconds
+Traceback (most recent call last):
+  File "/Users/robertle/tomcat_capex/run_daily.py", line 164, in <module>
+    main()
+  File "/Users/robertle/tomcat_capex/run_daily.py", line 110, in main
+    co_ok = run_scraper(
+  File "/Users/robertle/tomcat_capex/run_daily.py", line 50, in run_scraper
+    result = subprocess.run(
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py", line 507, in run
+    stdout, stderr = process.communicate(input, timeout=timeout)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py", line 1134, in communicate
+    stdout, stderr = self._communicate(input, endtime, timeout)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py", line 1980, in _communicate
+    self._check_timeout(endtime, orig_timeout, stdout, stderr)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py", line 1178, in _check_timeout
+    raise TimeoutExpired(
+subprocess.TimeoutExpired: Command '['/Library/Developer/CommandLineTools/usr/bin/python3', '/Users/robertle/tomcat_capex/scrapers/ucc_scraper.py']' timed out after 600 seconds
+Traceback (most recent call last):
+  File "/Users/robertle/tomcat_capex/run_daily.py", line 164, in <module>
+    main()
+  File "/Users/robertle/tomcat_capex/run_daily.py", line 110, in main
+    co_ok = run_scraper(
+  File "/Users/robertle/tomcat_capex/run_daily.py", line 50, in run_scraper
+    result = subprocess.run(
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py", line 507, in run
+    stdout, stderr = process.communicate(input, timeout=timeout)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py", line 1134, in communicate
+    stdout, stderr = self._communicate(input, endtime, timeout)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py", line 1980, in _communicate
+    self._check_timeout(endtime, orig_timeout, stdout, stderr)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py", line 1178, in _check_timeout
+    raise TimeoutExpired(
+subprocess.TimeoutExpired: Command '['/Library/Developer/CommandLineTools/usr/bin/python3', '/Users/robertle/tomcat_capex/scrapers/ucc_scraper.py']' timed out after 600 seconds
+Traceback (most recent call last):
+  File "/Users/robertle/tomcat_capex/run_daily.py", line 164, in <module>
+    main()
+  File "/Users/robertle/tomcat_capex/run_daily.py", line 110, in main
+    co_ok = run_scraper(
+  File "/Users/robertle/tomcat_capex/run_daily.py", line 50, in run_scraper
+    result = subprocess.run(
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py", line 507, in run
+    stdout, stderr = process.communicate(input, timeout=timeout)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py", line 1134, in communicate
+    stdout, stderr = self._communicate(input, endtime, timeout)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py", line 1980, in _communicate
+    self._check_timeout(endtime, orig_timeout, stdout, stderr)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py", line 1178, in _check_timeout
+    raise TimeoutExpired(
+subprocess.TimeoutExpired: Command '['/Library/Developer/CommandLineTools/usr/bin/python3', '/Users/robertle/tomcat_capex/scrapers/ucc_scraper.py']' timed out after 600 seconds
+Traceback (most recent call last):
+  File "/Users/robertle/tomcat_capex/run_daily.py", line 164, in <module>
+    main()
+  File "/Users/robertle/tomcat_capex/run_daily.py", line 110, in main
+    co_ok = run_scraper(
+  File "/Users/robertle/tomcat_capex/run_daily.py", line 50, in run_scraper
+    result = subprocess.run(
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py", line 507, in run
+    stdout, stderr = process.communicate(input, timeout=timeout)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py", line 1134, in communicate
+    stdout, stderr = self._communicate(input, endtime, timeout)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py", line 1980, in _communicate
+    self._check_timeout(endtime, orig_timeout, stdout, stderr)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py", line 1178, in _check_timeout
+    raise TimeoutExpired(
+subprocess.TimeoutExpired: Command '['/Library/Developer/CommandLineTools/usr/bin/python3', '/Users/robertle/tomcat_capex/scrapers/ucc_scraper.py']' timed out after 600 seconds

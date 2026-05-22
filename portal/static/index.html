@@ -1,0 +1,1885 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="description" content="Exclusive Equipment Finance and UCC Leads. Find businesses with maturing equipment leases ready for buyout or EFA refinancing. High-intent B2B commercial lending data.">
+  <meta name="keywords" content="equipment finance leads, UCC leads, equipment leasing data, commercial lending leads, lease buyout leads, B2B equipment loans, exclusive UCC data">
+  
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Tomcat Capex Data Terminal",
+    "description": "Premium platform for commercial equipment finance brokers to acquire exclusive, high-intent UCC filings and maturing equipment lease leads.",
+    "publisher": {
+      "@type": "Organization",
+      "name": "Tomcat Leads",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://tomcat-capex.vercel.app/logo.png"
+      }
+    },
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": "https://tomcat-capex.vercel.app/?q={search_term_string}",
+      "query-input": "required name=search_term_string"
+    }
+  }
+  </script>
+  
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    "name": "Exclusive Equipment Finance Lead",
+    "description": "Real-time, enriched UCC equipment filing lead with lease maturity tracking and captive lender intelligence.",
+    "category": "B2B Lead Generation",
+    "offers": {
+      "@type": "AggregateOffer",
+      "priceCurrency": "USD",
+      "lowPrice": "45.00",
+      "highPrice": "150.00",
+      "offerCount": "100"
+    }
+  }
+  </script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tomcat Capex — Broker Portal</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+:root{
+  --bg:#1a1d24;--surface:rgba(30,35,48,.9);--surface2:rgba(38,44,60,.92);--border:rgba(255,255,255,.09);
+  --accent:#d4a017;--accent2:#f5c542;--gold:#d4a017;--gold2:#f5c542;
+  --hot:#f87171;--warm:#fbbf24;--cold:#34d399;
+  --text:#f0f4ff;--muted:#8892a4;--card:#1a2236;
+  --shadow-sm:0 2px 8px rgba(0,0,0,.3);
+  --shadow-md:0 8px 32px rgba(0,0,0,.4),0 2px 8px rgba(0,0,0,.2);
+  --shadow-lg:0 20px 60px rgba(0,0,0,.5),0 4px 16px rgba(0,0,0,.3);
+  --shadow-gold:0 8px 32px rgba(212,160,23,.25),0 2px 8px rgba(212,160,23,.15);
+  --glow-hot:0 0 20px rgba(248,113,113,.3);
+  --glow-gold:0 0 30px rgba(212,160,23,.2);
+}
+body{font-family:'Inter',sans-serif;background:var(--bg);color:var(--text);min-height:100vh;
+  background-image:
+    radial-gradient(ellipse 80% 50% at 20% -10%,rgba(212,160,23,.07) 0%,transparent 60%),
+    radial-gradient(ellipse 60% 40% at 80% 10%,rgba(248,113,113,.05) 0%,transparent 50%),
+    radial-gradient(ellipse 50% 60% at 50% 100%,rgba(52,211,153,.04) 0%,transparent 60%);
+  background-attachment:fixed}
+.stats-grid{perspective:1200px}
+#login-screen{display:flex;align-items:center;justify-content:center;min-height:100vh;
+  background:radial-gradient(ellipse at 50% 0%,#1e2a4a 0%,#13171f 70%)}
+.login-card{background:var(--surface);border:1px solid var(--border);border-radius:16px;
+  padding:40px;width:360px;box-shadow:var(--shadow-lg)}
+.logo{text-align:center;margin-bottom:32px}
+.logo h1{font-size:28px;font-weight:800;letter-spacing:5px;
+  background:linear-gradient(135deg,#e8c547,#d4a017,#c49000);
+  -webkit-background-clip:text;-webkit-text-fill-color:transparent;
+  filter:drop-shadow(0 0 12px rgba(212,160,23,.2))}
+.logo p{color:var(--muted);font-size:12px;margin-top:4px;letter-spacing:1px}
+.field{margin-bottom:16px}
+.field label{display:block;font-size:12px;font-weight:500;color:var(--muted);margin-bottom:6px;letter-spacing:.5px;text-transform:uppercase}
+.field input{width:100%;background:#161b28;border:1px solid var(--border);border-radius:8px;
+  padding:10px 14px;color:var(--text);font-size:14px;outline:none;transition:.2s}
+.field input:focus{border-color:var(--accent);box-shadow:0 0 0 3px rgba(212,160,23,.15)}
+.btn{width:100%;padding:12px;border:none;border-radius:8px;font-size:14px;font-weight:600;
+  cursor:pointer;transition:.2s;letter-spacing:.5px}
+.btn-primary{background:linear-gradient(135deg,var(--gold),var(--gold2));color:#000}
+.btn-primary:hover{opacity:.9;transform:translateY(-1px)}
+.err{color:var(--hot);font-size:13px;margin-top:12px;text-align:center}
+#app{display:flex;flex-direction:column;min-height:100vh}
+header{background:linear-gradient(180deg,rgba(10,14,24,.97),rgba(13,17,27,.92));backdrop-filter:blur(24px);-webkit-backdrop-filter:blur(24px);
+  border-bottom:1px solid transparent;padding:0 32px;height:72px;display:flex;align-items:center;
+  justify-content:space-between;position:sticky;top:0;z-index:100;
+  box-shadow:0 1px 0 rgba(212,160,23,.2),0 4px 32px rgba(0,0,0,.5),inset 0 1px 0 rgba(255,255,255,.04)}
+.header-logo{display:flex;align-items:center;gap:14px}
+.header-logo .brand-mark{font-size:26px;font-weight:900;letter-spacing:6px;font-family:'Space Grotesk',sans-serif;
+  background:linear-gradient(135deg,#ffe566 0%,#d4a017 40%,#ff9500 80%,#ffe566 100%);
+  background-size:200% auto;
+  -webkit-background-clip:text;-webkit-text-fill-color:transparent;
+  animation:shimmerText 4s linear infinite;
+  filter:drop-shadow(0 0 20px rgba(212,160,23,.4));line-height:1}
+@keyframes shimmerText{0%{background-position:0%}100%{background-position:200%}}
+.header-logo .brand-sub{font-size:10px;font-weight:600;letter-spacing:4px;color:rgba(212,160,23,.45);text-transform:uppercase;margin-top:3px}
+.header-right{display:flex;align-items:center;gap:16px}
+.broker-badge{background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.08);
+  border-radius:20px;padding:5px 14px;font-size:11px;font-weight:600;color:var(--muted);letter-spacing:.3px}
+.btn-sm{padding:6px 14px;font-size:12px;border-radius:6px;border:1px solid rgba(255,255,255,.1);
+  background:rgba(255,255,255,.04);color:var(--muted);cursor:pointer;transition:.2s}
+.btn-sm:hover{border-color:var(--accent);color:var(--accent);background:rgba(212,160,23,.08)}
+main{flex:1;padding:24px;max-width:1400px;margin:0 auto;width:100%}
+.stats-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:16px;margin-bottom:24px}
+.stat-card{background:var(--surface);border:1px solid var(--border);border-radius:16px;padding:20px;
+  box-shadow:var(--shadow-md);transition:transform .3s cubic-bezier(.4,0,.2,1),box-shadow .3s ease,border-color .3s;
+  backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);position:relative;overflow:hidden}
+.stat-card::before{content:'';position:absolute;inset:0;border-radius:16px;
+  background:linear-gradient(135deg,rgba(255,255,255,.04) 0%,transparent 60%);pointer-events:none}
+.stat-card:hover{transform:translateY(-5px) scale(1.02);box-shadow:var(--shadow-lg),0 0 40px rgba(212,160,23,.1);
+  border-color:rgba(212,160,23,.25)}
+.stat-label{font-size:10px;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:1px}
+.stat-value{font-size:30px;font-weight:800;margin-top:6px;font-family:'Space Grotesk',sans-serif;letter-spacing:-.5px}
+.stat-value.hot{color:var(--hot);text-shadow:0 0 20px rgba(248,113,113,.3)}
+.stat-value.warm{color:var(--warm);text-shadow:0 0 20px rgba(251,191,36,.25)}
+.stat-value.cold{color:var(--cold);text-shadow:0 0 20px rgba(52,211,153,.2)}
+.stat-value.accent{color:var(--gold);text-shadow:0 0 20px rgba(212,160,23,.3)}
+.stat-value.gold{color:var(--gold);text-shadow:0 0 20px rgba(212,160,23,.3)}
+.toolbar{display:flex;gap:12px;margin-bottom:16px;flex-wrap:wrap;align-items:center}
+.search-box{flex:1;min-width:200px;background:var(--surface);border:1px solid var(--border);
+  border-radius:8px;padding:8px 14px;color:var(--text);font-size:14px;outline:none}
+.search-box:focus{border-color:var(--accent)}
+select.filter{background:var(--surface);border:1px solid var(--border);border-radius:8px;
+  padding:8px 14px;color:var(--text);font-size:13px;cursor:pointer}
+.leads-table{background:var(--surface);border:1px solid var(--border);border-radius:16px;overflow:hidden;
+  box-shadow:var(--shadow-md);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px)}
+table{width:100%;border-collapse:collapse}
+th{padding:12px 18px;text-align:left;font-size:10px;font-weight:700;color:var(--muted);
+  text-transform:uppercase;letter-spacing:1px;background:rgba(255,255,255,.03);border-bottom:1px solid rgba(255,255,255,.06)}
+td{padding:14px 18px;border-bottom:1px solid rgba(255,255,255,.04);font-size:13px;vertical-align:middle;transition:background .15s}
+tr:last-child td{border-bottom:none}
+tr:hover td{background:rgba(212,160,23,.05)}
+tr:hover td:first-child{box-shadow:inset 3px 0 0 rgba(212,160,23,.6)}
+.badge{display:inline-block;padding:3px 10px;border-radius:20px;font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.8px}
+.badge.hot{background:rgba(248,113,113,.15);color:#f87171;border:1px solid rgba(248,113,113,.3);box-shadow:0 0 12px rgba(248,113,113,.15)}
+.badge.warm{background:rgba(251,191,36,.12);color:#fbbf24;border:1px solid rgba(251,191,36,.3)}
+.badge.cold{background:rgba(52,211,153,.12);color:#34d399;border:1px solid rgba(52,211,153,.25)}
+.badge.claimed{background:rgba(167,139,250,.15);color:#a78bfa;border:1px solid rgba(167,139,250,.3)}
+.company-name{font-weight:700;color:var(--text);font-size:13px;letter-spacing:-.1px}
+.sub-text{font-size:11px;color:var(--muted);margin-top:2px;line-height:1.5}
+.days-badge{font-size:13px;font-weight:800;letter-spacing:-.3px}
+.action-btn{padding:5px 14px;border-radius:8px;font-size:11px;font-weight:700;
+  border:none;cursor:pointer;transition:.2s;letter-spacing:.3px}
+.action-btn.claim{background:linear-gradient(135deg,#d4a017,#f5c542,#d4a017);background-size:200% auto;
+  color:#000;box-shadow:0 4px 16px rgba(212,160,23,.35);animation:shimmerBtn 3s linear infinite}
+@keyframes shimmerBtn{0%{background-position:0%}100%{background-position:200%}}
+.action-btn.claimed{background:rgba(167,139,250,.15);color:#a78bfa;border:1px solid rgba(167,139,250,.3)}
+.action-btn:hover{transform:translateY(-2px);box-shadow:0 8px 24px rgba(212,160,23,.4)}
+.pagination{display:flex;gap:8px;justify-content:center;margin-top:20px;align-items:center}
+.page-btn{padding:6px 14px;background:var(--surface);border:1px solid var(--border);
+  border-radius:6px;color:var(--text);cursor:pointer;font-size:13px;transition:.2s}
+.page-btn:hover,.page-btn.active{border-color:var(--gold);color:var(--gold)}
+.page-info{color:var(--muted);font-size:13px}
+.loading{text-align:center;padding:60px;color:var(--muted)}
+.spinner{display:inline-block;width:24px;height:24px;border:2px solid var(--border);
+  border-top-color:var(--accent);border-radius:50%;animation:spin .7s linear infinite;margin-bottom:12px}
+@keyframes spin{to{transform:rotate(360deg)}}
+.empty{text-align:center;padding:60px;color:var(--muted)}
+.dot{display:inline-block;width:8px;height:8px;border-radius:50%;margin-right:6px}
+.dot.hot{background:var(--hot)} .dot.warm{background:var(--warm)} .dot.cold{background:var(--cold)}
+.signal-pill{display:inline-flex;align-items:center;gap:4px;padding:2px 8px;border-radius:12px;font-size:10px;font-weight:600;margin-right:4px;letter-spacing:.3px}
+.signal-pill.ucc{background:rgba(212,160,23,.12);color:var(--gold2);border:1px solid rgba(212,160,23,.25)}
+.signal-pill.news{background:rgba(245,158,11,.12);color:#fbbf24;border:1px solid rgba(245,158,11,.25)}
+.signal-pill.hiring{background:rgba(16,185,129,.12);color:#34d399;border:1px solid rgba(16,185,129,.25)}
+.signal-pill.prime{background:rgba(124,58,237,.15);color:#c4b5fd;border:1px solid rgba(124,58,237,.3)}
+.signal-pill.permit{background:rgba(251,146,60,.12);color:#fb923c;border:1px solid rgba(251,146,60,.28)}
+.signal-pill.contract{background:rgba(96,165,250,.12);color:#60a5fa;border:1px solid rgba(96,165,250,.28)}
+.signal-pill.funding{background:rgba(168,85,247,.12);color:#a855f7;border:1px solid rgba(168,85,247,.28)}
+.signal-pill.fleet{background:rgba(45,212,191,.12);color:#2dd4bf;border:1px solid rgba(45,212,191,.28)}
+/* Deal Score */
+.score-ring{display:inline-flex;align-items:center;justify-content:center;width:40px;height:40px;
+  border-radius:50%;font-size:12px;font-weight:900;position:relative;font-family:'Space Grotesk',sans-serif;letter-spacing:-.5px}
+.score-ring::before{content:'';position:absolute;inset:-1px;border-radius:50%;border:2.5px solid rgba(255,255,255,.1)}
+.score-ring.s-hot{color:#f87171}
+.score-ring.s-hot::before{border-color:#f87171;box-shadow:0 0 16px rgba(248,113,113,.5),inset 0 0 12px rgba(248,113,113,.1);animation:pulseRing 2s ease-in-out infinite}
+@keyframes pulseRing{0%,100%{box-shadow:0 0 16px rgba(248,113,113,.5),inset 0 0 12px rgba(248,113,113,.1)}50%{box-shadow:0 0 28px rgba(248,113,113,.8),inset 0 0 16px rgba(248,113,113,.2)}}
+.score-ring.s-warm{color:#fbbf24}
+.score-ring.s-warm::before{border-color:#fbbf24;box-shadow:0 0 12px rgba(251,191,36,.4)}
+.score-ring.s-med{color:var(--muted)}
+.score-ring.s-med::before{border-color:rgba(255,255,255,.12)}
+/* Buy Lead Button */
+.buy-lead-wrap{padding:16px 24px;border-top:1px solid var(--border);background:linear-gradient(180deg,var(--surface2),var(--surface));position:sticky;bottom:0}
+.buy-lead-btn{width:100%;padding:14px 20px;border:none;border-radius:10px;font-size:14px;font-weight:700;
+  cursor:pointer;transition:all .25s;letter-spacing:.5px;display:flex;align-items:center;justify-content:center;gap:10px;
+  position:relative;overflow:hidden}
+.buy-lead-btn.tier-platinum{background:linear-gradient(135deg,#e8c547,#d4a017,#c49000);color:#000;
+  box-shadow:0 4px 20px rgba(212,160,23,.4),0 0 0 1px rgba(232,197,71,.3)}
+.buy-lead-btn.tier-platinum::after{content:'';position:absolute;top:-50%;left:-50%;width:200%;height:200%;
+  background:linear-gradient(90deg,transparent,rgba(255,255,255,.15),transparent);
+  animation:shimmer 3s infinite;transform:rotate(25deg)}
+@keyframes shimmer{0%{transform:translateX(-100%) rotate(25deg)}100%{transform:translateX(100%) rotate(25deg)}}
+.buy-lead-btn.tier-gold{background:linear-gradient(135deg,#fbbf24,#f59e0b);color:#000;
+  box-shadow:0 4px 16px rgba(251,191,36,.3)}
+.buy-lead-btn.tier-silver{background:linear-gradient(135deg,#94a3b8,#64748b);color:#fff;
+  box-shadow:0 4px 12px rgba(148,163,184,.2)}
+.buy-lead-btn.tier-bronze{background:linear-gradient(135deg,#a78bfa,#7c3aed);color:#fff;
+  box-shadow:0 4px 12px rgba(124,58,237,.2)}
+.buy-lead-btn:hover{transform:translateY(-2px);filter:brightness(1.08)}
+.buy-lead-btn:active{transform:translateY(0)}
+.buy-lead-btn.purchased{background:linear-gradient(135deg,#059669,#10b981);color:#fff;cursor:default;pointer-events:none}
+.tier-badge{font-size:10px;font-weight:800;letter-spacing:1.5px;text-transform:uppercase;
+  padding:2px 8px;border-radius:6px;background:rgba(0,0,0,.15)}
+.buy-price{font-size:22px;font-weight:800;letter-spacing:-.5px}
+.buy-exclusive{font-size:10px;color:rgba(0,0,0,.5);text-align:center;margin-top:8px;letter-spacing:.5px}
+/* Detail panel */
+#detail-panel{position:fixed;right:0;top:0;height:100vh;width:440px;background:var(--surface);
+  border-left:1px solid var(--border);z-index:200;overflow-y:auto;transform:translateX(100%);
+  transition:transform .3s cubic-bezier(.4,0,.2,1);display:flex;flex-direction:column;
+  box-shadow:-12px 0 48px rgba(0,0,0,.35)}
+#detail-panel.open{transform:translateX(0)}
+.detail-header{padding:20px 24px;border-bottom:1px solid var(--border);display:flex;justify-content:space-between;align-items:flex-start;background:var(--surface2)}
+.detail-title{font-size:15px;font-weight:700;color:var(--text);line-height:1.3}
+.detail-sub{font-size:11px;color:var(--muted);margin-top:3px}
+.detail-close{background:none;border:none;color:var(--muted);font-size:20px;cursor:pointer;padding:0 4px;line-height:1}
+.detail-close:hover{color:var(--text)}
+.detail-body{padding:20px 24px;flex:1}
+.intel-section{margin-bottom:20px}
+/* ── Intelligence CSS ───────────────────── */
+.mi-skeleton{height:52px;border-radius:8px;background:linear-gradient(90deg,rgba(255,255,255,.04) 0%,rgba(255,255,255,.08) 50%,rgba(255,255,255,.04) 100%);background-size:200% 100%;animation:shimmer 1.4s infinite;margin-bottom:8px}
+@keyframes shimmer{0%{background-position:200% 0}100%{background-position:-200% 0}}
+.mi-tabs{display:flex;gap:6px;margin-bottom:10px}
+.mi-tab{font-size:10px;font-weight:700;padding:4px 12px;border-radius:6px;cursor:pointer;border:1px solid rgba(255,255,255,.1);color:var(--muted);transition:all .2s}
+.mi-tab.active{background:rgba(212,160,23,.15);border-color:rgba(212,160,23,.4);color:var(--gold)}
+.mi-source-bar{display:flex;flex-wrap:wrap;gap:4px;margin-bottom:8px}
+.mi-source-badge{font-size:9px;font-weight:700;padding:2px 7px;border-radius:5px;letter-spacing:.3px}
+.mi-source-badge.gdelt{background:#7c3aed22;color:#a78bfa;border:1px solid #7c3aed40}
+.mi-source-badge.gnews{background:#1a73e822;color:#60a5fa;border:1px solid #1a73e840}
+.mi-source-badge.reddit{background:#ff450022;color:#ff8c60;border:1px solid #ff450040}
+.mi-source-badge.bing{background:#00897b22;color:#4db6ac;border:1px solid #00897b40}
+.mi-article{padding:9px 11px;border-radius:8px;margin-bottom:7px;border:1px solid rgba(255,255,255,.07);background:rgba(255,255,255,.02)}
+.mi-sentiment{display:inline-flex;align-items:center;gap:6px;font-size:11px;font-weight:700;padding:3px 10px;border-radius:8px;margin-bottom:10px}
+.mi-empty{font-size:12px;color:var(--muted);text-align:center;padding:20px 0}
+.sh-timeline{position:relative;padding-left:0;margin-top:4px}
+.sh-event{display:flex;align-items:flex-start;gap:10px;margin-bottom:12px;position:relative}
+.sh-dot{width:28px;height:28px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:10px;font-weight:900;flex-shrink:0;border:2px solid;z-index:1}
+.sh-line{position:absolute;left:13px;top:28px;width:2px;bottom:-12px;background:rgba(255,255,255,.08)}
+.sh-event:last-child .sh-line{display:none}
+.sh-arrow{display:flex;align-items:center;gap:6px;flex-wrap:wrap;margin-bottom:10px}
+.sh-arrow-node{font-size:10px;font-weight:700;padding:3px 9px;border-radius:8px;border:1px solid}
+.sh-arrow-sep{color:var(--muted);font-size:12px}
+.sh-risk-badge{display:inline-flex;align-items:center;gap:6px;font-size:10px;font-weight:800;padding:3px 10px;border-radius:6px;letter-spacing:.5px;text-transform:uppercase}
+.sh-signal{display:flex;align-items:flex-start;gap:8px;padding:8px 10px;border-radius:8px;margin-bottom:6px;border:1px solid}
+.sh-signal-dot{width:7px;height:7px;border-radius:50%;flex-shrink:0;margin-top:3px}
+.sh-signal-label{font-size:11px;font-weight:700;color:var(--text);margin-bottom:2px}
+.sh-signal-detail{font-size:10px;color:var(--muted);line-height:1.5}
+.cr-badge{font-size:9px;font-weight:800;padding:2px 7px;border-radius:5px;letter-spacing:.3px;text-transform:uppercase;display:inline-block}
+.cr-badge.court{background:#7c3aed22;color:#a78bfa;border:1px solid #7c3aed40}
+.cr-badge.cfpb{background:#0ea5e922;color:#38bdf8;border:1px solid #0ea5e940}
+.cr-badge.epa{background:#16a34a22;color:#4ade80;border:1px solid #16a34a40}
+.cr-badge.osha{background:#ea580c22;color:#fb923c;border:1px solid #ea580c40}
+.cr-card{padding:10px 12px;border-radius:8px;margin-bottom:8px;border:1px solid var(--border);background:rgba(255,255,255,.02)}
+.cr-card.sev-high{border-color:rgba(239,68,68,.3);background:rgba(239,68,68,.04)}
+.cr-card.sev-medium{border-color:rgba(251,191,36,.2);background:rgba(251,191,36,.03)}
+.cr-headline{font-size:11px;font-weight:700;color:var(--text);margin:5px 0 3px}
+.cr-detail{font-size:10px;color:var(--muted);line-height:1.5}
+.cr-link{font-size:10px;color:var(--gold);text-decoration:none;font-weight:600}
+.cr-link:hover{text-decoration:underline}
+.intel-label{font-size:10px;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:1px;margin-bottom:10px}
+.intel-card{background:var(--surface2);border:1px solid var(--border);border-radius:10px;padding:14px;
+  box-shadow:var(--shadow-sm)}
+.intel-row{display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:8px;font-size:13px}
+.intel-row:last-child{margin-bottom:0}
+.intel-key{color:var(--muted);flex-shrink:0;margin-right:12px;font-size:12px}
+.intel-val{color:var(--text);text-align:right;font-weight:500}
+.call-script{background:rgba(212,160,23,.06);border:1px solid rgba(212,160,23,.2);border-radius:10px;
+  padding:14px;font-size:13px;color:var(--text);line-height:1.6;font-style:italic}
+.urgency-bar{height:6px;border-radius:3px;margin-bottom:16px;background:var(--border)}
+.urgency-fill{height:100%;border-radius:3px;transition:width .5s}
+.detail-actions{display:flex;gap:8px;padding:16px 24px;border-top:1px solid var(--border);background:var(--surface)}
+.detail-action-btn{flex:1;padding:10px;border-radius:8px;font-size:12px;font-weight:600;border:none;cursor:pointer;transition:.2s;text-align:center}
+.detail-action-btn.primary{background:linear-gradient(135deg,var(--gold),var(--gold2));color:#000;
+  box-shadow:0 4px 16px rgba(212,160,23,.25)}
+.detail-action-btn.secondary{background:var(--surface2);border:1px solid var(--border);color:var(--muted)}
+.detail-action-btn:hover{opacity:.9;transform:translateY(-1px)}
+tr.selected td{background:rgba(212,160,23,.06)!important}
+.page-btn{box-shadow:var(--shadow-sm)}
+.page-btn:hover,.page-btn.active{box-shadow:0 4px 12px rgba(212,160,23,.15)}
+/* Custom SVG icons */
+.ic{display:inline-block;width:14px;height:14px;vertical-align:-2px;margin-right:5px;background-size:contain;background-repeat:no-repeat}
+.ic-pipeline{background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23d4a017' stroke-width='2'%3E%3Ccircle cx='12' cy='12' r='10'/%3E%3Cpath d='M12 6v12M8 10l4-4 4 4M8 14h8'/%3E%3C/svg%3E")}
+.ic-clock{background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23f87171' stroke-width='2'%3E%3Ccircle cx='12' cy='12' r='10'/%3E%3Cpath d='M12 6v6l4 2'/%3E%3C/svg%3E")}
+.ic-chart{background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%2334d399' stroke-width='2'%3E%3Cpath d='M3 20l5-8 4 4 9-12'/%3E%3Cpath d='M17 4h4v4'/%3E%3C/svg%3E")}
+.ic-flame{background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23f87171' stroke-width='2'%3E%3Cpath d='M12 2c0 6-6 8-6 14a6 6 0 0012 0c0-6-6-8-6-14z'/%3E%3C/svg%3E")}
+.ic-gauge{background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23fbbf24' stroke-width='2'%3E%3Cpath d='M12 22A10 10 0 012 12h20a10 10 0 01-10 10z'/%3E%3Cpath d='M12 12l-4-6'/%3E%3C/svg%3E")}
+.ic-signal{background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23fbbf24' stroke-width='2'%3E%3Cpath d='M12 20V10'/%3E%3Cpath d='M18 20V4'/%3E%3Cpath d='M6 20v-4'/%3E%3C/svg%3E")}
+.ic-layers{background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23a78bfa' stroke-width='2'%3E%3Cpath d='M12 2L2 7l10 5 10-5-10-5z'/%3E%3Cpath d='M2 17l10 5 10-5'/%3E%3Cpath d='M2 12l10 5 10-5'/%3E%3C/svg%3E")}
+.ic-users{background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%2334d399' stroke-width='2'%3E%3Cpath d='M16 21v-2a4 4 0 00-4-4H6a4 4 0 00-4 4v2'/%3E%3Ccircle cx='9' cy='7' r='4'/%3E%3Cpath d='M22 21v-2a4 4 0 00-3-3.87M16 3.13a4 4 0 010 7.75'/%3E%3C/svg%3E")}
+.ic-briefcase{background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23d4a017' stroke-width='2'%3E%3Crect x='2' y='7' width='20' height='14' rx='2'/%3E%3Cpath d='M16 7V5a2 2 0 00-2-2h-4a2 2 0 00-2 2v2'/%3E%3C/svg%3E")}
+.ic-phone{background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%239ca3b8' stroke-width='2'%3E%3Cpath d='M22 16.92v3a2 2 0 01-2.18 2A19.86 19.86 0 013.09 5.18 2 2 0 015.11 3h3a2 2 0 012 1.72c.13.81.36 1.6.68 2.34a2 2 0 01-.45 2.11L8.91 10.6a16 16 0 006.49 6.49l1.43-1.43a2 2 0 012.11-.45c.74.32 1.53.55 2.34.68a2 2 0 011.72 2z'/%3E%3C/svg%3E")}
+.ic-doc{background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%239ca3b8' stroke-width='2'%3E%3Cpath d='M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8l-6-6z'/%3E%3Cpath d='M14 2v6h6M16 13H8M16 17H8M10 9H8'/%3E%3C/svg%3E")}
+.ic-building{background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%239ca3b8' stroke-width='2'%3E%3Crect x='4' y='2' width='16' height='20' rx='2'/%3E%3Cpath d='M9 22V12h6v10M8 6h.01M16 6h.01M12 6h.01M8 10h.01M16 10h.01M12 10h.01'/%3E%3C/svg%3E")}
+.ic-bolt{background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%239ca3b8' stroke-width='2'%3E%3Cpath d='M13 2L3 14h9l-1 8 10-12h-9l1-8z'/%3E%3C/svg%3E")}
+.ic-radar{background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%239ca3b8' stroke-width='2'%3E%3Ccircle cx='12' cy='12' r='10'/%3E%3Ccircle cx='12' cy='12' r='6'/%3E%3Ccircle cx='12' cy='12' r='2'/%3E%3Cpath d='M12 2v4M12 18v4'/%3E%3C/svg%3E")}
+.ic-dot-r{width:8px;height:8px;border-radius:50%;display:inline-block;margin-right:5px;vertical-align:0}
+.ic-dot-r.r{background:#f87171}.ic-dot-r.y{background:#fbbf24}.ic-dot-r.g{background:#34d399}
+</style>
+</head>
+<body>
+
+<!-- PORTAL APP — No login required -->
+<div id="app">
+  <header>
+    <div class="header-logo">
+      <div>
+        <div class="brand-mark">TOMCAT CAPEX</div>
+        <div class="brand-sub">Revenue Command Center</div>
+      </div>
+    </div>
+    <div class="header-right">
+      <div class="broker-badge" id="broker-label">Equipment Finance Intelligence</div>
+    </div>
+  </header>
+
+  <main>
+    <div class="stats-grid" id="stats-grid">
+      <div class="stat-card" style="border-color:rgba(212,160,23,.4);background:linear-gradient(135deg,rgba(212,160,23,.1),rgba(212,160,23,.02));box-shadow:var(--shadow-gold)">
+        <div class="stat-label"><span class="ic ic-pipeline"></span>Pipeline Value</div>
+        <div class="stat-value gold" id="s-pipeline-val" style="font-size:24px">—</div>
+        <div style="font-size:10px;color:var(--muted);margin-top:4px" id="s-pipeline-sub">Filtered leads × avg deal size</div>
+      </div>
+      <div class="stat-card"><div class="stat-label"><span class="ic ic-clock"></span>Maturing This Week</div><div class="stat-value hot" id="s-week">—</div></div>
+      <div class="stat-card" style="border-color:rgba(52,211,153,.3);background:linear-gradient(135deg,rgba(52,211,153,.06),transparent)">
+        <div class="stat-label"><span class="ic ic-chart"></span>GM</div>
+        <div class="stat-value" id="s-gm" style="color:#34d399;font-size:24px">—</div>
+        <div style="font-size:10px;color:var(--muted);margin-top:4px" id="s-gm-sub">Based on 8 pts avg GM</div>
+      </div>
+      <div class="stat-card"><div class="stat-label"><span class="ic ic-flame"></span>Hot / Lapsed</div><div class="stat-value hot" id="s-hot">—</div></div>
+      <div class="stat-card"><div class="stat-label"><span class="ic ic-gauge"></span>Warm (≤90d)</div><div class="stat-value warm" id="s-warm">—</div></div>
+      <div class="stat-card" id="s-expansion-card" onclick="toggleSignalFilter('expansion')" style="cursor:pointer;border-color:rgba(245,158,11,.3);transition:.2s" title="Click to filter expansion leads">
+        <div class="stat-label"><span class="ic ic-signal"></span>Expansion Signals</div>
+        <div style="display:flex;justify-content:space-between;align-items:flex-end;margin-bottom:4px">
+            <div class="stat-value warm" id="s-expansion" style="line-height:1">—</div>
+            <div style="text-align:right">
+                <div style="font-size:16px;font-weight:900;color:var(--text);letter-spacing:-.5px" id="s-osint">—</div>
+                <div style="font-size:9px;color:var(--muted);text-transform:uppercase;letter-spacing:1px;font-weight:700">OSINT Sweeps</div>
+            </div>
+        </div>
+        <div style="font-size:10px;color:var(--muted)">Filtered from live intelligence engine</div>
+      </div>
+      <div class="stat-card" id="s-multifiler-card" onclick="toggleSignalFilter('multifiler')" style="cursor:pointer;border-color:rgba(167,139,250,.3);transition:.2s" title="Click to filter serial borrowers">
+        <div class="stat-label"><span class="ic ic-layers"></span>Multi-Filer</div><div class="stat-value" id="s-multi" style="color:#a78bfa">—</div>
+        <div style="font-size:10px;color:var(--muted);margin-top:4px">3+ active filings</div>
+      </div>
+      <div class="stat-card" style="border-color:rgba(34,211,153,.3);background:linear-gradient(135deg,rgba(34,211,153,.06),transparent)">
+        <div class="stat-label"><span class="ic ic-bolt"></span>Uncontested</div>
+        <div class="stat-value" id="s-uncontested" style="color:#34d399">—</div>
+        <div style="font-size:10px;color:var(--muted);margin-top:4px">Lapsed · no lender protection</div>
+      </div>
+      <div class="stat-card"><div class="stat-label">My Pipeline</div><div class="stat-value gold" id="s-pipeline">—</div></div>
+    </div>
+
+    <!-- Expiry Timeline Chart -->
+    <div id="chart-wrap" style="background:var(--surface);border:1px solid var(--border);border-radius:14px;
+      padding:20px 24px 12px;margin-bottom:20px;box-shadow:var(--shadow-md);position:relative">
+      <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:14px">
+        <div>
+          <span style="font-size:13px;font-weight:700;color:var(--text)">UCC Expiry Timeline</span>
+          <span style="font-size:11px;color:var(--muted);margin-left:8px">Next 13 weeks · deal flow forecast</span>
+        </div>
+        <div style="display:flex;gap:14px;align-items:center">
+          <span style="display:flex;align-items:center;gap:5px;font-size:10px;color:var(--gold2)">
+            <span style="width:10px;height:10px;border-radius:2px;background:var(--gold);display:inline-block"></span>Total Expiring
+          </span>
+          <span style="display:flex;align-items:center;gap:5px;font-size:10px;color:#34d399">
+            <span style="width:10px;height:10px;border-radius:2px;background:#34d399;display:inline-block"></span>Phone Verified
+          </span>
+        </div>
+      </div>
+      <canvas id="expiry-chart" height="160" style="width:100%;display:block"></canvas>
+      <div id="chart-tooltip" style="display:none;position:absolute;background:rgba(37,42,58,.95);border:1px solid var(--border);
+        border-radius:8px;padding:8px 12px;font-size:12px;color:var(--text);pointer-events:none;
+        box-shadow:var(--shadow-md);z-index:10;backdrop-filter:blur(8px)"></div>
+    </div>
+
+    <!-- Revenue Heatmap -->
+    <div id="heatmap-wrap" style="background:var(--surface);border:1px solid var(--border);border-radius:14px;
+      padding:20px 24px 16px;margin-bottom:20px;box-shadow:var(--shadow-md);position:relative">
+      <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:14px">
+        <div>
+          <span style="font-size:13px;font-weight:700;color:var(--text)"><span class="ic ic-radar"></span>Revenue Heatmap</span>
+          <span style="font-size:11px;color:var(--muted);margin-left:8px">Pipeline concentration by city</span>
+        </div>
+        <div style="display:flex;gap:14px;align-items:center">
+          <span style="display:flex;align-items:center;gap:5px;font-size:10px;color:var(--hot)">
+            <span style="width:10px;height:10px;border-radius:50%;background:var(--hot);display:inline-block"></span>Hot Leads
+          </span>
+          <span style="display:flex;align-items:center;gap:5px;font-size:10px;color:var(--gold2)">
+            <span style="width:10px;height:10px;border-radius:50%;background:var(--gold);display:inline-block;opacity:.6"></span>Pipeline $
+          </span>
+        </div>
+      </div>
+      <canvas id="heatmap-canvas" height="180" style="width:100%;display:block"></canvas>
+    </div>
+
+    <!-- Signals Legend -->
+    <div style="background:var(--surface);border:1px solid var(--border);border-radius:14px;padding:20px;margin-bottom:20px;box-shadow:var(--shadow-md);position:relative;overflow:hidden;">
+      <div style="position:absolute;top:0;right:0;width:300px;height:300px;background:radial-gradient(circle, rgba(212,160,23,0.05) 0%, transparent 70%);pointer-events:none;"></div>
+      <div style="font-size:13px;font-weight:800;color:var(--text);margin-bottom:16px;display:flex;align-items:center;gap:8px;text-transform:uppercase;letter-spacing:1px;">
+        <span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:var(--gold);box-shadow:0 0 12px var(--gold);animation:pillPulse 2s infinite;"></span>
+        Capex Intelligence Signals Matrix
+      </div>
+      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:12px;">
+        <div style="background:rgba(212,160,23,.08);border:1px solid rgba(212,160,23,.2);border-radius:10px;padding:14px;display:flex;gap:14px;align-items:center;transition:.2s;" onmouseover="this.style.transform='translateY(-2px)';this.style.borderColor='rgba(212,160,23,.5)'" onmouseout="this.style.transform='none';this.style.borderColor='rgba(212,160,23,.2)'">
+          <div style="background:linear-gradient(135deg,#d4a017,#b8860b);color:#000;font-weight:900;font-size:12px;padding:6px 10px;border-radius:8px;letter-spacing:1px;box-shadow:0 4px 12px rgba(212,160,23,.3);">S1_UCC</div>
+          <div><div style="font-size:13px;font-weight:700;color:var(--gold2);margin-bottom:3px;">Verified UCC-1 Lien</div><div style="font-size:11px;color:var(--muted);line-height:1.4;">Base Signal · Equipment Financing Confirmed</div></div>
+        </div>
+        <div style="background:rgba(52,211,153,.08);border:1px solid rgba(52,211,153,.2);border-radius:10px;padding:14px;display:flex;gap:14px;align-items:center;transition:.2s;" onmouseover="this.style.transform='translateY(-2px)';this.style.borderColor='rgba(52,211,153,.5)'" onmouseout="this.style.transform='none';this.style.borderColor='rgba(52,211,153,.2)'">
+          <div style="background:linear-gradient(135deg,#34d399,#059669);color:#000;font-weight:900;font-size:12px;padding:6px 10px;border-radius:8px;letter-spacing:1px;box-shadow:0 4px 12px rgba(52,211,153,.25);">S2_NEWS</div>
+          <div><div style="font-size:13px;font-weight:700;color:#34d399;margin-bottom:3px;">Recent Expansion News</div><div style="font-size:11px;color:var(--muted);line-height:1.4;">Awarded contracts & new facilities via Google News</div></div>
+        </div>
+        <div style="background:rgba(14,165,233,.08);border:1px solid rgba(14,165,233,.2);border-radius:10px;padding:14px;display:flex;gap:14px;align-items:center;transition:.2s;" onmouseover="this.style.transform='translateY(-2px)';this.style.borderColor='rgba(14,165,233,.5)'" onmouseout="this.style.transform='none';this.style.borderColor='rgba(14,165,233,.2)'">
+          <div style="background:linear-gradient(135deg,#38bdf8,#0284c7);color:#000;font-weight:900;font-size:12px;padding:6px 10px;border-radius:8px;letter-spacing:1px;box-shadow:0 4px 12px rgba(14,165,233,.25);">S3_HIRE</div>
+          <div><div style="font-size:13px;font-weight:700;color:#38bdf8;margin-bottom:3px;">Equipment & Fleet Hiring</div><div style="font-size:11px;color:var(--muted);line-height:1.4;">Actively hiring equipment operators, drivers & mechanics</div></div>
+        </div>
+        <div style="background:rgba(167,139,250,.08);border:1px solid rgba(167,139,250,.2);border-radius:10px;padding:14px;display:flex;gap:14px;align-items:center;transition:.2s;" onmouseover="this.style.transform='translateY(-2px)';this.style.borderColor='rgba(167,139,250,.5)'" onmouseout="this.style.transform='none';this.style.borderColor='rgba(167,139,250,.2)'">
+          <div style="background:linear-gradient(135deg,#a78bfa,#7c3aed);color:#000;font-weight:900;font-size:12px;padding:6px 10px;border-radius:8px;letter-spacing:1px;box-shadow:0 4px 12px rgba(167,139,250,.25);">S4_PRIME</div>
+          <div><div style="font-size:13px;font-weight:700;color:#a78bfa;margin-bottom:3px;">Dual-Confirmed Growth</div><div style="font-size:11px;color:var(--muted);line-height:1.4;">Highest intent — Both S2 & S3 signals simultaneously triggered</div></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Toolbar -->
+    <div class="toolbar">
+      <input class="search-box" id="search-input" placeholder="Search company, city, lender..." oninput="debounceSearch()">
+      <select class="filter" id="filter-state" onchange="loadLeads(1)">
+        <option value="all">All States</option>
+        <option value="California">California</option>
+        <option value="Colorado">Colorado</option>
+        <option value="Connecticut">Connecticut</option>
+        <option value="Florida">Florida</option>
+        <option value="Georgia">Georgia</option>
+        <option value="Oregon">Oregon</option>
+      </select>
+      <select class="filter" id="filter-urgency" onchange="loadLeads(1)">
+        <option value="all">All Urgency</option>
+        <option value="hot">🔴 Hot / Lapsed</option>
+        <option value="warm">● Warm (≤90d)</option>
+        <option value="cold">● Cold (>90d)</option>
+      </select>
+      <select class="filter" id="filter-status" onchange="loadLeads(1)">
+        <option value="all">All Leads</option>
+        <option value="unclaimed">Unclaimed Only</option>
+        <option value="claimed">My Claims</option>
+      </select>
+      <button id="expansion-btn" onclick="toggleSignalFilter('expansion')"
+        style="padding:8px 16px;border-radius:8px;font-size:12px;font-weight:700;
+               border:1px solid rgba(245,158,11,.4);background:rgba(245,158,11,.08);
+               color:var(--warm);cursor:pointer;transition:.2s;letter-spacing:.5px;white-space:nowrap">
+        ▲ Expansion Only
+      </button>
+      <button id="tech-btn" onclick="toggleSignalFilter('tech')"
+        style="padding:8px 16px;border-radius:8px;font-size:12px;font-weight:700;
+               border:1px solid rgba(167,139,250,.4);background:rgba(167,139,250,.08);
+               color:#a78bfa;cursor:pointer;transition:.2s;letter-spacing:.5px;white-space:nowrap">
+        ▸ Tech Companies
+      </button>
+      <button id="hiring-btn" onclick="toggleSignalFilter('hiring')"
+        style="padding:8px 16px;border-radius:8px;font-size:12px;font-weight:700;
+               border:1px solid rgba(52,211,153,.4);background:rgba(52,211,153,.08);
+               color:#34d399;cursor:pointer;transition:.2s;letter-spacing:.5px;white-space:nowrap">
+        ▲ Hiring Only
+      </button>
+    </div>
+
+    <!-- Table -->
+    <div class="leads-table">
+      <table>
+        <thead>
+          <tr>
+            <th>Score</th>
+            <th>Company</th>
+            <th>Location</th>
+            <th>Lender</th>
+            <th>Collateral</th>
+            <th>Expires</th>
+            <th>Urgency</th>
+            <th>Action</th>
+          </tr>
+        </thead>
+        <tbody id="leads-body">
+          <tr><td colspan="8" class="loading"><div class="spinner"></div><br>Loading leads...</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="pagination" id="pagination"></div>
+  </main>
+</div>
+
+<!-- LEAD DETAIL PANEL -->
+<div id="detail-panel">
+  <div class="detail-header">
+    <div>
+      <div class="detail-title" id="dp-company">—</div>
+      <div class="detail-sub" id="dp-sub">—</div>
+    </div>
+    <button class="detail-close" onclick="closePanel()">✕</button>
+  </div>
+  <div class="detail-body" id="dp-body"></div>
+  <div class="buy-lead-wrap" id="buy-lead-wrap" style="display:none"></div>
+  <div class="detail-actions">
+    <button class="detail-action-btn primary" id="dp-claim-btn" onclick="panelClaim()">Claim Lead</button>
+    <button class="detail-action-btn secondary" onclick="closePanel()">Close</button>
+  </div>
+</div>
+<div id="detail-overlay" onclick="closePanel()" style="display:none;position:fixed;inset:0;background:rgba(0,0,0,.4);z-index:199"></div>
+
+<script>
+let currentPage = 1;
+let searchTimer = null;
+
+function apiFetch(url, opts={}) {
+  return fetch(url, {...opts, headers: {'Content-Type':'application/json', ...(opts.headers||{})}});
+}
+
+let activeSignalFilter = null; // null, 'expansion', 'tech', 'hiring'
+
+async function loadStats(paramsStr = '') {
+  try {
+    const qs = paramsStr ? `?${paramsStr}` : '';
+    const r = await fetch(`/api/stats${qs}`);
+    const d = await r.json();
+    
+    const pParams = new URLSearchParams(qs);
+    const hasFilter = (pParams.get('urgency') && pParams.get('urgency') !== 'all') || 
+                      (pParams.get('status') && pParams.get('status') !== 'all') || 
+                      (pParams.get('state') && pParams.get('state') !== 'all') || 
+                      (pParams.get('signal') && pParams.get('signal') !== 'all') || 
+                      !!pParams.get('q');
+                      
+    let pipeCount = d.hot || 0;
+    let pipeLabel = "Hot leads";
+    
+    if (pParams.get('urgency') === 'warm') {
+        pipeCount = d.total || 0;
+        pipeLabel = "Warm leads";
+    } else if (pParams.get('urgency') === 'cold') {
+        pipeCount = d.total || 0;
+        pipeLabel = "Cold leads";
+    } else if (hasFilter && pParams.get('urgency') !== 'hot') {
+        pipeCount = d.total || 0;
+        pipeLabel = "Filtered leads";
+    }
+
+    const pipelineVal = pipeCount * 75000;
+    const fmt = pipelineVal >= 1000000 ? '$' + (pipelineVal / 1000000).toFixed(1) + 'M' : '$' + (pipelineVal / 1000).toFixed(0) + 'K';
+    document.getElementById('s-pipeline-val').textContent = fmt;
+    document.getElementById('s-pipeline-sub').textContent = `${pipeLabel} × avg deal size`;
+    
+    document.getElementById('s-week').textContent = (d.expiring_week || 0).toLocaleString();
+    const grossRev = pipelineVal * ((d.avg_gm || 8) / 100);
+    const gmFmt = grossRev >= 1000000 ? '$' + (grossRev / 1000000).toFixed(1) + 'M' : '$' + (grossRev / 1000).toFixed(0) + 'K';
+    document.getElementById('s-gm').textContent = gmFmt;
+    document.getElementById('s-gm-sub').textContent = `Based on ${d.avg_gm || 8} pts avg GM`;
+    document.getElementById('s-hot').textContent = d.hot.toLocaleString();
+    document.getElementById('s-warm').textContent = d.warm.toLocaleString();
+    document.getElementById('s-expansion').textContent = (d.expansion || 0).toLocaleString();
+    document.getElementById('s-osint').textContent = (d.osint_sweeps || 0).toLocaleString();
+    document.getElementById('s-multi').textContent = (d.multi_filer || 0).toLocaleString();
+    document.getElementById('s-uncontested').textContent = (d.uncontested || 0).toLocaleString();
+    const p = d.my_pipeline || {};
+    const total_p = Object.values(p).reduce((a,b)=>a+b,0);
+    document.getElementById('s-pipeline').textContent = total_p;
+  } catch(e) {}
+}
+
+const filterBtnConfig = {
+  expansion: {id: 'expansion-btn', activeColor: 'rgba(245,158,11,.25)', activeBorder: 'var(--warm)',
+    defaultBg: 'rgba(245,158,11,.08)', defaultBorder: 'rgba(245,158,11,.4)', defaultColor: 'var(--warm)'},
+  tech: {id: 'tech-btn', activeColor: 'rgba(167,139,250,.25)', activeBorder: '#a78bfa',
+    defaultBg: 'rgba(167,139,250,.08)', defaultBorder: 'rgba(167,139,250,.4)', defaultColor: '#a78bfa'},
+  hiring: {id: 'hiring-btn', activeColor: 'rgba(52,211,153,.25)', activeBorder: '#34d399',
+    defaultBg: 'rgba(52,211,153,.08)', defaultBorder: 'rgba(52,211,153,.4)', defaultColor: '#34d399'},
+  multifiler: {id: 's-multifiler-card', activeColor: 'rgba(167,139,250,.25)', activeBorder: '#a78bfa',
+    defaultBg: 'var(--surface)', defaultBorder: 'rgba(167,139,250,.3)', defaultColor: '#a78bfa'}
+};
+
+function toggleSignalFilter(type) {
+  // Deactivate all
+  Object.entries(filterBtnConfig).forEach(([key, cfg]) => {
+    const btn = document.getElementById(cfg.id);
+    btn.style.background = cfg.defaultBg;
+    btn.style.borderColor = cfg.defaultBorder;
+    btn.style.color = cfg.defaultColor;
+  });
+
+  if (activeSignalFilter === type) {
+    activeSignalFilter = null; // toggle off
+  } else {
+    activeSignalFilter = type;
+    const cfg = filterBtnConfig[type];
+    const btn = document.getElementById(cfg.id);
+    btn.style.background = cfg.activeColor;
+    btn.style.borderColor = cfg.activeBorder;
+    btn.style.color = '#fff';
+  }
+  if (window.location.pathname === '/purchase-success') {
+    document.body.innerHTML = '<div style="padding:100px;text-align:center;color:#fff;font-family:Inter,sans-serif"><h2>Purchase Successful! 🎉</h2><p style="color:#9ca3b8">You can close this tab and return to the main portal where your lead is now securely unlocked.</p></div>';
+    return;
+  }
+  loadLeads(1);
+}
+
+function debounceSearch() {
+  clearTimeout(searchTimer);
+  searchTimer = setTimeout(() => loadLeads(1), 350);
+}
+
+async function loadLeads(page=1) {
+  currentPage = page;
+  const state   = document.getElementById('filter-state').value;
+  const urgency = document.getElementById('filter-urgency').value;
+  const status  = document.getElementById('filter-status').value;
+  const q       = document.getElementById('search-input').value.trim();
+  const signal  = activeSignalFilter || 'all';
+
+  document.getElementById('leads-body').innerHTML =
+    '<tr><td colspan="8" class="loading"><div class="spinner"></div><br>Loading...</td></tr>';
+
+  const params = new URLSearchParams({page, per_page:50, state, urgency, status, signal});
+  if (q) params.set('q', q);
+
+  try {
+    const r = await fetch(`/api/leads?${params}`);
+    if (!r.ok) throw new Error(`HTTP ${r.status}`);
+    const d = await r.json();
+    renderLeads(d.leads || []);
+    renderPagination(d.page, d.pages, d.total);
+    
+    // Update dashboard visual components with same filters
+    const paramStr = params.toString();
+    loadStats(paramStr);
+    loadExpiryChart(paramStr);
+    loadHeatmap(paramStr);
+  } catch(e) {
+    console.error('loadLeads error:', e);
+    document.getElementById('leads-body').innerHTML =
+      `<tr><td colspan="8" class="empty">Error loading leads: ${e.message}</td></tr>`;
+  }
+}
+
+function renderLeads(leads) {
+  if (!leads.length) {
+    document.getElementById('leads-body').innerHTML =
+      '<tr><td colspan="8" class="empty">No leads match your filters</td></tr>';
+    return;
+  }
+  const leadsData = {};
+  leads.forEach(l => leadsData[l.id] = l);
+  window._leadsData = Object.assign(window._leadsData||{}, leadsData);
+
+  document.getElementById('leads-body').innerHTML = leads.map(lead => {
+    const tier = lead.urgency_tier;
+    const dtl  = lead.days_to_lapse;
+    const daysLabel = dtl === null || dtl === undefined ? '?' :
+                      dtl < 0 ? `⚠️ LAPSED ${Math.abs(dtl)}d` : `${dtl}d left`;
+    const claimed = lead.claim_status;
+    const lender = (lead.secured_party || 'Unknown').substring(0, 40);
+    const collateral = (lead.collateral || '—').substring(0, 40);
+    let signals = [];
+    try { signals = lead.signals_json ? JSON.parse(lead.signals_json) : []; } catch(e) {}
+    const tier_label = lead.signal_tier || 'S1';
+    const signal_html = [
+      `<span class="signal-pill ucc">✓ UCC</span>`,
+      ...signals.map(s => {
+        const t = s.type || '';
+        const cls = t.includes('EXPANSION') ? 'news' : t.includes('HIRING') ? 'hiring' :
+                    t.includes('PERMIT') ? 'permit' : t.includes('CONTRACT') ? 'contract' :
+                    t.includes('FUNDING') ? 'funding' : t.includes('FLEET') ? 'fleet' : 'prime';
+        return `<span class="signal-pill ${cls}">${s.label||'Signal'}</span>`;
+      })
+    ].join('');
+    const ds = lead.deal_score || 0;
+    const sc = ds >= 70 ? 's-hot' : ds >= 45 ? 's-warm' : 's-med';
+    return `
+    <tr onclick="openPanel('${lead.id}')" style="cursor:pointer" id="row-${lead.id}">
+      <td style="text-align:center;width:50px">
+        <div class="score-ring ${sc}">${ds}</div>
+      </td>
+      <td>
+        <div class="company-name">${esc(lead.company_name)}</div>
+        <div class="sub-text" style="margin-top:4px">${signal_html}</div>
+      </td>
+      <td>
+        <div id="row-loc-${lead.id}">${esc(lead.city || '—')}, ${esc(lead.state || '')}</div>
+        <div class="sub-text" id="row-zip-${lead.id}">${esc(lead.zipcode || '')}</div>
+      </td>
+      <td>
+        <div id="row-lender-${lead.id}" style="max-width:180px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">${esc(lender)}</div>
+      </td>
+      <td>
+        <div id="row-col-${lead.id}" style="max-width:160px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-size:12px;color:var(--muted)">${esc(collateral)}</div>
+      </td>
+      <td>
+        <div class="days-badge" style="color:${tier==='hot'?'var(--hot)':tier==='warm'?'var(--warm)':'var(--cold)'}">${daysLabel}</div>
+        <div class="sub-text">${lead.lapse_date || '—'}</div>
+      </td>
+      <td><span class="badge ${tier}">${tier.toUpperCase()}</span></td>
+      <td onclick="event.stopPropagation()">
+        ${claimed
+          ? `<button class="action-btn claimed" onclick="unclaimLead('${lead.id}')">✓ Claimed</button>`
+          : `<button class="action-btn claim" onclick="claimLead('${lead.id}')">Claim</button>`
+        }
+      </td>
+    </tr>`;
+  }).join('');
+}
+
+
+function renderPagination(page, pages, total) {
+  const el = document.getElementById('pagination');
+  if (pages <= 1) { el.innerHTML = `<span class="page-info">${total.toLocaleString()} leads</span>`; return; }
+  let html = `<span class="page-info">${total.toLocaleString()} leads</span>`;
+  if (page > 1) html += `<button class="page-btn" onclick="loadLeads(${page-1})">← Prev</button>`;
+  html += `<span class="page-info">Page ${page} of ${pages}</span>`;
+  if (page < pages) html += `<button class="page-btn" onclick="loadLeads(${page+1})">Next →</button>`;
+  el.innerHTML = html;
+}
+
+async function claimLead(id) {
+  await apiFetch(`/api/leads/${id}/claim`, {method:'POST', body: JSON.stringify({status:'claimed'})});
+  loadLeads(currentPage);
+  loadStats();
+}
+
+async function unclaimLead(id) {
+  await apiFetch(`/api/leads/${id}/unclaim`, {method:'POST'});
+  loadLeads(currentPage);
+  loadStats();
+}
+
+// ── Lead Intelligence Panel ───────────────────────────────────────────────
+let _panelLeadId = null;
+
+function openPanel(id) {
+  const lead = (window._leadsData||{})[id];
+  if (!lead) return;
+  _panelLeadId = id;
+
+  document.getElementById('dp-company').textContent = lead.company_name;
+  document.getElementById('dp-sub').textContent =
+    `${lead.city||''}, ${lead.state||''} ${lead.zipcode||''} · UCC-1 Filing`;
+
+  const claimed = lead.claim_status;
+  const claimBtn = document.getElementById('dp-claim-btn');
+  claimBtn.textContent = claimed ? '✓ Release Claim' : 'Claim This Lead';
+  claimBtn.className = `detail-action-btn ${claimed ? 'secondary' : 'primary'}`;
+
+  const dtl = lead.days_to_lapse;
+  const urgencyPct = dtl === null ? 100 :
+                     dtl <= 0 ? 100 :
+                     Math.max(5, Math.min(100, Math.round((180-dtl)/180*100)));
+  const urgencyColor = lead.urgency_tier==='hot' ? 'var(--hot)' :
+                       lead.urgency_tier==='warm' ? 'var(--warm)' : 'var(--cold)';
+  const daysLabel = dtl === null ? 'Unknown' :
+                    dtl < 0 ? `Lapsed ${Math.abs(dtl)} days ago` :
+                    dtl === 0 ? 'Expires TODAY' : `${dtl} days remaining`;
+
+  const lender = lead.secured_party || 'Unknown Lender';
+  const collateral = lead.collateral || 'Equipment';
+  const filingDate = lead.filing_date || '—';
+  const lapseDate = lead.lapse_date || '—';
+
+  // Classify lender type for competitive angle
+  const bigBanks = ['WELLS FARGO','BANK OF AMERICA','BANC OF AMERICA','BANC OF AMER','JPMORGAN','CHASE','CITIBANK','US BANK','PNC','TD BANK','TRUIST','REGIONS','FIFTH THIRD','HUNTINGTON','M&T BANK'];
+  const captives = ['CATERPILLAR','JOHN DEERE','KOMATSU','CNH','MANITOWOC','HITACHI','VOLVO FINANCIAL','KUBOTA','NEW HOLLAND'];
+  const aBanks = ['CAT FINANCIAL','DLL FINANCE','DE LAGE LANDEN','CISCO','DELL FINANCIAL'];
+  const isBigBank = bigBanks.some(b => lender.toUpperCase().includes(b));
+  const isCaptive = captives.some(b => lender.toUpperCase().includes(b));
+
+  let competitiveAngle = '';
+  if (isBigBank) {
+    competitiveAngle = `This is a <strong>major bank lien</strong>. Big banks rarely renew equipment-specific deals — they push clients to generic commercial lines. Position as a dedicated equipment finance specialist with faster approvals and better terms.`;
+  } else if (isCaptive) {
+    competitiveAngle = `This is a <strong>manufacturer captive lien</strong>. Captives lock clients to one brand. A bank-agnostic broker can offer multi-brand and used equipment options at better rates.`;
+  } else {
+    competitiveAngle = `Independent or specialty lender. Approach with a competitive rate comparison — emphasize speed of close and flexible term structures for renewal.`;
+  }
+
+
+
+  const signals = [];
+  try { JSON.parse(lead.signals_json||'[]').forEach(s=>signals.push(s)); } catch(e){}
+
+  // ── Build signal section HTML ──────────────────────────────────────────
+  let signalSectionHTML = `
+    <div style="margin-bottom:10px">
+      <span class="signal-pill ucc" style="font-size:11px;padding:4px 12px">
+        ✓ CONFIRMED UCC-1 FILING
+      </span>
+      <span style="font-size:11px;color:var(--muted);margin-left:8px">Primary signal — verified public record</span>
+    </div>
+  `;
+
+  if (signals.length === 0) {
+    signalSectionHTML += `<div style="color:var(--muted);font-size:12px;margin-top:8px">No additional signals detected yet. Background scan in progress.</div>`;
+  }
+
+  for (const sig of signals) {
+    const isExpansion = sig.type && sig.type.includes('EXPANSION');
+    const isHiring    = sig.type && sig.type.includes('HIRING');
+    const t = sig.type || '';
+    const pillClass   = isExpansion ? 'news' : isHiring ? 'hiring' :
+                        t.includes('PERMIT') ? 'permit' : t.includes('CONTRACT') ? 'contract' :
+                        t.includes('FUNDING') ? 'funding' : t.includes('FLEET') ? 'fleet' : 'prime';
+
+    if (isExpansion) {
+      // Full article card
+      const headline = esc(sig.detail || 'Business expansion activity detected');
+      const source   = esc(sig.source || 'News source');
+      const triggers = (sig.triggers || []).slice(0,3).map(t => `<span style="background:rgba(245,158,11,.15);color:var(--warm);border:1px solid rgba(245,158,11,.3);padding:1px 7px;border-radius:10px;font-size:10px;font-weight:600;margin-right:4px">${esc(t)}</span>`).join('');
+      const pubDate  = sig.pub ? new Date(sig.pub).toLocaleDateString('en-US',{month:'short',day:'numeric',year:'numeric'}) : '';
+      const link     = sig.link || '';
+
+      signalSectionHTML += `
+        <div style="margin-top:14px;background:rgba(245,158,11,.06);border:1px solid rgba(245,158,11,.25);
+                    border-radius:10px;padding:14px;">
+          <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:8px">
+            <span class="signal-pill news" style="font-size:10px">${sig.label || '▲ Business Expansion'}</span>
+            ${pubDate ? `<span style="font-size:11px;color:var(--muted)">${pubDate}</span>` : ''}
+          </div>
+          <div style="font-size:13px;font-weight:600;color:var(--text);line-height:1.4;margin-bottom:8px">
+            ${headline}
+          </div>
+          <div style="display:flex;align-items:center;justify-content:space-between;margin-top:8px">
+            <div>
+              <span style="font-size:11px;color:var(--muted)">via </span>
+              <span style="font-size:11px;font-weight:600;color:var(--warm)">${source}</span>
+            </div>
+            ${link ? `<a href="${link}" target="_blank" rel="noopener"
+                style="font-size:11px;font-weight:600;color:var(--accent);
+                       text-decoration:none;border:1px solid rgba(212,160,23,.3);
+                       padding:3px 10px;border-radius:6px;transition:.2s"
+                onmouseover="this.style.background='rgba(212,160,23,.1)'"
+                onmouseout="this.style.background=''">Read Article ↗</a>` : ''}
+          </div>
+          ${triggers ? `<div style="margin-top:10px">${triggers}</div>` : ''}
+        </div>
+      `;
+    } else if (isHiring) {
+      // Hiring signal card
+      const eqCount  = sig.eq_count || 0;
+      const total    = sig.count || 0;
+      const roles    = (sig.triggers || []).slice(0,3);
+      const roleTags = roles.map(r => `<span style="background:rgba(59,130,246,.12);color:#60a5fa;border:1px solid rgba(59,130,246,.3);padding:1px 7px;border-radius:10px;font-size:10px;font-weight:600;margin-right:4px">${esc(r)}</span>`).join('');
+      const hiringColor = eqCount > 0 ? 'rgba(59,130,246,.25)' : 'rgba(59,130,246,.12)';
+      signalSectionHTML += `
+        <div style="margin-top:14px;background:rgba(59,130,246,.06);border:1px solid rgba(59,130,246,.25);
+                    border-radius:10px;padding:14px;">
+          <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px">
+            <span class="signal-pill hiring" style="font-size:10px">${sig.label || '👷 Hiring'}</span>
+            <span style="font-size:11px;color:var(--muted)">${total} open position${total !== 1 ? 's' : ''} found</span>
+          </div>
+          <div style="font-size:13px;font-weight:600;color:var(--text);line-height:1.4;margin-bottom:8px">
+            ${esc(sig.detail || '')}
+          </div>
+          <div style="display:flex;align-items:center;justify-content:space-between;margin-top:8px">
+            <div>
+              <span style="font-size:11px;color:var(--muted)">via </span>
+              <span style="font-size:11px;font-weight:600;color:#60a5fa">${esc(sig.source || 'LinkedIn')}</span>
+            </div>
+            ${eqCount > 0 ? `<span style="font-size:11px;font-weight:700;color:#22d3ee;background:rgba(34,211,238,.1);border:1px solid rgba(34,211,238,.3);padding:2px 8px;border-radius:6px">${eqCount} equipment role${eqCount > 1 ? 's' : ''} ▲</span>` : ''}
+          </div>
+          ${roleTags ? `<div style="margin-top:10px">${roleTags}</div>` : ''}
+        </div>
+      `;
+    } else if (sig.type && sig.type.includes('EDGAR')) {
+      // SEC EDGAR card
+      const keywords = (sig.triggers || []).slice(0,4);
+      const kwTags = keywords.map(k => `<span style="background:rgba(168,85,247,.12);color:#c084fc;border:1px solid rgba(168,85,247,.3);padding:1px 7px;border-radius:10px;font-size:10px;font-weight:600;margin-right:4px">${esc(k)}</span>`).join('');
+      const filedFmt = sig.pub ? new Date(sig.pub).toLocaleDateString('en-US',{month:'short',day:'numeric',year:'numeric'}) : '';
+      const secLink  = sig.link || '';
+      signalSectionHTML += `
+        <div style="margin-top:14px;background:rgba(168,85,247,.06);border:1px solid rgba(168,85,247,.25);
+                    border-radius:10px;padding:14px;">
+          <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:8px">
+            <span class="signal-pill prime" style="font-size:10px">${sig.label || '▲ SEC Filing'}</span>
+            ${filedFmt ? `<span style="font-size:11px;color:var(--muted)">Filed ${filedFmt}</span>` : ''}
+          </div>
+          <div style="font-size:13px;font-weight:600;color:var(--text);line-height:1.4;margin-bottom:8px">
+            ${esc(sig.detail || 'Equipment capex keywords detected in SEC 8-K filing')}
+          </div>
+          <div style="display:flex;align-items:center;justify-content:space-between;margin-top:8px">
+            <div>
+              <span style="font-size:11px;color:var(--muted)">source: </span>
+              <span style="font-size:11px;font-weight:600;color:#c084fc">SEC EDGAR (public record)</span>
+            </div>
+            ${secLink ? `<a href="${secLink}" target="_blank" rel="noopener"
+                style="font-size:11px;font-weight:600;color:var(--accent);
+                       text-decoration:none;border:1px solid rgba(212,160,23,.3);
+                       padding:3px 10px;border-radius:6px;transition:.2s"
+                onmouseover="this.style.background='rgba(212,160,23,.1)'"
+                onmouseout="this.style.background=''">View Filing ↗</a>` : ''}
+          </div>
+          ${kwTags ? `<div style="margin-top:10px">${kwTags}</div>` : ''}
+        </div>
+      `;
+    } else if (sig.type && sig.type.includes('PERMIT')) {
+      const amt = sig.amount ? '$' + sig.amount.toLocaleString() : '';
+      const triggers = (sig.triggers || []).slice(0,3).map(t => `<span style="background:rgba(251,146,60,.12);color:#fb923c;border:1px solid rgba(251,146,60,.3);padding:1px 7px;border-radius:10px;font-size:10px;font-weight:600;margin-right:4px">${esc(t)}</span>`).join('');
+      signalSectionHTML += `
+        <div style="margin-top:14px;background:rgba(251,146,60,.06);border:1px solid rgba(251,146,60,.25);
+                    border-radius:10px;padding:14px;">
+          <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px">
+            <span class="signal-pill permit" style="font-size:10px">${sig.label || 'Building Permit'}</span>
+            ${amt ? `<span style="font-size:12px;font-weight:700;color:#fb923c">${amt}</span>` : ''}
+          </div>
+          <div style="font-size:13px;font-weight:600;color:var(--text);line-height:1.4;margin-bottom:8px">${esc(sig.detail || '')}</div>
+          <div style="font-size:11px;color:var(--muted)">via <span style="font-weight:600;color:#fb923c">${esc(sig.source || 'County Records')}</span></div>
+          ${triggers ? `<div style="margin-top:10px">${triggers}</div>` : ''}
+        </div>
+      `;
+    } else if (sig.type && sig.type.includes('CONTRACT')) {
+      const amt = sig.amount ? '$' + sig.amount.toLocaleString() : '';
+      const triggers = (sig.triggers || []).slice(0,3).map(t => `<span style="background:rgba(96,165,250,.12);color:#60a5fa;border:1px solid rgba(96,165,250,.3);padding:1px 7px;border-radius:10px;font-size:10px;font-weight:600;margin-right:4px">${esc(t)}</span>`).join('');
+      signalSectionHTML += `
+        <div style="margin-top:14px;background:rgba(96,165,250,.06);border:1px solid rgba(96,165,250,.25);
+                    border-radius:10px;padding:14px;">
+          <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px">
+            <span class="signal-pill contract" style="font-size:10px">${sig.label || 'Govt Contract'}</span>
+            ${amt ? `<span style="font-size:12px;font-weight:700;color:#60a5fa">${amt}</span>` : ''}
+          </div>
+          <div style="font-size:13px;font-weight:600;color:var(--text);line-height:1.4;margin-bottom:8px">${esc(sig.detail || '')}</div>
+          <div style="font-size:11px;color:var(--muted)">via <span style="font-weight:600;color:#60a5fa">${esc(sig.source || 'SAM.gov')}</span></div>
+          ${triggers ? `<div style="margin-top:10px">${triggers}</div>` : ''}
+        </div>
+      `;
+    } else if (sig.type && sig.type.includes('FUNDING')) {
+      const amt = sig.amount ? '$' + sig.amount.toLocaleString() : '';
+      const triggers = (sig.triggers || []).slice(0,3).map(t => `<span style="background:rgba(168,85,247,.12);color:#a855f7;border:1px solid rgba(168,85,247,.3);padding:1px 7px;border-radius:10px;font-size:10px;font-weight:600;margin-right:4px">${esc(t)}</span>`).join('');
+      signalSectionHTML += `
+        <div style="margin-top:14px;background:rgba(168,85,247,.06);border:1px solid rgba(168,85,247,.25);
+                    border-radius:10px;padding:14px;">
+          <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px">
+            <span class="signal-pill funding" style="font-size:10px">${sig.label || 'Recent Funding'}</span>
+            ${amt ? `<span style="font-size:12px;font-weight:700;color:#a855f7">${amt}</span>` : ''}
+          </div>
+          <div style="font-size:13px;font-weight:600;color:var(--text);line-height:1.4;margin-bottom:8px">${esc(sig.detail || '')}</div>
+          <div style="font-size:11px;color:var(--muted)">via <span style="font-weight:600;color:#a855f7">${esc(sig.source || 'SEC / Crunchbase')}</span></div>
+          ${triggers ? `<div style="margin-top:10px">${triggers}</div>` : ''}
+        </div>
+      `;
+    } else if (sig.type && sig.type.includes('FLEET')) {
+      const triggers = (sig.triggers || []).slice(0,3).map(t => `<span style="background:rgba(45,212,191,.12);color:#2dd4bf;border:1px solid rgba(45,212,191,.3);padding:1px 7px;border-radius:10px;font-size:10px;font-weight:600;margin-right:4px">${esc(t)}</span>`).join('');
+      signalSectionHTML += `
+        <div style="margin-top:14px;background:rgba(45,212,191,.06);border:1px solid rgba(45,212,191,.25);
+                    border-radius:10px;padding:14px;">
+          <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px">
+            <span class="signal-pill fleet" style="font-size:10px">${sig.label || 'Fleet Expansion'}</span>
+          </div>
+          <div style="font-size:13px;font-weight:600;color:var(--text);line-height:1.4;margin-bottom:8px">${esc(sig.detail || '')}</div>
+          <div style="font-size:11px;color:var(--muted)">via <span style="font-weight:600;color:#2dd4bf">${esc(sig.source || 'DMV / DOT')}</span></div>
+          ${triggers ? `<div style="margin-top:10px">${triggers}</div>` : ''}
+        </div>
+      `;
+    } else {
+      // Generic fallback
+      signalSectionHTML += `
+        <div style="margin-top:10px;padding:10px 12px;background:var(--surface2);
+                    border:1px solid var(--border);border-radius:8px;">
+          <span class="signal-pill ${pillClass}">${sig.label || 'Signal'}</span>
+          <span style="font-size:12px;color:var(--muted);margin-left:8px">${esc(sig.detail||'')}</span>
+        </div>
+      `;
+    }
+  }
+
+  // ── Build approach intelligence data ──────────────────────────────────
+  const phone = lead.phone || '';
+  const email = lead.email || '';
+  const website = lead.company_website || '';
+  const contactName = lead.contact_name || '';
+  const address = lead.address || '';
+  const techCat = lead.tech_category || '';
+  const techReason = lead.tech_reason || '';
+  const fileId = lead.file_id || lead.id || '';
+  const sourceState = lead.source_state || '';
+
+  // Filing tenure (how long this lien has been active)
+  let tenureLabel = '';
+  if (filingDate && lapseDate && filingDate !== '—' && lapseDate !== '—') {
+    const filedYear = parseInt(filingDate.split('-')[0]);
+    const lapseYear = parseInt(lapseDate.split('-')[0]);
+    const tenure = lapseYear - filedYear;
+    tenureLabel = tenure > 0 ? `${tenure}-year term` : '< 1 year';
+  }
+
+  // Urgency context
+  let urgencyContext = '';
+  if (dtl !== null) {
+    if (dtl < 0) urgencyContext = '■ LAPSED — lender relationship is already expired. Competitor may have already made contact.';
+    else if (dtl === 0) urgencyContext = '● EXPIRES TODAY — maximum urgency. Decision is being made right now.';
+    else if (dtl <= 3) urgencyContext = '● CRITICAL — expires within 72 hours. Very narrow window for outreach.';
+    else if (dtl <= 7) urgencyContext = '● THIS WEEK — decision window is open. High likelihood of active vendor evaluation.';
+    else if (dtl <= 14) urgencyContext = '● 2-WEEK WINDOW — ideal timing for first contact. Company is likely starting to evaluate options.';
+    else if (dtl <= 30) urgencyContext = '● 30-DAY WINDOW — early mover advantage. Position before competitors reach out.';
+  }
+
+  // Lender classification — deep competitive intelligence
+  const lu = lender.toUpperCase();
+  let lenderType = '';
+  let lenderInsight = '';
+
+  if (lu.includes('XEROX')) {
+    lenderType = '▪  Xerox / FITTLE';
+    lenderInsight = '<strong>Xerox rebranded its financial services to FITTLE in 2022.</strong> Most clients are confused by the transition and don\'t know who holds their lease. Auto-renewal clauses kick in 90 days before lapse — if you\'re inside that window, the deal may have already rolled. Xerox print volumes are declining ~4% YoY — they\'re not fighting hard to retain small-ticket deals under $15K.';
+  } else if (lu.includes('CANON FINANCIAL')) {
+    lenderType = '▪  Canon Financial (Captive)';
+    lenderInsight = '<strong>Canon Financial ONLY finances Canon-branded equipment.</strong> The moment a client needs multi-brand (e.g. adding a wide-format printer from HP or Epson), Canon can\'t service it. Their standard FMV lease auto-renews at 3–6% above original rate if the client doesn\'t send written notice 90 days out. Many clients miss this and overpay for months.';
+  } else if (lu.includes('RICOH')) {
+    lenderType = '▪  Ricoh Leasing';
+    lenderInsight = '<strong>Ricoh bundles service contracts into their lease payments.</strong> When the lease lapses, the service contract often continues billing separately — clients don\'t realize they\'re paying for maintenance on equipment they no longer lease. Unbundling the service contract is a strong opening angle.';
+  } else if (lu.includes('KONICA MINOLTA')) {
+    lenderType = '▪  Konica Minolta';
+    lenderInsight = '<strong>Konica Minolta Premier Finance uses aggressive early-termination penalties</strong> — typically 85-100% of remaining payments. However, at lease-end they have very little leverage. Their sales reps are comp\'d on new placements, not renewals — the renewal desk is understaffed and slow. This is a high-win-rate displacement window.';
+  } else if (lu.includes('DELL FINANCIAL')) {
+    lenderType = '▸  Dell Financial Services';
+    lenderInsight = '<strong>Dell Financial uses 3rd-party capital</strong> (DFS is funded by CIT/First Citizens Bank). Their FMV leases are where they make margin — residual values are inflated by 15-25% vs. market. At lapse, Dell pushes hard for Technology Rotation (trade-in + new lease) which locks the client into another 36-month cycle. Offer a $1 buyout or EFA as alternative — Dell can\'t match that structure.';
+  } else if (lu.includes('LENOVO')) {
+    lenderType = '▸  Lenovo Financial';
+    lenderInsight = '<strong>Lenovo Financial Services is a small, centralized operation</strong> — deals over $50K go to a single approval desk in Morrisville, NC. Turnaround is 5-7 business days vs. 24-48 hours from independent lessors. At lease-end, Lenovo typically offers a 12-month extension at 110% of the original rate. Position with faster funding and flexible terms.';
+  } else if (lu.includes('IBM CREDIT') || lu.includes('IBM CORP')) {
+    lenderType = '▸  IBM Credit (Legacy)';
+    lenderInsight = '<strong>IBM sold its equipment financing operations.</strong> Many "IBM Credit" liens are now managed by successor entities — the client may not even know who their current lessor is. IBM\'s shift to cloud/subscription (Red Hat, watsonx) means on-prem hardware is being deprioritized. These clients are often being pushed to migrate to IBM cloud — an independent broker offering traditional EFA keeps them in control of their infrastructure.';
+  } else if (lu.includes('CISCO')) {
+    lenderType = '▸  Cisco Capital';
+    lenderInsight = '<strong>Cisco Capital bundles financing with Cisco+</strong> (their new subscription model). At lease-end, Cisco pushes hard to convert hardware customers to Cisco+ subscriptions — which costs 20-40% more than traditional ownership. Clients who want to keep owning hardware need an independent financing option. Also: Cisco refresh cycles are shortening from 5yr to 3yr as they push newer platforms.';
+  } else if (lu.includes('HEWLETT') || lu.includes('HPE') || lu.includes('HP INC')) {
+    lenderType = '▸  HP / HPE Financial';
+    lenderInsight = '<strong>HP split into HP Inc (printers/PCs) and HPE (servers/networking) in 2015</strong> — but their financial services weren\'t cleanly separated. Many clients have liens under the old "Hewlett-Packard Financial Services" entity that neither HP Inc nor HPE actively services anymore. These are orphaned accounts — the renewal desk has minimal incentive to compete on price.';
+  } else if (lu.includes('GREATAMERICA')) {
+    lenderType = '▹  GreatAmerica Financial';
+    lenderInsight = '<strong>GreatAmerica starts their renewal process 120 days before lapse</strong> — earlier than any other lessor. If you\'re seeing this lead, their renewal team has likely already made contact. However: GreatAmerica bundles equipment + managed services into a single payment — if the client wants to switch service providers, the bundled structure becomes a liability. Unbundling is your angle.';
+  } else if (lu.includes('MARLIN')) {
+    lenderType = '▹  Marlin Business Services';
+    lenderInsight = '<strong>Marlin was acquired by HPS Investment Partners in late 2022.</strong> Post-acquisition, their underwriting criteria tightened significantly — approval rates dropped ~20% for sub-$100K deals. Their existing clients are seeing renewal offers with higher rates than their original lease. If you can beat their renewal rate by even 50bps, you win — they\'re not negotiating aggressively during integration.';
+  } else if (lu.includes('LEAF') || lu.includes('PEOPLE')) {
+    lenderType = '▹  LEAF / People\'s Capital';
+    lenderInsight = '<strong>LEAF merged with People\'s Capital and Leasing</strong> — brand confusion is rampant. Clients receive communications from both brands and don\'t know which entity holds their lease. Their standard contract includes a 15% early-termination fee, but at natural lapse there\'s zero penalty. Time your outreach for the lapse window — not before.';
+  } else if (lu.includes('CIT')) {
+    lenderType = '▹  CIT / First Citizens';
+    lenderInsight = '<strong>CIT Group was acquired by First Citizens BancShares in 2022.</strong> The integration is still ongoing — loan servicing has been inconsistent, and many commercial clients report difficulty reaching their account managers. First Citizens is a regional bank scaling into national commercial lending — they\'re focused on deposits, not equipment retention. These accounts are vulnerable to displacement.';
+  } else if (lu.includes('AMAZON CAPITAL')) {
+    lenderType = '◆  Amazon Capital Services';
+    lenderInsight = '<strong>Amazon Capital Services provides lending to Amazon Marketplace sellers.</strong> These are e-commerce businesses using Amazon\'s working capital product — typically short-term, high-rate loans. The UCC filing signals the business has revenue but may be over-leveraged on Amazon\'s terms (rates can be 12-16% APR). Offering a traditional equipment line at lower rates is a strong displacement play.';
+  } else if (lu.includes('CATERPILLAR') || lu.includes('CAT FINANCIAL')) {
+    lenderType = '◼  Caterpillar Financial';
+    lenderInsight = '<strong>CAT Financial offers 0% promotional rates on new Caterpillar equipment</strong> — but marks up used, rental, and non-CAT equipment by 200-400bps. Their standard lease includes a "Fair Market Value" return option that inflates residuals by 20-30%. At lapse, CAT pushes fleet management programs that lock clients into 5-year cycles. Counter with flexible terms and multi-brand capability — CAT can\'t finance Deere, Komatsu, or Volvo equipment.';
+  } else if (lu.includes('WELLS FARGO')) {
+    lenderType = '◻  Wells Fargo Equipment Finance';
+    lenderInsight = '<strong>Wells Fargo exited small-ticket equipment lending ($50K-$250K) in 2021.</strong> Their minimum deal size is now ~$250K. Existing small-ticket UCC filings that are lapsing will NOT be renewed by Wells — the client has to find a new lender regardless. This is essentially a warm introduction — the client already knows they need to refinance and has no incumbent to fall back on.';
+  } else if (lu.includes('DE LAGE LANDEN') || lu.includes('DLL')) {
+    lenderType = '▹  DLL (De Lage Landen)';
+    lenderInsight = '<strong>DLL is a subsidiary of Rabobank (Netherlands)</strong> — they have deep capital reserves but their U.S. operations have a 7-10 day approval cycle vs. 24-48 hours from domestic lessors. They\'re strongest in agriculture and food processing equipment — outside those verticals, their underwriting team is less experienced and more conservative. Speed of close is your primary advantage.';
+  } else if (lu.includes('KEY EQUIPMENT') || lu.includes('KEYBANK')) {
+    lenderType = '◻  Key Equipment Finance';
+    lenderInsight = '<strong>Key Equipment Finance tightened credit criteria in 2023-2024</strong> — they\'re now declining deals they would have approved 2 years ago, particularly in construction and transportation. Their portfolio is shifting toward healthcare and technology. If this is a construction/industrial client, Key may not even offer competitive renewal terms — the client could be looking for a new lender already.';
+  } else if (lu.includes('SACHEM CAPITAL')) {
+    lenderType = '◇  Sachem Capital (Bridge Lender)';
+    lenderInsight = '<strong>Sachem Capital is primarily a bridge/hard-money real estate lender.</strong> If they appear on an equipment UCC, the borrower likely couldn\'t get traditional financing — this may signal credit issues or non-standard collateral. However, it also means the borrower is paying 10-15% rates and would jump at a 6-8% equipment-specific offer. High motivation, but verify creditworthiness carefully.';
+  } else if (lu.includes('SIEMENS')) {
+    lenderType = '▪  Siemens Financial';
+    lenderInsight = '<strong>Siemens Financial Services focuses on energy, healthcare, and industrial automation.</strong> Their typical deal is $500K+ and structured as a project finance arrangement, not a standard lease. At lapse, Siemens pushes clients toward their Asset-as-a-Service model — which is essentially a subscription with no ownership path. Offering a buyout/EFA structure gives the client ownership and long-term cost savings.';
+  } else if (isBigBank) {
+    lenderType = '◻  Major Bank';
+    lenderInsight = '<strong>Major bank equipment desks are typically understaffed and deprioritized</strong> — they make their money on deposits and commercial lines. Equipment renewal quotes from big banks often come 30-60 days late and with above-market rates. The relationship manager rarely fights to retain a $50K equipment deal when they\'re managing a $5M credit facility. This is a low-resistance displacement.';
+  } else if (isCaptive) {
+    lenderType = '◼  Manufacturer Captive';
+    lenderInsight = '<strong>Captive lenders can ONLY finance their own brand.</strong> The moment the client needs mixed-vendor equipment, the captive can\'t help. Their renewal rates are typically 150-250bps above market because they have no competition within their own ecosystem. Position as brand-agnostic with lower rates and used equipment capability.';
+  } else {
+    lenderType = '▫  Specialty / Regional';
+    lenderInsight = '<strong>Specialty or regional lender — limited market data available.</strong> These are often relationship-driven lenders where the deal was placed through a broker originally. Check if this lender has been involved in any recent M&A activity — smaller lessors are being acquired at record rates, and post-acquisition service disruptions create displacement windows.';
+  }
+
+  document.getElementById('dp-body').innerHTML = `
+    <div class="urgency-bar"><div class="urgency-fill" style="width:${urgencyPct}%;background:${urgencyColor}"></div></div>
+    <div style="font-size:13px;font-weight:600;color:${urgencyColor};margin-bottom:6px">${daysLabel}</div>
+    <div style="font-size:12px;color:var(--muted);margin-bottom:16px;line-height:1.5">${urgencyContext}</div>
+
+    <div class="intel-section">
+      <div class="intel-label"><span class="ic ic-bolt"></span>AI Deal Score & Narrative</div>
+      <div style="display:flex;gap:16px;align-items:flex-start">
+        <div class="score-ring ${lead.deal_score >= 70 ? 's-hot' : lead.deal_score >= 45 ? 's-warm' : 's-med'}" style="width:52px;height:52px;font-size:18px;flex-shrink:0">${lead.deal_score || 0}</div>
+        <div class="call-script" style="flex:1;font-style:normal;font-size:12px;line-height:1.7;background:rgba(212,160,23,.06);border:1px solid rgba(212,160,23,.18);padding:12px 14px">
+          ${esc(lead.deal_narrative || '')}
+        </div>
+      </div>
+    </div>
+
+    ${(lead.est_paydex) ? (() => {
+      const px = lead.est_paydex;
+      const pxColor = px >= 80 ? '#34d399' : px >= 60 ? '#fbbf24' : px >= 40 ? '#fb923c' : '#f87171';
+      const pxLabel = lead.est_paydex_label || (px >= 80 ? 'Low Risk' : px >= 60 ? 'Moderate' : px >= 40 ? 'Elevated Risk' : 'High Risk');
+      const pxContext = px >= 80
+        ? 'Strong creditworthiness signals. Banks will compete — differentiate on speed and terms, not rate.'
+        : px >= 60
+        ? 'Moderate credit signals. Traditional lenders may add conditions. Position as the flexible, faster alternative.'
+        : px >= 40
+        ? 'Elevated risk indicators. Traditional banks may add stiff conditions or decline. Independent lenders are your lane.'
+        : 'High-risk signals. Banks will auto-decline. Broker-originated financing is their best option — high conversion probability.';
+      const angle = (px / 100) * 180;
+      const rad = angle * Math.PI / 180;
+      const ex = 50 - 40 * Math.cos(rad);
+      const ey = 52 - 40 * Math.sin(rad);
+      const largeArc = angle > 180 ? 1 : 0;
+      const rationale = lead.est_paydex_rationale || [];
+      return `
+    <div class="intel-section">
+      <div class="intel-label"><span class="ic ic-shield"></span>Est. Paydex
+        <span style="font-size:9px;font-weight:500;color:#64748b;margin-left:6px;text-transform:none;letter-spacing:0">Signal-based · no D&B required</span>
+      </div>
+      <div style="display:flex;gap:20px;align-items:flex-start">
+        <div style="position:relative;width:100px;height:60px;flex-shrink:0">
+          <svg viewBox="0 0 100 58" style="width:100px;height:60px">
+            <path d="M 10 52 A 40 40 0 0 1 90 52" fill="none" stroke="rgba(255,255,255,.08)" stroke-width="6" stroke-linecap="round"/>
+            <path d="M 10 52 A 40 40 0 ${largeArc} 1 ${ex.toFixed(1)} ${ey.toFixed(1)}" fill="none" stroke="${pxColor}" stroke-width="6" stroke-linecap="round" style="filter:drop-shadow(0 0 6px ${pxColor}40)"/>
+            <text x="50" y="46" text-anchor="middle" fill="${pxColor}" font-size="20" font-weight="800" font-family="Inter">${px}</text>
+            <text x="50" y="56" text-anchor="middle" fill="${pxColor}90" font-size="7" font-weight="600" font-family="Inter">${pxLabel.toUpperCase()}</text>
+          </svg>
+        </div>
+        <div style="flex:1">
+          <div style="font-size:12px;color:var(--muted);line-height:1.6;margin-bottom:8px">${pxContext}</div>
+          ${rationale.length > 0 ? `
+          <div style="font-size:10px;color:#64748b;line-height:1.8">
+            ${rationale.map(r => `<div>• ${r}</div>`).join('')}
+          </div>` : ''}
+        </div>
+      </div>
+    </div>`;
+    })() : ''}
+
+
+    ${(() => {
+      // ── Revenue Estimate Engine (no D&B required) ──────────────────────
+      const col = (lead.collateral || '').toLowerCase();
+      const lndr = (lead.secured_party || '').toLowerCase();
+      let sigs = []; try { sigs = JSON.parse(lead.signals_json || '[]'); } catch(e) {}
+
+      // Equipment tier scoring
+      const heavyKw  = ['crane','excavator','bulldozer','semi-truck','semi truck','fleet','aircraft','vessel','drill rig','locomotive','mining','concrete pump'];
+      const midKw    = ['forklift','lift truck','loader','backhoe','compressor','generator','paving','aerial','boom lift','telehandler'];
+      const lightKw  = ['trailer','vehicle','server','computer','copier','machine','equipment','tool'];
+
+      let tier = 1; // default: $500K–$2M
+      if (heavyKw.some(k => col.includes(k)))     tier = 3;
+      else if (midKw.some(k => col.includes(k)))   tier = 2;
+      else if (lightKw.some(k => col.includes(k))) tier = 1;
+
+      // Lender tier bumps
+      const bigBankKw  = ['wells fargo','bank of america','chase','citibank','us bank','pnc','td bank','regions','fifth third'];
+      const abankKw    = ['caterpillar','cat financial','john deere','dll finance','de lage','cisco','dell financial'];
+      if (bigBankKw.some(k => lndr.includes(k)))  tier += 1;
+      else if (abankKw.some(k => lndr.includes(k))) tier += 0.5;
+
+      // Signal bumps
+      if (sigs.some(s => s.type && s.type.includes('HIRING')))    tier += 0.5;
+      if (sigs.some(s => s.type && s.type.includes('EXPANSION'))) tier += 1;
+      if (sigs.some(s => s.type && s.type.includes('CONTRACT')))  tier += 1;
+      if ((lead.filing_count || 0) >= 3) tier += 0.5;
+
+      const t = Math.min(5, Math.max(0, Math.round(tier)));
+      const revRanges = [
+        { range: '$250K–$1M',    label: 'Micro',        color: '#94a3b8', conf: 'Low' },
+        { range: '$500K–$2M',    label: 'Small Biz',    color: '#fbbf24', conf: 'Est.' },
+        { range: '$1M–$5M',      label: 'Lower-Mid',    color: '#fb923c', conf: 'Est.' },
+        { range: '$5M–$20M',     label: 'Mid-Market',   color: '#34d399', conf: 'Est.' },
+        { range: '$10M–$50M',    label: 'Upper-Mid',    color: '#22d3ee', conf: 'Est.' },
+        { range: '$25M–$100M+',  label: 'Enterprise',   color: '#a78bfa', conf: 'Est.' },
+      ];
+      const rv = revRanges[t];
+      const why = [
+        col ? `Collateral: ${col.substring(0,35)}` : null,
+        bigBankKw.some(k => lndr.includes(k)) ? 'Big-bank lender (+)' : null,
+        sigs.some(s => s.type && s.type.includes('HIRING'))    ? 'Active hiring (+)' : null,
+        sigs.some(s => s.type && s.type.includes('EXPANSION')) ? 'Expansion signal (+)' : null,
+        sigs.some(s => s.type && s.type.includes('CONTRACT'))  ? 'Govt contract (+)' : null,
+        (lead.filing_count || 0) >= 3 ? `Multi-filer (${lead.filing_count} filings) (+)` : null,
+      ].filter(Boolean).slice(0,3).join(' · ');
+
+      return `
+    <div class="intel-section">
+      <div class="intel-label"><span class="ic ic-chart"></span>Est. Annual Revenue</div>
+      <div style="display:flex;gap:20px;align-items:center">
+        <div style="flex-shrink:0;text-align:center;min-width:90px">
+          <div style="font-size:22px;font-weight:900;color:${rv.color};letter-spacing:-.5px;line-height:1">${rv.range}</div>
+          <div style="font-size:9px;font-weight:700;color:${rv.color}90;text-transform:uppercase;letter-spacing:1px;margin-top:4px">${rv.label} · ${rv.conf}</div>
+        </div>
+        <div style="flex:1;font-size:11px;color:var(--muted);line-height:1.6;border-left:1px solid var(--border);padding-left:14px">
+          <div style="color:var(--text);font-weight:600;font-size:12px;margin-bottom:4px">Signal-based estimate — no D&B required</div>
+          ${why || 'Based on UCC collateral type and lender profile.'}
+          <div style="margin-top:6px;font-size:10px;color:#64748b">Accuracy improves with D&B integration. Use as conversation anchor, not gospel.</div>
+        </div>
+      </div>
+    </div>`;
+    })()}
+
+
+    ${phone || email || website || contactName ? `
+    <div class="intel-section">
+      <div class="intel-label"><span class="ic ic-phone"></span>Contact Data</div>
+      <div class="intel-card">
+        ${phone ? `<div class="intel-row"><span class="intel-key">Phone</span><span class="intel-val" style="color:var(--gold);font-weight:700"><a href="tel:${phone.replace(/[^0-9]/g,'')}" style="color:var(--gold);text-decoration:none">${esc(phone)}</a></span></div>` : ''}
+        ${email ? `<div class="intel-row"><span class="intel-key">Email</span><span class="intel-val"><a href="mailto:${email}" style="color:var(--gold);text-decoration:none">${esc(email)}</a></span></div>` : ''}
+        ${contactName ? `<div class="intel-row"><span class="intel-key">Contact</span><span class="intel-val">${esc(contactName)}</span></div>` : ''}
+        ${website ? `<div class="intel-row"><span class="intel-key">Website</span><span class="intel-val"><a href="${website.startsWith('http') ? website : 'https://' + website}" target="_blank" style="color:var(--gold);text-decoration:none">${esc(website)}</a></span></div>` : ''}
+      </div>
+    </div>
+    ` : ''}
+
+    <div class="intel-section">
+      <div class="intel-label"><span class="ic ic-doc"></span>Filing Intelligence</div>
+      <div class="intel-card">
+        <div class="intel-row"><span class="intel-key">Current Lender</span><span class="intel-val" id="dp-lender">${esc(lender.substring(0,50))}</span></div>
+        <div class="intel-row"><span class="intel-key">Lender Type</span><span class="intel-val">${lenderType}</span></div>
+        <div class="intel-row"><span class="intel-key">Collateral</span><span class="intel-val" id="dp-collateral">${esc(collateral.substring(0,50))}</span></div>
+        <div class="intel-row"><span class="intel-key">Filed</span><span class="intel-val">${esc(filingDate)}</span></div>
+        <div class="intel-row"><span class="intel-key">Lapse Date</span><span class="intel-val" style="font-weight:700;color:${urgencyColor}">${esc(lapseDate)}</span></div>
+        ${tenureLabel ? `<div class="intel-row"><span class="intel-key">Tenure</span><span class="intel-val">${tenureLabel}</span></div>` : ''}
+        <div class="intel-row"><span class="intel-key">Filing ID</span><span class="intel-val" style="font-size:11px;color:var(--muted)">${esc(fileId)}</span></div>
+        <div class="intel-row"><span class="intel-key">State</span><span class="intel-val">${esc(sourceState)}</span></div>
+      </div>
+    </div>
+
+    <div class="intel-section">
+      <div class="intel-label"><span class="ic ic-building"></span>Company Profile</div>
+      <div class="intel-card">
+        <div class="intel-row"><span class="intel-key">Company</span><span class="intel-val" id="dp-company-val">${esc(lead.company_name)}</span></div>
+        <div class="intel-row"><span class="intel-key">Address</span><span class="intel-val" id="dp-address" style="font-size:12px">${esc(address || '—')}</span></div>
+        <div class="intel-row"><span class="intel-key">Location</span><span class="intel-val" id="dp-location">${esc((lead.city||'') + ', ' + (lead.state||'') + ' ' + (lead.zipcode||''))}</span></div>
+        ${techCat ? `<div class="intel-row"><span class="intel-key">Tech Category</span><span class="intel-val"><span class="signal-pill ucc" style="font-size:10px">${esc(techCat)}</span></span></div>` : ''}
+        ${techReason ? `<div class="intel-row"><span class="intel-key">Classification</span><span class="intel-val" style="font-size:11px;color:var(--muted)">${esc(techReason)}</span></div>` : ''}
+      </div>
+    </div>
+
+    <div class="intel-section">
+      <div class="intel-label"><span class="ic ic-bolt"></span>Lender Intelligence</div>
+      <div class="intel-card" style="font-size:13px;line-height:1.6;color:var(--text)">${lenderInsight}</div>
+    </div>
+
+    <div class="intel-section">
+      <div class="intel-label"><span class="ic ic-radar"></span>Signal Stack</div>
+      <div class="intel-card">${signalSectionHTML}</div>
+    </div>
+    <div class="intel-section" id="sh-section">
+      <div class="intel-label"><span class="ic ic-chart"></span>Funding History
+        <span style="font-size:9px;font-weight:500;color:#64748b;margin-left:6px;text-transform:none;letter-spacing:0">equipment lender escalation pattern</span>
+      </div>
+      <div id="sh-content"><div class="mi-skeleton"></div><div class="mi-skeleton" style="height:40px"></div></div>
+    </div>
+    <div class="intel-section" id="cr-section">
+      <div class="intel-label"><span class="ic ic-shield"></span>Court &amp; Regulatory
+        <span style="font-size:9px;font-weight:500;color:#64748b;margin-left:6px;text-transform:none;letter-spacing:0">PACER &middot; CFPB &middot; EPA &middot; OSHA</span>
+      </div>
+      <div id="cr-content"><div class="mi-skeleton"></div><div class="mi-skeleton" style="height:36px"></div></div>
+    </div>
+    <div class="intel-section" id="mi-section">
+      <div class="intel-label"><span class="ic ic-radar"></span>Market Intelligence
+        <span style="font-size:9px;font-weight:500;color:#64748b;margin-left:6px;text-transform:none;letter-spacing:0">live multi-source sweep</span>
+      </div>
+      <div id="mi-sweep-status" style="font-size:11px;color:var(--muted);margin-bottom:10px">&#9881; Sweeping sources&#8230;</div>
+      <div class="mi-tabs">
+        <div class="mi-tab active" id="mi-tab-co" onclick="miSwitchTab('company')">About This Company</div>
+        <div class="mi-tab" id="mi-tab-ind" onclick="miSwitchTab('industry')">Industry News</div>
+      </div>
+      <div id="mi-source-bar" class="mi-source-bar"></div>
+      <div id="mi-sentiment-wrap"></div>
+      <div id="mi-content-company"><div class="mi-skeleton"></div><div class="mi-skeleton"></div></div>
+      <div id="mi-content-industry" style="display:none"><div class="mi-skeleton"></div><div class="mi-skeleton"></div></div>
+    </div>
+  `;
+
+  document.getElementById('detail-panel').classList.add('open');
+  document.getElementById('detail-overlay').style.display = 'block';
+
+  // Load purchase pricing
+  loadLeadPricing(id);
+  loadStackHistory(id);
+  loadCourtSweep(id);
+  loadLeadIntel(id);
+
+  // Highlight row
+  document.querySelectorAll('tr.selected').forEach(r=>r.classList.remove('selected'));
+  const row = document.getElementById(`row-${id}`);
+  if (row) row.classList.add('selected');
+}
+
+// ── Lead Purchase Flow ──────────────────────────────────────────────────────
+let _pollingInterval = null;
+
+async function unlockLeadUI(leadId) {
+  try {
+    const r = await fetch(`/api/leads/${leadId}/unlock`);
+    const unmaskedLead = await r.json();
+    if (unmaskedLead.error) return;
+    
+    // update main panel header
+    document.getElementById('dp-company').textContent = unmaskedLead.company_name;
+    document.getElementById('dp-sub').textContent = `${unmaskedLead.city||''}, ${unmaskedLead.state||''} ${unmaskedLead.zipcode||''} · UCC-1 Filing`;
+    
+    // update intel cards
+    const cVal = document.getElementById('dp-company-val');
+    if (cVal) cVal.textContent = unmaskedLead.company_name;
+    
+    const addrVal = document.getElementById('dp-address');
+    if (addrVal) {
+        addrVal.textContent = unmaskedLead.address || `${unmaskedLead.city||''}, ${unmaskedLead.state||''} ${unmaskedLead.zipcode||''}`;
+    }
+
+    const locVal = document.getElementById('dp-location');
+    if (locVal) {
+        locVal.textContent = `${unmaskedLead.city||''}, ${unmaskedLead.state||''} ${unmaskedLead.zipcode||''}`;
+    }
+    
+    const lndrVal = document.getElementById('dp-lender');
+    if (lndrVal) lndrVal.textContent = unmaskedLead.secured_party || 'Unknown Lender';
+    
+    const colVal = document.getElementById('dp-collateral');
+    if (colVal) colVal.textContent = unmaskedLead.collateral || 'Equipment';
+
+    // update the row in the table
+    const row = document.getElementById(`row-${leadId}`);
+    if (row) {
+        const cNameDiv = row.querySelector('.company-name');
+        if (cNameDiv) cNameDiv.textContent = unmaskedLead.company_name;
+        
+        const rLoc = document.getElementById(`row-loc-${leadId}`);
+        if (rLoc) rLoc.textContent = `${unmaskedLead.city || '—'}, ${unmaskedLead.state || ''}`;
+        
+        const rZip = document.getElementById(`row-zip-${leadId}`);
+        if (rZip) rZip.textContent = unmaskedLead.zipcode || '';
+        
+        const rLend = document.getElementById(`row-lender-${leadId}`);
+        if (rLend) rLend.textContent = unmaskedLead.secured_party || '';
+        
+        const rCol = document.getElementById(`row-col-${leadId}`);
+        if (rCol) rCol.textContent = unmaskedLead.collateral || '';
+    }
+
+    // update local cached data
+    if (window._leadsData && window._leadsData[leadId]) {
+      Object.assign(window._leadsData[leadId], unmaskedLead);
+    }
+  } catch (e) { console.error('Unlock error:', e); }
+}
+
+async function loadLeadPricing(leadId) {
+  const wrap = document.getElementById('buy-lead-wrap');
+  wrap.style.display = 'none';
+
+  if (_pollingInterval) {
+    clearInterval(_pollingInterval);
+    _pollingInterval = null;
+  }
+
+  try {
+    const r = await fetch(`/api/leads/${leadId}/pricing`);
+    const p = await r.json();
+    if (p.error) return;
+
+    if (p.is_purchased) {
+      wrap.innerHTML = `
+        <button class="buy-lead-btn purchased" disabled>
+          <span>✓ LEAD PURCHASED</span>
+          <span class="tier-badge">EXCLUSIVE</span>
+        </button>`;
+      unlockLeadUI(leadId);
+    } else {
+      wrap.innerHTML = `
+        <button class="buy-lead-btn tier-${p.tier}" onclick="buyLead('${leadId}')">
+          <span class="tier-badge">${p.tier_label}</span>
+          <span>Buy This Lead</span>
+          <span class="buy-price">${p.price_display}</span>
+        </button>
+        <div class="buy-exclusive">Exclusive access — once purchased, no other broker can buy this lead</div>`;
+      
+      if (window._activePolls && window._activePolls[leadId]) clearInterval(window._activePolls[leadId]);
+      window._activePolls = window._activePolls || {};
+      window._activePolls[leadId] = setInterval(async () => {
+        try {
+          const rCheck = await fetch(`/api/leads/${leadId}/unlock?session_id=${res.session_id}`);
+          if (rCheck.status === 200) {
+            const pCheck = await rCheck.json();
+            if (window._activePolls && window._activePolls[leadId]) {
+              clearInterval(window._activePolls[leadId]);
+              delete window._activePolls[leadId];
+            }
+            wrap.innerHTML = `
+              <button class="buy-lead-btn purchased" disabled>
+                <span>✓ LEAD PURCHASED</span>
+                <span class="tier-badge">EXCLUSIVE</span>
+              </button>`;
+            unlockLeadUI(leadId);
+          }
+        } catch(e) {}
+      }, 3000);
+    }
+    wrap.style.display = 'block';
+  } catch(e) { console.error('Pricing error:', e); }
+}
+
+async function buyLead(leadId) {
+  const btn = document.querySelector('.buy-lead-btn');
+  if (!btn) return;
+  const origHTML = btn.innerHTML;
+  btn.innerHTML = '<span>Processing...</span>';
+  btn.style.pointerEvents = 'none';
+  btn.style.opacity = '0.7';
+
+  try {
+    const r = await fetch(`/api/leads/${leadId}/checkout`, { method: 'POST' });
+    const res = await r.json();
+    if (res.checkout_url) {
+      window.open(res.checkout_url, '_blank');
+      // Continue polling in the background without losing the frontend state
+    } else if (res.error === 'Lead already purchased') {
+      btn.className = 'buy-lead-btn purchased';
+      btn.innerHTML = '<span>✓ ALREADY PURCHASED</span>';
+    } else if (res.error === 'Stripe not configured') {
+      btn.innerHTML = origHTML;
+      btn.style.pointerEvents = '';
+      btn.style.opacity = '';
+      alert('Stripe is not configured. Set STRIPE_SECRET_KEY environment variable.');
+    } else {
+      btn.innerHTML = origHTML;
+      btn.style.pointerEvents = '';
+      btn.style.opacity = '';
+      alert('Error: ' + (d.error || 'Unknown error'));
+    }
+  } catch(e) {
+    btn.innerHTML = origHTML;
+    btn.style.pointerEvents = '';
+    btn.style.opacity = '';
+    console.error('Checkout error:', e);
+  }
+}
+
+// Handle purchase success return
+(function checkPurchaseReturn() {
+  const params = new URLSearchParams(window.location.search);
+  const sessionId = params.get('session_id');
+  const leadId = params.get('lead_id');
+  if (sessionId && leadId) {
+    fetch(`/api/purchase/verify?session_id=${sessionId}&lead_id=${leadId}`)
+      .then(r => r.json())
+      .then(d => {
+        if (d.status === 'completed') {
+          // Clean URL
+          window.history.replaceState({}, '', '/');
+          // Open the purchased lead
+          setTimeout(() => openPanel(leadId), 1000);
+        }
+      });
+  }
+})();
+
+const _TIERC={'A':'#34d399','B':'#60a5fa','C':'#fbbf24','D':'#f87171'};
+const _SIGNS={'positive':'#34d399','negative':'#f87171','warning':'#fbbf24','neutral':'#60a5fa'};
+
+async function loadStackHistory(id) {
+  const el = document.getElementById('sh-content');
+  if (!el) return;
+  try {
+    const r = await fetch(`/api/leads/${id}/stack-history`);
+    const data = await r.json();
+    if (data.error || !data.events || data.events.length === 0) {
+      el.innerHTML = '<div class="mi-empty">No prior equipment financing history found.</div>'; return;
+    }
+    const {events, narrative: nav} = data;
+    let arrowHTML = '';
+    if (nav && nav.unique_lenders && nav.unique_lenders.length > 1) {
+      const nodes = nav.unique_lenders.map(ul => {
+        const c = _TIERC[ul.tier]||'#64748b';
+        return `<span class="sh-arrow-node" style="color:${c};border-color:${c}40;background:${c}12">${esc(ul.lender)}</span>`;
+      });
+      arrowHTML = `<div class="sh-arrow">${nodes.join('<span class="sh-arrow-sep">→</span>')}</div>`;
+    }
+    let navHTML = '';
+    if (nav) {
+      const signals = (nav.key_signals||[]).map(s => {
+        const c = _SIGNS[s.type]||'#64748b';
+        return `<div class="sh-signal" style="background:${c}0d;border-color:${c}30">
+          <div class="sh-signal-dot" style="background:${c}"></div>
+          <div><div class="sh-signal-label">${esc(s.label)}</div><div class="sh-signal-detail">${esc(s.detail)}</div></div>
+        </div>`;
+      }).join('');
+      navHTML = `<div style="display:flex;align-items:center;gap:8px;margin-bottom:10px">
+        <span class="sh-risk-badge" style="background:${nav.risk_bg};border:1px solid ${nav.risk_border};color:${nav.risk_color}">${nav.risk_level} RISK</span>
+        ${nav.avg_cycle_days ? `<span style="font-size:10px;color:var(--muted)">avg cycle: ${nav.avg_cycle_days}d</span>` : ''}
+        ${nav.col_degraded ? `<span style="font-size:10px;color:#f87171;font-weight:700">⚠ Collateral degraded</span>` : ''}
+      </div>
+      <div style="font-size:12px;font-weight:600;color:var(--text);line-height:1.5;margin-bottom:12px;padding:10px 12px;background:rgba(255,255,255,.03);border:1px solid rgba(255,255,255,.07);border-radius:8px">${esc(nav.headline)}</div>
+      ${arrowHTML}${signals}`;
+    }
+    const timelineHTML = events.map((ev,i) => {
+      const c = _TIERC[ev.tier]||'#64748b';
+      const dtl = ev.days_to_lapse;
+      let statusLabel = '';
+      if (dtl===null||dtl===undefined) statusLabel='';
+      else if (dtl<0) statusLabel=`<span style="font-size:9px;color:#f87171;font-weight:700">LAPSED ${Math.abs(dtl)}d</span>`;
+      else if (dtl===0) statusLabel=`<span style="font-size:9px;color:#fbbf24;font-weight:700">EXPIRES TODAY</span>`;
+      else statusLabel=`<span style="font-size:9px;color:#64748b">+${dtl}d</span>`;
+      return `<div class="sh-event">
+        <div style="position:relative">
+          <div class="sh-dot" style="color:${c};border-color:${c};background:${c}15">${ev.tier||'?'}</div>
+          ${i<events.length-1?'<div class="sh-line"></div>':''}
+        </div>
+        <div style="flex:1;padding-top:4px">
+          <div style="font-size:11px;font-weight:700;color:${ev.is_current?'var(--gold)':c}">${esc(ev.lender_clean)}${ev.is_current?' ◀ this filing':''}</div>
+          <div style="font-size:10px;color:var(--muted);margin-top:2px">${ev.filing_date||'—'} · ${esc(ev.collateral||'—')} &nbsp;${statusLabel}</div>
+        </div>
+      </div>`;
+    }).join('');
+    el.innerHTML = navHTML + `<div class="sh-timeline">${timelineHTML}</div>`;
+  } catch(e) {
+    const el2=document.getElementById('sh-content');
+    if(el2) el2.innerHTML='<div class="mi-empty">Funding history unavailable.</div>';
+  }
+}
+
+async function loadCourtSweep(id) {
+  const el = document.getElementById('cr-content');
+  if (!el) return;
+  try {
+    const r = await fetch(`/api/leads/${id}/court-sweep`);
+    const data = await r.json();
+    if (data.error) { el.innerHTML='<div class="mi-empty">Regulatory sweep unavailable.</div>'; return; }
+    const risk=data.risk||{}, items=data.items||[], cfpb=data.cfpb_total||0;
+    const swept=(data.sources_swept||[]);
+    const sweepBar=swept.map(s=>{
+      const cls={CourtListener:'court',CFPB:'cfpb','EPA ECHO':'epa',OSHA:'osha'}[s]||'court';
+      return `<span class="cr-badge ${cls}">${s}</span>`;
+    }).join(' ');
+    let header=`<div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-bottom:10px">
+      <span class="sh-risk-badge" style="background:${risk.bg};border:1px solid ${risk.border};color:${risk.color}">${risk.icon||''} ${risk.level} — Legal</span>
+      ${cfpb>0?`<span style="font-size:10px;font-weight:700;color:#38bdf8">${cfpb} CFPB complaint${cfpb!==1?'s':''}</span>`:''}
+      <span style="font-size:10px;color:var(--muted)">· ${data.elapsed_s}s</span>
+    </div><div style="display:flex;gap:4px;flex-wrap:wrap;margin-bottom:10px">${sweepBar}</div>`;
+    if (items.length===0) {
+      el.innerHTML=header+`<div style="padding:12px;border-radius:8px;background:rgba(52,211,153,.06);border:1px solid rgba(52,211,153,.2);font-size:12px;font-weight:600;color:#34d399">✓ No adverse court or regulatory records found across ${swept.length} sources.</div>`;
+      return;
+    }
+    const cards=items.map(item=>{
+      const cls={CourtListener:'court',CFPB:'cfpb','EPA ECHO':'epa',OSHA:'osha'}[item.source]||'court';
+      return `<div class="cr-card ${item.severity==='high'?'sev-high':'sev-medium'}">
+        <div style="display:flex;justify-content:space-between;align-items:center">
+          <span class="cr-badge ${cls}">${esc(item.source)}</span>
+          <span style="font-size:9px;color:var(--muted)">${esc(item.date||'')}</span>
+        </div>
+        <div class="cr-headline">${esc(item.headline||'')}</div>
+        <div class="cr-detail">${esc(item.detail||'')}${item.status?` · <em>${esc(item.status)}</em>`:''}</div>
+        ${item.url?`<a class="cr-link" href="${item.url}" target="_blank" rel="noopener">View record ↗</a>`:''}
+      </div>`;
+    }).join('');
+    el.innerHTML=header+cards;
+  } catch(e) {
+    const el2=document.getElementById('cr-content');
+    if(el2) el2.innerHTML='<div class="mi-empty">Regulatory sweep unavailable.</div>';
+  }
+}
+
+function miSwitchTab(tab) {
+  document.getElementById('mi-content-company').style.display = tab==='company'?'block':'none';
+  document.getElementById('mi-content-industry').style.display = tab==='industry'?'block':'none';
+  document.getElementById('mi-tab-co').classList.toggle('active', tab==='company');
+  document.getElementById('mi-tab-ind').classList.toggle('active', tab==='industry');
+}
+
+async function loadLeadIntel(id) {
+  try {
+    const r = await fetch(`/api/leads/${id}/intel`);
+    const data = await r.json();
+    if (data.error) return;
+    const statusEl=document.getElementById('mi-sweep-status');
+    if (statusEl) statusEl.textContent=`✓ ${data.total_articles||0} articles — ${(data.sources_swept||[]).join(' · ')} — ${data.elapsed_s}s`;
+    const barEl=document.getElementById('mi-source-bar');
+    if (barEl) {
+      const CLS={'Google News':'gnews','Bing News':'bing','GDELT':'gdelt'};
+      barEl.innerHTML=(data.sources_swept||[]).map(s=>`<span class="mi-source-badge ${CLS[s]||'gnews'}">${s}</span>`).join('');
+    }
+    const sentEl=document.getElementById('mi-sentiment-wrap');
+    if (sentEl && data.sector_sentiment) {
+      const s=data.sector_sentiment;
+      sentEl.innerHTML=`<span class="mi-sentiment" style="background:${s.color}15;color:${s.color};border:1px solid ${s.color}30">${s.icon} ${data.industry_label||''} Sector: ${s.label}</span>`;
+    }
+    const mkArticle=a=>`<div class="mi-article"><div style="font-size:11px;font-weight:700;color:var(--text);line-height:1.4;margin-bottom:4px">${esc(a.headline||'')}</div><div style="display:flex;gap:8px;align-items:center"><span style="font-size:9px;color:var(--muted)">${esc(a.provider||'')}</span>${a.url?`<a href="${a.url}" target="_blank" rel="noopener" style="font-size:9px;color:var(--gold);text-decoration:none">Read ↗</a>`:''}</div></div>`;
+    const coEl=document.getElementById('mi-content-company');
+    const indEl=document.getElementById('mi-content-industry');
+    if (coEl) coEl.innerHTML=(data.company||[]).length>0
+      ? (data.company||[]).map(mkArticle).join('')
+      : `<div class="mi-empty" style="text-align:left;padding:12px;border-radius:8px;background:rgba(255,255,255,.02);border:1px solid rgba(255,255,255,.07)">
+          <div style="font-size:11px;font-weight:700;color:var(--text);margin-bottom:4px">No direct company coverage found</div>
+          <div style="font-size:10px;color:var(--muted);line-height:1.6">Private businesses in this segment rarely appear in indexed media. Industry news reflects sector-level signals relevant to this borrower.</div>
+        </div>`;
+    if (indEl) indEl.innerHTML=(data.industry||[]).length>0?(data.industry||[]).map(mkArticle).join(''):'<div class="mi-empty">No industry news found.</div>';
+    // Auto-switch to Industry News when no company coverage exists
+    if (data.company_empty) miSwitchTab('industry');
+  } catch(e) {}
+}
+
+function closePanel() {
+  document.getElementById('detail-panel').classList.remove('open');
+  document.getElementById('detail-overlay').style.display = 'none';
+  document.querySelectorAll('tr.selected').forEach(r=>r.classList.remove('selected'));
+  _panelLeadId = null;
+  if (_pollingInterval) {
+    clearInterval(_pollingInterval);
+    _pollingInterval = null;
+  }
+}
+
+async function panelClaim() {
+  if (!_panelLeadId) return;
+  const lead = (window._leadsData||{})[_panelLeadId];
+  if (lead && lead.claim_status) {
+    await unclaimLead(_panelLeadId);
+  } else {
+    await claimLead(_panelLeadId);
+  }
+  closePanel();
+}
+
+function esc(s) {
+  return String(s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+}
+
+// ── Expiry Timeline Chart ────────────────────────────────────────────────
+async function loadExpiryChart(paramsStr = '') {
+  try {
+    const qs = paramsStr ? `?${paramsStr}` : '';
+    const r = await fetch(`/api/expiry-timeline${qs}`);
+    const d = await r.json();
+    const weeks = d.weeks || [];
+    if (!weeks.length) return;
+
+    // Fill gaps (ensure 13 weeks)
+    const data = [];
+    for (let i = 0; i < 13; i++) {
+      const found = weeks.find(w => w.week === i);
+      data.push({ week: i, label: `Wk ${i+1}`, count: found ? found.count : 0, enriched: found ? found.enriched : 0 });
+    }
+
+    const canvas = document.getElementById('expiry-chart');
+    const dpr = window.devicePixelRatio || 1;
+    const rect = canvas.getBoundingClientRect();
+    canvas.width = rect.width * dpr;
+    canvas.height = 160 * dpr;
+    const ctx = canvas.getContext('2d');
+    ctx.scale(dpr, dpr);
+    const W = rect.width, H = 160;
+    const pad = { top: 10, right: 16, bottom: 28, left: 44 };
+    const cW = W - pad.left - pad.right;
+    const cH = H - pad.top - pad.bottom;
+    const sortedCounts = [...data.map(d => d.count)].sort((a,b) => b - a);
+    let maxVal = Math.max(sortedCounts[0] || 0, 10);
+    // Gracefully handle massive bulk-expiry outliers (e.g. state June 30th cuts)
+    if (sortedCounts.length > 1 && sortedCounts[0] > sortedCounts[1] * 4 && sortedCounts[1] > 0) {
+      maxVal = sortedCounts[1] * 1.5;
+    }
+    const barW = cW / data.length;
+
+    function draw(animPct) {
+      ctx.clearRect(0, 0, W, H);
+
+      // Grid lines
+      ctx.strokeStyle = 'rgba(58,65,88,.4)';
+      ctx.lineWidth = 0.5;
+      for (let i = 0; i <= 4; i++) {
+        const y = pad.top + (cH / 4) * i;
+        ctx.beginPath(); ctx.moveTo(pad.left, y); ctx.lineTo(W - pad.right, y); ctx.stroke();
+        if (i < 4) {
+          ctx.fillStyle = '#9ca3b8';
+          ctx.font = '10px Inter';
+          ctx.textAlign = 'right';
+          ctx.fillText(Math.round(maxVal * (1 - i / 4)), pad.left - 8, y + 4);
+        }
+      }
+      ctx.fillText('0', pad.left - 8, pad.top + cH + 4);
+
+      // Bars — total (gold)
+      for (let i = 0; i < data.length; i++) {
+        const x = pad.left + i * barW;
+        let barH = (data[i].count / maxVal) * cH * animPct;
+        barH = Math.min(barH, cH);
+        const y = pad.top + cH - barH;
+
+        // Gold gradient bar
+        const grad = ctx.createLinearGradient(x, y, x, pad.top + cH);
+        grad.addColorStop(0, 'rgba(212,160,23,.7)');
+        grad.addColorStop(1, 'rgba(212,160,23,.15)');
+        ctx.fillStyle = grad;
+        ctx.beginPath();
+        const r = Math.min(3, barH / 2);
+        ctx.roundRect(x + 2, y, barW - 4, barH, [r, r, 0, 0]);
+        ctx.fill();
+
+        // Enriched overlay (green)
+        if (data[i].enriched > 0) {
+          let eH = (data[i].enriched / maxVal) * cH * animPct;
+          eH = Math.min(eH, cH);
+          const eY = pad.top + cH - eH;
+          const eGrad = ctx.createLinearGradient(x, eY, x, pad.top + cH);
+          eGrad.addColorStop(0, 'rgba(52,211,153,.8)');
+          eGrad.addColorStop(1, 'rgba(52,211,153,.2)');
+          ctx.fillStyle = eGrad;
+          ctx.beginPath();
+          ctx.roundRect(x + 2, eY, barW - 4, eH, [r, r, 0, 0]);
+          ctx.fill();
+        }
+
+        // Week label
+        ctx.fillStyle = i <= 1 ? '#f87171' : i <= 3 ? '#fbbf24' : '#9ca3b8';
+        ctx.font = i <= 1 ? 'bold 10px Inter' : '10px Inter';
+        ctx.textAlign = 'center';
+        ctx.fillText(data[i].label, x + barW / 2, H - 4);
+      }
+
+      // Area line on top
+      ctx.strokeStyle = 'rgba(212,160,23,.9)';
+      ctx.lineWidth = 2;
+      ctx.lineJoin = 'round';
+      ctx.beginPath();
+      for (let i = 0; i < data.length; i++) {
+        const x = pad.left + i * barW + barW / 2;
+        let lineH = (data[i].count / maxVal) * cH * animPct;
+        lineH = Math.min(lineH, cH);
+        const y = pad.top + cH - lineH;
+        i === 0 ? ctx.moveTo(x, y) : ctx.lineTo(x, y);
+      }
+      ctx.stroke();
+
+      // Glow dots on line
+      for (let i = 0; i < data.length; i++) {
+        const x = pad.left + i * barW + barW / 2;
+        let lineH = (data[i].count / maxVal) * cH * animPct;
+        lineH = Math.min(lineH, cH);
+        const y = pad.top + cH - lineH;
+        ctx.fillStyle = data[i].count > 0 ? 'rgba(245,197,66,.9)' : 'rgba(156,163,184,.3)';
+        ctx.beginPath(); ctx.arc(x, y, 3, 0, Math.PI * 2); ctx.fill();
+        if (i <= 1 && data[i].count > 0) {
+          ctx.fillStyle = 'rgba(248,113,113,.15)';
+          ctx.beginPath(); ctx.arc(x, y, 8, 0, Math.PI * 2); ctx.fill();
+        }
+      }
+    }
+
+    // Animate
+    let start = null;
+    function animate(ts) {
+      if (!start) start = ts;
+      const pct = Math.min(1, (ts - start) / 700);
+      const ease = 1 - Math.pow(1 - pct, 3);
+      draw(ease);
+      if (pct < 1) requestAnimationFrame(animate);
+    }
+    requestAnimationFrame(animate);
+
+    // Hover tooltip
+    const tooltip = document.getElementById('chart-tooltip');
+    canvas.addEventListener('mousemove', e => {
+      const r = canvas.getBoundingClientRect();
+      const mx = e.clientX - r.left;
+      const idx = Math.floor((mx - pad.left) / barW);
+      if (idx >= 0 && idx < data.length) {
+        const d = data[idx];
+        const urgency = idx <= 1 ? '<span style="color:#f87171">● THIS WEEK</span>' :
+                       idx <= 3 ? '<span style="color:#fbbf24">● HOT</span>' : '';
+        tooltip.innerHTML = `<div style="font-weight:700;margin-bottom:4px">${d.label} ${urgency}</div>
+          <div><span style="color:var(--gold2)">${d.count}</span> leases expiring</div>
+          <div><span style="color:#34d399">${d.enriched}</span> phone verified</div>`;
+        tooltip.style.display = 'block';
+        tooltip.style.left = Math.min(mx + 12, W - 170) + 'px';
+        tooltip.style.top = '40px';
+      } else {
+        tooltip.style.display = 'none';
+      }
+    });
+    canvas.addEventListener('mouseleave', () => { tooltip.style.display = 'none'; });
+  } catch(e) { console.error('Chart error:', e); }
+}
+
+// ── Revenue Heatmap ─────────────────────────────────────────────────────────
+async function loadHeatmap(paramsStr = '') {
+  try {
+    const qs = paramsStr ? `?${paramsStr}` : '';
+    const r = await fetch(`/api/heatmap${qs}`);
+    const d = await r.json();
+    const cities = d.cities || [];
+    if (!cities.length) return;
+
+    const canvas = document.getElementById('heatmap-canvas');
+    const ctx = canvas.getContext('2d');
+    const dpr = window.devicePixelRatio || 1;
+    const W = canvas.clientWidth;
+    const H = canvas.clientHeight;
+    canvas.width = W * dpr;
+    canvas.height = H * dpr;
+    ctx.scale(dpr, dpr);
+
+    const maxPipeline = Math.max(1, ...cities.map(c => c.pipeline));
+    const maxHot = Math.max(1, ...cities.map(c => c.hot));
+    // Square grid: pick cols so cellW ≈ cellH
+    const aspect = W / H;
+    const n = cities.length;
+    const cols = Math.round(Math.sqrt(n * aspect));
+    const rows = Math.ceil(n / cols);
+    const cellSize = Math.min(W / cols, H / rows);
+    const gridW = cols * cellSize;
+    const gridH = rows * cellSize;
+    const offX = (W - gridW) / 2;
+    const offY = (H - gridH) / 2;
+    const maxR = cellSize * 0.34;
+
+    cities.forEach((city, i) => {
+      const col = i % cols;
+      const row = Math.floor(i / cols);
+      const cx = offX + col * cellSize + cellSize / 2;
+      const cy = offY + row * cellSize + cellSize / 2;
+      const ratio = city.pipeline / maxPipeline;
+      const radius = Math.max(8, ratio * maxR);
+      const hotRatio = city.hot / maxHot;
+
+      // Outer glow
+      const glow = ctx.createRadialGradient(cx, cy, radius * 0.3, cx, cy, radius * 2);
+      glow.addColorStop(0, `rgba(248,113,113,${0.15 * hotRatio})`);
+      glow.addColorStop(1, 'rgba(248,113,113,0)');
+      ctx.fillStyle = glow;
+      ctx.beginPath();
+      ctx.arc(cx, cy, radius * 2, 0, Math.PI * 2);
+      ctx.fill();
+
+      // Main bubble
+      const grad = ctx.createRadialGradient(cx, cy, 0, cx, cy, radius);
+      grad.addColorStop(0, `rgba(212,160,23,${0.3 + hotRatio * 0.5})`);
+      grad.addColorStop(0.7, `rgba(248,113,113,${0.15 + hotRatio * 0.35})`);
+      grad.addColorStop(1, `rgba(248,113,113,${0.05})`);
+      ctx.fillStyle = grad;
+      ctx.beginPath();
+      ctx.arc(cx, cy, radius, 0, Math.PI * 2);
+      ctx.fill();
+
+      // Border ring
+      ctx.strokeStyle = `rgba(212,160,23,${0.3 + hotRatio * 0.4})`;
+      ctx.lineWidth = 1.5;
+      ctx.beginPath();
+      ctx.arc(cx, cy, radius, 0, Math.PI * 2);
+      ctx.stroke();
+
+      // City label
+      ctx.fillStyle = '#f8fafc';
+      ctx.font = '600 11px Inter';
+      ctx.textAlign = 'center';
+      ctx.fillText(city.city.substring(0, 12), cx, cy - 3);
+
+      // Pipeline value
+      const valLabel = city.pipeline >= 1000000 ? '$' + (city.pipeline / 1000000).toFixed(1) + 'M' : '$' + (city.pipeline / 1000).toFixed(0) + 'K';
+      ctx.fillStyle = '#d4a017';
+      ctx.font = '700 10px Inter';
+      ctx.fillText(valLabel, cx, cy + 11);
+
+      // Hot count
+      ctx.fillStyle = 'rgba(248,113,113,0.8)';
+      ctx.font = '600 9px Inter';
+      ctx.fillText(city.hot + ' hot', cx, cy + 22);
+    });
+  } catch(e) { console.error('Heatmap error:', e); }
+}
+
+// ── Init — load immediately ──────────────────────────────────────────────
+(function init() {
+  loadStats();
+  loadLeads(1);
+  loadExpiryChart();
+  loadHeatmap();
+})();
+</script>
+</body>
+</html>

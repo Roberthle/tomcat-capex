@@ -1,0 +1,1425 @@
+2026-05-11 10:18:44,688 [GA-UCC-v2] INFO - Logging to /Users/robertle/tomcat_capex/logs/ga_ucc_v2_20260511_101844.log
+2026-05-11 10:18:44,688 [GA-UCC-v2] INFO - Logging in to GSCCCA (tomcatmca)...
+2026-05-11 10:18:47,019 [GA-UCC-v2] INFO - ✅ Authenticated
+2026-05-11 10:18:47,019 [GA-UCC-v2] INFO - 
+────────────────────────────────────────────────────────────
+2026-05-11 10:18:47,019 [GA-UCC-v2] INFO - 🔍 DELL FINANCIAL SERVICES (IT_OEM)
+2026-05-11 10:18:47,019 [GA-UCC-v2] INFO -   → 11/10/2025 – 05/11/2026
+2026-05-11 10:18:48,892 [GA-UCC-v2] INFO -   1 variation(s) — ~14 total filings
+2026-05-11 10:18:48,892 [GA-UCC-v2] INFO -     Variation 0: 'DELL FINANCIAL SERVICES L.L.C.' (14 filings)
+2026-05-11 10:18:52,854 [GA-UCC-v2] INFO -     Page 1/1: 14 records
+2026-05-11 10:18:52,865 [GA-UCC-v2] INFO -   → 14 found, 14 new
+2026-05-11 10:18:52,865 [GA-UCC-v2] INFO -   → 05/12/2025 – 11/10/2025
+2026-05-11 10:18:54,774 [GA-UCC-v2] INFO -   2 variation(s) — ~18 total filings
+2026-05-11 10:18:54,774 [GA-UCC-v2] INFO -     Variation 0: 'DELL FINANCIAL SERVICES L.L.C.' (17 filings)
+2026-05-11 10:18:57,682 [GA-UCC-v2] INFO -     Page 1/1: 17 records
+2026-05-11 10:18:57,682 [GA-UCC-v2] INFO -     Variation 1: 'DELL FINANCIAL SERVICES, L.P.' (1 filing)
+2026-05-11 10:19:00,811 [GA-UCC-v2] INFO -     Page 1/1: 1 records
+2026-05-11 10:19:00,827 [GA-UCC-v2] INFO -   → 18 found, 18 new
+2026-05-11 10:19:00,827 [GA-UCC-v2] INFO -   → 11/11/2024 – 05/12/2025
+2026-05-11 10:19:02,766 [GA-UCC-v2] INFO -   2 variation(s) — ~41 total filings
+2026-05-11 10:19:02,767 [GA-UCC-v2] INFO -     Variation 0: 'DELL FINANCIAL SERVICES L.L.C.' (39 filings)
+2026-05-11 10:19:06,850 [GA-UCC-v2] INFO -     Page 1/1: 39 records
+2026-05-11 10:19:06,851 [GA-UCC-v2] INFO -     Variation 1: 'DELL FINANCIAL SERVICES, L.P.' (2 filings)
+2026-05-11 10:19:08,996 [GA-UCC-v2] INFO -     Page 1/1: 2 records
+2026-05-11 10:19:09,007 [GA-UCC-v2] INFO -   → 41 found, 41 new
+2026-05-11 10:19:09,008 [GA-UCC-v2] INFO -   → 05/13/2024 – 11/11/2024
+2026-05-11 10:19:10,867 [GA-UCC-v2] INFO -   3 variation(s) — ~41 total filings
+2026-05-11 10:19:10,867 [GA-UCC-v2] INFO -     Variation 0: 'DELL FINANCIAL SERVICES L.L.C.' (39 filings)
+2026-05-11 10:19:16,370 [GA-UCC-v2] INFO -     Page 1/1: 42 records
+2026-05-11 10:19:16,370 [GA-UCC-v2] INFO -     Variation 1: 'DELL FINANCIAL SERVICES L.P.' (1 filing)
+2026-05-11 10:19:18,807 [GA-UCC-v2] INFO -     Page 1/1: 2 records
+2026-05-11 10:19:18,807 [GA-UCC-v2] INFO -     Variation 2: 'DELL FINANCIAL SERVICES, L.P.' (1 filing)
+2026-05-11 10:19:20,952 [GA-UCC-v2] INFO -     Page 1/1: 2 records
+2026-05-11 10:19:20,957 [GA-UCC-v2] INFO -   → 46 found, 41 new
+2026-05-11 10:19:20,957 [GA-UCC-v2] INFO -   → 11/13/2023 – 05/13/2024
+2026-05-11 10:19:22,853 [GA-UCC-v2] INFO -   3 variation(s) — ~49 total filings
+2026-05-11 10:19:22,853 [GA-UCC-v2] INFO -     Variation 0: 'DELL FINANCIAL SERVICES L.L.C.' (46 filings)
+2026-05-11 10:19:27,460 [GA-UCC-v2] INFO -     Page 1/1: 52 records
+2026-05-11 10:19:27,461 [GA-UCC-v2] INFO -     Variation 1: 'DELL FINANCIAL SERVICES L.P.' (2 filings)
+2026-05-11 10:19:29,684 [GA-UCC-v2] INFO -     Page 1/1: 2 records
+2026-05-11 10:19:29,684 [GA-UCC-v2] INFO -     Variation 2: 'DELL FINANCIAL SERVICES, L.P.' (1 filing)
+2026-05-11 10:19:31,893 [GA-UCC-v2] INFO -     Page 1/1: 2 records
+2026-05-11 10:19:31,896 [GA-UCC-v2] INFO -   → 56 found, 49 new
+2026-05-11 10:19:31,896 [GA-UCC-v2] INFO -   → 05/15/2023 – 11/13/2023
+2026-05-11 10:19:33,809 [GA-UCC-v2] INFO -   1 variation(s) — ~24 total filings
+2026-05-11 10:19:33,809 [GA-UCC-v2] INFO -     Variation 0: 'DELL FINANCIAL SERVICES L.L.C.' (24 filings)
+2026-05-11 10:19:37,506 [GA-UCC-v2] INFO -     Page 1/1: 27 records
+2026-05-11 10:19:37,514 [GA-UCC-v2] INFO -   → 27 found, 24 new
+2026-05-11 10:19:37,514 [GA-UCC-v2] INFO -   → 11/14/2022 – 05/15/2023
+2026-05-11 10:19:39,404 [GA-UCC-v2] INFO -   4 variation(s) — ~37 total filings
+2026-05-11 10:19:39,405 [GA-UCC-v2] INFO -     Variation 0: 'DELL FINANCIAL SERVICES' (1 filing)
+2026-05-11 10:19:41,657 [GA-UCC-v2] INFO -     Page 1/1: 2 records
+2026-05-11 10:19:41,657 [GA-UCC-v2] INFO -     Variation 1: 'DELL FINANCIAL SERVICES L.L.C.' (33 filings)
+2026-05-11 10:19:45,840 [GA-UCC-v2] INFO -     Page 1/1: 42 records
+2026-05-11 10:19:45,841 [GA-UCC-v2] INFO -     Variation 2: 'DELL FINANCIAL SERVICES L.P.' (1 filing)
+2026-05-11 10:19:47,993 [GA-UCC-v2] INFO -     Page 1/1: 2 records
+2026-05-11 10:19:47,993 [GA-UCC-v2] INFO -     Variation 3: 'DELL FINANCIAL SERVICES, L.P.' (2 filings)
+2026-05-11 10:19:50,269 [GA-UCC-v2] INFO -     Page 1/1: 4 records
+2026-05-11 10:19:50,285 [GA-UCC-v2] INFO -   → 50 found, 37 new
+2026-05-11 10:19:50,286 [GA-UCC-v2] INFO -   → 05/16/2022 – 11/14/2022
+2026-05-11 10:19:52,171 [GA-UCC-v2] INFO -   3 variation(s) — ~50 total filings
+2026-05-11 10:19:52,172 [GA-UCC-v2] INFO -     Variation 0: 'DELL FINANCIAL SERVICES L.L.C.' (46 filings)
+2026-05-11 10:19:58,611 [GA-UCC-v2] INFO -     Page 1/1: 53 records
+2026-05-11 10:19:58,612 [GA-UCC-v2] INFO -     Variation 1: 'DELL FINANCIAL SERVICES L.P.' (3 filings)
+2026-05-11 10:20:00,897 [GA-UCC-v2] INFO -     Page 1/1: 6 records
+2026-05-11 10:20:00,898 [GA-UCC-v2] INFO -     Variation 2: 'DELL FINANCIAL SERVICES, L.P.' (1 filing)
+2026-05-11 10:20:03,203 [GA-UCC-v2] INFO -     Page 1/1: 1 records
+2026-05-11 10:20:03,206 [GA-UCC-v2] INFO -   → 60 found, 50 new
+2026-05-11 10:20:03,206 [GA-UCC-v2] INFO -   → 11/15/2021 – 05/16/2022
+2026-05-11 10:20:05,158 [GA-UCC-v2] INFO -   4 variation(s) — ~39 total filings
+2026-05-11 10:20:05,158 [GA-UCC-v2] INFO -     Variation 0: 'DELL FINANCIAL SERVICES L.L.C.' (31 filings)
+2026-05-11 10:20:09,985 [GA-UCC-v2] INFO -     Page 1/1: 35 records
+2026-05-11 10:20:09,985 [GA-UCC-v2] INFO -     Variation 1: 'DELL FINANCIAL SERVICES L.P.' (4 filings)
+2026-05-11 10:20:12,461 [GA-UCC-v2] INFO -     Page 1/1: 8 records
+2026-05-11 10:20:12,461 [GA-UCC-v2] INFO -     Variation 2: 'DELL FINANCIAL SERVICES LLC.' (1 filing)
+2026-05-11 10:20:14,455 [GA-UCC-v2] INFO -     Page 1/1: 1 records
+2026-05-11 10:20:14,455 [GA-UCC-v2] INFO -     Variation 3: 'DELL FINANCIAL SERVICES, L.P.' (3 filings)
+2026-05-11 10:20:16,930 [GA-UCC-v2] INFO -     Page 1/1: 6 records
+2026-05-11 10:20:16,935 [GA-UCC-v2] INFO -   → 50 found, 39 new
+2026-05-11 10:20:16,936 [GA-UCC-v2] INFO -   → 05/17/2021 – 11/15/2021
+2026-05-11 10:20:18,935 [GA-UCC-v2] INFO -   3 variation(s) — ~62 total filings
+2026-05-11 10:20:18,935 [GA-UCC-v2] INFO -     Variation 0: 'DELL FINANCIAL SERVICES L.L.C.' (55 filings)
+2026-05-11 10:20:24,547 [GA-UCC-v2] INFO -     Page 1/1: 66 records
+2026-05-11 10:20:24,548 [GA-UCC-v2] INFO -     Variation 1: 'DELL FINANCIAL SERVICES L.P.' (6 filings)
+2026-05-11 10:20:26,895 [GA-UCC-v2] INFO -     Page 1/1: 6 records
+2026-05-11 10:20:26,895 [GA-UCC-v2] INFO -     Variation 2: 'DELL FINANCIAL SERVICES, L.P.' (1 filing)
+2026-05-11 10:20:29,066 [GA-UCC-v2] INFO -     Page 1/1: 2 records
+2026-05-11 10:20:29,092 [GA-UCC-v2] INFO -   → 74 found, 61 new
+2026-05-11 10:20:29,092 [GA-UCC-v2] INFO -   → 11/16/2020 – 05/17/2021
+2026-05-11 10:20:31,091 [GA-UCC-v2] INFO -   3 variation(s) — ~80 total filings
+2026-05-11 10:20:31,091 [GA-UCC-v2] INFO -     Variation 0: 'DELL FINANCIAL SERVICES L.L.C.' (64 filings)
+2026-05-11 10:20:36,853 [GA-UCC-v2] INFO -     Page 1/1: 68 records
+2026-05-11 10:20:36,857 [GA-UCC-v2] INFO -     Variation 1: 'DELL FINANCIAL SERVICES L.P.' (4 filings)
+2026-05-11 10:20:39,065 [GA-UCC-v2] INFO -     Page 1/1: 4 records
+2026-05-11 10:20:39,065 [GA-UCC-v2] INFO -     Variation 2: 'DELL FINANCIAL SERVICES, L.P.' (12 filings)
+2026-05-11 10:20:41,836 [GA-UCC-v2] INFO -     Page 1/1: 15 records
+2026-05-11 10:20:41,879 [GA-UCC-v2] INFO -   → 87 found, 78 new
+2026-05-11 10:20:41,879 [GA-UCC-v2] INFO -   → 05/18/2020 – 11/16/2020
+2026-05-11 10:20:43,756 [GA-UCC-v2] INFO -   3 variation(s) — ~60 total filings
+2026-05-11 10:20:43,756 [GA-UCC-v2] INFO -     Variation 0: 'DELL FINANCIAL SERVICES L.L.C.' (38 filings)
+2026-05-11 10:20:47,694 [GA-UCC-v2] INFO -     Page 1/1: 38 records
+2026-05-11 10:20:47,694 [GA-UCC-v2] INFO -     Variation 1: 'DELL FINANCIAL SERVICES L.P.' (1 filing)
+2026-05-11 10:20:49,730 [GA-UCC-v2] INFO -     Page 1/1: 1 records
+2026-05-11 10:20:49,730 [GA-UCC-v2] INFO -     Variation 2: 'DELL FINANCIAL SERVICES, L.P.' (21 filings)
+2026-05-11 10:20:53,500 [GA-UCC-v2] INFO -     Page 1/1: 29 records
+2026-05-11 10:20:53,514 [GA-UCC-v2] INFO -   → 68 found, 55 new
+2026-05-11 10:20:53,515 [GA-UCC-v2] INFO -   Lender total: 591 found, 507 new
+2026-05-11 10:20:55,020 [GA-UCC-v2] INFO - 
+────────────────────────────────────────────────────────────
+2026-05-11 10:20:55,020 [GA-UCC-v2] INFO - 🔍 HEWLETT PACKARD (IT_OEM)
+2026-05-11 10:20:55,020 [GA-UCC-v2] INFO -   → 11/10/2025 – 05/11/2026
+2026-05-11 10:20:56,880 [GA-UCC-v2] INFO -   1 variation(s) — ~9 total filings
+2026-05-11 10:20:56,880 [GA-UCC-v2] INFO -     Variation 0: 'HEWLETT-PACKARD FINANCIAL SERVICES COMPANY' (9 filings)
+2026-05-11 10:20:59,705 [GA-UCC-v2] INFO -     Page 1/1: 10 records
+2026-05-11 10:20:59,706 [GA-UCC-v2] INFO -   → 10 found, 9 new
+2026-05-11 10:20:59,706 [GA-UCC-v2] INFO -   → 05/12/2025 – 11/10/2025
+2026-05-11 10:21:01,598 [GA-UCC-v2] INFO -   1 variation(s) — ~12 total filings
+2026-05-11 10:21:01,598 [GA-UCC-v2] INFO -     Variation 0: 'HEWLETT-PACKARD FINANCIAL SERVICES COMPANY' (12 filings)
+2026-05-11 10:21:05,199 [GA-UCC-v2] INFO -     Page 1/1: 12 records
+2026-05-11 10:21:05,202 [GA-UCC-v2] INFO -   → 12 found, 12 new
+2026-05-11 10:21:05,202 [GA-UCC-v2] INFO -   → 11/11/2024 – 05/12/2025
+2026-05-11 10:21:07,065 [GA-UCC-v2] INFO -   1 variation(s) — ~19 total filings
+2026-05-11 10:21:07,065 [GA-UCC-v2] INFO -     Variation 0: 'HEWLETT-PACKARD FINANCIAL SERVICES COMPANY' (19 filings)
+2026-05-11 10:21:10,085 [GA-UCC-v2] INFO -     Page 1/1: 19 records
+2026-05-11 10:21:10,088 [GA-UCC-v2] INFO -   → 19 found, 19 new
+2026-05-11 10:21:10,088 [GA-UCC-v2] INFO -   → 05/13/2024 – 11/11/2024
+2026-05-11 10:21:12,192 [GA-UCC-v2] INFO -   1 variation(s) — ~8 total filings
+2026-05-11 10:21:12,192 [GA-UCC-v2] INFO -     Variation 0: 'HEWLETT-PACKARD FINANCIAL SERVICES COMPANY' (8 filings)
+2026-05-11 10:21:14,684 [GA-UCC-v2] INFO -     Page 1/1: 8 records
+2026-05-11 10:21:14,687 [GA-UCC-v2] INFO -   → 8 found, 8 new
+2026-05-11 10:21:14,687 [GA-UCC-v2] INFO -   → 11/13/2023 – 05/13/2024
+2026-05-11 10:21:16,563 [GA-UCC-v2] INFO -   1 variation(s) — ~19 total filings
+2026-05-11 10:21:16,563 [GA-UCC-v2] INFO -     Variation 0: 'HEWLETT-PACKARD FINANCIAL SERVICES COMPANY' (19 filings)
+2026-05-11 10:21:19,536 [GA-UCC-v2] INFO -     Page 1/1: 19 records
+2026-05-11 10:21:19,543 [GA-UCC-v2] INFO -   → 19 found, 19 new
+2026-05-11 10:21:19,543 [GA-UCC-v2] INFO -   → 05/15/2023 – 11/13/2023
+2026-05-11 10:21:21,408 [GA-UCC-v2] INFO -   1 variation(s) — ~15 total filings
+2026-05-11 10:21:21,408 [GA-UCC-v2] INFO -     Variation 0: 'HEWLETT-PACKARD FINANCIAL SERVICES COMPANY' (15 filings)
+2026-05-11 10:21:24,342 [GA-UCC-v2] INFO -     Page 1/1: 15 records
+2026-05-11 10:21:24,349 [GA-UCC-v2] INFO -   → 15 found, 15 new
+2026-05-11 10:21:24,349 [GA-UCC-v2] INFO -   → 11/14/2022 – 05/15/2023
+2026-05-11 10:21:26,213 [GA-UCC-v2] INFO -   3 variation(s) — ~23 total filings
+2026-05-11 10:21:26,213 [GA-UCC-v2] INFO -     Variation 0: 'HEWLETT PACKARD FINANCIAL SERVICES COMPANY' (3 filings)
+2026-05-11 10:21:28,392 [GA-UCC-v2] INFO -     Page 1/1: 3 records
+2026-05-11 10:21:28,392 [GA-UCC-v2] INFO -     Variation 1: 'HEWLETT-PACKARD FINANCIAL SERVICES COMPANY' (19 filings)
+2026-05-11 10:21:31,414 [GA-UCC-v2] INFO -     Page 1/1: 19 records
+2026-05-11 10:21:31,415 [GA-UCC-v2] INFO -     Variation 2: 'HEWLETT-PACKARD FINANCIAL SERVICES CANADA COMPANY' (1 filing)
+2026-05-11 10:21:33,482 [GA-UCC-v2] INFO -     Page 1/1: 1 records
+2026-05-11 10:21:33,485 [GA-UCC-v2] INFO -   → 23 found, 23 new
+2026-05-11 10:21:33,486 [GA-UCC-v2] INFO -   → 05/16/2022 – 11/14/2022
+2026-05-11 10:21:35,363 [GA-UCC-v2] INFO -   2 variation(s) — ~27 total filings
+2026-05-11 10:21:35,363 [GA-UCC-v2] INFO -     Variation 0: 'HEWLETT PACKARD FINANCIAL SERVICES COMPANY' (1 filing)
+2026-05-11 10:21:37,419 [GA-UCC-v2] INFO -     Page 1/1: 1 records
+2026-05-11 10:21:37,419 [GA-UCC-v2] INFO -     Variation 1: 'HEWLETT-PACKARD FINANCIAL SERVICES COMPANY' (26 filings)
+2026-05-11 10:21:40,762 [GA-UCC-v2] INFO -     Page 1/1: 26 records
+2026-05-11 10:21:40,769 [GA-UCC-v2] INFO -   → 27 found, 27 new
+2026-05-11 10:21:40,770 [GA-UCC-v2] INFO -   → 11/15/2021 – 05/16/2022
+2026-05-11 10:21:42,661 [GA-UCC-v2] INFO -   4 variation(s) — ~31 total filings
+2026-05-11 10:21:42,661 [GA-UCC-v2] INFO -     Variation 0: 'HEWLETT-PACKARD FINANCIAL SERVICE COMPANY' (1 filing)
+2026-05-11 10:21:44,742 [GA-UCC-v2] INFO -     Page 1/1: 1 records
+2026-05-11 10:21:44,743 [GA-UCC-v2] INFO -     Variation 1: 'HEWLETT PACKARD FINANCIAL SERVICES' (1 filing)
+2026-05-11 10:21:46,779 [GA-UCC-v2] INFO -     Page 1/1: 1 records
+2026-05-11 10:21:46,779 [GA-UCC-v2] INFO -     Variation 2: 'HEWLETT PACKARD FINANCIAL SERVICES COMPANY' (3 filings)
+2026-05-11 10:21:49,006 [GA-UCC-v2] INFO -     Page 1/1: 3 records
+2026-05-11 10:21:49,007 [GA-UCC-v2] INFO -     Variation 3: 'HEWLETT-PACKARD FINANCIAL SERVICES COMPANY' (26 filings)
+2026-05-11 10:21:52,581 [GA-UCC-v2] INFO -     Page 1/1: 26 records
+2026-05-11 10:21:52,588 [GA-UCC-v2] INFO -   → 31 found, 31 new
+2026-05-11 10:21:52,588 [GA-UCC-v2] INFO -   → 05/17/2021 – 11/15/2021
+2026-05-11 10:21:54,469 [GA-UCC-v2] INFO -   1 variation(s) — ~19 total filings
+2026-05-11 10:21:54,469 [GA-UCC-v2] INFO -     Variation 0: 'HEWLETT-PACKARD FINANCIAL SERVICES COMPANY' (19 filings)
+2026-05-11 10:21:57,776 [GA-UCC-v2] INFO -     Page 1/1: 19 records
+2026-05-11 10:21:57,779 [GA-UCC-v2] INFO -   → 19 found, 19 new
+2026-05-11 10:21:57,779 [GA-UCC-v2] INFO -   → 11/16/2020 – 05/17/2021
+2026-05-11 10:21:59,642 [GA-UCC-v2] INFO -   1 variation(s) — ~17 total filings
+2026-05-11 10:21:59,642 [GA-UCC-v2] INFO -     Variation 0: 'HEWLETT-PACKARD FINANCIAL SERVICES COMPANY' (17 filings)
+2026-05-11 10:22:02,455 [GA-UCC-v2] INFO -     Page 1/1: 17 records
+2026-05-11 10:22:02,459 [GA-UCC-v2] INFO -   → 17 found, 15 new
+2026-05-11 10:22:02,459 [GA-UCC-v2] INFO -   → 05/18/2020 – 11/16/2020
+2026-05-11 10:22:04,458 [GA-UCC-v2] INFO -   1 variation(s) — ~22 total filings
+2026-05-11 10:22:04,458 [GA-UCC-v2] INFO -     Variation 0: 'HEWLETT-PACKARD FINANCIAL SERVICES COMPANY' (22 filings)
+2026-05-11 10:22:07,656 [GA-UCC-v2] INFO -     Page 1/1: 22 records
+2026-05-11 10:22:07,657 [GA-UCC-v2] INFO -   → 22 found, 22 new
+2026-05-11 10:22:07,658 [GA-UCC-v2] INFO -   Lender total: 222 found, 219 new
+2026-05-11 10:22:09,160 [GA-UCC-v2] INFO - 
+────────────────────────────────────────────────────────────
+2026-05-11 10:22:09,160 [GA-UCC-v2] INFO - 🔍 HP FINANCIAL (IT_OEM)
+2026-05-11 10:22:09,160 [GA-UCC-v2] INFO -   → 11/10/2025 – 05/11/2026
+2026-05-11 10:22:11,022 [GA-UCC-v2] INFO -   No results
+2026-05-11 10:22:11,022 [GA-UCC-v2] INFO -   → 05/12/2025 – 11/10/2025
+2026-05-11 10:22:13,455 [GA-UCC-v2] INFO -   No results
+2026-05-11 10:22:13,455 [GA-UCC-v2] INFO -   → 11/11/2024 – 05/12/2025
+2026-05-11 10:22:15,354 [GA-UCC-v2] INFO -   No results
+2026-05-11 10:22:15,354 [GA-UCC-v2] INFO -   → 05/13/2024 – 11/11/2024
+2026-05-11 10:22:17,203 [GA-UCC-v2] INFO -   No results
+2026-05-11 10:22:17,203 [GA-UCC-v2] INFO -   → 11/13/2023 – 05/13/2024
+2026-05-11 10:22:19,048 [GA-UCC-v2] INFO -   No results
+2026-05-11 10:22:19,048 [GA-UCC-v2] INFO -   → 05/15/2023 – 11/13/2023
+2026-05-11 10:22:20,900 [GA-UCC-v2] INFO -   No results
+2026-05-11 10:22:20,900 [GA-UCC-v2] INFO -   → 11/14/2022 – 05/15/2023
+2026-05-11 10:22:22,728 [GA-UCC-v2] INFO -   No results
+2026-05-11 10:22:22,728 [GA-UCC-v2] INFO -   → 05/16/2022 – 11/14/2022
+2026-05-11 10:22:24,594 [GA-UCC-v2] INFO -   No results
+2026-05-11 10:22:24,594 [GA-UCC-v2] INFO -   → 11/15/2021 – 05/16/2022
+2026-05-11 10:22:26,447 [GA-UCC-v2] INFO -   No results
+2026-05-11 10:22:26,447 [GA-UCC-v2] INFO -   → 05/17/2021 – 11/15/2021
+2026-05-11 10:22:28,302 [GA-UCC-v2] INFO -   No results
+2026-05-11 10:22:28,302 [GA-UCC-v2] INFO -   → 11/16/2020 – 05/17/2021
+2026-05-11 10:22:30,159 [GA-UCC-v2] INFO -   No results
+2026-05-11 10:22:30,160 [GA-UCC-v2] INFO -   → 05/18/2020 – 11/16/2020
+2026-05-11 10:22:32,026 [GA-UCC-v2] INFO -   No results
+2026-05-11 10:22:32,026 [GA-UCC-v2] INFO -   Lender total: 0 found, 0 new
+2026-05-11 10:22:33,529 [GA-UCC-v2] INFO - 
+────────────────────────────────────────────────────────────
+2026-05-11 10:22:33,529 [GA-UCC-v2] INFO - 🔍 IBM CREDIT (IT_OEM)
+2026-05-11 10:22:33,529 [GA-UCC-v2] INFO -   → 11/10/2025 – 05/11/2026
+2026-05-11 10:22:35,444 [GA-UCC-v2] INFO -   1 variation(s) — ~9 total filings
+2026-05-11 10:22:35,445 [GA-UCC-v2] INFO -     Variation 0: 'IBM CREDIT LLC' (9 filings)
+2026-05-11 10:22:38,636 [GA-UCC-v2] INFO -     Page 1/1: 9 records
+2026-05-11 10:22:38,637 [GA-UCC-v2] INFO -   → 9 found, 9 new
+2026-05-11 10:22:38,638 [GA-UCC-v2] INFO -   → 05/12/2025 – 11/10/2025
+2026-05-11 10:22:41,863 [GA-UCC-v2] INFO -   1 variation(s) — ~6 total filings
+2026-05-11 10:22:41,864 [GA-UCC-v2] INFO -     Variation 0: 'IBM CREDIT LLC' (6 filings)
+2026-05-11 10:22:44,653 [GA-UCC-v2] INFO -     Page 1/1: 6 records
+2026-05-11 10:22:44,655 [GA-UCC-v2] INFO -   → 6 found, 6 new
+2026-05-11 10:22:44,655 [GA-UCC-v2] INFO -   → 11/11/2024 – 05/12/2025
+2026-05-11 10:22:46,539 [GA-UCC-v2] INFO -   1 variation(s) — ~14 total filings
+2026-05-11 10:22:46,539 [GA-UCC-v2] INFO -     Variation 0: 'IBM CREDIT LLC' (14 filings)
+2026-05-11 10:22:49,308 [GA-UCC-v2] INFO -     Page 1/1: 14 records
+2026-05-11 10:22:49,309 [GA-UCC-v2] INFO -   → 14 found, 14 new
+2026-05-11 10:22:49,309 [GA-UCC-v2] INFO -   → 05/13/2024 – 11/11/2024
+2026-05-11 10:22:51,179 [GA-UCC-v2] INFO -   1 variation(s) — ~4 total filings
+2026-05-11 10:22:51,179 [GA-UCC-v2] INFO -     Variation 0: 'IBM CREDIT LLC' (4 filings)
+2026-05-11 10:22:53,527 [GA-UCC-v2] INFO -     Page 1/1: 4 records
+2026-05-11 10:22:53,528 [GA-UCC-v2] INFO -   → 4 found, 4 new
+2026-05-11 10:22:53,528 [GA-UCC-v2] INFO -   → 11/13/2023 – 05/13/2024
+2026-05-11 10:22:55,492 [GA-UCC-v2] INFO -   1 variation(s) — ~14 total filings
+2026-05-11 10:22:55,493 [GA-UCC-v2] INFO -     Variation 0: 'IBM CREDIT LLC' (14 filings)
+2026-05-11 10:22:58,272 [GA-UCC-v2] INFO -     Page 1/1: 14 records
+2026-05-11 10:22:58,274 [GA-UCC-v2] INFO -   → 14 found, 14 new
+2026-05-11 10:22:58,274 [GA-UCC-v2] INFO -   → 05/15/2023 – 11/13/2023
+2026-05-11 10:23:00,148 [GA-UCC-v2] INFO -   1 variation(s) — ~1 total filings
+2026-05-11 10:23:00,148 [GA-UCC-v2] INFO -     Variation 0: 'IBM CREDIT LLC' (1 filing)
+2026-05-11 10:23:02,272 [GA-UCC-v2] INFO -     Page 1/1: 1 records
+2026-05-11 10:23:02,273 [GA-UCC-v2] INFO -   → 1 found, 1 new
+2026-05-11 10:23:02,273 [GA-UCC-v2] INFO -   → 11/14/2022 – 05/15/2023
+2026-05-11 10:23:04,175 [GA-UCC-v2] INFO -   2 variation(s) — ~6 total filings
+2026-05-11 10:23:04,175 [GA-UCC-v2] INFO -     Variation 0: 'IBM CREDIT LLC' (5 filings)
+2026-05-11 10:23:06,571 [GA-UCC-v2] INFO -     Page 1/1: 5 records
+2026-05-11 10:23:06,571 [GA-UCC-v2] INFO -     Variation 1: 'IBM SOUTHEAST EMPLOYEES' (1 filing)
+2026-05-11 10:23:08,457 [GA-UCC-v2] INFO -     Page 1/1: 0 records
+2026-05-11 10:23:08,458 [GA-UCC-v2] INFO -   → 5 found, 5 new
+2026-05-11 10:23:08,458 [GA-UCC-v2] INFO -   → 05/16/2022 – 11/14/2022
+2026-05-11 10:23:10,325 [GA-UCC-v2] INFO -   1 variation(s) — ~3 total filings
+2026-05-11 10:23:10,325 [GA-UCC-v2] INFO -     Variation 0: 'IBM CREDIT LLC' (3 filings)
+2026-05-11 10:23:12,584 [GA-UCC-v2] INFO -     Page 1/1: 3 records
+2026-05-11 10:23:12,585 [GA-UCC-v2] INFO -   → 3 found, 2 new
+2026-05-11 10:23:12,586 [GA-UCC-v2] INFO -   → 11/15/2021 – 05/16/2022
+2026-05-11 10:23:14,580 [GA-UCC-v2] INFO -   2 variation(s) — ~11 total filings
+2026-05-11 10:23:14,580 [GA-UCC-v2] INFO -     Variation 0: 'IBM CREDIT LLC' (10 filings)
+2026-05-11 10:23:17,222 [GA-UCC-v2] INFO -     Page 1/1: 10 records
+2026-05-11 10:23:17,222 [GA-UCC-v2] INFO -     Variation 1: 'IBM SOUTHEAST EMPLOYEES' (1 filing)
+2026-05-11 10:23:19,094 [GA-UCC-v2] INFO -     Page 1/1: 0 records
+2026-05-11 10:23:19,095 [GA-UCC-v2] INFO -   → 10 found, 10 new
+2026-05-11 10:23:19,095 [GA-UCC-v2] INFO -   → 05/17/2021 – 11/15/2021
+2026-05-11 10:23:21,057 [GA-UCC-v2] INFO -   2 variation(s) — ~31 total filings
+2026-05-11 10:23:21,057 [GA-UCC-v2] INFO -     Variation 0: 'IBM CREDIT LLC' (30 filings)
+2026-05-11 10:23:24,678 [GA-UCC-v2] INFO -     Page 1/1: 30 records
+2026-05-11 10:23:24,679 [GA-UCC-v2] INFO -     Variation 1: 'IBM SOUTHEAST EMPLOYEES' (1 filing)
+2026-05-11 10:23:26,540 [GA-UCC-v2] INFO -     Page 1/1: 0 records
+2026-05-11 10:23:26,543 [GA-UCC-v2] INFO -   → 30 found, 30 new
+2026-05-11 10:23:26,543 [GA-UCC-v2] INFO -   → 11/16/2020 – 05/17/2021
+2026-05-11 10:23:28,461 [GA-UCC-v2] INFO -   2 variation(s) — ~7 total filings
+2026-05-11 10:23:28,462 [GA-UCC-v2] INFO -     Variation 0: 'IBM CREDIT LLC' (6 filings)
+2026-05-11 10:23:30,796 [GA-UCC-v2] INFO -     Page 1/1: 6 records
+2026-05-11 10:23:30,796 [GA-UCC-v2] INFO -     Variation 1: 'IBM SOUTHEAST EMPLYEES CREDIT UNION' (1 filing)
+2026-05-11 10:23:32,930 [GA-UCC-v2] INFO -     Page 1/1: 1 records
+2026-05-11 10:23:32,932 [GA-UCC-v2] INFO -   → 7 found, 7 new
+2026-05-11 10:23:32,932 [GA-UCC-v2] INFO -   → 05/18/2020 – 11/16/2020
+2026-05-11 10:23:34,861 [GA-UCC-v2] INFO -   1 variation(s) — ~11 total filings
+2026-05-11 10:23:34,861 [GA-UCC-v2] INFO -     Variation 0: 'IBM CREDIT LLC' (11 filings)
+2026-05-11 10:23:37,522 [GA-UCC-v2] INFO -     Page 1/1: 11 records
+2026-05-11 10:23:37,524 [GA-UCC-v2] INFO -   → 11 found, 11 new
+2026-05-11 10:23:37,524 [GA-UCC-v2] INFO -   Lender total: 114 found, 113 new
+2026-05-11 10:23:39,029 [GA-UCC-v2] INFO - 
+────────────────────────────────────────────────────────────
+2026-05-11 10:23:39,029 [GA-UCC-v2] INFO - 🔍 CISCO SYSTEMS CAPITAL (IT_OEM)
+2026-05-11 10:23:39,029 [GA-UCC-v2] INFO -   → 11/10/2025 – 05/11/2026
+2026-05-11 10:23:41,000 [GA-UCC-v2] INFO -   2 variation(s) — ~17 total filings
+2026-05-11 10:23:41,001 [GA-UCC-v2] INFO -     Variation 0: 'CISCO SYSTEMS CAPITAL CORP' (5 filings)
+2026-05-11 10:23:43,246 [GA-UCC-v2] INFO -     Page 1/1: 5 records
+2026-05-11 10:23:43,247 [GA-UCC-v2] INFO -     Variation 1: 'CISCO SYSTEMS CAPITAL CORPORATION' (12 filings)
+2026-05-11 10:23:46,173 [GA-UCC-v2] INFO -     Page 1/1: 12 records
+2026-05-11 10:23:46,176 [GA-UCC-v2] INFO -   → 17 found, 17 new
+2026-05-11 10:23:46,176 [GA-UCC-v2] INFO -   → 05/12/2025 – 11/10/2025
+2026-05-11 10:23:48,140 [GA-UCC-v2] INFO -   2 variation(s) — ~12 total filings
+2026-05-11 10:23:48,141 [GA-UCC-v2] INFO -     Variation 0: 'CISCO SYSTEMS CAPITAL CORPORATION' (11 filings)
+2026-05-11 10:23:50,652 [GA-UCC-v2] INFO -     Page 1/1: 11 records
+2026-05-11 10:23:50,652 [GA-UCC-v2] INFO -     Variation 1: 'CISCO SYSTEMS CAPITAL CRP' (1 filing)
+2026-05-11 10:23:52,900 [GA-UCC-v2] INFO -     Page 1/1: 1 records
+2026-05-11 10:23:52,902 [GA-UCC-v2] INFO -   → 12 found, 12 new
+2026-05-11 10:23:52,902 [GA-UCC-v2] INFO -   → 11/11/2024 – 05/12/2025
+2026-05-11 10:23:54,798 [GA-UCC-v2] INFO -   2 variation(s) — ~18 total filings
+2026-05-11 10:23:54,798 [GA-UCC-v2] INFO -     Variation 0: 'CISCO SYSTEMS CAPITAL CORP' (1 filing)
+2026-05-11 10:23:56,953 [GA-UCC-v2] INFO -     Page 1/1: 1 records
+2026-05-11 10:23:56,953 [GA-UCC-v2] INFO -     Variation 1: 'CISCO SYSTEMS CAPITAL CORPORATION' (17 filings)
+2026-05-11 10:24:00,181 [GA-UCC-v2] INFO -     Page 1/1: 17 records
+2026-05-11 10:24:00,184 [GA-UCC-v2] INFO -   → 18 found, 18 new
+2026-05-11 10:24:00,184 [GA-UCC-v2] INFO -   → 05/13/2024 – 11/11/2024
+2026-05-11 10:24:02,045 [GA-UCC-v2] INFO -   1 variation(s) — ~10 total filings
+2026-05-11 10:24:02,316 [GA-UCC-v2] INFO -     Variation 0: 'CISCO SYSTEMS CAPITAL CORPORATION' (10 filings)
+2026-05-11 10:24:04,846 [GA-UCC-v2] INFO -     Page 1/1: 10 records
+2026-05-11 10:24:04,847 [GA-UCC-v2] INFO -   → 10 found, 10 new
+2026-05-11 10:24:04,847 [GA-UCC-v2] INFO -   → 11/13/2023 – 05/13/2024
+2026-05-11 10:24:06,711 [GA-UCC-v2] INFO -   3 variation(s) — ~14 total filings
+2026-05-11 10:24:06,711 [GA-UCC-v2] INFO -     Variation 0: 'CISCO SYSTEMS CAPITAL CORP' (1 filing)
+2026-05-11 10:24:08,748 [GA-UCC-v2] INFO -     Page 1/1: 1 records
+2026-05-11 10:24:08,748 [GA-UCC-v2] INFO -     Variation 1: 'CISCO SYSTEMS CAPITAL CORPORATION' (11 filings)
+2026-05-11 10:24:11,310 [GA-UCC-v2] INFO -     Page 1/1: 11 records
+2026-05-11 10:24:11,310 [GA-UCC-v2] INFO -     Variation 2: 'CISCO SYSTEMS CAPITAL CRP' (2 filings)
+2026-05-11 10:24:13,620 [GA-UCC-v2] INFO -     Page 1/1: 2 records
+2026-05-11 10:24:13,627 [GA-UCC-v2] INFO -   → 14 found, 14 new
+2026-05-11 10:24:13,627 [GA-UCC-v2] INFO -   → 05/15/2023 – 11/13/2023
+2026-05-11 10:24:15,514 [GA-UCC-v2] INFO -   2 variation(s) — ~15 total filings
+2026-05-11 10:24:15,514 [GA-UCC-v2] INFO -     Variation 0: 'CISCO SYSTEMS CAPITAL CORPORATION' (14 filings)
+2026-05-11 10:24:18,530 [GA-UCC-v2] INFO -     Page 1/1: 14 records
+2026-05-11 10:24:18,531 [GA-UCC-v2] INFO -     Variation 1: 'CISCO SYSTEMS CAPITAL CRP' (1 filing)
+2026-05-11 10:24:20,627 [GA-UCC-v2] INFO -     Page 1/1: 1 records
+2026-05-11 10:24:20,630 [GA-UCC-v2] INFO -   → 15 found, 14 new
+2026-05-11 10:24:20,630 [GA-UCC-v2] INFO -   → 11/14/2022 – 05/15/2023
+2026-05-11 10:24:22,583 [GA-UCC-v2] INFO -   3 variation(s) — ~10 total filings
+2026-05-11 10:24:22,583 [GA-UCC-v2] INFO -     Variation 0: 'CISCO SYSTEMS CAPITAL CORP' (2 filings)
+2026-05-11 10:24:24,696 [GA-UCC-v2] INFO -     Page 1/1: 2 records
+2026-05-11 10:24:24,696 [GA-UCC-v2] INFO -     Variation 1: 'CISCO SYSTEMS CAPITAL CORPORATION' (7 filings)
+2026-05-11 10:24:27,131 [GA-UCC-v2] INFO -     Page 1/1: 7 records
+2026-05-11 10:24:27,131 [GA-UCC-v2] INFO -     Variation 2: 'CISCO SYSTEMS CAPITAL CRP' (1 filing)
+2026-05-11 10:24:29,203 [GA-UCC-v2] INFO -     Page 1/1: 1 records
+2026-05-11 10:24:29,207 [GA-UCC-v2] INFO -   → 10 found, 10 new
+2026-05-11 10:24:29,207 [GA-UCC-v2] INFO -   → 05/16/2022 – 11/14/2022
+2026-05-11 10:24:31,121 [GA-UCC-v2] INFO -   3 variation(s) — ~11 total filings
+2026-05-11 10:24:31,122 [GA-UCC-v2] INFO -     Variation 0: 'CISCO SYSTEMS CAPITAL CORP' (1 filing)
+2026-05-11 10:24:33,220 [GA-UCC-v2] INFO -     Page 1/1: 1 records
+2026-05-11 10:24:33,220 [GA-UCC-v2] INFO -     Variation 1: 'CISCO SYSTEMS CAPITAL CORPORATION' (8 filings)
+2026-05-11 10:24:35,706 [GA-UCC-v2] INFO -     Page 1/1: 8 records
+2026-05-11 10:24:35,706 [GA-UCC-v2] INFO -     Variation 2: 'CISCO SYSTEMS CAPITAL CRP' (2 filings)
+2026-05-11 10:24:37,872 [GA-UCC-v2] INFO -     Page 1/1: 2 records
+2026-05-11 10:24:37,874 [GA-UCC-v2] INFO -   → 11 found, 11 new
+2026-05-11 10:24:37,874 [GA-UCC-v2] INFO -   → 11/15/2021 – 05/16/2022
+2026-05-11 10:24:39,733 [GA-UCC-v2] INFO -   2 variation(s) — ~13 total filings
+2026-05-11 10:24:39,733 [GA-UCC-v2] INFO -     Variation 0: 'CISCO SYSTEMS CAPITAL CORP' (1 filing)
+2026-05-11 10:24:41,903 [GA-UCC-v2] INFO -     Page 1/1: 1 records
+2026-05-11 10:24:41,904 [GA-UCC-v2] INFO -     Variation 1: 'CISCO SYSTEMS CAPITAL CORPORATION' (12 filings)
+2026-05-11 10:24:44,559 [GA-UCC-v2] INFO -     Page 1/1: 12 records
+2026-05-11 10:24:44,561 [GA-UCC-v2] INFO -   → 13 found, 13 new
+2026-05-11 10:24:44,561 [GA-UCC-v2] INFO -   → 05/17/2021 – 11/15/2021
+2026-05-11 10:24:46,538 [GA-UCC-v2] INFO -   3 variation(s) — ~18 total filings
+2026-05-11 10:24:46,538 [GA-UCC-v2] INFO -     Variation 0: 'CISCO SYSTEMS CAPITAL CORP' (4 filings)
+2026-05-11 10:24:48,749 [GA-UCC-v2] INFO -     Page 1/1: 4 records
+2026-05-11 10:24:48,749 [GA-UCC-v2] INFO -     Variation 1: 'CISCO SYSTEMS CAPITAL CORPORATION' (13 filings)
+2026-05-11 10:24:51,623 [GA-UCC-v2] INFO -     Page 1/1: 14 records
+2026-05-11 10:24:51,623 [GA-UCC-v2] INFO -     Variation 2: 'CISCO SYSTEMS CAPITAL CRP' (1 filing)
+2026-05-11 10:24:53,875 [GA-UCC-v2] INFO -     Page 1/1: 1 records
+2026-05-11 10:24:53,877 [GA-UCC-v2] INFO -   → 19 found, 18 new
+2026-05-11 10:24:53,877 [GA-UCC-v2] INFO -   → 11/16/2020 – 05/17/2021
+2026-05-11 10:24:55,741 [GA-UCC-v2] INFO -   3 variation(s) — ~15 total filings
+2026-05-11 10:24:55,741 [GA-UCC-v2] INFO -     Variation 0: 'CISCO SYSTEMS CAPITAL CORP' (3 filings)
+2026-05-11 10:24:57,898 [GA-UCC-v2] INFO -     Page 1/1: 3 records
+2026-05-11 10:24:57,898 [GA-UCC-v2] INFO -     Variation 1: 'CISCO SYSTEMS CAPITAL CORPORATION' (10 filings)
+2026-05-11 10:25:00,683 [GA-UCC-v2] INFO -     Page 1/1: 10 records
+2026-05-11 10:25:00,683 [GA-UCC-v2] INFO -     Variation 2: 'CISCO SYSTEMS CAPITAL CRP' (2 filings)
+2026-05-11 10:25:02,832 [GA-UCC-v2] INFO -     Page 1/1: 2 records
+2026-05-11 10:25:02,835 [GA-UCC-v2] INFO -   → 15 found, 15 new
+2026-05-11 10:25:02,835 [GA-UCC-v2] INFO -   → 05/18/2020 – 11/16/2020
+2026-05-11 10:25:05,077 [GA-UCC-v2] INFO -   2 variation(s) — ~16 total filings
+2026-05-11 10:25:05,077 [GA-UCC-v2] INFO -     Variation 0: 'CISCO SYSTEMS CAPITAL CORPORATION' (14 filings)
+2026-05-11 10:25:07,882 [GA-UCC-v2] INFO -     Page 1/1: 14 records
+2026-05-11 10:25:07,882 [GA-UCC-v2] INFO -     Variation 1: 'CISCO SYSTEMS CAPITAL CRP' (2 filings)
+2026-05-11 10:25:10,273 [GA-UCC-v2] INFO -     Page 1/1: 2 records
+2026-05-11 10:25:10,276 [GA-UCC-v2] INFO -   → 16 found, 16 new
+2026-05-11 10:25:10,276 [GA-UCC-v2] INFO -   Lender total: 170 found, 168 new
+2026-05-11 10:25:11,781 [GA-UCC-v2] INFO - 
+────────────────────────────────────────────────────────────
+2026-05-11 10:25:11,781 [GA-UCC-v2] INFO - 🔍 KONICA MINOLTA (PRINT_IMAGING)
+2026-05-11 10:25:11,781 [GA-UCC-v2] INFO -   → 11/10/2025 – 05/11/2026
+2026-05-11 10:25:13,786 [GA-UCC-v2] INFO -   2 variation(s) — ~8 total filings
+2026-05-11 10:25:13,786 [GA-UCC-v2] INFO -     Variation 0: 'KONICA MINOLTA BUSINESS SOLUTIONS INC.' (1 filing)
+2026-05-11 10:25:16,007 [GA-UCC-v2] INFO -     Page 1/1: 1 records
+2026-05-11 10:25:16,007 [GA-UCC-v2] INFO -     Variation 1: 'KONICA MINOLTA PREMIER FINANCE' (7 filings)
+2026-05-11 10:25:18,613 [GA-UCC-v2] INFO -     Page 1/1: 7 records
+2026-05-11 10:25:18,616 [GA-UCC-v2] INFO -   → 8 found, 8 new
+2026-05-11 10:25:18,616 [GA-UCC-v2] INFO -   → 05/12/2025 – 11/10/2025
+2026-05-11 10:25:20,523 [GA-UCC-v2] INFO -   2 variation(s) — ~8 total filings
+2026-05-11 10:25:20,524 [GA-UCC-v2] INFO -     Variation 0: 'KONICA MINOLTA BUSINESS SOLUTIONS' (1 filing)
+2026-05-11 10:25:22,623 [GA-UCC-v2] INFO -     Page 1/1: 1 records
+2026-05-11 10:25:22,623 [GA-UCC-v2] INFO -     Variation 1: 'KONICA MINOLTA PREMIER FINANCE' (7 filings)
+2026-05-11 10:25:24,940 [GA-UCC-v2] INFO -     Page 1/1: 7 records
+2026-05-11 10:25:24,945 [GA-UCC-v2] INFO -   → 8 found, 6 new
+2026-05-11 10:25:24,945 [GA-UCC-v2] INFO -   → 11/11/2024 – 05/12/2025
+2026-05-11 10:25:26,880 [GA-UCC-v2] INFO -   1 variation(s) — ~10 total filings
+2026-05-11 10:25:26,880 [GA-UCC-v2] INFO -     Variation 0: 'KONICA MINOLTA PREMIER FINANCE' (10 filings)
+2026-05-11 10:25:29,350 [GA-UCC-v2] INFO -     Page 1/1: 10 records
+2026-05-11 10:25:29,357 [GA-UCC-v2] INFO -   → 10 found, 10 new
+2026-05-11 10:25:29,357 [GA-UCC-v2] INFO -   → 05/13/2024 – 11/11/2024
+2026-05-11 10:25:31,279 [GA-UCC-v2] INFO -   2 variation(s) — ~7 total filings
+2026-05-11 10:25:31,279 [GA-UCC-v2] INFO -     Variation 0: 'KONICA MINOLTA BUSINESS SOLUTIONS' (1 filing)
+2026-05-11 10:25:33,512 [GA-UCC-v2] INFO -     Page 1/1: 1 records
+2026-05-11 10:25:33,513 [GA-UCC-v2] INFO -     Variation 1: 'KONICA MINOLTA PREMIER FINANCE' (6 filings)
+2026-05-11 10:25:35,906 [GA-UCC-v2] INFO -     Page 1/1: 6 records
+2026-05-11 10:25:35,909 [GA-UCC-v2] INFO -   → 7 found, 7 new
+2026-05-11 10:25:35,909 [GA-UCC-v2] INFO -   → 11/13/2023 – 05/13/2024
+2026-05-11 10:25:37,801 [GA-UCC-v2] INFO -   3 variation(s) — ~12 total filings
+2026-05-11 10:25:37,802 [GA-UCC-v2] INFO -     Variation 0: 'KONICA MINOLTA BUSINESS SOLUTIONS' (1 filing)
+2026-05-11 10:25:39,932 [GA-UCC-v2] INFO -     Page 1/1: 1 records
+2026-05-11 10:25:39,932 [GA-UCC-v2] INFO -     Variation 1: 'KONICA MINOLTA PREMIER FINANCE' (10 filings)
+2026-05-11 10:25:42,654 [GA-UCC-v2] INFO -     Page 1/1: 10 records
+2026-05-11 10:25:42,654 [GA-UCC-v2] INFO -     Variation 2: 'KONICA MINOLTA PRIEMER FINANCE' (1 filing)
+2026-05-11 10:25:44,791 [GA-UCC-v2] INFO -     Page 1/1: 1 records
+2026-05-11 10:25:44,794 [GA-UCC-v2] INFO -   → 12 found, 12 new
+2026-05-11 10:25:44,795 [GA-UCC-v2] INFO -   → 05/15/2023 – 11/13/2023
+2026-05-11 10:25:46,819 [GA-UCC-v2] INFO -   2 variation(s) — ~14 total filings
+2026-05-11 10:25:46,820 [GA-UCC-v2] INFO -     Variation 0: 'KONICA MINOLTA BUSINESS SOLUTIONS' (3 filings)
+2026-05-11 10:25:49,124 [GA-UCC-v2] INFO -     Page 1/1: 3 records
+2026-05-11 10:25:49,125 [GA-UCC-v2] INFO -     Variation 1: 'KONICA MINOLTA PREMIER FINANCE' (11 filings)
+2026-05-11 10:25:51,906 [GA-UCC-v2] INFO -     Page 1/1: 11 records
+2026-05-11 10:25:51,914 [GA-UCC-v2] INFO -   → 14 found, 14 new
+2026-05-11 10:25:51,914 [GA-UCC-v2] INFO -   → 11/14/2022 – 05/15/2023
+2026-05-11 10:25:53,821 [GA-UCC-v2] INFO -   2 variation(s) — ~15 total filings
+2026-05-11 10:25:53,821 [GA-UCC-v2] INFO -     Variation 0: 'KONICA MINOLTA BUSINESS SOLUTIONS' (1 filing)
+2026-05-11 10:25:55,897 [GA-UCC-v2] INFO -     Page 1/1: 1 records
+2026-05-11 10:25:55,897 [GA-UCC-v2] INFO -     Variation 1: 'KONICA MINOLTA PREMIER FINANCE' (14 filings)
+2026-05-11 10:25:58,740 [GA-UCC-v2] INFO -     Page 1/1: 14 records
+2026-05-11 10:25:58,743 [GA-UCC-v2] INFO -   → 15 found, 15 new
+2026-05-11 10:25:58,743 [GA-UCC-v2] INFO -   → 05/16/2022 – 11/14/2022
+2026-05-11 10:26:00,646 [GA-UCC-v2] INFO -   2 variation(s) — ~14 total filings
+2026-05-11 10:26:00,646 [GA-UCC-v2] INFO -     Variation 0: 'KONICA MINOLTA BUSINESS SOLUTIONS' (1 filing)
+2026-05-11 10:26:02,731 [GA-UCC-v2] INFO -     Page 1/1: 1 records
+2026-05-11 10:26:02,731 [GA-UCC-v2] INFO -     Variation 1: 'KONICA MINOLTA PREMIER FINANCE' (13 filings)
+2026-05-11 10:26:05,396 [GA-UCC-v2] INFO -     Page 1/1: 13 records
+2026-05-11 10:26:05,416 [GA-UCC-v2] INFO -   → 14 found, 13 new
+2026-05-11 10:26:05,416 [GA-UCC-v2] INFO -   → 11/15/2021 – 05/16/2022
+2026-05-11 10:26:07,419 [GA-UCC-v2] INFO -   3 variation(s) — ~12 total filings
+2026-05-11 10:26:07,420 [GA-UCC-v2] INFO -     Variation 0: 'KONICA MINOLTA BUSINESS SOLUTIONS USA, INC' (1 filing)
+2026-05-11 10:26:09,593 [GA-UCC-v2] INFO -     Page 1/1: 1 records
+2026-05-11 10:26:09,594 [GA-UCC-v2] INFO -     Variation 1: 'KONICA MINOLTA BUSINESS SOLUTIONS USA, INC.' (2 filings)
+2026-05-11 10:26:12,694 [GA-UCC-v2] INFO -     Page 1/1: 2 records
+2026-05-11 10:26:12,695 [GA-UCC-v2] INFO -     Variation 2: 'KONICA MINOLTA PREMIER FINANCE' (9 filings)
+2026-05-11 10:26:15,205 [GA-UCC-v2] INFO -     Page 1/1: 9 records
+2026-05-11 10:26:15,207 [GA-UCC-v2] INFO -   → 12 found, 12 new
+2026-05-11 10:26:15,207 [GA-UCC-v2] INFO -   → 05/17/2021 – 11/15/2021
+2026-05-11 10:26:17,172 [GA-UCC-v2] INFO -   3 variation(s) — ~8 total filings
+2026-05-11 10:26:17,172 [GA-UCC-v2] INFO -     Variation 0: 'KONICA MINOLTA BUSINESS SOLUTIONS' (1 filing)
+2026-05-11 10:26:19,213 [GA-UCC-v2] INFO -     Page 1/1: 1 records
+2026-05-11 10:26:19,213 [GA-UCC-v2] INFO -     Variation 1: 'KONICA MINOLTA PREMIER' (1 filing)
+2026-05-11 10:26:21,433 [GA-UCC-v2] INFO -     Page 1/1: 1 records
+2026-05-11 10:26:21,434 [GA-UCC-v2] INFO -     Variation 2: 'KONICA MINOLTA PREMIER FINANCE' (6 filings)
+2026-05-11 10:26:23,715 [GA-UCC-v2] INFO -     Page 1/1: 6 records
+2026-05-11 10:26:23,719 [GA-UCC-v2] INFO -   → 8 found, 8 new
+2026-05-11 10:26:23,719 [GA-UCC-v2] INFO -   → 11/16/2020 – 05/17/2021
+2026-05-11 10:26:25,582 [GA-UCC-v2] INFO -   3 variation(s) — ~10 total filings
+2026-05-11 10:26:25,582 [GA-UCC-v2] INFO -     Variation 0: 'KONICA MINOLTA BUSINESS SOLUTIONS USA, INC' (1 filing)
+2026-05-11 10:26:27,691 [GA-UCC-v2] INFO -     Page 1/1: 1 records
+2026-05-11 10:26:27,691 [GA-UCC-v2] INFO -     Variation 1: 'KONICA MINOLTA BUSINESS SOLUTIONS USA, INC.' (1 filing)
+2026-05-11 10:26:29,724 [GA-UCC-v2] INFO -     Page 1/1: 1 records
+2026-05-11 10:26:29,724 [GA-UCC-v2] INFO -     Variation 2: 'KONICA MINOLTA PREMIER FINANCE' (8 filings)
+2026-05-11 10:26:32,067 [GA-UCC-v2] INFO -     Page 1/1: 8 records
+2026-05-11 10:26:32,069 [GA-UCC-v2] INFO -   → 10 found, 10 new
+2026-05-11 10:26:32,070 [GA-UCC-v2] INFO -   → 05/18/2020 – 11/16/2020
+2026-05-11 10:26:33,952 [GA-UCC-v2] INFO -   1 variation(s) — ~18 total filings
+2026-05-11 10:26:33,952 [GA-UCC-v2] INFO -     Variation 0: 'KONICA MINOLTA PREMIER FINANCE' (18 filings)
+2026-05-11 10:26:36,905 [GA-UCC-v2] INFO -     Page 1/1: 18 records
+2026-05-11 10:26:36,909 [GA-UCC-v2] INFO -   → 18 found, 18 new
+2026-05-11 10:26:36,909 [GA-UCC-v2] INFO -   Lender total: 136 found, 133 new
+2026-05-11 10:26:38,414 [GA-UCC-v2] INFO - 
+────────────────────────────────────────────────────────────
+2026-05-11 10:26:38,414 [GA-UCC-v2] INFO - 🔍 XEROX FINANCIAL (PRINT_IMAGING)
+2026-05-11 10:26:38,414 [GA-UCC-v2] INFO -   → 11/10/2025 – 05/11/2026
+2026-05-11 10:26:40,276 [GA-UCC-v2] INFO -   1 variation(s) — ~2 total filings
+2026-05-11 10:26:40,276 [GA-UCC-v2] INFO -     Variation 0: 'XEROX FINANCIAL SERVICES' (2 filings)
+2026-05-11 10:26:42,507 [GA-UCC-v2] INFO -     Page 1/1: 2 records
+2026-05-11 10:26:42,514 [GA-UCC-v2] INFO -   → 2 found, 2 new
+2026-05-11 10:26:42,514 [GA-UCC-v2] INFO -   → 05/12/2025 – 11/10/2025
+2026-05-11 10:26:44,337 [GA-UCC-v2] INFO -   No results
+2026-05-11 10:26:44,337 [GA-UCC-v2] INFO -   → 11/11/2024 – 05/12/2025
+2026-05-11 10:26:46,226 [GA-UCC-v2] INFO -   1 variation(s) — ~11 total filings
+2026-05-11 10:26:46,227 [GA-UCC-v2] INFO -     Variation 0: 'XEROX FINANCIAL SERVICES' (11 filings)
+2026-05-11 10:26:48,891 [GA-UCC-v2] INFO -     Page 1/1: 11 records
+2026-05-11 10:26:48,894 [GA-UCC-v2] INFO -   → 11 found, 11 new
+2026-05-11 10:26:48,894 [GA-UCC-v2] INFO -   → 05/13/2024 – 11/11/2024
+2026-05-11 10:26:50,752 [GA-UCC-v2] INFO -   1 variation(s) — ~14 total filings
+2026-05-11 10:26:50,752 [GA-UCC-v2] INFO -     Variation 0: 'XEROX FINANCIAL SERVICES' (14 filings)
+2026-05-11 10:26:53,674 [GA-UCC-v2] INFO -     Page 1/1: 14 records
+2026-05-11 10:26:53,682 [GA-UCC-v2] INFO -   → 14 found, 14 new
+2026-05-11 10:26:53,682 [GA-UCC-v2] INFO -   → 11/13/2023 – 05/13/2024
+2026-05-11 10:26:55,642 [GA-UCC-v2] INFO -   2 variation(s) — ~15 total filings
+2026-05-11 10:26:55,642 [GA-UCC-v2] INFO -     Variation 0: 'XEROX FINANCIAL SERVICES' (14 filings)
+2026-05-11 10:26:58,460 [GA-UCC-v2] INFO -     Page 1/1: 14 records
+2026-05-11 10:26:58,461 [GA-UCC-v2] INFO -     Variation 1: 'XEROX FINANCIAL SERVICES LLC' (1 filing)
+2026-05-11 10:27:00,607 [GA-UCC-v2] INFO -     Page 1/1: 1 records
+2026-05-11 10:27:00,609 [GA-UCC-v2] INFO -   → 15 found, 15 new
+2026-05-11 10:27:00,610 [GA-UCC-v2] INFO -   → 05/15/2023 – 11/13/2023
+2026-05-11 10:27:02,519 [GA-UCC-v2] INFO -   1 variation(s) — ~32 total filings
+2026-05-11 10:27:02,519 [GA-UCC-v2] INFO -     Variation 0: 'XEROX FINANCIAL SERVICES' (32 filings)
+2026-05-11 10:27:06,315 [GA-UCC-v2] INFO -     Page 1/1: 32 records
+2026-05-11 10:27:06,317 [GA-UCC-v2] INFO -   → 32 found, 32 new
+2026-05-11 10:27:06,317 [GA-UCC-v2] INFO -   → 11/14/2022 – 05/15/2023
+2026-05-11 10:27:08,517 [GA-UCC-v2] INFO -   1 variation(s) — ~36 total filings
+2026-05-11 10:27:08,517 [GA-UCC-v2] INFO -     Variation 0: 'XEROX FINANCIAL SERVICES' (36 filings)
+2026-05-11 10:27:12,376 [GA-UCC-v2] INFO -     Page 1/1: 36 records
+2026-05-11 10:27:12,383 [GA-UCC-v2] INFO -   → 36 found, 36 new
+2026-05-11 10:27:12,383 [GA-UCC-v2] INFO -   → 05/16/2022 – 11/14/2022
+2026-05-11 10:27:14,231 [GA-UCC-v2] INFO -   1 variation(s) — ~31 total filings
+2026-05-11 10:27:14,231 [GA-UCC-v2] INFO -     Variation 0: 'XEROX FINANCIAL SERVICES' (31 filings)
+2026-05-11 10:27:18,908 [GA-UCC-v2] INFO -     Page 1/1: 31 records
+2026-05-11 10:27:18,915 [GA-UCC-v2] INFO -   → 31 found, 30 new
+2026-05-11 10:27:18,915 [GA-UCC-v2] INFO -   → 11/15/2021 – 05/16/2022
+2026-05-11 10:27:20,822 [GA-UCC-v2] INFO -   1 variation(s) — ~43 total filings
+2026-05-11 10:27:20,822 [GA-UCC-v2] INFO -     Variation 0: 'XEROX FINANCIAL SERVICES' (43 filings)
+2026-05-11 10:27:25,902 [GA-UCC-v2] INFO -     Page 1/1: 43 records
+2026-05-11 10:27:25,909 [GA-UCC-v2] INFO -   → 43 found, 43 new
+2026-05-11 10:27:25,909 [GA-UCC-v2] INFO -   → 05/17/2021 – 11/15/2021
+2026-05-11 10:27:27,862 [GA-UCC-v2] INFO -   1 variation(s) — ~18 total filings
+2026-05-11 10:27:27,862 [GA-UCC-v2] INFO -     Variation 0: 'XEROX FINANCIAL SERVICES' (18 filings)
+2026-05-11 10:27:30,859 [GA-UCC-v2] INFO -     Page 1/1: 18 records
+2026-05-11 10:27:30,860 [GA-UCC-v2] INFO -   → 18 found, 18 new
+2026-05-11 10:27:30,860 [GA-UCC-v2] INFO -   → 11/16/2020 – 05/17/2021
+2026-05-11 10:27:32,828 [GA-UCC-v2] INFO -   1 variation(s) — ~26 total filings
+2026-05-11 10:27:32,828 [GA-UCC-v2] INFO -     Variation 0: 'XEROX FINANCIAL SERVICES' (26 filings)
+2026-05-11 10:27:36,467 [GA-UCC-v2] INFO -     Page 1/1: 26 records
+2026-05-11 10:27:36,490 [GA-UCC-v2] INFO -   → 26 found, 26 new
+2026-05-11 10:27:36,491 [GA-UCC-v2] INFO -   → 05/18/2020 – 11/16/2020
+2026-05-11 10:27:38,463 [GA-UCC-v2] INFO -   2 variation(s) — ~18 total filings
+2026-05-11 10:27:38,463 [GA-UCC-v2] INFO -     Variation 0: 'XEROX FINANCIAL SERVICES' (17 filings)
+2026-05-11 10:27:41,858 [GA-UCC-v2] INFO -     Page 1/1: 17 records
+2026-05-11 10:27:41,858 [GA-UCC-v2] INFO -     Variation 1: 'XEROX FINANCIAL SERVICES LLC' (1 filing)
+2026-05-11 10:27:43,956 [GA-UCC-v2] INFO -     Page 1/1: 1 records
+2026-05-11 10:27:43,963 [GA-UCC-v2] INFO -   → 18 found, 18 new
+2026-05-11 10:27:43,963 [GA-UCC-v2] INFO -   Lender total: 246 found, 245 new
+2026-05-11 10:27:45,468 [GA-UCC-v2] INFO - 
+────────────────────────────────────────────────────────────
+2026-05-11 10:27:45,468 [GA-UCC-v2] INFO - 🔍 CANON FINANCIAL SERVICES (PRINT_IMAGING)
+2026-05-11 10:27:45,468 [GA-UCC-v2] INFO -   → 11/10/2025 – 05/11/2026
+2026-05-11 10:27:47,414 [GA-UCC-v2] INFO -   1 variation(s) — ~71 total filings
+2026-05-11 10:27:47,415 [GA-UCC-v2] INFO -     Variation 0: 'CANON FINANCIAL SERVICES, INC.' (71 filings)
+2026-05-11 10:27:54,289 [GA-UCC-v2] INFO -     Page 1/1: 71 records
+2026-05-11 10:27:54,299 [GA-UCC-v2] INFO -   → 71 found, 71 new
+2026-05-11 10:27:54,299 [GA-UCC-v2] INFO -   → 05/12/2025 – 11/10/2025
+2026-05-11 10:27:56,807 [GA-UCC-v2] INFO -   3 variation(s) — ~62 total filings
+2026-05-11 10:27:56,807 [GA-UCC-v2] INFO -     Variation 0: 'CANON FINANCIAL SERVICES INC' (1 filing)
+2026-05-11 10:27:58,841 [GA-UCC-v2] INFO -     Page 1/1: 1 records
+2026-05-11 10:27:58,842 [GA-UCC-v2] INFO -     Variation 1: 'CANON FINANCIAL SERVICES, INC.' (60 filings)
+2026-05-11 10:28:05,254 [GA-UCC-v2] INFO -     Page 1/1: 60 records
+2026-05-11 10:28:05,255 [GA-UCC-v2] INFO -     Variation 2: 'CANON FINANCIAL SERVICES. INC.' (1 filing)
+2026-05-11 10:28:07,272 [GA-UCC-v2] INFO -     Page 1/1: 1 records
+2026-05-11 10:28:07,274 [GA-UCC-v2] INFO -   → 62 found, 62 new
+2026-05-11 10:28:07,274 [GA-UCC-v2] INFO -   → 11/11/2024 – 05/12/2025
+2026-05-11 10:28:09,151 [GA-UCC-v2] INFO -   1 variation(s) — ~30 total filings
+2026-05-11 10:28:09,151 [GA-UCC-v2] INFO -     Variation 0: 'CANON FINANCIAL SERVICES, INC.' (30 filings)
+2026-05-11 10:28:12,677 [GA-UCC-v2] INFO -     Page 1/1: 30 records
+2026-05-11 10:28:12,685 [GA-UCC-v2] INFO -   → 30 found, 30 new
+2026-05-11 10:28:12,685 [GA-UCC-v2] INFO -   → 05/13/2024 – 11/11/2024
+2026-05-11 10:28:14,570 [GA-UCC-v2] INFO -   2 variation(s) — ~38 total filings
+2026-05-11 10:28:14,570 [GA-UCC-v2] INFO -     Variation 0: 'CANON FINANCIAL SERVICES INC.' (2 filings)
+2026-05-11 10:28:16,666 [GA-UCC-v2] INFO -     Page 1/1: 2 records
+2026-05-11 10:28:16,666 [GA-UCC-v2] INFO -     Variation 1: 'CANON FINANCIAL SERVICES, INC.' (36 filings)
+2026-05-11 10:28:20,607 [GA-UCC-v2] INFO -     Page 1/1: 36 records
+2026-05-11 10:28:20,616 [GA-UCC-v2] INFO -   → 38 found, 38 new
+2026-05-11 10:28:20,616 [GA-UCC-v2] INFO -   → 11/13/2023 – 05/13/2024
+2026-05-11 10:28:22,565 [GA-UCC-v2] INFO -   1 variation(s) — ~32 total filings
+2026-05-11 10:28:22,566 [GA-UCC-v2] INFO -     Variation 0: 'CANON FINANCIAL SERVICES, INC.' (32 filings)
+2026-05-11 10:28:26,123 [GA-UCC-v2] INFO -     Page 1/1: 32 records
+2026-05-11 10:28:26,126 [GA-UCC-v2] INFO -   → 32 found, 32 new
+2026-05-11 10:28:26,126 [GA-UCC-v2] INFO -   → 05/15/2023 – 11/13/2023
+2026-05-11 10:28:27,983 [GA-UCC-v2] INFO -   1 variation(s) — ~39 total filings
+2026-05-11 10:28:27,983 [GA-UCC-v2] INFO -     Variation 0: 'CANON FINANCIAL SERVICES, INC.' (39 filings)
+2026-05-11 10:28:32,358 [GA-UCC-v2] INFO -     Page 1/1: 39 records
+2026-05-11 10:28:32,366 [GA-UCC-v2] INFO -   → 39 found, 38 new
+2026-05-11 10:28:32,366 [GA-UCC-v2] INFO -   → 11/14/2022 – 05/15/2023
+2026-05-11 10:28:34,273 [GA-UCC-v2] INFO -   1 variation(s) — ~35 total filings
+2026-05-11 10:28:34,274 [GA-UCC-v2] INFO -     Variation 0: 'CANON FINANCIAL SERVICES, INC.' (35 filings)
+2026-05-11 10:28:39,449 [GA-UCC-v2] INFO -     Page 1/1: 35 records
+2026-05-11 10:28:39,452 [GA-UCC-v2] INFO -   → 35 found, 35 new
+2026-05-11 10:28:39,452 [GA-UCC-v2] INFO -   → 05/16/2022 – 11/14/2022
+2026-05-11 10:28:41,322 [GA-UCC-v2] INFO -   1 variation(s) — ~43 total filings
+2026-05-11 10:28:41,322 [GA-UCC-v2] INFO -     Variation 0: 'CANON FINANCIAL SERVICES, INC.' (43 filings)
+2026-05-11 10:28:46,732 [GA-UCC-v2] INFO -     Page 1/1: 43 records
+2026-05-11 10:28:46,740 [GA-UCC-v2] INFO -   → 43 found, 43 new
+2026-05-11 10:28:46,740 [GA-UCC-v2] INFO -   → 11/15/2021 – 05/16/2022
+2026-05-11 10:28:48,629 [GA-UCC-v2] INFO -   1 variation(s) — ~27 total filings
+2026-05-11 10:28:48,629 [GA-UCC-v2] INFO -     Variation 0: 'CANON FINANCIAL SERVICES, INC.' (27 filings)
+2026-05-11 10:28:51,922 [GA-UCC-v2] INFO -     Page 1/1: 27 records
+2026-05-11 10:28:51,928 [GA-UCC-v2] INFO -   → 27 found, 26 new
+2026-05-11 10:28:51,928 [GA-UCC-v2] INFO -   → 05/17/2021 – 11/15/2021
+2026-05-11 10:28:54,049 [GA-UCC-v2] INFO -   1 variation(s) — ~16 total filings
+2026-05-11 10:28:54,049 [GA-UCC-v2] INFO -     Variation 0: 'CANON FINANCIAL SERVICES, INC.' (16 filings)
+2026-05-11 10:28:56,998 [GA-UCC-v2] INFO -     Page 1/1: 16 records
+2026-05-11 10:28:57,005 [GA-UCC-v2] INFO -   → 16 found, 16 new
+2026-05-11 10:28:57,005 [GA-UCC-v2] INFO -   → 11/16/2020 – 05/17/2021
+2026-05-11 10:28:58,878 [GA-UCC-v2] INFO -   1 variation(s) — ~19 total filings
+2026-05-11 10:28:58,879 [GA-UCC-v2] INFO -     Variation 0: 'CANON FINANCIAL SERVICES, INC.' (19 filings)
+2026-05-11 10:29:01,938 [GA-UCC-v2] INFO -     Page 1/1: 19 records
+2026-05-11 10:29:01,948 [GA-UCC-v2] INFO -   → 19 found, 19 new
+2026-05-11 10:29:01,948 [GA-UCC-v2] INFO -   → 05/18/2020 – 11/16/2020
+2026-05-11 10:29:03,805 [GA-UCC-v2] INFO -   1 variation(s) — ~16 total filings
+2026-05-11 10:29:03,805 [GA-UCC-v2] INFO -     Variation 0: 'CANON FINANCIAL SERVICES, INC.' (16 filings)
+2026-05-11 10:29:06,523 [GA-UCC-v2] INFO -     Page 1/1: 16 records
+2026-05-11 10:29:06,527 [GA-UCC-v2] INFO -   → 16 found, 16 new
+2026-05-11 10:29:06,527 [GA-UCC-v2] INFO -   Lender total: 428 found, 426 new
+2026-05-11 10:29:08,033 [GA-UCC-v2] INFO - 
+────────────────────────────────────────────────────────────
+2026-05-11 10:29:08,033 [GA-UCC-v2] INFO - 🔍 RICOH USA (PRINT_IMAGING)
+2026-05-11 10:29:08,033 [GA-UCC-v2] INFO -   → 11/10/2025 – 05/11/2026
+2026-05-11 10:29:09,897 [GA-UCC-v2] INFO -   2 variation(s) — ~8 total filings
+2026-05-11 10:29:09,898 [GA-UCC-v2] INFO -     Variation 0: 'RICOH USA INC' (3 filings)
+2026-05-11 10:29:12,072 [GA-UCC-v2] INFO -     Page 1/1: 3 records
+2026-05-11 10:29:12,073 [GA-UCC-v2] INFO -     Variation 1: 'RICOH USA, INC.' (5 filings)
+2026-05-11 10:29:14,385 [GA-UCC-v2] INFO -     Page 1/1: 5 records
+2026-05-11 10:29:14,392 [GA-UCC-v2] INFO -   → 8 found, 8 new
+2026-05-11 10:29:14,392 [GA-UCC-v2] INFO -   → 05/12/2025 – 11/10/2025
+2026-05-11 10:29:16,276 [GA-UCC-v2] INFO -   3 variation(s) — ~8 total filings
+2026-05-11 10:29:16,276 [GA-UCC-v2] INFO -     Variation 0: 'RICOH USA INC' (2 filings)
+2026-05-11 10:29:18,603 [GA-UCC-v2] INFO -     Page 1/1: 2 records
+2026-05-11 10:29:18,604 [GA-UCC-v2] INFO -     Variation 1: 'RICOH USA, INC' (2 filings)
+2026-05-11 10:29:20,860 [GA-UCC-v2] INFO -     Page 1/1: 4 records
+2026-05-11 10:29:20,860 [GA-UCC-v2] INFO -     Variation 2: 'RICOH USA, INC.' (4 filings)
+2026-05-11 10:29:23,260 [GA-UCC-v2] INFO -     Page 1/1: 8 records
+2026-05-11 10:29:23,267 [GA-UCC-v2] INFO -   → 14 found, 8 new
+2026-05-11 10:29:23,271 [GA-UCC-v2] INFO -   → 11/11/2024 – 05/12/2025
+2026-05-11 10:29:25,136 [GA-UCC-v2] INFO -   3 variation(s) — ~7 total filings
+2026-05-11 10:29:25,139 [GA-UCC-v2] INFO -     Variation 0: 'RICOH USA INC' (1 filing)
+2026-05-11 10:29:27,198 [GA-UCC-v2] INFO -     Page 1/1: 1 records
+2026-05-11 10:29:27,198 [GA-UCC-v2] INFO -     Variation 1: 'RICOH USA, INC' (1 filing)
+2026-05-11 10:29:29,414 [GA-UCC-v2] INFO -     Page 1/1: 2 records
+2026-05-11 10:29:29,414 [GA-UCC-v2] INFO -     Variation 2: 'RICOH USA, INC.' (5 filings)
+2026-05-11 10:29:31,900 [GA-UCC-v2] INFO -     Page 1/1: 10 records
+2026-05-11 10:29:31,902 [GA-UCC-v2] INFO -   → 13 found, 7 new
+2026-05-11 10:29:31,902 [GA-UCC-v2] INFO -   → 05/13/2024 – 11/11/2024
+2026-05-11 10:29:33,862 [GA-UCC-v2] INFO -   4 variation(s) — ~28 total filings
+2026-05-11 10:29:33,862 [GA-UCC-v2] INFO -     Variation 0: 'RICOH USA , INC' (1 filing)
+2026-05-11 10:29:36,200 [GA-UCC-v2] INFO -     Page 1/1: 2 records
+2026-05-11 10:29:36,200 [GA-UCC-v2] INFO -     Variation 1: 'RICOH USA INC' (1 filing)
+2026-05-11 10:29:38,321 [GA-UCC-v2] INFO -     Page 1/1: 1 records
+2026-05-11 10:29:38,330 [GA-UCC-v2] INFO -     Variation 2: 'RICOH USA, INC' (18 filings)
+2026-05-11 10:29:42,210 [GA-UCC-v2] INFO -     Page 1/1: 36 records
+2026-05-11 10:29:42,211 [GA-UCC-v2] INFO -     Variation 3: 'RICOH USA, INC.' (8 filings)
+2026-05-11 10:29:45,141 [GA-UCC-v2] INFO -     Page 1/1: 15 records
+2026-05-11 10:29:45,146 [GA-UCC-v2] INFO -   → 54 found, 28 new
+2026-05-11 10:29:45,146 [GA-UCC-v2] INFO -   → 11/13/2023 – 05/13/2024
+2026-05-11 10:29:47,045 [GA-UCC-v2] INFO -   2 variation(s) — ~30 total filings
+2026-05-11 10:29:47,045 [GA-UCC-v2] INFO -     Variation 0: 'RICOH USA, INC' (21 filings)
+2026-05-11 10:29:51,235 [GA-UCC-v2] INFO -     Page 1/1: 42 records
+2026-05-11 10:29:51,235 [GA-UCC-v2] INFO -     Variation 1: 'RICOH USA, INC.' (9 filings)
+2026-05-11 10:29:55,270 [GA-UCC-v2] INFO -     Page 1/1: 18 records
+2026-05-11 10:29:55,273 [GA-UCC-v2] INFO -   → 60 found, 30 new
+2026-05-11 10:29:55,273 [GA-UCC-v2] INFO -   → 05/15/2023 – 11/13/2023
+2026-05-11 10:29:57,248 [GA-UCC-v2] INFO -   4 variation(s) — ~44 total filings
+2026-05-11 10:29:57,249 [GA-UCC-v2] INFO -     Variation 0: 'RICOH USA INC' (2 filings)
+2026-05-11 10:29:59,489 [GA-UCC-v2] INFO -     Page 1/1: 2 records
+2026-05-11 10:29:59,489 [GA-UCC-v2] INFO -     Variation 1: 'RICOH USA INC.' (1 filing)
+2026-05-11 10:30:01,655 [GA-UCC-v2] INFO -     Page 1/1: 1 records
+2026-05-11 10:30:01,655 [GA-UCC-v2] INFO -     Variation 2: 'RICOH USA, INC' (35 filings)
+2026-05-11 10:30:08,814 [GA-UCC-v2] INFO -     Page 1/1: 81 records
+2026-05-11 10:30:08,814 [GA-UCC-v2] INFO -     Variation 3: 'RICOH USA, INC.' (6 filings)
+2026-05-11 10:30:11,560 [GA-UCC-v2] INFO -     Page 1/1: 11 records
+2026-05-11 10:30:11,571 [GA-UCC-v2] INFO -   → 95 found, 44 new
+2026-05-11 10:30:11,571 [GA-UCC-v2] INFO -   → 11/14/2022 – 05/15/2023
+2026-05-11 10:30:13,586 [GA-UCC-v2] INFO -   1 variation(s) — ~3 total filings
+2026-05-11 10:30:13,586 [GA-UCC-v2] INFO -     Variation 0: 'RICOH USA INC' (3 filings)
+2026-05-11 10:30:15,838 [GA-UCC-v2] INFO -     Page 1/1: 3 records
+2026-05-11 10:30:15,845 [GA-UCC-v2] INFO -   → 3 found, 2 new
+2026-05-11 10:30:15,845 [GA-UCC-v2] INFO -   → 05/16/2022 – 11/14/2022
+2026-05-11 10:30:17,711 [GA-UCC-v2] INFO -   1 variation(s) — ~2 total filings
+2026-05-11 10:30:17,711 [GA-UCC-v2] INFO -     Variation 0: 'RICOH USA INC' (2 filings)
+2026-05-11 10:30:19,805 [GA-UCC-v2] INFO -     Page 1/1: 2 records
+2026-05-11 10:30:19,812 [GA-UCC-v2] INFO -   → 2 found, 2 new
+2026-05-11 10:30:19,812 [GA-UCC-v2] INFO -   → 11/15/2021 – 05/16/2022
+2026-05-11 10:30:21,663 [GA-UCC-v2] INFO -   1 variation(s) — ~2 total filings
+2026-05-11 10:30:21,664 [GA-UCC-v2] INFO -     Variation 0: 'RICOH USA INC' (2 filings)
+2026-05-11 10:30:23,740 [GA-UCC-v2] INFO -     Page 1/1: 2 records
+2026-05-11 10:30:23,747 [GA-UCC-v2] INFO -   → 2 found, 2 new
+2026-05-11 10:30:23,748 [GA-UCC-v2] INFO -   → 05/17/2021 – 11/15/2021
+2026-05-11 10:30:25,643 [GA-UCC-v2] INFO -   3 variation(s) — ~4 total filings
+2026-05-11 10:30:25,643 [GA-UCC-v2] INFO -     Variation 0: 'RICOH USA INC' (2 filings)
+2026-05-11 10:30:27,763 [GA-UCC-v2] INFO -     Page 1/1: 2 records
+2026-05-11 10:30:27,763 [GA-UCC-v2] INFO -     Variation 1: 'RICOH USA, INC' (1 filing)
+2026-05-11 10:30:29,785 [GA-UCC-v2] INFO -     Page 1/1: 1 records
+2026-05-11 10:30:29,785 [GA-UCC-v2] INFO -     Variation 2: 'RICOH USA, INC.' (1 filing)
+2026-05-11 10:30:31,832 [GA-UCC-v2] INFO -     Page 1/1: 1 records
+2026-05-11 10:30:31,834 [GA-UCC-v2] INFO -   → 4 found, 4 new
+2026-05-11 10:30:31,834 [GA-UCC-v2] INFO -   → 11/16/2020 – 05/17/2021
+2026-05-11 10:30:33,810 [GA-UCC-v2] INFO -   2 variation(s) — ~6 total filings
+2026-05-11 10:30:33,810 [GA-UCC-v2] INFO -     Variation 0: 'RICOH USA INC' (5 filings)
+2026-05-11 10:30:36,111 [GA-UCC-v2] INFO -     Page 1/1: 5 records
+2026-05-11 10:30:36,111 [GA-UCC-v2] INFO -     Variation 1: 'RICOH USA, INC' (1 filing)
+2026-05-11 10:30:38,180 [GA-UCC-v2] INFO -     Page 1/1: 1 records
+2026-05-11 10:30:38,183 [GA-UCC-v2] INFO -   → 6 found, 6 new
+2026-05-11 10:30:38,183 [GA-UCC-v2] INFO -   → 05/18/2020 – 11/16/2020
+2026-05-11 10:30:40,221 [GA-UCC-v2] INFO -   1 variation(s) — ~4 total filings
+2026-05-11 10:30:40,221 [GA-UCC-v2] INFO -     Variation 0: 'RICOH USA INC' (4 filings)
+2026-05-11 10:30:42,451 [GA-UCC-v2] INFO -     Page 1/1: 4 records
+2026-05-11 10:30:42,463 [GA-UCC-v2] INFO -   → 4 found, 4 new
+2026-05-11 10:30:42,464 [GA-UCC-v2] INFO -   Lender total: 265 found, 145 new
+2026-05-11 10:30:43,964 [GA-UCC-v2] INFO - 
+────────────────────────────────────────────────────────────
+2026-05-11 10:30:43,964 [GA-UCC-v2] INFO - 🔍 KYOCERA DOCUMENT SOLUTIONS (PRINT_IMAGING)
+2026-05-11 10:30:43,964 [GA-UCC-v2] INFO -   → 11/10/2025 – 05/11/2026
+2026-05-11 10:30:45,818 [GA-UCC-v2] INFO -   1 variation(s) — ~1 total filings
+2026-05-11 10:30:45,819 [GA-UCC-v2] INFO -     Variation 0: 'KYOCERA DOCUMENT SOLUTIONS AMERICA, INC.' (1 filing)
+2026-05-11 10:30:47,883 [GA-UCC-v2] INFO -     Page 1/1: 1 records
+2026-05-11 10:30:47,890 [GA-UCC-v2] INFO -   → 1 found, 1 new
+2026-05-11 10:30:47,890 [GA-UCC-v2] INFO -   → 05/12/2025 – 11/10/2025
+2026-05-11 10:30:49,750 [GA-UCC-v2] INFO -   1 variation(s) — ~1 total filings
+2026-05-11 10:30:49,750 [GA-UCC-v2] INFO -     Variation 0: 'KYOCERA DOCUMENT SOLUTIONS AMERICA, INC.' (1 filing)
+2026-05-11 10:30:51,796 [GA-UCC-v2] INFO -     Page 1/1: 1 records
+2026-05-11 10:30:51,804 [GA-UCC-v2] INFO -   → 1 found, 1 new
+2026-05-11 10:30:51,804 [GA-UCC-v2] INFO -   → 11/11/2024 – 05/12/2025
+2026-05-11 10:30:53,671 [GA-UCC-v2] INFO -   1 variation(s) — ~2 total filings
+2026-05-11 10:30:53,671 [GA-UCC-v2] INFO -     Variation 0: 'KYOCERA DOCUMENT SOLUTIONS AMERICA, INC.' (2 filings)
+2026-05-11 10:30:55,797 [GA-UCC-v2] INFO -     Page 1/1: 2 records
+2026-05-11 10:30:55,806 [GA-UCC-v2] INFO -   → 2 found, 2 new
+2026-05-11 10:30:55,806 [GA-UCC-v2] INFO -   → 05/13/2024 – 11/11/2024
+2026-05-11 10:30:57,700 [GA-UCC-v2] INFO -   1 variation(s) — ~5 total filings
+2026-05-11 10:30:57,700 [GA-UCC-v2] INFO -     Variation 0: 'KYOCERA DOCUMENT SOLUTIONS AMERICA, INC.' (5 filings)
+2026-05-11 10:30:59,994 [GA-UCC-v2] INFO -     Page 1/1: 5 records
+2026-05-11 10:30:59,996 [GA-UCC-v2] INFO -   → 5 found, 5 new
+2026-05-11 10:30:59,996 [GA-UCC-v2] INFO -   → 11/13/2023 – 05/13/2024
+2026-05-11 10:31:01,989 [GA-UCC-v2] INFO -   1 variation(s) — ~4 total filings
+2026-05-11 10:31:01,989 [GA-UCC-v2] INFO -     Variation 0: 'KYOCERA DOCUMENT SOLUTIONS AMERICA, INC.' (4 filings)
+2026-05-11 10:31:04,575 [GA-UCC-v2] INFO -     Page 1/1: 4 records
+2026-05-11 10:31:04,588 [GA-UCC-v2] INFO -   → 4 found, 4 new
+2026-05-11 10:31:04,588 [GA-UCC-v2] INFO -   → 05/15/2023 – 11/13/2023
+2026-05-11 10:31:06,498 [GA-UCC-v2] INFO -   No results
+2026-05-11 10:31:06,498 [GA-UCC-v2] INFO -   → 11/14/2022 – 05/15/2023
+2026-05-11 10:31:08,860 [GA-UCC-v2] INFO -   1 variation(s) — ~1 total filings
+2026-05-11 10:31:08,860 [GA-UCC-v2] INFO -     Variation 0: 'KYOCERA DOCUMENT SOLUTIONS AMERICA, INC.' (1 filing)
+2026-05-11 10:31:11,026 [GA-UCC-v2] INFO -     Page 1/1: 1 records
+2026-05-11 10:31:11,033 [GA-UCC-v2] INFO -   → 1 found, 1 new
+2026-05-11 10:31:11,033 [GA-UCC-v2] INFO -   → 05/16/2022 – 11/14/2022
+2026-05-11 10:31:12,878 [GA-UCC-v2] INFO -   No results
+2026-05-11 10:31:12,878 [GA-UCC-v2] INFO -   → 11/15/2021 – 05/16/2022
+2026-05-11 10:31:14,715 [GA-UCC-v2] INFO -   No results
+2026-05-11 10:31:14,715 [GA-UCC-v2] INFO -   → 05/17/2021 – 11/15/2021
+2026-05-11 10:31:16,328 [GA-UCC-v2] INFO -   No results
+2026-05-11 10:31:16,328 [GA-UCC-v2] INFO -   → 11/16/2020 – 05/17/2021
+2026-05-11 10:31:18,202 [GA-UCC-v2] INFO -   1 variation(s) — ~1 total filings
+2026-05-11 10:31:18,203 [GA-UCC-v2] INFO -     Variation 0: 'KYOCERA DOCUMENT SOLUTIONS AMERICA, INC.' (1 filing)
+2026-05-11 10:31:20,883 [GA-UCC-v2] INFO -     Page 1/1: 1 records
+2026-05-11 10:31:20,886 [GA-UCC-v2] INFO -   → 1 found, 1 new
+2026-05-11 10:31:20,886 [GA-UCC-v2] INFO -   → 05/18/2020 – 11/16/2020
+2026-05-11 10:31:22,732 [GA-UCC-v2] INFO -   1 variation(s) — ~1 total filings
+2026-05-11 10:31:22,732 [GA-UCC-v2] INFO -     Variation 0: 'KYOCERA DOCUMENT SOLUTIONS AMERICA, INC.' (1 filing)
+2026-05-11 10:31:24,880 [GA-UCC-v2] INFO -     Page 1/1: 2 records
+2026-05-11 10:31:24,883 [GA-UCC-v2] INFO -   → 2 found, 1 new
+2026-05-11 10:31:24,883 [GA-UCC-v2] INFO -   Lender total: 17 found, 16 new
+2026-05-11 10:31:26,387 [GA-UCC-v2] INFO - 
+────────────────────────────────────────────────────────────
+2026-05-11 10:31:26,387 [GA-UCC-v2] INFO - 🔍 GREATAMERICA FINANCIAL (IT_CHANNEL)
+2026-05-11 10:31:26,387 [GA-UCC-v2] INFO -   → 11/10/2025 – 05/11/2026
+2026-05-11 10:31:28,269 [GA-UCC-v2] INFO -   1 variation(s) — ~221 total filings
+2026-05-11 10:31:28,270 [GA-UCC-v2] INFO -     Variation 0: 'GREATAMERICA FINANCIAL SERVICES CORPORATION' (221 filings)
+2026-05-11 10:31:40,770 [GA-UCC-v2] INFO -     Page 1/1: 100 records
+2026-05-11 10:31:40,782 [GA-UCC-v2] INFO -   → 100 found, 100 new
+2026-05-11 10:31:40,783 [GA-UCC-v2] INFO -   → 05/12/2025 – 11/10/2025
+2026-05-11 10:31:42,697 [GA-UCC-v2] INFO -   1 variation(s) — ~216 total filings
+2026-05-11 10:31:42,697 [GA-UCC-v2] INFO -     Variation 0: 'GREATAMERICA FINANCIAL SERVICES CORPORATION' (216 filings)
+2026-05-11 10:31:49,993 [GA-UCC-v2] INFO -     Page 1/1: 100 records
+2026-05-11 10:31:50,003 [GA-UCC-v2] INFO -   → 100 found, 100 new
+2026-05-11 10:31:50,003 [GA-UCC-v2] INFO -   → 11/11/2024 – 05/12/2025
+2026-05-11 10:31:51,905 [GA-UCC-v2] INFO -   2 variation(s) — ~212 total filings
+2026-05-11 10:31:51,905 [GA-UCC-v2] INFO -     Variation 0: 'GREATAMERICA FINANCIAL SERVICES CORPORATION' (211 filings)
+2026-05-11 10:32:00,148 [GA-UCC-v2] INFO -     Page 1/1: 100 records
+2026-05-11 10:32:00,158 [GA-UCC-v2] INFO -     Variation 1: 'GREATAMERICAN FINANCIAL SERVICES CORPORATION' (1 filing)
+2026-05-11 10:32:02,371 [GA-UCC-v2] INFO -     Page 1/1: 1 records
+2026-05-11 10:32:02,379 [GA-UCC-v2] INFO -   → 101 found, 101 new
+2026-05-11 10:32:02,379 [GA-UCC-v2] INFO -   → 05/13/2024 – 11/11/2024
+2026-05-11 10:32:04,229 [GA-UCC-v2] INFO -   1 variation(s) — ~168 total filings
+2026-05-11 10:32:04,230 [GA-UCC-v2] INFO -     Variation 0: 'GREATAMERICA FINANCIAL SERVICES CORPORATION' (168 filings)
+2026-05-11 10:32:12,099 [GA-UCC-v2] INFO -     Page 1/1: 100 records
+2026-05-11 10:32:12,107 [GA-UCC-v2] INFO -   → 100 found, 100 new
+2026-05-11 10:32:12,108 [GA-UCC-v2] INFO -   → 11/13/2023 – 05/13/2024
+2026-05-11 10:32:14,044 [GA-UCC-v2] INFO -   2 variation(s) — ~194 total filings
+2026-05-11 10:32:14,044 [GA-UCC-v2] INFO -     Variation 0: 'GREATAMERICA FINANCIAL SERVICES' (2 filings)
+2026-05-11 10:32:16,126 [GA-UCC-v2] INFO -     Page 1/1: 2 records
+2026-05-11 10:32:16,126 [GA-UCC-v2] INFO -     Variation 1: 'GREATAMERICA FINANCIAL SERVICES CORPORATION' (192 filings)
+2026-05-11 10:32:23,510 [GA-UCC-v2] INFO -     Page 1/1: 100 records
+2026-05-11 10:32:23,521 [GA-UCC-v2] INFO -   → 102 found, 101 new
+2026-05-11 10:32:23,521 [GA-UCC-v2] INFO -   → 05/15/2023 – 11/13/2023
+2026-05-11 10:32:25,468 [GA-UCC-v2] INFO -   1 variation(s) — ~200 total filings
+2026-05-11 10:32:25,468 [GA-UCC-v2] INFO -     Variation 0: 'GREATAMERICA FINANCIAL SERVICES CORPORATION' (200 filings)
+2026-05-11 10:32:32,929 [GA-UCC-v2] INFO -     Page 1/1: 100 records
+2026-05-11 10:32:32,938 [GA-UCC-v2] INFO -   → 100 found, 100 new
+2026-05-11 10:32:32,938 [GA-UCC-v2] INFO -   → 11/14/2022 – 05/15/2023
+2026-05-11 10:32:34,817 [GA-UCC-v2] INFO -   1 variation(s) — ~198 total filings
+2026-05-11 10:32:34,817 [GA-UCC-v2] INFO -     Variation 0: 'GREATAMERICA FINANCIAL SERVICES CORPORATION' (198 filings)
+2026-05-11 10:32:44,233 [GA-UCC-v2] INFO -     Page 1/1: 100 records
+2026-05-11 10:32:44,242 [GA-UCC-v2] INFO -   → 100 found, 95 new
+2026-05-11 10:32:44,242 [GA-UCC-v2] INFO -   → 05/16/2022 – 11/14/2022
+2026-05-11 10:32:46,193 [GA-UCC-v2] INFO -   2 variation(s) — ~178 total filings
+2026-05-11 10:32:46,193 [GA-UCC-v2] INFO -     Variation 0: 'GREATAMERICA FINANCIAL SERVICES' (1 filing)
+2026-05-11 10:32:48,256 [GA-UCC-v2] INFO -     Page 1/1: 1 records
+2026-05-11 10:32:48,256 [GA-UCC-v2] INFO -     Variation 1: 'GREATAMERICA FINANCIAL SERVICES CORPORATION' (177 filings)
+2026-05-11 10:32:55,963 [GA-UCC-v2] INFO -     Page 1/1: 100 records
+2026-05-11 10:32:55,972 [GA-UCC-v2] INFO -   → 101 found, 100 new
+2026-05-11 10:32:55,972 [GA-UCC-v2] INFO -   → 11/15/2021 – 05/16/2022
+2026-05-11 10:32:57,867 [GA-UCC-v2] INFO -   2 variation(s) — ~233 total filings
+2026-05-11 10:32:57,868 [GA-UCC-v2] INFO -     Variation 0: 'GREATAMERICA FINANCIAL SERVICES CORPORATION' (232 filings)
+2026-05-11 10:33:05,178 [GA-UCC-v2] INFO -     Page 1/1: 100 records
+2026-05-11 10:33:05,179 [GA-UCC-v2] INFO -     Variation 1: 'GREATAMERICAN FINANCIAL SERVICES CORPORATION' (1 filing)
+2026-05-11 10:33:07,201 [GA-UCC-v2] INFO -     Page 1/1: 1 records
+2026-05-11 10:33:07,209 [GA-UCC-v2] INFO -   → 101 found, 101 new
+2026-05-11 10:33:07,209 [GA-UCC-v2] INFO -   → 05/17/2021 – 11/15/2021
+2026-05-11 10:33:09,125 [GA-UCC-v2] INFO -   2 variation(s) — ~158 total filings
+2026-05-11 10:33:09,125 [GA-UCC-v2] INFO -     Variation 0: 'GREATAMERICA FINANCIAL SERVICES' (1 filing)
+2026-05-11 10:33:11,175 [GA-UCC-v2] INFO -     Page 1/1: 1 records
+2026-05-11 10:33:11,175 [GA-UCC-v2] INFO -     Variation 1: 'GREATAMERICA FINANCIAL SERVICES CORPORATION' (157 filings)
+2026-05-11 10:33:19,516 [GA-UCC-v2] INFO -     Page 1/1: 100 records
+2026-05-11 10:33:19,525 [GA-UCC-v2] INFO -   → 101 found, 100 new
+2026-05-11 10:33:19,525 [GA-UCC-v2] INFO -   → 11/16/2020 – 05/17/2021
+2026-05-11 10:33:21,449 [GA-UCC-v2] INFO -   3 variation(s) — ~217 total filings
+2026-05-11 10:33:21,449 [GA-UCC-v2] INFO -     Variation 0: 'GREATAMERICA FINANCIAL SERVICES' (1 filing)
+2026-05-11 10:33:23,478 [GA-UCC-v2] INFO -     Page 1/1: 1 records
+2026-05-11 10:33:23,479 [GA-UCC-v2] INFO -     Variation 1: 'GREATAMERICA FINANCIAL SERVICES CORPORATION' (215 filings)
+2026-05-11 10:33:30,754 [GA-UCC-v2] INFO -     Page 1/1: 100 records
+2026-05-11 10:33:30,754 [GA-UCC-v2] INFO -     Variation 2: 'GREATAMERICA FINANCIAL SERVICES, CORP' (1 filing)
+2026-05-11 10:33:32,814 [GA-UCC-v2] INFO -     Page 1/1: 1 records
+2026-05-11 10:33:32,823 [GA-UCC-v2] INFO -   → 102 found, 102 new
+2026-05-11 10:33:32,823 [GA-UCC-v2] INFO -   → 05/18/2020 – 11/16/2020
+2026-05-11 10:33:34,875 [GA-UCC-v2] INFO -   2 variation(s) — ~149 total filings
+2026-05-11 10:33:34,876 [GA-UCC-v2] INFO -     Variation 0: 'GREATAMERICA FINANCIAL SERVICES CORPORATION' (148 filings)
+2026-05-11 10:33:42,371 [GA-UCC-v2] INFO -     Page 1/1: 100 records
+2026-05-11 10:33:42,372 [GA-UCC-v2] INFO -     Variation 1: 'GREATAMERICAN FINANCIAL SERVICES CORPORATION' (1 filing)
+2026-05-11 10:33:44,535 [GA-UCC-v2] INFO -     Page 1/1: 1 records
+2026-05-11 10:33:44,543 [GA-UCC-v2] INFO -   → 101 found, 99 new
+2026-05-11 10:33:44,543 [GA-UCC-v2] INFO -   Lender total: 1209 found, 1199 new
+2026-05-11 10:33:46,048 [GA-UCC-v2] INFO - 
+────────────────────────────────────────────────────────────
+2026-05-11 10:33:46,048 [GA-UCC-v2] INFO - 🔍 MARLIN LEASING (IT_CHANNEL)
+2026-05-11 10:33:46,048 [GA-UCC-v2] INFO -   → 11/10/2025 – 05/11/2026
+2026-05-11 10:33:48,132 [GA-UCC-v2] INFO -   3 variation(s) — ~98 total filings
+2026-05-11 10:33:48,132 [GA-UCC-v2] INFO -     Variation 0: 'MARLIN FINANCIAL & LEASING CORP.' (1 filing)
+2026-05-11 10:33:50,365 [GA-UCC-v2] INFO -     Page 1/1: 3 records
+2026-05-11 10:33:50,366 [GA-UCC-v2] INFO -     Variation 1: 'MARLIN LEASING CORP' (96 filings)
+2026-05-11 10:33:58,824 [GA-UCC-v2] INFO -     Page 1/1: 96 records
+2026-05-11 10:33:58,825 [GA-UCC-v2] INFO -     Variation 2: 'MARLIN LEASING CORPORATION' (1 filing)
+2026-05-11 10:34:01,030 [GA-UCC-v2] INFO -     Page 1/1: 1 records
+2026-05-11 10:34:01,040 [GA-UCC-v2] INFO -   → 100 found, 98 new
+2026-05-11 10:34:01,040 [GA-UCC-v2] INFO -   → 05/12/2025 – 11/10/2025
+2026-05-11 10:34:02,957 [GA-UCC-v2] INFO -   2 variation(s) — ~70 total filings
+2026-05-11 10:34:02,958 [GA-UCC-v2] INFO -     Variation 0: 'MARLIN FINANCIAL & LEASING CORP. / COLONY BANK' (1 filing)
+2026-05-11 10:34:05,275 [GA-UCC-v2] INFO -     Page 1/1: 1 records
+2026-05-11 10:34:05,275 [GA-UCC-v2] INFO -     Variation 1: 'MARLIN LEASING CORP' (69 filings)
+2026-05-11 10:34:11,465 [GA-UCC-v2] INFO -     Page 1/1: 69 records
+2026-05-11 10:34:11,474 [GA-UCC-v2] INFO -   → 70 found, 70 new
+2026-05-11 10:34:11,474 [GA-UCC-v2] INFO -   → 11/11/2024 – 05/12/2025
+2026-05-11 10:34:13,547 [GA-UCC-v2] INFO -   2 variation(s) — ~64 total filings
+2026-05-11 10:34:13,548 [GA-UCC-v2] INFO -     Variation 0: 'MARLIN FINANCIAL & LEASING CORP.' (3 filings)
+2026-05-11 10:34:15,862 [GA-UCC-v2] INFO -     Page 1/1: 5 records
+2026-05-11 10:34:15,862 [GA-UCC-v2] INFO -     Variation 1: 'MARLIN LEASING CORP' (61 filings)
+2026-05-11 10:34:21,082 [GA-UCC-v2] INFO -     Page 1/1: 61 records
+2026-05-11 10:34:21,090 [GA-UCC-v2] INFO -   → 66 found, 64 new
+2026-05-11 10:34:21,090 [GA-UCC-v2] INFO -   → 05/13/2024 – 11/11/2024
+2026-05-11 10:34:23,138 [GA-UCC-v2] INFO -   3 variation(s) — ~56 total filings
+2026-05-11 10:34:23,138 [GA-UCC-v2] INFO -     Variation 0: 'MARLIN FINANCIAL & LEASING CORP' (2 filings)
+2026-05-11 10:34:25,720 [GA-UCC-v2] INFO -     Page 1/1: 2 records
+2026-05-11 10:34:25,720 [GA-UCC-v2] INFO -     Variation 1: 'MARLIN FINANCIAL & LEASING CORP.' (1 filing)
+2026-05-11 10:34:27,902 [GA-UCC-v2] INFO -     Page 1/1: 1 records
+2026-05-11 10:34:27,902 [GA-UCC-v2] INFO -     Variation 2: 'MARLIN LEASING CORP' (53 filings)
+2026-05-11 10:34:32,870 [GA-UCC-v2] INFO -     Page 1/1: 53 records
+2026-05-11 10:34:32,878 [GA-UCC-v2] INFO -   → 56 found, 56 new
+2026-05-11 10:34:32,878 [GA-UCC-v2] INFO -   → 11/13/2023 – 05/13/2024
+2026-05-11 10:34:34,857 [GA-UCC-v2] INFO -   2 variation(s) — ~44 total filings
+2026-05-11 10:34:34,858 [GA-UCC-v2] INFO -     Variation 0: 'MARLIN FINANCIAL & LEASING CORP' (1 filing)
+2026-05-11 10:34:37,004 [GA-UCC-v2] INFO -     Page 1/1: 1 records
+2026-05-11 10:34:37,004 [GA-UCC-v2] INFO -     Variation 1: 'MARLIN LEASING CORP' (43 filings)
+2026-05-11 10:34:41,177 [GA-UCC-v2] INFO -     Page 1/1: 43 records
+2026-05-11 10:34:41,180 [GA-UCC-v2] INFO -   → 44 found, 44 new
+2026-05-11 10:34:41,180 [GA-UCC-v2] INFO -   → 05/15/2023 – 11/13/2023
+2026-05-11 10:34:43,200 [GA-UCC-v2] INFO -   1 variation(s) — ~31 total filings
+2026-05-11 10:34:43,200 [GA-UCC-v2] INFO -     Variation 0: 'MARLIN LEASING CORP' (31 filings)
+2026-05-11 10:34:48,235 [GA-UCC-v2] INFO -     Page 1/1: 31 records
+2026-05-11 10:34:48,244 [GA-UCC-v2] INFO -   → 31 found, 31 new
+2026-05-11 10:34:48,244 [GA-UCC-v2] INFO -   → 11/14/2022 – 05/15/2023
+2026-05-11 10:34:50,246 [GA-UCC-v2] INFO -   2 variation(s) — ~21 total filings
+2026-05-11 10:34:50,246 [GA-UCC-v2] INFO -     Variation 0: 'MARLIN FINANCIAL & LEASING CORP' (1 filing)
+2026-05-11 10:34:52,322 [GA-UCC-v2] INFO -     Page 1/1: 1 records
+2026-05-11 10:34:52,323 [GA-UCC-v2] INFO -     Variation 1: 'MARLIN LEASING CORP' (20 filings)
+2026-05-11 10:34:56,652 [GA-UCC-v2] INFO -     Page 1/1: 20 records
+2026-05-11 10:34:56,660 [GA-UCC-v2] INFO -   → 21 found, 21 new
+2026-05-11 10:34:56,660 [GA-UCC-v2] INFO -   → 05/16/2022 – 11/14/2022
+2026-05-11 10:34:58,721 [GA-UCC-v2] INFO -   2 variation(s) — ~29 total filings
+2026-05-11 10:34:58,721 [GA-UCC-v2] INFO -     Variation 0: 'MARLIN FINANCIAL & LEASING CORP.' (1 filing)
+2026-05-11 10:35:00,824 [GA-UCC-v2] INFO -     Page 1/1: 1 records
+2026-05-11 10:35:00,825 [GA-UCC-v2] INFO -     Variation 1: 'MARLIN LEASING CORP' (28 filings)
+2026-05-11 10:35:04,777 [GA-UCC-v2] INFO -     Page 1/1: 28 records
+2026-05-11 10:35:04,785 [GA-UCC-v2] INFO -   → 29 found, 28 new
+2026-05-11 10:35:04,786 [GA-UCC-v2] INFO -   → 11/15/2021 – 05/16/2022
+2026-05-11 10:35:06,849 [GA-UCC-v2] INFO -   2 variation(s) — ~27 total filings
+2026-05-11 10:35:06,850 [GA-UCC-v2] INFO -     Variation 0: 'MARLIN FINANCIAL & LEASING CORP' (1 filing)
+2026-05-11 10:35:09,012 [GA-UCC-v2] INFO -     Page 1/1: 1 records
+2026-05-11 10:35:09,012 [GA-UCC-v2] INFO -     Variation 1: 'MARLIN LEASING CORP' (26 filings)
+2026-05-11 10:35:12,823 [GA-UCC-v2] INFO -     Page 1/1: 26 records
+2026-05-11 10:35:12,831 [GA-UCC-v2] INFO -   → 27 found, 27 new
+2026-05-11 10:35:12,831 [GA-UCC-v2] INFO -   → 05/17/2021 – 11/15/2021
+2026-05-11 10:35:30,782 [GA-UCC-v2] INFO -   No results
+2026-05-11 10:35:30,782 [GA-UCC-v2] INFO -   → 11/16/2020 – 05/17/2021
+2026-05-11 10:36:09,740 [GA-UCC-v2] INFO -   1 variation(s) — ~1 total filings
+2026-05-11 10:36:09,740 [GA-UCC-v2] INFO -     Variation 0: 'MARLIN FINANCIAL & LEASING CORP.' (1 filing)
+2026-05-11 10:36:11,859 [GA-UCC-v2] INFO -     Page 1/1: 1 records
+2026-05-11 10:36:11,865 [GA-UCC-v2] INFO -   → 1 found, 1 new
+2026-05-11 10:36:11,866 [GA-UCC-v2] INFO -   → 05/18/2020 – 11/16/2020
+2026-05-11 10:36:14,324 [GA-UCC-v2] INFO -   1 variation(s) — ~2 total filings
+2026-05-11 10:36:14,325 [GA-UCC-v2] INFO -     Variation 0: 'MARLIN FINANCIAL & LEASING CORP.' (2 filings)
+2026-05-11 10:36:17,756 [GA-UCC-v2] INFO -     Page 1/1: 4 records
+2026-05-11 10:36:17,763 [GA-UCC-v2] INFO -   → 4 found, 2 new
+2026-05-11 10:36:17,764 [GA-UCC-v2] INFO -   Lender total: 449 found, 442 new
+2026-05-11 10:36:19,265 [GA-UCC-v2] INFO - 
+────────────────────────────────────────────────────────────
+2026-05-11 10:36:19,266 [GA-UCC-v2] INFO - 🔍 PAWNEE LEASING (IT_CHANNEL)
+2026-05-11 10:36:19,266 [GA-UCC-v2] INFO -   → 11/10/2025 – 05/11/2026
+2026-05-11 10:36:21,151 [GA-UCC-v2] INFO -   1 variation(s) — ~1 total filings
+2026-05-11 10:36:21,152 [GA-UCC-v2] INFO -     Variation 0: 'PAWNEE LEASING CORPORATION' (1 filing)
+2026-05-11 10:36:23,721 [GA-UCC-v2] INFO -     Page 1/1: 1 records
+2026-05-11 10:36:23,727 [GA-UCC-v2] INFO -   → 1 found, 1 new
+2026-05-11 10:36:23,727 [GA-UCC-v2] INFO -   → 05/12/2025 – 11/10/2025
+2026-05-11 10:36:25,604 [GA-UCC-v2] INFO -   1 variation(s) — ~1 total filings
+2026-05-11 10:36:25,604 [GA-UCC-v2] INFO -     Variation 0: 'PAWNEE LEASING CORPORATION' (1 filing)
+2026-05-11 10:36:27,738 [GA-UCC-v2] INFO -     Page 1/1: 1 records
+2026-05-11 10:36:27,744 [GA-UCC-v2] INFO -   → 1 found, 1 new
+2026-05-11 10:36:27,744 [GA-UCC-v2] INFO -   → 11/11/2024 – 05/12/2025
+2026-05-11 10:36:29,593 [GA-UCC-v2] INFO -   No results
+2026-05-11 10:36:29,594 [GA-UCC-v2] INFO -   → 05/13/2024 – 11/11/2024
+2026-05-11 10:36:31,460 [GA-UCC-v2] INFO -   1 variation(s) — ~1 total filings
+2026-05-11 10:36:31,460 [GA-UCC-v2] INFO -     Variation 0: 'PAWNEE LEASING CORPORATION' (1 filing)
+2026-05-11 10:36:33,538 [GA-UCC-v2] INFO -     Page 1/1: 1 records
+2026-05-11 10:36:33,544 [GA-UCC-v2] INFO -   → 1 found, 1 new
+2026-05-11 10:36:33,545 [GA-UCC-v2] INFO -   → 11/13/2023 – 05/13/2024
+2026-05-11 10:36:35,416 [GA-UCC-v2] INFO -   1 variation(s) — ~5 total filings
+2026-05-11 10:36:35,416 [GA-UCC-v2] INFO -     Variation 0: 'PAWNEE LEASING CORPORATION' (5 filings)
+2026-05-11 10:36:37,815 [GA-UCC-v2] INFO -     Page 1/1: 5 records
+2026-05-11 10:36:37,825 [GA-UCC-v2] INFO -   → 5 found, 5 new
+2026-05-11 10:36:37,826 [GA-UCC-v2] INFO -   → 05/15/2023 – 11/13/2023
+2026-05-11 10:36:39,707 [GA-UCC-v2] INFO -   1 variation(s) — ~7 total filings
+2026-05-11 10:36:39,707 [GA-UCC-v2] INFO -     Variation 0: 'PAWNEE LEASING CORPORATION' (7 filings)
+2026-05-11 10:36:42,041 [GA-UCC-v2] INFO -     Page 1/1: 7 records
+2026-05-11 10:36:42,048 [GA-UCC-v2] INFO -   → 7 found, 5 new
+2026-05-11 10:36:42,048 [GA-UCC-v2] INFO -   → 11/14/2022 – 05/15/2023
+2026-05-11 10:36:43,900 [GA-UCC-v2] INFO -   1 variation(s) — ~9 total filings
+2026-05-11 10:36:43,900 [GA-UCC-v2] INFO -     Variation 0: 'PAWNEE LEASING CORPORATION' (9 filings)
+2026-05-11 10:36:46,482 [GA-UCC-v2] INFO -     Page 1/1: 9 records
+2026-05-11 10:36:46,485 [GA-UCC-v2] INFO -   → 9 found, 9 new
+2026-05-11 10:36:46,485 [GA-UCC-v2] INFO -   → 05/16/2022 – 11/14/2022
+2026-05-11 10:36:48,338 [GA-UCC-v2] INFO -   1 variation(s) — ~13 total filings
+2026-05-11 10:36:48,339 [GA-UCC-v2] INFO -     Variation 0: 'PAWNEE LEASING CORPORATION' (13 filings)
+2026-05-11 10:36:51,141 [GA-UCC-v2] INFO -     Page 1/1: 14 records
+2026-05-11 10:36:51,151 [GA-UCC-v2] INFO -   → 14 found, 13 new
+2026-05-11 10:36:51,151 [GA-UCC-v2] INFO -   → 11/15/2021 – 05/16/2022
+2026-05-11 10:36:53,018 [GA-UCC-v2] INFO -   1 variation(s) — ~15 total filings
+2026-05-11 10:36:53,018 [GA-UCC-v2] INFO -     Variation 0: 'PAWNEE LEASING CORPORATION' (15 filings)
+2026-05-11 10:36:56,168 [GA-UCC-v2] INFO -     Page 1/1: 15 records
+2026-05-11 10:36:56,171 [GA-UCC-v2] INFO -   → 15 found, 15 new
+2026-05-11 10:36:56,171 [GA-UCC-v2] INFO -   → 05/17/2021 – 11/15/2021
+2026-05-11 10:36:58,192 [GA-UCC-v2] INFO -   1 variation(s) — ~13 total filings
+2026-05-11 10:36:58,192 [GA-UCC-v2] INFO -     Variation 0: 'PAWNEE LEASING CORPORATION' (13 filings)
+2026-05-11 10:37:01,237 [GA-UCC-v2] INFO -     Page 1/1: 13 records
+2026-05-11 10:37:01,242 [GA-UCC-v2] INFO -   → 13 found, 13 new
+2026-05-11 10:37:01,242 [GA-UCC-v2] INFO -   → 11/16/2020 – 05/17/2021
+2026-05-11 10:37:03,140 [GA-UCC-v2] INFO -   2 variation(s) — ~22 total filings
+2026-05-11 10:37:03,140 [GA-UCC-v2] INFO -     Variation 0: 'PAWNEE LEASING CORP.' (1 filing)
+2026-05-11 10:37:05,254 [GA-UCC-v2] INFO -     Page 1/1: 1 records
+2026-05-11 10:37:05,288 [GA-UCC-v2] INFO -     Variation 1: 'PAWNEE LEASING CORPORATION' (21 filings)
+2026-05-11 10:37:08,987 [GA-UCC-v2] INFO -     Page 1/1: 21 records
+2026-05-11 10:37:08,994 [GA-UCC-v2] INFO -   → 22 found, 21 new
+2026-05-11 10:37:08,994 [GA-UCC-v2] INFO -   → 05/18/2020 – 11/16/2020
+2026-05-11 10:37:10,878 [GA-UCC-v2] INFO -   1 variation(s) — ~19 total filings
+2026-05-11 10:37:10,878 [GA-UCC-v2] INFO -     Variation 0: 'PAWNEE LEASING CORPORATION' (19 filings)
+2026-05-11 10:37:13,939 [GA-UCC-v2] INFO -     Page 1/1: 19 records
+2026-05-11 10:37:13,941 [GA-UCC-v2] INFO -   → 19 found, 19 new
+2026-05-11 10:37:13,941 [GA-UCC-v2] INFO -   Lender total: 107 found, 103 new
+2026-05-11 10:37:15,446 [GA-UCC-v2] INFO - 
+────────────────────────────────────────────────────────────
+2026-05-11 10:37:15,446 [GA-UCC-v2] INFO - 🔍 BALBOA CAPITAL (IT_CHANNEL)
+2026-05-11 10:37:15,446 [GA-UCC-v2] INFO -   → 11/10/2025 – 05/11/2026
+2026-05-11 10:37:17,285 [GA-UCC-v2] INFO -   No results
+2026-05-11 10:37:17,287 [GA-UCC-v2] INFO -   → 05/12/2025 – 11/10/2025
+2026-05-11 10:37:19,127 [GA-UCC-v2] INFO -   No results
+2026-05-11 10:37:19,127 [GA-UCC-v2] INFO -   → 11/11/2024 – 05/12/2025
+2026-05-11 10:37:20,978 [GA-UCC-v2] INFO -   No results
+2026-05-11 10:37:20,978 [GA-UCC-v2] INFO -   → 05/13/2024 – 11/11/2024
+2026-05-11 10:37:22,840 [GA-UCC-v2] INFO -   1 variation(s) — ~2 total filings
+2026-05-11 10:37:22,840 [GA-UCC-v2] INFO -     Variation 0: 'BALBOA CAPITAL CORPORATION' (2 filings)
+2026-05-11 10:37:24,946 [GA-UCC-v2] INFO -     Page 1/1: 2 records
+2026-05-11 10:37:24,948 [GA-UCC-v2] INFO -   → 2 found, 2 new
+2026-05-11 10:37:24,948 [GA-UCC-v2] INFO -   → 11/13/2023 – 05/13/2024
+2026-05-11 10:37:26,795 [GA-UCC-v2] INFO -   No results
+2026-05-11 10:37:26,795 [GA-UCC-v2] INFO -   → 05/15/2023 – 11/13/2023
+2026-05-11 10:37:28,644 [GA-UCC-v2] INFO -   No results
+2026-05-11 10:37:28,644 [GA-UCC-v2] INFO -   → 11/14/2022 – 05/15/2023
+2026-05-11 10:37:30,489 [GA-UCC-v2] INFO -   1 variation(s) — ~11 total filings
+2026-05-11 10:37:30,489 [GA-UCC-v2] INFO -     Variation 0: 'BALBOA CAPITAL CORPORATION' (11 filings)
+2026-05-11 10:37:33,077 [GA-UCC-v2] INFO -     Page 1/1: 11 records
+2026-05-11 10:37:33,084 [GA-UCC-v2] INFO -   → 11 found, 11 new
+2026-05-11 10:37:33,084 [GA-UCC-v2] INFO -   → 05/16/2022 – 11/14/2022
+2026-05-11 10:37:35,073 [GA-UCC-v2] INFO -   1 variation(s) — ~6 total filings
+2026-05-11 10:37:35,073 [GA-UCC-v2] INFO -     Variation 0: 'BALBOA CAPITAL CORPORATION' (6 filings)
+2026-05-11 10:37:37,348 [GA-UCC-v2] INFO -     Page 1/1: 6 records
+2026-05-11 10:37:37,359 [GA-UCC-v2] INFO -   → 6 found, 6 new
+2026-05-11 10:37:37,360 [GA-UCC-v2] INFO -   → 11/15/2021 – 05/16/2022
+2026-05-11 10:37:39,330 [GA-UCC-v2] INFO -   1 variation(s) — ~3 total filings
+2026-05-11 10:37:39,330 [GA-UCC-v2] INFO -     Variation 0: 'BALBOA CAPITAL CORPORATION' (3 filings)
+2026-05-11 10:37:42,420 [GA-UCC-v2] INFO -     Page 1/1: 3 records
+2026-05-11 10:37:42,427 [GA-UCC-v2] INFO -   → 3 found, 3 new
+2026-05-11 10:37:42,427 [GA-UCC-v2] INFO -   → 05/17/2021 – 11/15/2021
+2026-05-11 10:37:44,335 [GA-UCC-v2] INFO -   1 variation(s) — ~5 total filings
+2026-05-11 10:37:44,335 [GA-UCC-v2] INFO -     Variation 0: 'BALBOA CAPITAL CORPORATION' (5 filings)
+2026-05-11 10:37:46,650 [GA-UCC-v2] INFO -     Page 1/1: 5 records
+2026-05-11 10:37:46,662 [GA-UCC-v2] INFO -   → 5 found, 5 new
+2026-05-11 10:37:46,663 [GA-UCC-v2] INFO -   → 11/16/2020 – 05/17/2021
+2026-05-11 10:37:48,535 [GA-UCC-v2] INFO -   1 variation(s) — ~3 total filings
+2026-05-11 10:37:48,535 [GA-UCC-v2] INFO -     Variation 0: 'BALBOA CAPITAL CORPORATION' (3 filings)
+2026-05-11 10:37:50,666 [GA-UCC-v2] INFO -     Page 1/1: 3 records
+2026-05-11 10:37:50,673 [GA-UCC-v2] INFO -   → 3 found, 3 new
+2026-05-11 10:37:50,674 [GA-UCC-v2] INFO -   → 05/18/2020 – 11/16/2020
+2026-05-11 10:37:52,579 [GA-UCC-v2] INFO -   1 variation(s) — ~2 total filings
+2026-05-11 10:37:52,579 [GA-UCC-v2] INFO -     Variation 0: 'BALBOA CAPITAL CORPORATION' (2 filings)
+2026-05-11 10:37:54,705 [GA-UCC-v2] INFO -     Page 1/1: 2 records
+2026-05-11 10:37:54,716 [GA-UCC-v2] INFO -   → 2 found, 2 new
+2026-05-11 10:37:54,716 [GA-UCC-v2] INFO -   Lender total: 32 found, 32 new
+2026-05-11 10:37:56,219 [GA-UCC-v2] INFO - 
+────────────────────────────────────────────────────────────
+2026-05-11 10:37:56,219 [GA-UCC-v2] INFO - 🔍 DLL FINANCE (EQUIP_FINANCE)
+2026-05-11 10:37:56,219 [GA-UCC-v2] INFO -   → 11/10/2025 – 05/11/2026
+2026-05-11 10:37:58,198 [GA-UCC-v2] INFO -   2 variation(s) — ~501 total filings
+2026-05-11 10:37:58,198 [GA-UCC-v2] INFO -     Variation 0: 'DLL FINANCE' (2 filings)
+2026-05-11 10:38:00,338 [GA-UCC-v2] INFO -     Page 1/1: 2 records
+2026-05-11 10:38:00,338 [GA-UCC-v2] INFO -     Variation 1: 'DLL FINANCE LLC' (499 filings)
+2026-05-11 10:38:08,303 [GA-UCC-v2] INFO -     Page 1/1: 100 records
+2026-05-11 10:38:08,306 [GA-UCC-v2] INFO -   → 102 found, 100 new
+2026-05-11 10:38:08,306 [GA-UCC-v2] INFO -   → 05/12/2025 – 11/10/2025
+2026-05-11 10:38:10,389 [GA-UCC-v2] INFO -   4 variation(s) — ~537 total filings
+2026-05-11 10:38:10,389 [GA-UCC-v2] INFO -     Variation 0: 'DLL  FINANCE LLC' (1 filing)
+2026-05-11 10:38:12,528 [GA-UCC-v2] INFO -     Page 1/1: 1 records
+2026-05-11 10:38:12,528 [GA-UCC-v2] INFO -     Variation 1: 'DLL FINANCE' (1 filing)
+2026-05-11 10:38:14,770 [GA-UCC-v2] INFO -     Page 1/1: 1 records
+2026-05-11 10:38:14,770 [GA-UCC-v2] INFO -     Variation 2: 'DLL FINANCE LLC' (533 filings)
+2026-05-11 10:38:24,794 [GA-UCC-v2] INFO -     Page 1/1: 100 records
+2026-05-11 10:38:24,795 [GA-UCC-v2] INFO -     Variation 3: 'DLL FINANCE, LLC' (2 filings)
+2026-05-11 10:38:26,961 [GA-UCC-v2] INFO -     Page 1/1: 2 records
+2026-05-11 10:38:26,975 [GA-UCC-v2] INFO -   → 104 found, 97 new
+2026-05-11 10:38:26,975 [GA-UCC-v2] INFO -   → 11/11/2024 – 05/12/2025
+2026-05-11 10:38:29,125 [GA-UCC-v2] INFO -   3 variation(s) — ~626 total filings
+2026-05-11 10:38:29,126 [GA-UCC-v2] INFO -     Variation 0: 'DLL FINANCE' (1 filing)
+2026-05-11 10:38:31,250 [GA-UCC-v2] INFO -     Page 1/1: 1 records
+2026-05-11 10:38:31,251 [GA-UCC-v2] INFO -     Variation 1: 'DLL FINANCE LLC' (613 filings)
+2026-05-11 10:38:39,678 [GA-UCC-v2] INFO -     Page 1/1: 100 records
+2026-05-11 10:38:39,679 [GA-UCC-v2] INFO -     Variation 2: 'DLL FINANCE, LLC' (12 filings)
+2026-05-11 10:38:42,397 [GA-UCC-v2] INFO -     Page 1/1: 12 records
+2026-05-11 10:38:42,405 [GA-UCC-v2] INFO -   → 113 found, 105 new
+2026-05-11 10:38:42,405 [GA-UCC-v2] INFO -   → 05/13/2024 – 11/11/2024
+2026-05-11 10:38:44,316 [GA-UCC-v2] INFO -   4 variation(s) — ~611 total filings
+2026-05-11 10:38:44,316 [GA-UCC-v2] INFO -     Variation 0: 'DLL FINANCE' (1 filing)
+2026-05-11 10:38:46,391 [GA-UCC-v2] INFO -     Page 1/1: 1 records
+2026-05-11 10:38:46,391 [GA-UCC-v2] INFO -     Variation 1: 'DLL FINANCE LLC' (592 filings)
+2026-05-11 10:38:55,154 [GA-UCC-v2] INFO -     Page 1/1: 100 records
+2026-05-11 10:38:55,155 [GA-UCC-v2] INFO -     Variation 2: 'DLL FINANCE, LLC' (17 filings)
+2026-05-11 10:38:58,385 [GA-UCC-v2] INFO -     Page 1/1: 17 records
+2026-05-11 10:38:58,385 [GA-UCC-v2] INFO -     Variation 3: 'DLL FINANCE LLLC' (1 filing)
+2026-05-11 10:39:00,800 [GA-UCC-v2] INFO -     Page 1/1: 1 records
+2026-05-11 10:39:00,809 [GA-UCC-v2] INFO -   → 119 found, 115 new
+2026-05-11 10:39:00,809 [GA-UCC-v2] INFO -   → 11/13/2023 – 05/13/2024
+2026-05-11 10:39:02,842 [GA-UCC-v2] INFO -   2 variation(s) — ~494 total filings
+2026-05-11 10:39:02,842 [GA-UCC-v2] INFO -     Variation 0: 'DLL FINANCE LLC' (489 filings)
+2026-05-11 10:39:10,276 [GA-UCC-v2] INFO -     Page 1/1: 100 records
+2026-05-11 10:39:10,276 [GA-UCC-v2] INFO -     Variation 1: 'DLL FINANCE, LLC' (5 filings)
+2026-05-11 10:39:12,709 [GA-UCC-v2] INFO -     Page 1/1: 5 records
+2026-05-11 10:39:12,721 [GA-UCC-v2] INFO -   → 105 found, 99 new
+2026-05-11 10:39:12,721 [GA-UCC-v2] INFO -   → 05/15/2023 – 11/13/2023
+2026-05-11 10:39:14,735 [GA-UCC-v2] INFO -   3 variation(s) — ~458 total filings
+2026-05-11 10:39:14,736 [GA-UCC-v2] INFO -     Variation 0: 'DLL FINANCE' (3 filings)
+2026-05-11 10:39:16,867 [GA-UCC-v2] INFO -     Page 1/1: 3 records
+2026-05-11 10:39:16,867 [GA-UCC-v2] INFO -     Variation 1: 'DLL FINANCE LLC' (432 filings)
+2026-05-11 10:39:24,033 [GA-UCC-v2] INFO -     Page 1/1: 100 records
+2026-05-11 10:39:24,034 [GA-UCC-v2] INFO -     Variation 2: 'DLL FINANCE, LLC' (23 filings)
+2026-05-11 10:39:27,387 [GA-UCC-v2] INFO -     Page 1/1: 23 records
+2026-05-11 10:39:27,401 [GA-UCC-v2] INFO -   → 126 found, 119 new
+2026-05-11 10:39:27,401 [GA-UCC-v2] INFO -   → 11/14/2022 – 05/15/2023
+2026-05-11 10:39:29,261 [GA-UCC-v2] INFO -   3 variation(s) — ~508 total filings
+2026-05-11 10:39:29,261 [GA-UCC-v2] INFO -     Variation 0: 'DLL FINANCE' (43 filings)
+2026-05-11 10:39:33,581 [GA-UCC-v2] INFO -     Page 1/1: 45 records
+2026-05-11 10:39:33,581 [GA-UCC-v2] INFO -     Variation 1: 'DLL FINANCE LLC' (453 filings)
+2026-05-11 10:39:41,166 [GA-UCC-v2] INFO -     Page 1/1: 100 records
+2026-05-11 10:39:41,167 [GA-UCC-v2] INFO -     Variation 2: 'DLL FINANCE, LLC' (12 filings)
+2026-05-11 10:39:43,835 [GA-UCC-v2] INFO -     Page 1/1: 12 records
+2026-05-11 10:39:43,847 [GA-UCC-v2] INFO -   → 157 found, 151 new
+2026-05-11 10:39:43,848 [GA-UCC-v2] INFO -   → 05/16/2022 – 11/14/2022
+2026-05-11 10:39:45,854 [GA-UCC-v2] INFO -   2 variation(s) — ~463 total filings
+2026-05-11 10:39:45,854 [GA-UCC-v2] INFO -     Variation 0: 'DLL FINANCE LLC' (456 filings)
+2026-05-11 10:39:53,298 [GA-UCC-v2] INFO -     Page 1/1: 100 records
+2026-05-11 10:39:53,298 [GA-UCC-v2] INFO -     Variation 1: 'DLL FINANCE, LLC' (7 filings)
+2026-05-11 10:39:55,822 [GA-UCC-v2] INFO -     Page 1/1: 7 records
+2026-05-11 10:39:55,829 [GA-UCC-v2] INFO -   → 107 found, 99 new
+2026-05-11 10:39:55,829 [GA-UCC-v2] INFO -   → 11/15/2021 – 05/16/2022
+2026-05-11 10:39:57,754 [GA-UCC-v2] INFO -   2 variation(s) — ~570 total filings
+2026-05-11 10:39:57,754 [GA-UCC-v2] INFO -     Variation 0: 'DLL FINANCE LLC' (557 filings)
+2026-05-11 10:40:05,150 [GA-UCC-v2] INFO -     Page 1/1: 100 records
+2026-05-11 10:40:05,151 [GA-UCC-v2] INFO -     Variation 1: 'DLL FINANCE, LLC' (13 filings)
+2026-05-11 10:40:07,861 [GA-UCC-v2] INFO -     Page 1/1: 13 records
+2026-05-11 10:40:07,871 [GA-UCC-v2] INFO -   → 113 found, 107 new
+2026-05-11 10:40:07,872 [GA-UCC-v2] INFO -   → 05/17/2021 – 11/15/2021
+2026-05-11 10:40:09,900 [GA-UCC-v2] INFO -   2 variation(s) — ~654 total filings
+2026-05-11 10:40:09,900 [GA-UCC-v2] INFO -     Variation 0: 'DLL FINANCE LLC' (647 filings)
+2026-05-11 10:40:17,719 [GA-UCC-v2] INFO -     Page 1/1: 100 records
+2026-05-11 10:40:17,720 [GA-UCC-v2] INFO -     Variation 1: 'DLL FINANCE, LLC' (7 filings)
+2026-05-11 10:40:20,208 [GA-UCC-v2] INFO -     Page 1/1: 7 records
+2026-05-11 10:40:20,211 [GA-UCC-v2] INFO -   → 107 found, 103 new
+2026-05-11 10:40:20,211 [GA-UCC-v2] INFO -   → 11/16/2020 – 05/17/2021
+2026-05-11 10:40:22,209 [GA-UCC-v2] INFO -   3 variation(s) — ~615 total filings
+2026-05-11 10:40:22,209 [GA-UCC-v2] INFO -     Variation 0: 'DLL FINANCE LLC' (600 filings)
+2026-05-11 10:40:29,623 [GA-UCC-v2] INFO -     Page 1/1: 100 records
+2026-05-11 10:40:29,624 [GA-UCC-v2] INFO -     Variation 1: 'DLL FINANCE, LLC' (11 filings)
+2026-05-11 10:40:32,312 [GA-UCC-v2] INFO -     Page 1/1: 11 records
+2026-05-11 10:40:32,312 [GA-UCC-v2] INFO -     Variation 2: 'DLL FINANCE LLLC' (4 filings)
+2026-05-11 10:40:34,564 [GA-UCC-v2] INFO -     Page 1/1: 4 records
+2026-05-11 10:40:34,574 [GA-UCC-v2] INFO -   → 115 found, 107 new
+2026-05-11 10:40:34,575 [GA-UCC-v2] INFO -   → 05/18/2020 – 11/16/2020
+2026-05-11 10:40:36,546 [GA-UCC-v2] INFO -   2 variation(s) — ~490 total filings
+2026-05-11 10:40:36,546 [GA-UCC-v2] INFO -     Variation 0: 'DLL FINANCE LLC' (244 filings)
+2026-05-11 10:40:44,500 [GA-UCC-v2] INFO -     Page 1/1: 100 records
+2026-05-11 10:40:44,501 [GA-UCC-v2] INFO -     Variation 1: 'DLL FINANCE, LLC' (246 filings)
+2026-05-11 10:40:51,855 [GA-UCC-v2] INFO -     Page 1/1: 100 records
+2026-05-11 10:40:51,865 [GA-UCC-v2] INFO -   → 200 found, 187 new
+2026-05-11 10:40:51,865 [GA-UCC-v2] INFO -   Lender total: 1468 found, 1389 new
+2026-05-11 10:40:53,370 [GA-UCC-v2] INFO - 
+────────────────────────────────────────────────────────────
+2026-05-11 10:40:53,370 [GA-UCC-v2] INFO - 🔍 DE LAGE LANDEN (EQUIP_FINANCE)
+2026-05-11 10:40:53,371 [GA-UCC-v2] INFO -   → 11/10/2025 – 05/11/2026
+2026-05-11 10:40:56,823 [GA-UCC-v2] INFO -   4 variation(s) — ~469 total filings
+2026-05-11 10:40:56,823 [GA-UCC-v2] INFO -     Variation 0: 'DE LAGE LANDEN FINANCIAL SERVICES, INC' (3 filings)
+2026-05-11 10:40:59,248 [GA-UCC-v2] INFO -     Page 1/1: 3 records
+2026-05-11 10:40:59,248 [GA-UCC-v2] INFO -     Variation 1: 'DE LAGE LANDEN FINANCIAL SERVICES, INC.' (464 filings)
+2026-05-11 10:41:09,330 [GA-UCC-v2] INFO -     Page 1/1: 100 records
+2026-05-11 10:41:09,330 [GA-UCC-v2] INFO -     Variation 2: 'DE LAGE LANDEN PUBLIC FINANCE LLC' (1 filing)
+2026-05-11 10:41:11,386 [GA-UCC-v2] INFO -     Page 1/1: 1 records
+2026-05-11 10:41:11,386 [GA-UCC-v2] INFO -     Variation 3: 'DE LAGEN LANDEN FINANCIAL SERVICES, INC.' (1 filing)
+2026-05-11 10:41:13,442 [GA-UCC-v2] INFO -     Page 1/1: 1 records
+2026-05-11 10:41:13,451 [GA-UCC-v2] INFO -   → 105 found, 105 new
+2026-05-11 10:41:13,451 [GA-UCC-v2] INFO -   → 05/12/2025 – 11/10/2025
+2026-05-11 10:41:16,628 [GA-UCC-v2] INFO -   5 variation(s) — ~373 total filings
+2026-05-11 10:41:16,628 [GA-UCC-v2] INFO -     Variation 0: 'DE LAGE LANDEN FINANCIAL SERVICES, INC' (5 filings)
+2026-05-11 10:41:19,582 [GA-UCC-v2] INFO -     Page 1/1: 5 records
+2026-05-11 10:41:19,582 [GA-UCC-v2] INFO -     Variation 1: 'DE LAGE LANDEN FINANCIAL SERVICES, INC.' (360 filings)
+2026-05-11 10:41:26,900 [GA-UCC-v2] INFO -     Page 1/1: 100 records
+2026-05-11 10:41:26,901 [GA-UCC-v2] INFO -     Variation 2: 'DE LAGE LANDEN FINANCIAL SERVICES, LLC' (1 filing)
+2026-05-11 10:41:28,985 [GA-UCC-v2] INFO -     Page 1/1: 1 records
+2026-05-11 10:41:28,985 [GA-UCC-v2] INFO -     Variation 3: 'DE LAGE LANDEN FINANCIAL SERVICES. INC.' (6 filings)
+2026-05-11 10:41:31,268 [GA-UCC-v2] INFO -     Page 1/1: 6 records
+2026-05-11 10:41:31,269 [GA-UCC-v2] INFO -     Variation 4: 'DE LAGE LANDEN PUBLIC FINANCE LLC' (1 filing)
+2026-05-11 10:41:33,323 [GA-UCC-v2] INFO -     Page 1/1: 1 records
+2026-05-11 10:41:33,332 [GA-UCC-v2] INFO -   → 113 found, 111 new
+2026-05-11 10:41:33,332 [GA-UCC-v2] INFO -   → 11/11/2024 – 05/12/2025
+2026-05-11 10:41:36,454 [GA-UCC-v2] INFO -   3 variation(s) — ~444 total filings
+2026-05-11 10:41:36,454 [GA-UCC-v2] INFO -     Variation 0: 'DE LAGE LANDEN FINANCIAL SERVICES, INC.' (439 filings)
+2026-05-11 10:41:43,731 [GA-UCC-v2] INFO -     Page 1/1: 100 records
+2026-05-11 10:41:43,732 [GA-UCC-v2] INFO -     Variation 1: 'DE LAGE LANDEN FINANCIAL SERVICES, LLC' (1 filing)
+2026-05-11 10:41:45,824 [GA-UCC-v2] INFO -     Page 1/1: 1 records
+2026-05-11 10:41:45,825 [GA-UCC-v2] INFO -     Variation 2: 'DE LAGE LANDEN PUBLIC FINANCE LLC' (4 filings)
+2026-05-11 10:41:47,985 [GA-UCC-v2] INFO -     Page 1/1: 4 records
+2026-05-11 10:41:47,997 [GA-UCC-v2] INFO -   → 105 found, 105 new
+2026-05-11 10:41:47,997 [GA-UCC-v2] INFO -   → 05/13/2024 – 11/11/2024
+2026-05-11 10:41:51,465 [GA-UCC-v2] INFO -   3 variation(s) — ~389 total filings
+2026-05-11 10:41:51,465 [GA-UCC-v2] INFO -     Variation 0: 'DE LAGE LANDEN FINANCIAL SERVICES, INC.' (383 filings)
+2026-05-11 10:41:59,743 [GA-UCC-v2] INFO -     Page 1/1: 100 records
+2026-05-11 10:41:59,744 [GA-UCC-v2] INFO -     Variation 1: 'DE LAGE LANDEN PUBLIC FINANCE LLC' (5 filings)
+2026-05-11 10:42:02,205 [GA-UCC-v2] INFO -     Page 1/1: 5 records
+2026-05-11 10:42:02,205 [GA-UCC-v2] INFO -     Variation 2: 'DE LAGE LANDEN PUBLIC FINANCE, LLC' (1 filing)
+2026-05-11 10:42:04,279 [GA-UCC-v2] INFO -     Page 1/1: 1 records
+2026-05-11 10:42:04,282 [GA-UCC-v2] INFO -   → 106 found, 106 new
+2026-05-11 10:42:04,283 [GA-UCC-v2] INFO -   → 11/13/2023 – 05/13/2024
+2026-05-11 10:42:08,540 [GA-UCC-v2] INFO -   2 variation(s) — ~383 total filings
+2026-05-11 10:42:08,541 [GA-UCC-v2] INFO -     Variation 0: 'DE LAGE LANDEN FINANCIAL SERVICES, INC.' (380 filings)
+2026-05-11 10:42:19,546 [GA-UCC-v2] INFO -     Page 1/1: 100 records
+2026-05-11 10:42:19,547 [GA-UCC-v2] INFO -     Variation 1: 'DE LAGE LANDEN PUBLIC FINANCE LLC' (3 filings)
+2026-05-11 10:42:21,801 [GA-UCC-v2] INFO -     Page 1/1: 3 records
+2026-05-11 10:42:21,805 [GA-UCC-v2] INFO -   → 103 found, 103 new
+2026-05-11 10:42:21,805 [GA-UCC-v2] INFO -   → 05/15/2023 – 11/13/2023
+2026-05-11 10:42:26,083 [GA-UCC-v2] INFO -   3 variation(s) — ~361 total filings
+2026-05-11 10:42:26,083 [GA-UCC-v2] INFO -     Variation 0: 'DE LAGE LANDEN  FINANCIAL SERVICES, INC.' (1 filing)
+2026-05-11 10:42:28,215 [GA-UCC-v2] INFO -     Page 1/1: 1 records
+2026-05-11 10:42:28,216 [GA-UCC-v2] INFO -     Variation 1: 'DE LAGE LANDEN FINANCIAL SERVICES, INC.' (357 filings)
+2026-05-11 10:42:38,473 [GA-UCC-v2] INFO -     Page 1/1: 100 records
+2026-05-11 10:42:38,474 [GA-UCC-v2] INFO -     Variation 2: 'DE LAGE LANDEN PUBLIC FINANCE LLC' (3 filings)
+2026-05-11 10:42:40,615 [GA-UCC-v2] INFO -     Page 1/1: 3 records
+2026-05-11 10:42:40,622 [GA-UCC-v2] INFO -   → 104 found, 103 new
+2026-05-11 10:42:40,622 [GA-UCC-v2] INFO -   → 11/14/2022 – 05/15/2023
+2026-05-11 10:42:44,553 [GA-UCC-v2] INFO -   3 variation(s) — ~317 total filings
+2026-05-11 10:42:44,559 [GA-UCC-v2] INFO -     Variation 0: 'DE LAGE LANDEN FINANCIAL SERVICES, INC,' (1 filing)
+2026-05-11 10:42:46,679 [GA-UCC-v2] INFO -     Page 1/1: 1 records
+2026-05-11 10:42:46,679 [GA-UCC-v2] INFO -     Variation 1: 'DE LAGE LANDEN FINANCIAL SERVICES, INC.' (314 filings)
+2026-05-11 10:42:54,929 [GA-UCC-v2] INFO -     Page 1/1: 100 records
+2026-05-11 10:42:54,929 [GA-UCC-v2] INFO -     Variation 2: 'DE LAGE LANDEN PUBLIC FINANCE LLC' (2 filings)
+2026-05-11 10:42:57,040 [GA-UCC-v2] INFO -     Page 1/1: 2 records
+2026-05-11 10:42:57,043 [GA-UCC-v2] INFO -   → 103 found, 102 new
+2026-05-11 10:42:57,043 [GA-UCC-v2] INFO -   → 05/16/2022 – 11/14/2022
+2026-05-11 10:43:00,260 [GA-UCC-v2] INFO -   1 variation(s) — ~272 total filings
+2026-05-11 10:43:00,261 [GA-UCC-v2] INFO -     Variation 0: 'DE LAGE LANDEN FINANCIAL SERVICES, INC.' (272 filings)
+2026-05-11 10:43:09,284 [GA-UCC-v2] INFO -     Page 1/1: 100 records
+2026-05-11 10:43:09,291 [GA-UCC-v2] INFO -   → 100 found, 99 new
+2026-05-11 10:43:09,291 [GA-UCC-v2] INFO -   → 11/15/2021 – 05/16/2022
+2026-05-11 10:43:12,568 [GA-UCC-v2] INFO -   3 variation(s) — ~430 total filings
+2026-05-11 10:43:12,569 [GA-UCC-v2] INFO -     Variation 0: 'DE LAGE LANDEN FINANCIAL SERVICES' (1 filing)
+2026-05-11 10:43:14,890 [GA-UCC-v2] INFO -     Page 1/1: 1 records
+2026-05-11 10:43:14,890 [GA-UCC-v2] INFO -     Variation 1: 'DE LAGE LANDEN FINANCIAL SERVICES, INC.' (427 filings)
+2026-05-11 10:43:23,997 [GA-UCC-v2] INFO -     Page 1/1: 100 records
+2026-05-11 10:43:23,998 [GA-UCC-v2] INFO -     Variation 2: 'DE LAGE LANDEN PUBLIC FINANCE LLC' (2 filings)
+2026-05-11 10:43:26,399 [GA-UCC-v2] INFO -     Page 1/1: 2 records
+2026-05-11 10:43:26,403 [GA-UCC-v2] INFO -   → 103 found, 102 new
+2026-05-11 10:43:26,403 [GA-UCC-v2] INFO -   → 05/17/2021 – 11/15/2021
+2026-05-11 10:43:30,212 [GA-UCC-v2] INFO -   2 variation(s) — ~344 total filings
+2026-05-11 10:43:30,213 [GA-UCC-v2] INFO -     Variation 0: 'DE LAGE LANDEN FINANCIAL SERVICES, INC.' (341 filings)
+2026-05-11 10:43:39,508 [GA-UCC-v2] INFO -     Page 1/1: 100 records
+2026-05-11 10:43:39,509 [GA-UCC-v2] INFO -     Variation 1: 'DE LAGE LANDEN PUBLIC FINANCE LLC' (3 filings)
+2026-05-11 10:43:41,804 [GA-UCC-v2] INFO -     Page 1/1: 3 records
+2026-05-11 10:43:41,809 [GA-UCC-v2] INFO -   → 103 found, 102 new
+2026-05-11 10:43:41,809 [GA-UCC-v2] INFO -   → 11/16/2020 – 05/17/2021
+2026-05-11 10:43:44,956 [GA-UCC-v2] INFO -   2 variation(s) — ~396 total filings
+2026-05-11 10:43:44,956 [GA-UCC-v2] INFO -     Variation 0: 'DE LAGE LANDEN FINANCIAL SERVICES, INC.' (394 filings)
+2026-05-11 10:43:55,289 [GA-UCC-v2] INFO -     Page 1/1: 100 records
+2026-05-11 10:43:55,290 [GA-UCC-v2] INFO -     Variation 1: 'DE LAGE LANDEN PUBLIC FINANCE LLC' (2 filings)
+2026-05-11 10:43:57,546 [GA-UCC-v2] INFO -     Page 1/1: 2 records
+2026-05-11 10:43:57,549 [GA-UCC-v2] INFO -   → 102 found, 102 new
+2026-05-11 10:43:57,549 [GA-UCC-v2] INFO -   → 05/18/2020 – 11/16/2020
+2026-05-11 10:44:00,743 [GA-UCC-v2] INFO -   3 variation(s) — ~368 total filings
+2026-05-11 10:44:00,743 [GA-UCC-v2] INFO -     Variation 0: 'DE LAGE LANDEN FINANCIAL SERVICE, INC.' (1 filing)
+2026-05-11 10:44:02,809 [GA-UCC-v2] INFO -     Page 1/1: 1 records
+2026-05-11 10:44:02,809 [GA-UCC-v2] INFO -     Variation 1: 'DE LAGE LANDEN FINANCIAL SERVICES, INC.' (364 filings)
+2026-05-11 10:44:11,916 [GA-UCC-v2] INFO -     Page 1/1: 100 records
+2026-05-11 10:44:11,916 [GA-UCC-v2] INFO -     Variation 2: 'DE LAGE LANDEN PUBLIC FINANCE LLC' (3 filings)
+2026-05-11 10:44:14,226 [GA-UCC-v2] INFO -     Page 1/1: 3 records
+2026-05-11 10:44:14,231 [GA-UCC-v2] INFO -   → 104 found, 99 new
+2026-05-11 10:44:14,232 [GA-UCC-v2] INFO -   Lender total: 1251 found, 1239 new
+2026-05-11 10:44:15,734 [GA-UCC-v2] INFO - 
+────────────────────────────────────────────────────────────
+2026-05-11 10:44:15,734 [GA-UCC-v2] INFO - 🔍 WELLS FARGO EQUIPMENT FINANCE (EQUIP_FINANCE)
+2026-05-11 10:44:15,734 [GA-UCC-v2] INFO -   → 11/10/2025 – 05/11/2026
+2026-05-11 10:44:17,749 [GA-UCC-v2] INFO -   1 variation(s) — ~152 total filings
+2026-05-11 10:44:17,749 [GA-UCC-v2] INFO -     Variation 0: 'WELLS FARGO EQUIPMENT FINANCE, INC.' (152 filings)
+2026-05-11 10:44:29,422 [GA-UCC-v2] INFO -     Page 1/1: 100 records
+2026-05-11 10:44:29,426 [GA-UCC-v2] INFO -   → 100 found, 100 new
+2026-05-11 10:44:29,426 [GA-UCC-v2] INFO -   → 05/12/2025 – 11/10/2025
+2026-05-11 10:44:31,724 [GA-UCC-v2] INFO -   3 variation(s) — ~146 total filings
+2026-05-11 10:44:31,724 [GA-UCC-v2] INFO -     Variation 0: 'WELLS FARGO  EQUIPMENT FINANCE, INC.' (1 filing)
+2026-05-11 10:44:33,839 [GA-UCC-v2] INFO -     Page 1/1: 1 records
+2026-05-11 10:44:33,839 [GA-UCC-v2] INFO -     Variation 1: 'WELLS FARGO EQUIPMENT FINANCE, INC.' (141 filings)
+2026-05-11 10:44:43,422 [GA-UCC-v2] INFO -     Page 1/1: 100 records
+2026-05-11 10:44:43,423 [GA-UCC-v2] INFO -     Variation 2: 'WELLS FARGO EQUIPMENT FINANCE. INC.' (4 filings)
+2026-05-11 10:44:45,744 [GA-UCC-v2] INFO -     Page 1/1: 4 records
+2026-05-11 10:44:45,748 [GA-UCC-v2] INFO -   → 105 found, 105 new
+2026-05-11 10:44:45,748 [GA-UCC-v2] INFO -   → 11/11/2024 – 05/12/2025
+2026-05-11 10:44:47,748 [GA-UCC-v2] INFO -   1 variation(s) — ~163 total filings
+2026-05-11 10:44:47,748 [GA-UCC-v2] INFO -     Variation 0: 'WELLS FARGO EQUIPMENT FINANCE, INC.' (163 filings)
+2026-05-11 10:44:56,785 [GA-UCC-v2] INFO -     Page 1/1: 100 records
+2026-05-11 10:44:56,791 [GA-UCC-v2] INFO -   → 100 found, 100 new
+2026-05-11 10:44:56,791 [GA-UCC-v2] INFO -   → 05/13/2024 – 11/11/2024
+2026-05-11 10:44:59,387 [GA-UCC-v2] INFO -   1 variation(s) — ~161 total filings
+2026-05-11 10:44:59,387 [GA-UCC-v2] INFO -     Variation 0: 'WELLS FARGO EQUIPMENT FINANCE, INC.' (161 filings)
+2026-05-11 10:45:07,245 [GA-UCC-v2] INFO -     Page 1/1: 100 records
+2026-05-11 10:45:07,254 [GA-UCC-v2] INFO -   → 100 found, 100 new
+2026-05-11 10:45:07,255 [GA-UCC-v2] INFO -   → 11/13/2023 – 05/13/2024
+2026-05-11 10:45:09,233 [GA-UCC-v2] INFO -   2 variation(s) — ~344 total filings
+2026-05-11 10:45:09,233 [GA-UCC-v2] INFO -     Variation 0: 'WELLS FARGO EQUIPMENT FINANCE, INC' (1 filing)
+2026-05-11 10:45:11,445 [GA-UCC-v2] INFO -     Page 1/1: 1 records
+2026-05-11 10:45:11,445 [GA-UCC-v2] INFO -     Variation 1: 'WELLS FARGO EQUIPMENT FINANCE, INC.' (343 filings)
+2026-05-11 10:45:19,523 [GA-UCC-v2] INFO -     Page 1/1: 100 records
+2026-05-11 10:45:19,528 [GA-UCC-v2] INFO -   → 101 found, 101 new
+2026-05-11 10:45:19,528 [GA-UCC-v2] INFO -   → 05/15/2023 – 11/13/2023
+2026-05-11 10:45:21,618 [GA-UCC-v2] INFO -   1 variation(s) — ~164 total filings
+2026-05-11 10:45:21,618 [GA-UCC-v2] INFO -     Variation 0: 'WELLS FARGO EQUIPMENT FINANCE, INC.' (164 filings)
+2026-05-11 10:45:29,613 [GA-UCC-v2] INFO -     Page 1/1: 100 records
+2026-05-11 10:45:29,619 [GA-UCC-v2] INFO -   → 100 found, 100 new
+2026-05-11 10:45:29,619 [GA-UCC-v2] INFO -   → 11/14/2022 – 05/15/2023
+2026-05-11 10:45:31,607 [GA-UCC-v2] INFO -   1 variation(s) — ~207 total filings
+2026-05-11 10:45:31,607 [GA-UCC-v2] INFO -     Variation 0: 'WELLS FARGO EQUIPMENT FINANCE, INC.' (207 filings)
+2026-05-11 10:45:39,666 [GA-UCC-v2] INFO -     Page 1/1: 100 records
+2026-05-11 10:45:39,671 [GA-UCC-v2] INFO -   → 100 found, 98 new
+2026-05-11 10:45:39,672 [GA-UCC-v2] INFO -   → 05/16/2022 – 11/14/2022
+2026-05-11 10:45:42,288 [GA-UCC-v2] INFO -   1 variation(s) — ~262 total filings
+2026-05-11 10:45:42,288 [GA-UCC-v2] INFO -     Variation 0: 'WELLS FARGO EQUIPMENT FINANCE, INC.' (262 filings)
+2026-05-11 10:45:51,445 [GA-UCC-v2] INFO -     Page 1/1: 100 records
+2026-05-11 10:45:51,448 [GA-UCC-v2] INFO -   → 100 found, 100 new
+2026-05-11 10:45:51,448 [GA-UCC-v2] INFO -   → 11/15/2021 – 05/16/2022
+2026-05-11 10:45:53,660 [GA-UCC-v2] INFO -   1 variation(s) — ~147 total filings
+2026-05-11 10:45:53,661 [GA-UCC-v2] INFO -     Variation 0: 'WELLS FARGO EQUIPMENT FINANCE, INC.' (147 filings)
+2026-05-11 10:46:03,045 [GA-UCC-v2] INFO -     Page 1/1: 100 records
+2026-05-11 10:46:03,053 [GA-UCC-v2] INFO -   → 100 found, 96 new
+2026-05-11 10:46:03,054 [GA-UCC-v2] INFO -   → 05/17/2021 – 11/15/2021
+2026-05-11 10:46:05,118 [GA-UCC-v2] INFO -   1 variation(s) — ~135 total filings
+2026-05-11 10:46:05,118 [GA-UCC-v2] INFO -     Variation 0: 'WELLS FARGO EQUIPMENT FINANCE, INC.' (135 filings)
+2026-05-11 10:46:14,256 [GA-UCC-v2] INFO -     Page 1/1: 100 records
+2026-05-11 10:46:14,266 [GA-UCC-v2] INFO -   → 100 found, 91 new
+2026-05-11 10:46:14,266 [GA-UCC-v2] INFO -   → 11/16/2020 – 05/17/2021
+2026-05-11 10:46:16,281 [GA-UCC-v2] INFO -   1 variation(s) — ~106 total filings
+2026-05-11 10:46:16,281 [GA-UCC-v2] INFO -     Variation 0: 'WELLS FARGO EQUIPMENT FINANCE, INC.' (106 filings)
+2026-05-11 10:46:25,364 [GA-UCC-v2] INFO -     Page 1/1: 100 records
+2026-05-11 10:46:25,369 [GA-UCC-v2] INFO -   → 100 found, 99 new
+2026-05-11 10:46:25,369 [GA-UCC-v2] INFO -   → 05/18/2020 – 11/16/2020
+2026-05-11 10:46:28,667 [GA-UCC-v2] INFO -   2 variation(s) — ~190 total filings
+2026-05-11 10:46:28,668 [GA-UCC-v2] INFO -     Variation 0: 'WELLS FARGO EQUIPMENT FINANCE INC.' (1 filing)
+2026-05-11 10:46:30,826 [GA-UCC-v2] INFO -     Page 1/1: 2 records
+2026-05-11 10:46:30,826 [GA-UCC-v2] INFO -     Variation 1: 'WELLS FARGO EQUIPMENT FINANCE, INC.' (189 filings)
+2026-05-11 10:46:42,610 [GA-UCC-v2] INFO -     Page 1/1: 100 records
+2026-05-11 10:46:42,615 [GA-UCC-v2] INFO -   → 102 found, 100 new
+2026-05-11 10:46:42,615 [GA-UCC-v2] INFO -   Lender total: 1208 found, 1190 new
+2026-05-11 10:46:44,120 [GA-UCC-v2] INFO - 
+────────────────────────────────────────────────────────────
+2026-05-11 10:46:44,120 [GA-UCC-v2] INFO - 🔍 US BANCORP EQUIPMENT (EQUIP_FINANCE)
+2026-05-11 10:46:44,121 [GA-UCC-v2] INFO -   → 11/10/2025 – 05/11/2026
+2026-05-11 10:46:46,307 [GA-UCC-v2] INFO -   No results
+2026-05-11 10:46:46,307 [GA-UCC-v2] INFO -   → 05/12/2025 – 11/10/2025
+2026-05-11 10:46:48,470 [GA-UCC-v2] INFO -   No results
+2026-05-11 10:46:48,470 [GA-UCC-v2] INFO -   → 11/11/2024 – 05/12/2025
+2026-05-11 10:46:50,634 [GA-UCC-v2] INFO -   No results
+2026-05-11 10:46:50,634 [GA-UCC-v2] INFO -   → 05/13/2024 – 11/11/2024
+2026-05-11 10:46:52,827 [GA-UCC-v2] INFO -   No results
+2026-05-11 10:46:52,827 [GA-UCC-v2] INFO -   → 11/13/2023 – 05/13/2024
+2026-05-11 10:46:55,033 [GA-UCC-v2] INFO -   No results
+2026-05-11 10:46:55,033 [GA-UCC-v2] INFO -   → 05/15/2023 – 11/13/2023
+2026-05-11 10:46:57,560 [GA-UCC-v2] INFO -   1 variation(s) — ~1 total filings
+2026-05-11 10:46:57,561 [GA-UCC-v2] INFO -     Variation 0: 'U.S. BANCORP EQUIPMENT FINANCE, INC.' (1 filing)
+2026-05-11 10:46:59,988 [GA-UCC-v2] INFO -     Page 1/1: 1 records
+2026-05-11 10:46:59,995 [GA-UCC-v2] INFO -   → 1 found, 1 new
+2026-05-11 10:46:59,995 [GA-UCC-v2] INFO -   → 11/14/2022 – 05/15/2023
+2026-05-11 10:47:02,519 [GA-UCC-v2] INFO -   1 variation(s) — ~1 total filings
+2026-05-11 10:47:02,519 [GA-UCC-v2] INFO -     Variation 0: 'U.S. BANCORP EQUIPMENT FINANCE, INC.' (1 filing)
+2026-05-11 10:47:04,665 [GA-UCC-v2] INFO -     Page 1/1: 1 records
+2026-05-11 10:47:04,666 [GA-UCC-v2] INFO -   → 1 found, 1 new
+2026-05-11 10:47:04,666 [GA-UCC-v2] INFO -   → 05/16/2022 – 11/14/2022
+2026-05-11 10:47:06,825 [GA-UCC-v2] INFO -   No results
+2026-05-11 10:47:06,826 [GA-UCC-v2] INFO -   → 11/15/2021 – 05/16/2022
+2026-05-11 10:47:09,486 [GA-UCC-v2] INFO -   1 variation(s) — ~2 total filings
+2026-05-11 10:47:09,486 [GA-UCC-v2] INFO -     Variation 0: 'U.S. BANCORP EQUIPMENT FINANCE, INC.' (2 filings)
+2026-05-11 10:47:11,689 [GA-UCC-v2] INFO -     Page 1/1: 2 records
+2026-05-11 10:47:11,690 [GA-UCC-v2] INFO -   → 2 found, 2 new
+2026-05-11 10:47:11,690 [GA-UCC-v2] INFO -   → 05/17/2021 – 11/15/2021
+2026-05-11 10:47:14,270 [GA-UCC-v2] INFO -   1 variation(s) — ~2 total filings
+2026-05-11 10:47:14,270 [GA-UCC-v2] INFO -     Variation 0: 'U.S. BANCORP EQUIPMENT FINANCE, INC.' (2 filings)
+2026-05-11 10:47:16,552 [GA-UCC-v2] INFO -     Page 1/1: 3 records
+2026-05-11 10:47:16,559 [GA-UCC-v2] INFO -   → 3 found, 2 new
+2026-05-11 10:47:16,559 [GA-UCC-v2] INFO -   → 11/16/2020 – 05/17/2021
+2026-05-11 10:47:19,067 [GA-UCC-v2] INFO -   1 variation(s) — ~1 total filings
+2026-05-11 10:47:19,067 [GA-UCC-v2] INFO -     Variation 0: 'U.S. BANCORP EQUIPMENT FINANCE, INC.' (1 filing)
+2026-05-11 10:47:21,215 [GA-UCC-v2] INFO -     Page 1/1: 1 records
+2026-05-11 10:47:21,222 [GA-UCC-v2] INFO -   → 1 found, 1 new
+2026-05-11 10:47:21,222 [GA-UCC-v2] INFO -   → 05/18/2020 – 11/16/2020
+2026-05-11 10:47:23,890 [GA-UCC-v2] INFO -   1 variation(s) — ~1 total filings
+2026-05-11 10:47:23,890 [GA-UCC-v2] INFO -     Variation 0: 'U.S. BANCORP EQUIPMENT FINANCE, INC.' (1 filing)
+2026-05-11 10:47:26,079 [GA-UCC-v2] INFO -     Page 1/1: 1 records
+2026-05-11 10:47:26,086 [GA-UCC-v2] INFO -   → 1 found, 1 new
+2026-05-11 10:47:26,086 [GA-UCC-v2] INFO -   Lender total: 9 found, 8 new
+2026-05-11 10:47:27,591 [GA-UCC-v2] INFO - 
+────────────────────────────────────────────────────────────
+2026-05-11 10:47:27,591 [GA-UCC-v2] INFO - 🔍 KEY EQUIPMENT FINANCE (EQUIP_FINANCE)
+2026-05-11 10:47:27,592 [GA-UCC-v2] INFO -   → 11/10/2025 – 05/11/2026
+2026-05-11 10:47:29,729 [GA-UCC-v2] INFO -   4 variation(s) — ~128 total filings
+2026-05-11 10:47:29,729 [GA-UCC-v2] INFO -     Variation 0: 'KEY EQUIPMENT FINANCE, A DIVISION OF KEYBANK NA' (1 filing)
+2026-05-11 10:47:31,985 [GA-UCC-v2] INFO -     Page 1/1: 1 records
+2026-05-11 10:47:31,985 [GA-UCC-v2] INFO -     Variation 1: 'KEYSTONE EQUIPMENT FINANCE CORP.' (12 filings)
+2026-05-11 10:47:35,611 [GA-UCC-v2] INFO -     Page 1/1: 12 records
+2026-05-11 10:47:35,611 [GA-UCC-v2] INFO -     Variation 2: 'KEYSTONE EQUIPMENT FINANCE CORP. ON BEHALF OF ITSELF AND ON BEHALF OF ALL AFFILIATEES OF CCI' (1 filing)
+2026-05-11 10:47:37,814 [GA-UCC-v2] INFO -     Page 1/1: 1 records
+2026-05-11 10:47:37,814 [GA-UCC-v2] INFO -     Variation 3: 'KEYSTONE EQUIPMENT FINANCE CORP. ON BEHALF OF ITSELF AND ON BEHALF OF ALL AFFILIATES OF CCI' (114 filings)
+2026-05-11 10:47:47,567 [GA-UCC-v2] INFO -     Page 1/1: 100 records
+2026-05-11 10:47:47,572 [GA-UCC-v2] INFO -   → 114 found, 114 new
+2026-05-11 10:47:47,573 [GA-UCC-v2] INFO -   → 05/12/2025 – 11/10/2025
+2026-05-11 10:47:50,654 [GA-UCC-v2] INFO -   4 variation(s) — ~104 total filings
+2026-05-11 10:47:50,655 [GA-UCC-v2] INFO -     Variation 0: 'KEY EQUIPMENT FINANCE, A DIVISION OF KEYBANK NA' (13 filings)
+2026-05-11 10:47:53,683 [GA-UCC-v2] INFO -     Page 1/1: 13 records
+2026-05-11 10:47:53,683 [GA-UCC-v2] INFO -     Variation 1: 'KEYSTONE EQUIPMENT FINANCE CORP.' (13 filings)
+2026-05-11 10:47:56,734 [GA-UCC-v2] INFO -     Page 1/1: 13 records
+2026-05-11 10:47:56,734 [GA-UCC-v2] INFO -     Variation 2: 'KEYSTONE EQUIPMENT FINANCE CORP. ON BEHALF OF ITSELF AND BEHALF OF ALL AFFILIATES OF CCI' (1 filing)
+2026-05-11 10:47:59,012 [GA-UCC-v2] INFO -     Page 1/1: 1 records
+2026-05-11 10:47:59,013 [GA-UCC-v2] INFO -     Variation 3: 'KEYSTONE EQUIPMENT FINANCE CORP. ON BEHALF OF ITSELF AND ON BEHALF OF ALL AFFILIATES OF CCI' (77 filings)
+2026-05-11 10:48:06,775 [GA-UCC-v2] INFO -     Page 1/1: 77 records
+2026-05-11 10:48:06,780 [GA-UCC-v2] INFO -   → 104 found, 103 new
+2026-05-11 10:48:06,780 [GA-UCC-v2] INFO -   → 11/11/2024 – 05/12/2025
+2026-05-11 10:48:08,823 [GA-UCC-v2] INFO -   4 variation(s) — ~75 total filings
+2026-05-11 10:48:08,823 [GA-UCC-v2] INFO -     Variation 0: 'KEY EQUIPMENT FINANCE, A DIVISION OF KEYBANK NA' (3 filings)
+2026-05-11 10:48:11,066 [GA-UCC-v2] INFO -     Page 1/1: 3 records
+2026-05-11 10:48:11,066 [GA-UCC-v2] INFO -     Variation 1: 'KEYSTONE EQUIPMENT FINANCE CORP.' (5 filings)
+2026-05-11 10:48:13,593 [GA-UCC-v2] INFO -     Page 1/1: 5 records
+2026-05-11 10:48:13,593 [GA-UCC-v2] INFO -     Variation 2: 'KEYSTONE EQUIPMENT FINANCE CORP. ON BEHALF AND ON BEHALF OF ALL AFFILIATES OF CCI' (1 filing)
+2026-05-11 10:48:15,852 [GA-UCC-v2] INFO -     Page 1/1: 1 records
+2026-05-11 10:48:15,878 [GA-UCC-v2] INFO -     Variation 3: 'KEYSTONE EQUIPMENT FINANCE CORP. ON BEHALF OF ITSELF AND ON BEHALF OF ALL AFFILIATES OF CCI' (66 filings)
+2026-05-11 10:48:22,624 [GA-UCC-v2] INFO -     Page 1/1: 66 records
+2026-05-11 10:48:22,633 [GA-UCC-v2] INFO -   → 75 found, 75 new
+2026-05-11 10:48:22,634 [GA-UCC-v2] INFO -   → 05/13/2024 – 11/11/2024
+2026-05-11 10:48:24,700 [GA-UCC-v2] INFO -   5 variation(s) — ~124 total filings
+2026-05-11 10:48:24,701 [GA-UCC-v2] INFO -     Variation 0: 'KEY EQUIPMENT FINANCE, A DIVISION OF KEYBANK NA' (6 filings)
+2026-05-11 10:48:27,369 [GA-UCC-v2] INFO -     Page 1/1: 9 records
+2026-05-11 10:48:27,370 [GA-UCC-v2] INFO -     Variation 1: 'KEYSTONE EQUIPMENT FINANCE CORP.' (54 filings)
+2026-05-11 10:48:33,767 [GA-UCC-v2] INFO -     Page 1/1: 54 records
+2026-05-11 10:48:33,767 [GA-UCC-v2] INFO -     Variation 2: 'KEYSTONE EQUIPMENT FINANCE CORP. ON BEHALF OF ITSELF AND ON BEHALF OF ALL AFFILAITES OF CCI' (1 filing)
+2026-05-11 10:48:37,152 [GA-UCC-v2] INFO -     Page 1/1: 1 records
+2026-05-11 10:48:37,153 [GA-UCC-v2] INFO -     Variation 3: 'KEYSTONE EQUIPMENT FINANCE CORP. ON BEHALF OF ITSELF AND ON BEHALF OF ALL AFFILIATES OF CCI' (62 filings)
+2026-05-11 10:48:43,195 [GA-UCC-v2] INFO -     Page 1/1: 62 records
+2026-05-11 10:48:43,196 [GA-UCC-v2] INFO -     Variation 4: 'KEYSTONE EQUIPMENT FINANCE CORP. ON BEHALF OF ITSELF AND ON BEHALF OF ALL AIFFLIATES OF CCI' (1 filing)
+2026-05-11 10:48:45,321 [GA-UCC-v2] INFO -     Page 1/1: 1 records
+2026-05-11 10:48:45,329 [GA-UCC-v2] INFO -   → 127 found, 124 new
+2026-05-11 10:48:45,329 [GA-UCC-v2] INFO -   → 11/13/2023 – 05/13/2024
+2026-05-11 10:48:47,281 [GA-UCC-v2] INFO -   2 variation(s) — ~65 total filings
+2026-05-11 10:48:47,281 [GA-UCC-v2] INFO -     Variation 0: 'KEY EQUIPMENT FINANCE, A DIVISION OF KEYBANK NA' (1 filing)
+2026-05-11 10:48:49,480 [GA-UCC-v2] INFO -     Page 1/1: 1 records
+2026-05-11 10:48:49,480 [GA-UCC-v2] INFO -     Variation 1: 'KEYSTONE EQUIPMENT FINANCE CORP.' (64 filings)
+2026-05-11 10:48:55,954 [GA-UCC-v2] INFO -     Page 1/1: 64 records
+2026-05-11 10:48:55,963 [GA-UCC-v2] INFO -   → 65 found, 65 new
+2026-05-11 10:48:55,963 [GA-UCC-v2] INFO -   → 05/15/2023 – 11/13/2023
+2026-05-11 10:48:58,145 [GA-UCC-v2] INFO -   3 variation(s) — ~111 total filings
+2026-05-11 10:48:58,145 [GA-UCC-v2] INFO -     Variation 0: 'KEY EQUIPMENT FINANCE, A DIVISION OF KEYBANK NA' (15 filings)
+2026-05-11 10:49:01,451 [GA-UCC-v2] INFO -     Page 1/1: 21 records
+2026-05-11 10:49:01,452 [GA-UCC-v2] INFO -     Variation 1: 'KEY EQUIPMENT FINANCE, A DIVISION OF KEYBANK NATIONAL ASSOCIATION' (1 filing)
+2026-05-11 10:49:03,690 [GA-UCC-v2] INFO -     Page 1/1: 2 records
+2026-05-11 10:49:03,690 [GA-UCC-v2] INFO -     Variation 2: 'KEYSTONE EQUIPMENT FINANCE CORP.' (95 filings)
+2026-05-11 10:49:12,841 [GA-UCC-v2] INFO -     Page 1/1: 95 records
+2026-05-11 10:49:12,851 [GA-UCC-v2] INFO -   → 118 found, 110 new
+2026-05-11 10:49:12,851 [GA-UCC-v2] INFO -   → 11/14/2022 – 05/15/2023
+2026-05-11 10:49:14,942 [GA-UCC-v2] INFO -   5 variation(s) — ~18 total filings
+2026-05-11 10:49:14,942 [GA-UCC-v2] INFO -     Variation 0: 'KEY EQUIPMENT FINANCE, INC.' (1 filing)
+2026-05-11 10:49:17,345 [GA-UCC-v2] INFO -     Page 1/1: 1 records
+2026-05-11 10:49:17,345 [GA-UCC-v2] INFO -     Variation 1: 'KEY EQUIPMENT FINANCE, A DIVISION OF KEYBANK NA' (1 filing)

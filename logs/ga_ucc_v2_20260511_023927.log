@@ -1,0 +1,3 @@
+2026-05-11 02:39:27,417 [GA-UCC-v2] INFO - Logging to /Users/robertle/tomcat_capex/logs/ga_ucc_v2_20260511_023927.log
+2026-05-11 02:39:27,417 [GA-UCC-v2] INFO - Logging in to GSCCCA (tomcatmca)...
+2026-05-11 02:39:29,523 [GA-UCC-v2] ERROR - Login failed. Check credentials.

@@ -1,0 +1,228 @@
+2026-05-08 11:31:15,583 [GA-UCC-v2] INFO - Logging to /Users/robertle/tomcat_capex/logs/ga_ucc_v2_20260508_113115.log
+2026-05-08 11:31:15,583 [GA-UCC-v2] INFO - Logging in to GSCCCA (tomcatmca)...
+2026-05-08 11:31:19,004 [GA-UCC-v2] INFO - ✅ Authenticated
+2026-05-08 11:31:19,005 [GA-UCC-v2] INFO - 
+────────────────────────────────────────────────────────────
+2026-05-08 11:31:19,005 [GA-UCC-v2] INFO - 🔍 RICOH USA (PRINT_IMAGING)
+2026-05-08 11:31:19,005 [GA-UCC-v2] INFO -   → 11/07/2025 – 05/08/2026
+2026-05-08 11:31:20,879 [GA-UCC-v2] INFO -   2 variation(s) — ~7 total filings
+2026-05-08 11:31:20,879 [GA-UCC-v2] INFO -     Variation 0: 'RICOH USA INC' (2 filings)
+2026-05-08 11:31:22,881 [GA-UCC-v2] INFO -     Page 1/1: 2 records
+2026-05-08 11:31:22,888 [GA-UCC-v2] INFO -     Variation 1: 'RICOH USA, INC.' (5 filings)
+2026-05-08 11:31:24,994 [GA-UCC-v2] INFO -     Page 1/1: 5 records
+2026-05-08 11:31:24,995 [GA-UCC-v2] INFO -   → 7 found, 0 new
+2026-05-08 11:31:24,995 [GA-UCC-v2] INFO -   → 05/09/2025 – 11/07/2025
+2026-05-08 11:31:26,800 [GA-UCC-v2] INFO -   3 variation(s) — ~8 total filings
+2026-05-08 11:31:26,800 [GA-UCC-v2] INFO -     Variation 0: 'RICOH USA INC' (2 filings)
+2026-05-08 11:31:28,966 [GA-UCC-v2] INFO -     Page 1/1: 2 records
+2026-05-08 11:31:28,966 [GA-UCC-v2] INFO -     Variation 1: 'RICOH USA, INC' (2 filings)
+2026-05-08 11:31:30,986 [GA-UCC-v2] INFO -     Page 1/1: 4 records
+2026-05-08 11:31:30,987 [GA-UCC-v2] INFO -     Variation 2: 'RICOH USA, INC.' (4 filings)
+2026-05-08 11:31:33,269 [GA-UCC-v2] INFO -     Page 1/1: 8 records
+2026-05-08 11:31:33,269 [GA-UCC-v2] INFO -   → 14 found, 0 new
+2026-05-08 11:31:33,269 [GA-UCC-v2] INFO -   → 11/08/2024 – 05/09/2025
+2026-05-08 11:31:35,309 [GA-UCC-v2] INFO -   3 variation(s) — ~7 total filings
+2026-05-08 11:31:35,310 [GA-UCC-v2] INFO -     Variation 0: 'RICOH USA INC' (1 filing)
+2026-05-08 11:31:37,431 [GA-UCC-v2] INFO -     Page 1/1: 1 records
+2026-05-08 11:31:37,431 [GA-UCC-v2] INFO -     Variation 1: 'RICOH USA, INC' (1 filing)
+2026-05-08 11:31:39,673 [GA-UCC-v2] INFO -     Page 1/1: 2 records
+2026-05-08 11:31:39,673 [GA-UCC-v2] INFO -     Variation 2: 'RICOH USA, INC.' (5 filings)
+2026-05-08 11:31:42,118 [GA-UCC-v2] INFO -     Page 1/1: 10 records
+2026-05-08 11:31:42,118 [GA-UCC-v2] INFO -   → 13 found, 0 new
+2026-05-08 11:31:42,118 [GA-UCC-v2] INFO -   → 05/10/2024 – 11/08/2024
+2026-05-08 11:31:44,015 [GA-UCC-v2] INFO -   4 variation(s) — ~28 total filings
+2026-05-08 11:31:44,015 [GA-UCC-v2] INFO -     Variation 0: 'RICOH USA , INC' (1 filing)
+2026-05-08 11:31:46,113 [GA-UCC-v2] INFO -     Page 1/1: 2 records
+2026-05-08 11:31:46,114 [GA-UCC-v2] INFO -     Variation 1: 'RICOH USA INC' (1 filing)
+2026-05-08 11:31:48,192 [GA-UCC-v2] INFO -     Page 1/1: 1 records
+2026-05-08 11:31:48,192 [GA-UCC-v2] INFO -     Variation 2: 'RICOH USA, INC' (18 filings)
+2026-05-08 11:31:52,828 [GA-UCC-v2] INFO -     Page 1/1: 36 records
+2026-05-08 11:31:52,828 [GA-UCC-v2] INFO -     Variation 3: 'RICOH USA, INC.' (8 filings)
+2026-05-08 11:31:55,549 [GA-UCC-v2] INFO -     Page 1/1: 15 records
+2026-05-08 11:31:55,550 [GA-UCC-v2] INFO -   → 54 found, 0 new
+2026-05-08 11:31:55,550 [GA-UCC-v2] INFO -   Lender total: 88 found, 0 new
+2026-05-08 11:31:57,053 [GA-UCC-v2] INFO - 
+────────────────────────────────────────────────────────────
+2026-05-08 11:31:57,053 [GA-UCC-v2] INFO - 🔍 KYOCERA DOCUMENT SOLUTIONS (PRINT_IMAGING)
+2026-05-08 11:31:57,054 [GA-UCC-v2] INFO -   → 11/07/2025 – 05/08/2026
+2026-05-08 11:31:58,937 [GA-UCC-v2] INFO -   1 variation(s) — ~1 total filings
+2026-05-08 11:31:58,937 [GA-UCC-v2] INFO -     Variation 0: 'KYOCERA DOCUMENT SOLUTIONS AMERICA, INC.' (1 filing)
+2026-05-08 11:32:01,051 [GA-UCC-v2] INFO -     Page 1/1: 1 records
+2026-05-08 11:32:01,051 [GA-UCC-v2] INFO -   → 1 found, 0 new
+2026-05-08 11:32:01,052 [GA-UCC-v2] INFO -   → 05/09/2025 – 11/07/2025
+2026-05-08 11:32:03,099 [GA-UCC-v2] INFO -   1 variation(s) — ~1 total filings
+2026-05-08 11:32:03,099 [GA-UCC-v2] INFO -     Variation 0: 'KYOCERA DOCUMENT SOLUTIONS AMERICA, INC.' (1 filing)
+2026-05-08 11:32:05,220 [GA-UCC-v2] INFO -     Page 1/1: 1 records
+2026-05-08 11:32:05,220 [GA-UCC-v2] INFO -   → 1 found, 0 new
+2026-05-08 11:32:05,220 [GA-UCC-v2] INFO -   → 11/08/2024 – 05/09/2025
+2026-05-08 11:32:07,086 [GA-UCC-v2] INFO -   1 variation(s) — ~2 total filings
+2026-05-08 11:32:07,086 [GA-UCC-v2] INFO -     Variation 0: 'KYOCERA DOCUMENT SOLUTIONS AMERICA, INC.' (2 filings)
+2026-05-08 11:32:08,755 [GA-UCC-v2] INFO -     Page 1/1: 0 records
+2026-05-08 11:32:08,756 [GA-UCC-v2] INFO -   → 05/10/2024 – 11/08/2024
+2026-05-08 11:32:10,621 [GA-UCC-v2] INFO -   1 variation(s) — ~5 total filings
+2026-05-08 11:32:10,621 [GA-UCC-v2] INFO -     Variation 0: 'KYOCERA DOCUMENT SOLUTIONS AMERICA, INC.' (5 filings)
+2026-05-08 11:32:12,860 [GA-UCC-v2] INFO -     Page 1/1: 5 records
+2026-05-08 11:32:12,860 [GA-UCC-v2] INFO -   → 5 found, 0 new
+2026-05-08 11:32:12,860 [GA-UCC-v2] INFO -   Lender total: 7 found, 0 new
+2026-05-08 11:32:14,365 [GA-UCC-v2] INFO - 
+────────────────────────────────────────────────────────────
+2026-05-08 11:32:14,365 [GA-UCC-v2] INFO - 🔍 PAWNEE LEASING (IT_CHANNEL)
+2026-05-08 11:32:14,365 [GA-UCC-v2] INFO -   → 11/07/2025 – 05/08/2026
+2026-05-08 11:32:16,249 [GA-UCC-v2] INFO -   1 variation(s) — ~1 total filings
+2026-05-08 11:32:16,249 [GA-UCC-v2] INFO -     Variation 0: 'PAWNEE LEASING CORPORATION' (1 filing)
+2026-05-08 11:32:18,260 [GA-UCC-v2] INFO -     Page 1/1: 1 records
+2026-05-08 11:32:18,261 [GA-UCC-v2] INFO -   → 1 found, 0 new
+2026-05-08 11:32:18,261 [GA-UCC-v2] INFO -   → 05/09/2025 – 11/07/2025
+2026-05-08 11:32:20,143 [GA-UCC-v2] INFO -   1 variation(s) — ~1 total filings
+2026-05-08 11:32:20,143 [GA-UCC-v2] INFO -     Variation 0: 'PAWNEE LEASING CORPORATION' (1 filing)
+2026-05-08 11:32:22,265 [GA-UCC-v2] INFO -     Page 1/1: 1 records
+2026-05-08 11:32:22,266 [GA-UCC-v2] INFO -   → 1 found, 0 new
+2026-05-08 11:32:22,266 [GA-UCC-v2] INFO -   → 11/08/2024 – 05/09/2025
+2026-05-08 11:32:24,107 [GA-UCC-v2] INFO -   No results
+2026-05-08 11:32:24,108 [GA-UCC-v2] INFO -   → 05/10/2024 – 11/08/2024
+2026-05-08 11:32:25,968 [GA-UCC-v2] INFO -   1 variation(s) — ~1 total filings
+2026-05-08 11:32:25,969 [GA-UCC-v2] INFO -     Variation 0: 'PAWNEE LEASING CORPORATION' (1 filing)
+2026-05-08 11:32:27,947 [GA-UCC-v2] INFO -     Page 1/1: 1 records
+2026-05-08 11:32:27,948 [GA-UCC-v2] INFO -   → 1 found, 0 new
+2026-05-08 11:32:27,948 [GA-UCC-v2] INFO -   Lender total: 3 found, 0 new
+2026-05-08 11:32:29,451 [GA-UCC-v2] INFO - 
+────────────────────────────────────────────────────────────
+2026-05-08 11:32:29,451 [GA-UCC-v2] INFO - 🔍 BALBOA CAPITAL (IT_CHANNEL)
+2026-05-08 11:32:29,452 [GA-UCC-v2] INFO -   → 11/07/2025 – 05/08/2026
+2026-05-08 11:32:31,289 [GA-UCC-v2] INFO -   No results
+2026-05-08 11:32:31,289 [GA-UCC-v2] INFO -   → 05/09/2025 – 11/07/2025
+2026-05-08 11:32:33,118 [GA-UCC-v2] INFO -   No results
+2026-05-08 11:32:33,118 [GA-UCC-v2] INFO -   → 11/08/2024 – 05/09/2025
+2026-05-08 11:32:35,042 [GA-UCC-v2] INFO -   No results
+2026-05-08 11:32:35,042 [GA-UCC-v2] INFO -   → 05/10/2024 – 11/08/2024
+2026-05-08 11:32:36,900 [GA-UCC-v2] INFO -   1 variation(s) — ~2 total filings
+2026-05-08 11:32:36,900 [GA-UCC-v2] INFO -     Variation 0: 'BALBOA CAPITAL CORPORATION' (2 filings)
+2026-05-08 11:32:38,892 [GA-UCC-v2] INFO -     Page 1/1: 2 records
+2026-05-08 11:32:38,893 [GA-UCC-v2] INFO -   → 2 found, 2 new
+2026-05-08 11:32:38,893 [GA-UCC-v2] INFO -   Lender total: 2 found, 2 new
+2026-05-08 11:32:40,398 [GA-UCC-v2] INFO - 
+────────────────────────────────────────────────────────────
+2026-05-08 11:32:40,398 [GA-UCC-v2] INFO - 🔍 US BANCORP EQUIPMENT (EQUIP_FINANCE)
+2026-05-08 11:32:40,399 [GA-UCC-v2] INFO -   → 11/07/2025 – 05/08/2026
+2026-05-08 11:32:42,863 [GA-UCC-v2] INFO -   No results
+2026-05-08 11:32:42,863 [GA-UCC-v2] INFO -   → 05/09/2025 – 11/07/2025
+2026-05-08 11:32:44,984 [GA-UCC-v2] INFO -   No results
+2026-05-08 11:32:44,984 [GA-UCC-v2] INFO -   → 11/08/2024 – 05/09/2025
+2026-05-08 11:32:47,097 [GA-UCC-v2] INFO -   No results
+2026-05-08 11:32:47,097 [GA-UCC-v2] INFO -   → 05/10/2024 – 11/08/2024
+2026-05-08 11:32:49,292 [GA-UCC-v2] INFO -   No results
+2026-05-08 11:32:49,292 [GA-UCC-v2] INFO -   Lender total: 0 found, 0 new
+2026-05-08 11:32:50,797 [GA-UCC-v2] INFO - 
+────────────────────────────────────────────────────────────
+2026-05-08 11:32:50,797 [GA-UCC-v2] INFO - 🔍 CATERPILLAR FINANCIAL (HEAVY_EQUIP)
+2026-05-08 11:32:50,797 [GA-UCC-v2] INFO -   → 11/07/2025 – 05/08/2026
+2026-05-08 11:32:52,850 [GA-UCC-v2] INFO -   3 variation(s) — ~2328 total filings
+2026-05-08 11:32:52,850 [GA-UCC-v2] INFO -     Variation 0: 'CATERPILLAR FINANCIAL SERVICES' (2 filings)
+2026-05-08 11:32:55,421 [GA-UCC-v2] INFO -     Page 1/1: 3 records
+2026-05-08 11:32:55,421 [GA-UCC-v2] INFO -     Variation 1: 'CATERPILLAR FINANCIAL SERVICES CORP' (1 filing)
+2026-05-08 11:32:57,522 [GA-UCC-v2] INFO -     Page 1/1: 1 records
+2026-05-08 11:32:57,523 [GA-UCC-v2] INFO -     Variation 2: 'CATERPILLAR FINANCIAL SERVICES CORPORATION' (2325 filings)
+2026-05-08 11:33:06,685 [GA-UCC-v2] INFO -     Page 1/1: 100 records
+2026-05-08 11:33:06,694 [GA-UCC-v2] INFO -   → 104 found, 93 new
+2026-05-08 11:33:06,695 [GA-UCC-v2] INFO -   → 05/09/2025 – 11/07/2025
+2026-05-08 11:33:08,638 [GA-UCC-v2] INFO -   2 variation(s) — ~1743 total filings
+2026-05-08 11:33:08,638 [GA-UCC-v2] INFO -     Variation 0: 'CATERPILLAR FINANCIAL SERVICES' (2 filings)
+2026-05-08 11:33:10,872 [GA-UCC-v2] INFO -     Page 1/1: 4 records
+2026-05-08 11:33:10,872 [GA-UCC-v2] INFO -     Variation 1: 'CATERPILLAR FINANCIAL SERVICES CORPORATION' (1741 filings)
+2026-05-08 11:33:19,340 [GA-UCC-v2] INFO -     Page 1/1: 100 records
+2026-05-08 11:33:19,349 [GA-UCC-v2] INFO -   → 104 found, 85 new
+2026-05-08 11:33:19,349 [GA-UCC-v2] INFO -   → 11/08/2024 – 05/09/2025
+2026-05-08 11:33:22,596 [GA-UCC-v2] INFO -   3 variation(s) — ~1970 total filings
+2026-05-08 11:33:22,597 [GA-UCC-v2] INFO -     Variation 0: 'CATERPILLAR FINANCIAL SERVICES' (8 filings)
+2026-05-08 11:33:25,457 [GA-UCC-v2] INFO -     Page 1/1: 16 records
+2026-05-08 11:33:25,457 [GA-UCC-v2] INFO -     Variation 1: 'CATERPILLAR FINANCIAL SERVICES CORP' (2 filings)
+2026-05-08 11:33:27,588 [GA-UCC-v2] INFO -     Page 1/1: 3 records
+2026-05-08 11:33:27,588 [GA-UCC-v2] INFO -     Variation 2: 'CATERPILLAR FINANCIAL SERVICES CORPORATION' (1960 filings)
+2026-05-08 11:33:37,366 [GA-UCC-v2] INFO -     Page 1/1: 100 records
+2026-05-08 11:33:37,377 [GA-UCC-v2] INFO -   → 119 found, 110 new
+2026-05-08 11:33:37,377 [GA-UCC-v2] INFO -   → 05/10/2024 – 11/08/2024
+2026-05-08 11:33:39,417 [GA-UCC-v2] INFO -   2 variation(s) — ~1655 total filings
+2026-05-08 11:33:39,417 [GA-UCC-v2] INFO -     Variation 0: 'CATERPILLAR FINANCIAL SERVICES' (1 filing)
+2026-05-08 11:33:41,812 [GA-UCC-v2] INFO -     Page 1/1: 2 records
+2026-05-08 11:33:41,812 [GA-UCC-v2] INFO -     Variation 1: 'CATERPILLAR FINANCIAL SERVICES CORPORATION' (1654 filings)
+2026-05-08 11:33:50,148 [GA-UCC-v2] INFO -     Page 1/1: 100 records
+2026-05-08 11:33:50,157 [GA-UCC-v2] INFO -   → 102 found, 85 new
+2026-05-08 11:33:50,157 [GA-UCC-v2] INFO -   Lender total: 429 found, 373 new
+2026-05-08 11:33:51,662 [GA-UCC-v2] INFO - 
+────────────────────────────────────────────────────────────
+2026-05-08 11:33:51,662 [GA-UCC-v2] INFO - 🔍 JOHN DEERE FINANCIAL (HEAVY_EQUIP)
+2026-05-08 11:33:51,662 [GA-UCC-v2] INFO -   → 11/07/2025 – 05/08/2026
+2026-05-08 11:33:53,646 [GA-UCC-v2] INFO -   No results
+2026-05-08 11:33:53,647 [GA-UCC-v2] INFO -   → 05/09/2025 – 11/07/2025
+2026-05-08 11:33:55,621 [GA-UCC-v2] INFO -   No results
+2026-05-08 11:33:55,621 [GA-UCC-v2] INFO -   → 11/08/2024 – 05/09/2025
+2026-05-08 11:33:57,704 [GA-UCC-v2] INFO -   No results
+2026-05-08 11:33:57,705 [GA-UCC-v2] INFO -   → 05/10/2024 – 11/08/2024
+2026-05-08 11:33:59,675 [GA-UCC-v2] INFO -   No results
+2026-05-08 11:33:59,675 [GA-UCC-v2] INFO -   Lender total: 0 found, 0 new
+2026-05-08 11:34:01,180 [GA-UCC-v2] INFO - 
+────────────────────────────────────────────────────────────
+2026-05-08 11:34:01,180 [GA-UCC-v2] INFO - 🔍 CNH INDUSTRIAL CAPITAL (HEAVY_EQUIP)
+2026-05-08 11:34:01,180 [GA-UCC-v2] INFO -   → 11/07/2025 – 05/08/2026
+2026-05-08 11:34:03,386 [GA-UCC-v2] INFO -   1 variation(s) — ~657 total filings
+2026-05-08 11:34:03,388 [GA-UCC-v2] INFO -     Variation 0: 'CNH INDUSTRIAL CAPITAL AMERICA LLC' (657 filings)
+2026-05-08 11:34:12,521 [GA-UCC-v2] INFO -     Page 1/1: 100 records
+2026-05-08 11:34:12,534 [GA-UCC-v2] INFO -   → 100 found, 94 new
+2026-05-08 11:34:12,534 [GA-UCC-v2] INFO -   → 05/09/2025 – 11/07/2025
+2026-05-08 11:34:14,551 [GA-UCC-v2] INFO -   1 variation(s) — ~707 total filings
+2026-05-08 11:34:14,552 [GA-UCC-v2] INFO -     Variation 0: 'CNH INDUSTRIAL CAPITAL AMERICA LLC' (707 filings)
+2026-05-08 11:34:22,682 [GA-UCC-v2] INFO -     Page 1/1: 100 records
+2026-05-08 11:34:22,690 [GA-UCC-v2] INFO -   → 100 found, 94 new
+2026-05-08 11:34:22,691 [GA-UCC-v2] INFO -   → 11/08/2024 – 05/09/2025
+2026-05-08 11:34:24,747 [GA-UCC-v2] INFO -   1 variation(s) — ~705 total filings
+2026-05-08 11:34:24,747 [GA-UCC-v2] INFO -     Variation 0: 'CNH INDUSTRIAL CAPITAL AMERICA LLC' (705 filings)
+2026-05-08 11:34:33,203 [GA-UCC-v2] INFO -     Page 1/1: 100 records
+2026-05-08 11:34:33,212 [GA-UCC-v2] INFO -   → 100 found, 92 new
+2026-05-08 11:34:33,212 [GA-UCC-v2] INFO -   → 05/10/2024 – 11/08/2024
+2026-05-08 11:34:35,199 [GA-UCC-v2] INFO -   1 variation(s) — ~674 total filings
+2026-05-08 11:34:35,199 [GA-UCC-v2] INFO -     Variation 0: 'CNH INDUSTRIAL CAPITAL AMERICA LLC' (674 filings)
+2026-05-08 11:34:43,612 [GA-UCC-v2] INFO -     Page 1/1: 100 records
+2026-05-08 11:34:43,622 [GA-UCC-v2] INFO -   → 100 found, 100 new
+2026-05-08 11:34:43,622 [GA-UCC-v2] INFO -   Lender total: 400 found, 380 new
+2026-05-08 11:34:45,127 [GA-UCC-v2] INFO - 
+────────────────────────────────────────────────────────────
+2026-05-08 11:34:45,127 [GA-UCC-v2] INFO - 🔍 TOYOTA INDUSTRIES (HEAVY_EQUIP)
+2026-05-08 11:34:45,127 [GA-UCC-v2] INFO -   → 11/07/2025 – 05/08/2026
+2026-05-08 11:34:47,094 [GA-UCC-v2] INFO -   1 variation(s) — ~105 total filings
+2026-05-08 11:34:47,094 [GA-UCC-v2] INFO -     Variation 0: 'TOYOTA INDUSTRIES COMMERCIAL FINANCE, INC.' (105 filings)
+2026-05-08 11:34:55,176 [GA-UCC-v2] INFO -     Page 1/1: 100 records
+2026-05-08 11:34:55,185 [GA-UCC-v2] INFO -   → 100 found, 100 new
+2026-05-08 11:34:55,185 [GA-UCC-v2] INFO -   → 05/09/2025 – 11/07/2025
+2026-05-08 11:34:57,071 [GA-UCC-v2] INFO -   2 variation(s) — ~125 total filings
+2026-05-08 11:34:57,071 [GA-UCC-v2] INFO -     Variation 0: 'TOYOTA INDUSTRIES COMMERCIAL FINANCE, INC.' (124 filings)
+2026-05-08 11:35:04,902 [GA-UCC-v2] INFO -     Page 1/1: 100 records
+2026-05-08 11:35:04,905 [GA-UCC-v2] INFO -     Variation 1: 'TOYOTA INDUSTRIES COMMERICAL FINANCE, INC.' (1 filing)
+2026-05-08 11:35:06,947 [GA-UCC-v2] INFO -     Page 1/1: 1 records
+2026-05-08 11:35:06,955 [GA-UCC-v2] INFO -   → 101 found, 99 new
+2026-05-08 11:35:06,955 [GA-UCC-v2] INFO -   → 11/08/2024 – 05/09/2025
+2026-05-08 11:35:08,859 [GA-UCC-v2] INFO -   1 variation(s) — ~130 total filings
+2026-05-08 11:35:08,859 [GA-UCC-v2] INFO -     Variation 0: 'TOYOTA INDUSTRIES COMMERCIAL FINANCE, INC.' (130 filings)
+2026-05-08 11:35:16,330 [GA-UCC-v2] INFO -     Page 1/1: 100 records
+2026-05-08 11:35:16,340 [GA-UCC-v2] INFO -   → 100 found, 91 new
+2026-05-08 11:35:16,340 [GA-UCC-v2] INFO -   → 05/10/2024 – 11/08/2024
+2026-05-08 11:35:18,281 [GA-UCC-v2] INFO -   1 variation(s) — ~140 total filings
+2026-05-08 11:35:18,282 [GA-UCC-v2] INFO -     Variation 0: 'TOYOTA INDUSTRIES COMMERCIAL FINANCE, INC.' (140 filings)
+2026-05-08 11:35:25,621 [GA-UCC-v2] INFO -     Page 1/1: 100 records
+2026-05-08 11:35:25,630 [GA-UCC-v2] INFO -   → 100 found, 100 new
+2026-05-08 11:35:25,630 [GA-UCC-v2] INFO -   Lender total: 401 found, 390 new
+2026-05-08 11:35:27,134 [GA-UCC-v2] INFO - 
+────────────────────────────────────────────────────────────
+2026-05-08 11:35:27,134 [GA-UCC-v2] INFO - 🔍 LEAF COMMERCIAL CAPITAL (IT_CHANNEL)
+2026-05-08 11:35:27,134 [GA-UCC-v2] INFO -   → 11/07/2025 – 05/08/2026
+2026-05-08 11:35:29,057 [GA-UCC-v2] INFO -   No results
+2026-05-08 11:35:29,063 [GA-UCC-v2] INFO -   → 05/09/2025 – 11/07/2025
+2026-05-08 11:35:30,910 [GA-UCC-v2] INFO -   No results
+2026-05-08 11:35:30,910 [GA-UCC-v2] INFO -   → 11/08/2024 – 05/09/2025
+2026-05-08 11:35:32,883 [GA-UCC-v2] INFO -   No results
+2026-05-08 11:35:32,884 [GA-UCC-v2] INFO -   → 05/10/2024 – 11/08/2024
+2026-05-08 11:35:34,893 [GA-UCC-v2] INFO -   No results
+2026-05-08 11:35:34,894 [GA-UCC-v2] INFO -   Lender total: 0 found, 0 new
+2026-05-08 11:35:36,397 [GA-UCC-v2] INFO - 
+============================================================
+2026-05-08 11:35:36,397 [GA-UCC-v2] INFO - COMPLETE: 1330 found, 1145 new
+2026-05-08 11:35:36,397 [GA-UCC-v2] INFO - ============================================================
