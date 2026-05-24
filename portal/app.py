@@ -1658,9 +1658,10 @@ def serve(path=''):
     return resp
 
 
+init_portal_tables()
+init_purchase_tables()
+
 if __name__ == '__main__':
-    init_portal_tables()
-    init_purchase_tables()
     print("\n" + "="*55)
     print("  TOMCAT CAPEX BROKER PORTAL")
     print("  http://localhost:5050")
