@@ -1457,6 +1457,7 @@ def create_checkout(lead_id):
     tier_key, tier = get_lead_tier(lead)
 
     company = lead.get('company_name', 'Unknown Company')
+    masked_company = _mask_name(company)
     host = request.host_url.rstrip('/')
 
     try:
@@ -1468,7 +1469,7 @@ def create_checkout(lead_id):
                     'unit_amount': tier['price'],
                     'product_data': {
                         'name': f'Tomcat Capex — {tier["label"]} Lead',
-                        'description': f'{company} | Score: {score} | Exclusive access',
+                        'description': f'{masked_company} | Score: {score} | Exclusive access',
                     },
                 },
                 'quantity': 1,
@@ -1479,7 +1480,7 @@ def create_checkout(lead_id):
             metadata={
                 'lead_id': lead_id,
                 'tier': tier_key,
-                'company': company,
+                'company': masked_company,
             }
         )
 
