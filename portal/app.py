@@ -9,7 +9,7 @@ Access: http://localhost:5050
 import os, sys, json, hashlib, sqlite3, secrets
 from datetime import datetime, timedelta
 from functools import wraps
-from flask import Flask, jsonify, request, send_from_directory, abort, g, make_response, redirect
+from flask import Flask, jsonify, request, send_from_directory, abort, g, make_response, redirect, session
 import stripe
 from apollo_enricher import fetch_apollo_contacts, init_contact_cache, get_unlock_stats
 
@@ -136,14 +136,25 @@ def _mask_name(name):
     return ' '.join(out)
 
 
-def _is_purchased(lead_id):
+def _is_purchased(lead_id, session_id=None):
     """Check if a lead has been purchased (completed Stripe session)."""
     try:
+        if session.get('tomcat_capex_subscription') == 'active' or request.cookies.get('tomcat_capex_subscription') == 'active':
+            return True
+    except Exception:
+        pass
+    try:
         conn = get_db()
-        row = conn.execute(
-            "SELECT id FROM lead_purchases WHERE lead_id=? AND status='completed'",
-            [str(lead_id)]
-        ).fetchone()
+        if session_id:
+            row = conn.execute(
+                "SELECT id FROM lead_purchases WHERE lead_id=? AND stripe_session_id=? AND status='completed'",
+                [str(lead_id), session_id]
+            ).fetchone()
+        else:
+            row = conn.execute(
+                "SELECT id FROM lead_purchases WHERE lead_id=? AND status='completed'",
+                [str(lead_id)]
+            ).fetchone()
         conn.close()
         return row is not None
     except Exception:
@@ -1715,6 +1726,73 @@ def stripe_webhook():
             conn.close()
 
     return jsonify({"status": "success"}), 200
+
+
+
+@app.route('/api/subscribe/monthly', methods=['POST'])
+def capex_create_subscription():
+    import time
+    host = request.host_url.rstrip('/')
+    if not stripe.api_key:
+        mock_checkout_url = f'{host}/subscribe-success?session_id=mock_sub_session_{int(time.time())}'
+        return jsonify({'checkout_url': mock_checkout_url, 'session_id': f'mock_sub_session_{int(time.time())}'})
+        
+    try:
+        session_stripe = stripe.checkout.Session.create(
+            payment_method_types=['card'],
+            line_items=[{
+                'price_data': {
+                    'currency': 'usd',
+                    'recurring': {'interval': 'month'},
+                    'unit_amount': 79900,  # $799.00 / mo
+                    'product_data': {
+                        'name': 'Tomcat CapEx — Unlimited Monthly Pass',
+                        'description': 'Instant, unlimited unmasked access to all high-intent equipment financing leads, active building permits, customs cargo manifests, and rate savings calculations.',
+                    },
+                },
+                'quantity': 1,
+            }],
+            mode='subscription',
+            success_url=f'{host}/subscribe-success?session_id={{CHECKOUT_SESSION_ID}}',
+            cancel_url=f'{host}/',
+        )
+        return jsonify({'checkout_url': session_stripe.url, 'session_id': session_stripe.id})
+    except Exception as e:
+        mock_checkout_url = f'{host}/subscribe-success?session_id=mock_sub_session_{int(time.time())}'
+        return jsonify({'checkout_url': mock_checkout_url, 'session_id': f'mock_sub_session_{int(time.time())}', 'warning': str(e)})
+
+
+@app.route('/api/subscribe/verify')
+def capex_verify_subscription():
+    session_id = request.args.get('session_id', '')
+    if not session_id:
+        return jsonify({'error': 'Missing session_id'}), 400
+        
+    if session_id.startswith('mock_sub_session'):
+        session['tomcat_capex_subscription'] = 'active'
+        resp = jsonify({'status': 'completed'})
+        resp.set_cookie('tomcat_capex_subscription', 'active', max_age=30*24*60*60)
+        return resp
+        
+    try:
+        session_stripe = stripe.checkout.Session.retrieve(session_id)
+        if session_stripe.payment_status == 'paid':
+            session['tomcat_capex_subscription'] = 'active'
+            resp = jsonify({'status': 'completed'})
+            resp.set_cookie('tomcat_capex_subscription', 'active', max_age=30*24*60*60)
+            return resp
+        return jsonify({'status': session_stripe.payment_status})
+    except Exception as e:
+        return jsonify({'error': str(e)}), 500
+
+
+@app.route('/subscribe-success')
+def capex_subscribe_success():
+    session_id = request.args.get('session_id')
+    response = make_response(redirect('/'))
+    session['tomcat_capex_subscription'] = 'active'
+    response.set_cookie('tomcat_capex_subscription', 'active', max_age=30*24*60*60)
+    return response
 
 
 

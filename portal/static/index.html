@@ -862,6 +862,9 @@ tr.selected td{background:rgba(212,160,23,.06)!important}
 </div>
 <div id="detail-overlay" onclick="closePanel()" style="display:none;position:fixed;inset:0;background:rgba(0,0,0,.4);z-index:199"></div>
 
+<!-- CHOICE CHECKOUT & SUBSCRIPTION SELECTOR MODAL -->
+<div id="sx-unlock-modal" style="display:none;position:fixed;inset:0;background:rgba(10,14,24,0.85);backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px);align-items:center;justify-content:center;z-index:99999;animation:fadeIn 0.25s ease-out;padding:20px;"></div>
+
 <script>
 // ── Explainer Video Tour Controller ──
 let explainerState = {
@@ -2007,39 +2010,119 @@ async function loadLeadPricing(leadId) {
   } catch(e) { console.error('Pricing error:', e); }
 }
 
-async function buyLead(leadId) {
-  const btn = document.querySelector('.buy-lead-btn');
-  if (!btn) return;
-  const origHTML = btn.innerHTML;
-  btn.innerHTML = '<span>Processing...</span>';
-  btn.style.pointerEvents = 'none';
-  btn.style.opacity = '0.7';
+// Lightweight gorgeous Toast notifier
+function showToast(msg, color='#34d399') {
+  let toast = document.getElementById('sx-toast');
+  if (!toast) {
+    toast = document.createElement('div');
+    toast.id = 'sx-toast';
+    toast.style.cssText = 'position:fixed;bottom:24px;right:24px;background:#1e293b;border:1px solid rgba(255,255,255,.15);color:#e2e8f0;padding:10px 18px;border-radius:10px;font-size:13px;font-weight:600;z-index:99999;animation:fadeIn .2s';
+    document.body.appendChild(toast);
+  }
+  toast.textContent = msg;
+  toast.style.borderColor = color;
+  toast.style.display = 'block';
+  setTimeout(() => {
+    toast.style.display = 'none';
+  }, 3500);
+}
 
+function showUnlockModal(leadId) {
+  const modal = document.getElementById('sx-unlock-modal');
+  if (!modal) return;
+  
+  modal.style.display = 'flex';
+  modal.innerHTML = `
+    <div class="sx-modal-card" style="background:#131929;border:1px solid rgba(255,255,255,0.08);box-shadow:0 30px 60px rgba(0,0,0,0.8), 0 0 40px rgba(212,160,23,0.15);border-radius:20px;width:100%;max-width:680px;padding:32px;position:relative;animation:slideUp 0.3s cubic-bezier(0.16, 1, 0.3, 1);">
+      <button onclick="closeUnlockModal()" style="position:absolute;top:20px;right:20px;background:none;border:none;color:var(--muted);font-size:20px;cursor:pointer;transition:0.2s" onmouseover="this.style.color='#fff'" onmouseout="this.style.color='var(--muted)'">✕</button>
+      <h2 style="font-family:'Space Grotesk',sans-serif;font-size:24px;font-weight:800;color:#fff;margin-bottom:12px;display:flex;align-items:center;gap:10px;">🔓 Unlock Corporate Lead Intelligence</h2>
+      <p style="color:var(--muted);font-size:13px;line-height:1.5;margin-bottom:28px;">Gain unrestricted access to verified equipment leasing borrower identities, active facility building permits, customs manifests, and rate savings calculations.</p>
+      
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:20px;margin-bottom:24px;">
+        <!-- Option 1: Single Lead -->
+        <div style="background:rgba(255,255,255,0.02);border:1px solid rgba(255,255,255,0.06);border-radius:16px;padding:24px;display:flex;flex-direction:column;justify-content:space-between;transition:0.2s" onmouseover="this.style.borderColor='rgba(255,255,255,0.12)';this.style.background='rgba(255,255,255,0.04)'" onmouseout="this.style.borderColor='rgba(255,255,255,0.06)';this.style.background='rgba(255,255,255,0.02)'">
+          <div>
+            <span style="font-size:10px;font-weight:800;color:var(--muted);letter-spacing:1px;text-transform:uppercase;">SINGLE LEAD UNLOCK</span>
+            <div style="font-size:32px;font-weight:900;color:#fff;margin:12px 0 8px;font-family:'Space Grotesk',sans-serif;">$49 <span style="font-size:12px;color:var(--muted);font-weight:400;">/ lead</span></div>
+            <p style="font-size:12px;color:var(--muted);line-height:1.5;margin-bottom:20px;">Get full exclusive details for this specific machinery-leasing borrower instantly. Includes active building permit details and customs manifests.</p>
+          </div>
+          <button onclick="executeSingleUnlock('${leadId}')" style="margin-top:auto;width:100%;padding:12px;font-weight:700;font-size:13px;background:rgba(255,255,255,0.06);border:1px solid rgba(255,255,255,0.1);color:#fff;border-radius:8px;cursor:pointer;transition:0.2s" onmouseover="this.style.background='var(--accent)';this.style.color='#000';this.style.borderColor='var(--accent)'" onmouseout="this.style.background='rgba(255,255,255,0.06)';this.style.color='#fff';this.style.borderColor='rgba(255,255,255,0.1)'">Unlock This Lead</button>
+        </div>
+        
+        <!-- Option 2: Unlimited Monthly -->
+        <div style="background:linear-gradient(135deg, rgba(212,160,23,0.15), rgba(212,160,23,0.02));border:1px solid rgba(212,160,23,0.3);border-radius:16px;padding:24px;display:flex;flex-direction:column;justify-content:space-between;position:relative;transition:0.2s;box-shadow:0 10px 30px rgba(212,160,23,0.05)" onmouseover="this.style.borderColor='var(--gold)';this.style.boxShadow='0 10px 40px rgba(212,160,23,0.15)'" onmouseout="this.style.borderColor='rgba(212,160,23,0.3)';this.style.boxShadow='0 10px 30px rgba(212,160,23,0.05)'">
+          <div style="position:absolute;top:-12px;right:20px;background:var(--accent);color:#000;font-size:9px;font-weight:900;padding:4px 10px;border-radius:10px;letter-spacing:0.5px;text-transform:uppercase;">RECOMMENDED</div>
+          <div>
+            <span style="font-size:10px;font-weight:800;color:var(--accent);letter-spacing:1px;text-transform:uppercase;">UNLIMITED ACCESS PASS</span>
+            <div style="font-size:32px;font-weight:900;color:var(--accent);margin:12px 0 8px;font-family:'Space Grotesk',sans-serif;">$799 <span style="font-size:12px;color:var(--muted);font-weight:400;">/ month</span></div>
+            <p style="font-size:12px;color:var(--muted);line-height:1.5;margin-bottom:20px;">Unmask ALL current and future leads in the entire terminal instantly. Bypasses all lead paywall masks, uncovers active credit files, and enables unlimited outbound marketing.</p>
+          </div>
+          <button onclick="executeSubscriptionUnlock()" style="margin-top:auto;width:100%;padding:12px;font-weight:800;font-size:13px;background:var(--accent);border:none;color:#000;border-radius:8px;cursor:pointer;transition:0.2s" onmouseover="this.style.background='var(--accent2)';this.style.boxShadow='0 0 15px rgba(212,160,23,0.4)'" onmouseout="this.style.background='var(--accent)';this.style.boxShadow='none'">Subscribe & Unmask All</button>
+        </div>
+      </div>
+      
+      <div style="text-align:center;font-size:11px;color:var(--muted);display:flex;align-items:center;justify-content:center;gap:6px;">
+        <span>🔒 Secure Checkout via Stripe</span> · <span>Cancel anytime with one click</span>
+      </div>
+    </div>
+  `;
+}
+
+function closeUnlockModal() {
+  const modal = document.getElementById('sx-unlock-modal');
+  if (modal) modal.style.display = 'none';
+}
+
+function buyLead(leadId) {
+  showUnlockModal(leadId);
+}
+
+async function executeSingleUnlock(leadId) {
   try {
     const r = await fetch(`/api/leads/${leadId}/checkout`, { method: 'POST' });
     const res = await r.json();
     if (res.checkout_url) {
       window.open(res.checkout_url, '_blank');
-      // Continue polling in the background without losing the frontend state
-    } else if (res.error === 'Lead already purchased') {
-      btn.className = 'buy-lead-btn purchased';
-      btn.innerHTML = '<span>✓ ALREADY PURCHASED</span>';
-    } else if (res.error === 'Stripe not configured') {
-      btn.innerHTML = origHTML;
-      btn.style.pointerEvents = '';
-      btn.style.opacity = '';
-      alert('Stripe is not configured. Set STRIPE_SECRET_KEY environment variable.');
+      closeUnlockModal();
+      showToast('Waiting for purchase completion...', '#fbbf24');
     } else {
-      btn.innerHTML = origHTML;
-      btn.style.pointerEvents = '';
-      btn.style.opacity = '';
-      alert('Error: ' + (d.error || 'Unknown error'));
+      alert('Checkout error: ' + (res.error || 'Unknown error'));
     }
   } catch(e) {
-    btn.innerHTML = origHTML;
-    btn.style.pointerEvents = '';
-    btn.style.opacity = '';
-    console.error('Checkout error:', e);
+    console.error(e);
+  }
+}
+
+async function executeSubscriptionUnlock() {
+  try {
+    const res = await fetch('/api/subscribe/monthly', { method: 'POST' });
+    const data = await res.json();
+    if (!res.ok) throw new Error(data.error || 'Failed to initiate subscription');
+    
+    window.open(data.checkout_url, '_blank');
+    closeUnlockModal();
+    showToast('Waiting for subscription verification...', '#fbbf24');
+    
+    let pollTimer = setInterval(async () => {
+      try {
+        const pollRes = await fetch(`/api/subscribe/verify?session_id=${data.session_id}`);
+        if (pollRes.status === 200) {
+          const pollData = await pollRes.json();
+          if (pollData.status === 'completed') {
+            clearInterval(pollTimer);
+            showToast('Unlimited Access activated successfully!', '#34d399');
+            loadLeads(currentPage);
+            if (_activePanelId) {
+              openPanel(_activePanelId);
+            }
+          }
+        }
+      } catch (e) {
+        console.error('Subscription polling error:', e);
+      }
+    }, 3000);
+  } catch (err) {
+    showToast(err.message, '#f87171');
   }
 }
 
@@ -2048,14 +2131,20 @@ async function buyLead(leadId) {
   const params = new URLSearchParams(window.location.search);
   const sessionId = params.get('session_id');
   const leadId = params.get('lead_id');
+  
+  if (window.location.pathname.includes('subscribe-success') || window.location.search.includes('session_id=mock_sub_session')) {
+    showToast('👑 Unlimited Access active! Unmasked all leads.', '#d4a017');
+    window.history.replaceState({}, document.title, "/");
+    return;
+  }
+  
   if (sessionId && leadId) {
     fetch(`/api/purchase/verify?session_id=${sessionId}&lead_id=${leadId}`)
       .then(r => r.json())
       .then(d => {
         if (d.status === 'completed') {
-          // Clean URL
           window.history.replaceState({}, '', '/');
-          // Open the purchased lead
+          showToast('Lead purchased successfully!', '#34d399');
           setTimeout(() => openPanel(leadId), 1000);
         }
       });
