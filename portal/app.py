@@ -315,6 +315,14 @@ def get_leads():
         where.append("u.signals_json LIKE '%S3_HIRING%'")
     elif signal_f == 'multifiler':
         where.append("u.company_name IN (SELECT company_name FROM ucc_leads WHERE days_to_lapse > -30 GROUP BY company_name HAVING COUNT(*) >= 3)")
+    elif signal_f == 'spacex':
+        where.append("""(
+            u.company_name LIKE '%SPACEX%' OR u.company_name LIKE '%SPACE%' OR u.company_name LIKE '%AEROSPACE%' OR 
+            u.company_name LIKE '%LAUNCH%' OR u.company_name LIKE '%ROCKET%' OR u.company_name LIKE '%SATELLITE%' OR 
+            u.company_name LIKE '%PRECISION%' OR u.company_name LIKE '%FABRICAT%' OR u.company_name LIKE '%MACHINE%' OR 
+            u.secured_party LIKE '%SPACEX%' OR u.secured_party LIKE '%SPACE%' OR 
+            u.city IN ('HAWTHORNE', 'BROWNSVILLE', 'AUSTIN', 'MEMPHIS', 'CAPE CANAVERAL', 'COCOA', 'TITUSVILLE', 'HUNTSVILLE')
+        )""")
 
     if search:
         where.append("(company_name LIKE ? OR city LIKE ? OR secured_party LIKE ?)")

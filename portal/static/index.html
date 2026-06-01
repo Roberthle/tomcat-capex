@@ -56,6 +56,85 @@
 }
 body{font-family:'Inter',sans-serif;background:var(--bg);color:var(--text);min-height:100vh;position:relative;overflow-x:hidden}
 
+/* ── SpaceX Decadal Adaptive Styling ── */
+body.spacex-decadal-active {
+  --bg: #030712;
+  --accent: #00d4ff;
+  --accent2: #00ffc4;
+  --gold: #00d4ff;
+  --gold2: #00ffc4;
+  --surface: rgba(10, 25, 41, 0.85);
+  --surface2: rgba(18, 38, 58, 0.9);
+  --card: #0b1524;
+  --border: rgba(0, 212, 255, 0.2);
+  --shadow-gold: 0 8px 32px rgba(0, 212, 255, 0.25), 0 2px 8px rgba(0, 212, 255, 0.15);
+  --glow-gold: 0 0 30px rgba(0, 212, 255, 0.25);
+}
+body.spacex-decadal-active .sx-hero-bg {
+  background-image: url('spacex_hero.png') !important;
+}
+body.spacex-decadal-active .sx-hero-overlay {
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 20, 35, 0.4) 0%,
+    rgba(0, 15, 25, 0.25) 30%,
+    rgba(3, 17, 30, 0.6) 65%,
+    rgba(5, 11, 20, 0.9) 85%,
+    #050b14 100%
+  ) !important;
+}
+body.spacex-decadal-active .action-btn.claim {
+  background: linear-gradient(135deg, #00d4ff, #00ffc4, #00d4ff) !important;
+  box-shadow: 0 4px 16px rgba(0, 212, 255, 0.35) !important;
+  color: #000 !important;
+}
+body.spacex-decadal-active .buy-lead-btn.tier-platinum {
+  background: linear-gradient(135deg, #00d4ff, #00ffc4, #007a99) !important;
+  color: #000 !important;
+}
+body.spacex-decadal-active tr:hover td {
+  background: rgba(0, 212, 255, 0.05) !important;
+}
+body.spacex-decadal-active tr:hover td:first-child {
+  box-shadow: inset 3px 0 0 rgba(0, 212, 255, 0.8) !important;
+}
+body.spacex-decadal-active .btn-primary {
+  background: linear-gradient(135deg, #00d4ff, #00ffc4) !important;
+  color: #000 !important;
+}
+body.spacex-decadal-active .btn-sm:hover {
+  border-color: #00d4ff !important;
+  color: #00d4ff !important;
+  background: rgba(0, 212, 255, 0.08) !important;
+}
+body.spacex-decadal-active .page-btn:hover, body.spacex-decadal-active .page-btn.active {
+  border-color: #00d4ff !important;
+  color: #00d4ff !important;
+}
+body.spacex-decadal-active .sx-live-indicator span {
+  background: #00d4ff !important;
+  box-shadow: 0 0 10px #00d4ff !important;
+}
+#spacex-telemetry-hud::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 150px;
+  background: linear-gradient(90deg, transparent, rgba(0, 212, 255, 0.08), transparent);
+  animation: sweep 4s ease-in-out infinite;
+  pointer-events: none;
+}
+@keyframes sweep {
+  0% { left: -150px; }
+  100% { left: 100%; }
+}
+@keyframes scan-hud {
+  0% { left: 0%; }
+  50% { left: 100%; }
+  100% { left: 0%; }
+}
+
 /* ── SpaceX Careers Style Hero Section ── */
 .sx-hero {
   position: relative;
@@ -624,7 +703,7 @@ tr.selected td{background:rgba(212,160,23,.06)!important}
         </p>
         <div style="display:flex;gap:16px;align-items:center;flex-wrap:wrap">
           <button class="action-btn claim" style="width:auto;padding:12px 28px;font-size:13px;border-radius:8px;font-weight:700" onclick="document.getElementById('data-section').scrollIntoView({behavior:'smooth'})">
-            ⚡ Open Broker Terminal
+            ⚡ Open Terminal
           </button>
           <button class="btn-sm" style="padding:12px 24px;font-size:13px;font-weight:700;display:inline-flex;align-items:center;gap:8px;background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.1);border-radius:8px;cursor:pointer;color:var(--text);transition:.2s" onmouseover="this.style.background='rgba(212,160,23,.15)';this.style.borderColor='var(--gold)'" onmouseout="this.style.background='rgba(255,255,255,.05)';this.style.borderColor='rgba(255,255,255,.1)'" onclick="startExplainerTour()">
             🎥 Watch Value Tour
@@ -816,10 +895,41 @@ tr.selected td{background:rgba(212,160,23,.06)!important}
                color:#34d399;cursor:pointer;transition:.2s;letter-spacing:.5px;white-space:nowrap">
         ▲ Hiring Only
       </button>
+      <button id="spacex-btn" onclick="toggleSignalFilter('spacex')"
+        style="padding:8px 16px;border-radius:8px;font-size:12px;font-weight:700;
+               border:1px solid rgba(0,212,255,.4);background:rgba(0,212,255,.08);
+               color:#00d4ff;cursor:pointer;transition:.2s;letter-spacing:.5px;white-space:nowrap;box-shadow:0 0 10px rgba(0,212,255,.1);"
+        onmouseover="this.style.background='rgba(0,212,255,.18)';this.style.boxShadow='0 0 20px rgba(0,212,255,.3)'"
+        onmouseout="this.style.background='rgba(0,212,255,.08)';this.style.boxShadow='0 0 10px rgba(0,212,255,.1)'">
+        🚀 SpaceX Decadal
+      </button>
     </div>
 
     <!-- Table -->
     <div class="leads-table">
+      <!-- SpaceX Telemetry HUD Banner -->
+      <div id="spacex-telemetry-hud" style="display: none; background: rgba(0, 212, 255, 0.05); border: 1px solid rgba(0, 212, 255, 0.25); border-radius: 8px; padding: 16px; margin-bottom: 20px; font-family: 'Space Grotesk', monospace; box-shadow: 0 0 25px rgba(0, 212, 255, 0.05); overflow: hidden; position: relative;">
+        <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 12px; position: relative; z-index: 2;">
+          <div>
+            <div style="display: flex; align-items: center; gap: 8px; color: #00d4ff; font-weight: 800; font-size: 13px; text-transform: uppercase; letter-spacing: 1px;">
+              <span style="width: 8px; height: 8px; border-radius: 50%; background: #00d4ff; box-shadow: 0 0 10px #00d4ff; display: inline-block; animation: blink 1.2s ease-in-out infinite;"></span>
+              🛰️ ORBITAL DECADAL PROCUREMENT SIGNAL ACTIVE
+            </div>
+            <div style="color: var(--muted); font-size: 11px; margin-top: 4px; letter-spacing: 0.5px;">
+              Targeting Hawthorne HQ, Starbase Boca Chica, Giga Austin, Memphis Propulsion, Cape Canaveral Launch Complex & High-Yield Precision Aerospace Machinery Fabricators.
+            </div>
+          </div>
+          <div style="display: flex; align-items: center; gap: 20px;">
+            <div style="text-align: right;">
+              <div style="color: #00d4ff; font-size: 14px; font-weight: 800; font-family: monospace;">LATENCY: 12ms</div>
+              <div style="color: var(--muted); font-size: 9px; text-transform: uppercase; letter-spacing: 1px;">Scrape Sync: Active</div>
+            </div>
+            <div style="background: rgba(0, 212, 255, 0.1); border: 1px solid rgba(0, 212, 255, 0.3); border-radius: 4px; padding: 4px 8px; font-size: 10px; font-weight: 800; color: #00d4ff; letter-spacing: 0.5px;">
+              DECADAL TARGETING ENGAGED
+            </div>
+          </div>
+        </div>
+      </div>
       <table>
         <thead>
           <tr>
@@ -841,6 +951,16 @@ tr.selected td{background:rgba(212,160,23,.06)!important}
 
     <div class="pagination" id="pagination"></div>
   </main>
+  <footer style="margin-top: auto; padding: 40px 24px; text-align: center; border-top: 1px solid var(--border); background: rgba(10, 14, 24, 0.4); font-size: 13px; color: var(--muted); font-family: 'Inter', sans-serif;">
+    <div style="max-width: 1400px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 20px;">
+      <div>
+        <strong>TOMCAT CAPEX</strong> © 2026 Revenue Command Center. All rights reserved.
+      </div>
+      <div style="display: flex; align-items: center; gap: 20px;">
+        <span style="font-weight: 500;">Contact Us: <a href="mailto:rob@salesagentic.ai" style="color: var(--gold); text-decoration: none; font-weight: 700; transition: color 0.2s;" onmouseover="this.style.color='var(--gold2)'" onmouseout="this.style.color='var(--gold)'">rob@salesagentic.ai</a></span>
+      </div>
+    </div>
+  </footer>
   </div><!-- /#data-section -->
 </div>
 
@@ -1095,7 +1215,9 @@ const filterBtnConfig = {
   hiring: {id: 'hiring-btn', activeColor: 'rgba(52,211,153,.25)', activeBorder: '#34d399',
     defaultBg: 'rgba(52,211,153,.08)', defaultBorder: 'rgba(52,211,153,.4)', defaultColor: '#34d399'},
   multifiler: {id: 's-multifiler-card', activeColor: 'rgba(167,139,250,.25)', activeBorder: '#a78bfa',
-    defaultBg: 'var(--surface)', defaultBorder: 'rgba(167,139,250,.3)', defaultColor: '#a78bfa'}
+    defaultBg: 'var(--surface)', defaultBorder: 'rgba(167,139,250,.3)', defaultColor: '#a78bfa'},
+  spacex: {id: 'spacex-btn', activeColor: 'rgba(0,212,255,.25)', activeBorder: '#00d4ff',
+    defaultBg: 'rgba(0,212,255,.08)', defaultBorder: 'rgba(0,212,255,.4)', defaultColor: '#00d4ff'}
 };
 
 async function toggleSignalFilter(type) {
@@ -1136,6 +1258,18 @@ async function loadLeads(page=1) {
   const status  = document.getElementById('filter-status').value;
   const q       = document.getElementById('search-input').value.trim();
   const signal  = activeSignalFilter || 'all';
+
+  // Toggle SpaceX Decadal visual mode
+  const hud = document.getElementById('spacex-telemetry-hud');
+  if (hud) {
+    if (signal === 'spacex') {
+      hud.style.display = 'block';
+      document.body.classList.add('spacex-decadal-active');
+    } else {
+      hud.style.display = 'none';
+      document.body.classList.remove('spacex-decadal-active');
+    }
+  }
 
   document.getElementById('leads-body').innerHTML =
     '<tr><td colspan="8" class="loading"><div class="spinner"></div><br>Loading...</td></tr>';
@@ -1182,9 +1316,35 @@ function renderLeads(leads) {
     const collateral = (lead.collateral || '—').substring(0, 40);
     let signals = [];
     try { signals = lead.signals_json ? JSON.parse(lead.signals_json) : []; } catch(e) {}
+    
+    // Check SpaceX decadal relevance
+    const nameUpper = (lead.company_name || '').toUpperCase();
+    const partyUpper = (lead.secured_party || '').toUpperCase();
+    const cityUpper = (lead.city || '').toUpperCase();
+    
+    const isSpaceXDecadal = 
+      nameUpper.includes('SPACEX') || nameUpper.includes('SPACE') || nameUpper.includes('AEROSPACE') || 
+      nameUpper.includes('LAUNCH') || nameUpper.includes('ROCKET') || nameUpper.includes('SATELLITE') || 
+      nameUpper.includes('PRECISION') || nameUpper.includes('FABRICAT') || nameUpper.includes('MACHINE') || 
+      partyUpper.includes('SPACEX') || partyUpper.includes('SPACE') || 
+      ['HAWTHORNE', 'BROWNSVILLE', 'AUSTIN', 'MEMPHIS', 'CAPE CANAVERAL', 'COCOA', 'TITUSVILLE', 'HUNTSVILLE'].includes(cityUpper);
+
+    let spacexBadge = '';
+    if (isSpaceXDecadal) {
+      let badgeLabel = '🚀 SpaceX Decadal';
+      if (cityUpper === 'HAWTHORNE') badgeLabel = '🚀 SpaceX HQ Proximity';
+      else if (cityUpper === 'BROWNSVILLE') badgeLabel = '🚀 Starbase Supply Chain';
+      else if (['CAPE CANAVERAL', 'COCOA', 'TITUSVILLE'].includes(cityUpper)) badgeLabel = '🚀 Launch Operations Hub';
+      else if (cityUpper === 'HUNTSVILLE') badgeLabel = '🚀 Propulsion Core';
+      else if (nameUpper.includes('PRECISION') || nameUpper.includes('FABRICAT') || nameUpper.includes('MACHINE')) badgeLabel = '⚙️ Aero Precision Shop';
+      
+      spacexBadge = `<span class="signal-pill spacex-decadal-badge" style="background:rgba(0,212,255,0.15); border:1px solid rgba(0,212,255,0.4); color:#00d4ff; font-weight:800; text-shadow:0 0 5px rgba(0,212,255,0.3); padding:2px 8px; border-radius:4px; font-size:10px; text-transform:uppercase; letter-spacing:0.5px;">${badgeLabel}</span>`;
+    }
+
     const tier_label = lead.signal_tier || 'S1';
     const signal_html = [
       `<span class="signal-pill ucc">✓ UCC</span>`,
+      spacexBadge,
       ...signals.map(s => {
         const t = s.type || '';
         const cls = t.includes('EXPANSION') ? 'news' : t.includes('HIRING') ? 'hiring' :
@@ -1192,7 +1352,7 @@ function renderLeads(leads) {
                     t.includes('FUNDING') ? 'funding' : t.includes('FLEET') ? 'fleet' : 'prime';
         return `<span class="signal-pill ${cls}">${s.label||'Signal'}</span>`;
       })
-    ].join('');
+    ].filter(Boolean).join('');
     const ds = lead.deal_score || 0;
     const sc = ds >= 70 ? 's-hot' : ds >= 45 ? 's-warm' : 's-med';
     return `
