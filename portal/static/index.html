@@ -63,8 +63,177 @@ body{font-family:'Inter',sans-serif;background:var(--bg);color:var(--text);min-h
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
+  justify-content: center;
   overflow: hidden;
+}
+
+/* ── Split Screen Hero & Video Player ── */
+.sx-hero-grid {
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 80px 48px 72px;
+  display: grid;
+  grid-template-columns: 1.15fr 0.85fr;
+  gap: 60px;
+  align-items: center;
+  min-height: 100vh;
+}
+@media (max-width: 1024px) {
+  .sx-hero-grid {
+    grid-template-columns: 1fr;
+    padding-top: 120px;
+    gap: 40px;
+  }
+  .sx-hero-player-wrap {
+    margin-top: 20px;
+  }
+}
+.sx-hero-content {
+  max-width: 720px;
+}
+.sx-hero-player-wrap {
+  width: 100%;
+  perspective: 1200px;
+}
+.sx-video-card {
+  background: rgba(15, 20, 30, 0.75);
+  backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px);
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 20px;
+  box-shadow: 0 30px 60px rgba(0,0,0,0.6), inset 0 1px 0 rgba(255,255,255,0.05);
+  overflow: hidden;
+  position: relative;
+  transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.5s, border-color 0.5s;
+}
+.sx-video-card:hover {
+  transform: translateY(-8px) rotateX(1deg) rotateY(-1deg);
+  box-shadow: 0 40px 80px rgba(0,0,0,0.8), 0 0 50px rgba(212,160,23,0.12);
+  border-color: rgba(212,160,23,0.25);
+}
+.sx-video-header {
+  height: 48px;
+  background: rgba(255,255,255,0.02);
+  border-bottom: 1px solid rgba(255,255,255,0.05);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+.sx-video-badge {
+  background: rgba(255,255,255,0.06);
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 4px;
+  font-size: 8px;
+  font-weight: 800;
+  padding: 2px 6px;
+  color: var(--muted);
+  letter-spacing: 0.5px;
+}
+.sx-video-screen {
+  height: 290px;
+  background: radial-gradient(circle at center, #131929 0%, #060910 100%);
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sx-slide {
+  position: absolute;
+  inset: 0;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  opacity: 0;
+  transform: translateX(30px);
+  transition: opacity 0.6s ease, transform 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+  pointer-events: none;
+}
+.sx-slide.active {
+  opacity: 1;
+  transform: translateX(0);
+  pointer-events: auto;
+}
+.sx-slide-tag {
+  align-self: flex-start;
+  font-size: 9px;
+  font-weight: 800;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  padding: 4px 10px;
+  border-radius: 20px;
+  border: 1px solid;
+  margin-bottom: 14px;
+}
+.sx-slide-title {
+  font-size: 20px;
+  font-weight: 800;
+  font-family: 'Space Grotesk', sans-serif;
+  color: var(--text);
+  margin-bottom: 10px;
+  letter-spacing: 0.5px;
+}
+.sx-slide-text {
+  font-size: 13px;
+  color: var(--muted);
+  line-height: 1.6;
+}
+.sx-slide-icon {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  margin-top: 14px;
+}
+.sx-video-controls {
+  height: 52px;
+  background: rgba(255,255,255,0.02);
+  border-top: 1px solid rgba(255,255,255,0.05);
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+  gap: 16px;
+}
+.sx-video-btn {
+  background: none;
+  border: none;
+  color: var(--text);
+  font-size: 14px;
+  cursor: pointer;
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.2s;
+}
+.sx-video-btn:hover {
+  transform: scale(1.2);
+  color: var(--gold);
+}
+.sx-video-timeline {
+  flex: 1;
+  height: 4px;
+  background: rgba(255,255,255,0.08);
+  border-radius: 2px;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+.sx-video-progress {
+  height: 100%;
+  background: linear-gradient(90deg, var(--gold), var(--gold2));
+  border-radius: 2px;
+  width: 0;
+  transition: width 0.1s linear;
 }
 
 .sx-hero-bg {
@@ -446,16 +615,52 @@ tr.selected td{background:rgba(212,160,23,.06)!important}
   <section class="sx-hero" id="hero">
     <div class="sx-hero-bg"></div>
     <div class="sx-hero-overlay"></div>
-    <div class="sx-hero-content">
-      <span class="sx-hero-eyebrow">Maturing UCC-1 Lien Tracking &mdash; B2B Equipment Leasing & Loan Leads</span>
-      <h1 class="sx-hero-title">Tomcat CapEx<br />Intelligence Terminal</h1>
-      <p class="sx-hero-sub">
-        The premier commercial finance database for high-intent <strong>equipment leasing leads</strong> and <strong>equipment loan leads</strong>. We track maturing UCC filings, John Deere/Caterpillar financing, and lease buyout opportunities in real-time, scoring and unmasking prime B2B leads daily.
-      </p>
+    <div class="sx-hero-grid">
+      <div class="sx-hero-content">
+        <span class="sx-hero-eyebrow">Maturing UCC-1 Lien Tracking &mdash; B2B Equipment Leasing & Loan Leads</span>
+        <h1 class="sx-hero-title">Tomcat CapEx<br />Intelligence Terminal</h1>
+        <p class="sx-hero-sub" style="margin-bottom: 28px;">
+          The premier commercial finance database for high-intent <strong>equipment leasing leads</strong> and <strong>equipment loan leads</strong>. We track maturing UCC filings, John Deere/Caterpillar financing, and lease buyout opportunities in real-time, scoring and unmasking prime B2B leads daily.
+        </p>
+        <div style="display:flex;gap:16px;align-items:center;flex-wrap:wrap">
+          <button class="action-btn claim" style="width:auto;padding:12px 28px;font-size:13px;border-radius:8px;font-weight:700" onclick="document.getElementById('data-section').scrollIntoView({behavior:'smooth'})">
+            ⚡ Open Broker Terminal
+          </button>
+          <button class="btn-sm" style="padding:12px 24px;font-size:13px;font-weight:700;display:inline-flex;align-items:center;gap:8px;background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.1);border-radius:8px;cursor:pointer;color:var(--text);transition:.2s" onmouseover="this.style.background='rgba(212,160,23,.15)';this.style.borderColor='var(--gold)'" onmouseout="this.style.background='rgba(255,255,255,.05)';this.style.borderColor='rgba(255,255,255,.1)'" onclick="startExplainerTour()">
+            🎥 Watch Value Tour
+          </button>
+        </div>
+      </div>
+      
+      <!-- Premium Glassmorphic Explainer Video Player -->
+      <div class="sx-hero-player-wrap">
+        <div class="sx-video-card">
+          <div class="sx-video-header">
+            <div style="display:flex;align-items:center;gap:6px">
+              <span style="width:7px;height:7px;border-radius:50%;background:#f87171;display:inline-block"></span>
+              <span style="width:7px;height:7px;border-radius:50%;background:#fbbf24;display:inline-block"></span>
+              <span style="width:7px;height:7px;border-radius:50%;background:#34d399;display:inline-block"></span>
+            </div>
+            <div style="font-size:9px;font-weight:800;color:var(--muted);letter-spacing:1.5px;text-transform:uppercase">EXPLAINER TOUR · DEMO DESK</div>
+            <div class="sx-video-badge">1080P</div>
+          </div>
+          <div class="sx-video-screen" id="explainer-screen">
+            <!-- Slides dynamically managed in JS -->
+          </div>
+          <div class="sx-video-controls">
+            <button class="sx-video-btn" onclick="toggleExplainerPlay()" id="explainer-play-btn">⏸</button>
+            <div class="sx-video-timeline" onclick="seekExplainer(event)">
+              <div class="sx-video-progress" id="explainer-progress" style="width: 0%"></div>
+            </div>
+            <div style="font-size:10px;font-family:monospace;color:var(--muted);width:55px;text-align:right" id="explainer-time">0:00</div>
+          </div>
+        </div>
+      </div>
     </div>
+    
     <div class="sx-scroll-indicator" onclick="document.getElementById('data-section').scrollIntoView({behavior:'smooth'})">
-      <svg viewBox="0 0 14 14" xmlns="http://www.w3.org/2000/svg">
-        <polyline points="2,4 7,10 12,4"/>
+      <svg viewBox="0 0 14 14" xmlns="http://www.w3.org/2000/svg" style="width:14px;height:14px">
+        <polyline points="2,4 7,10 12,4" fill="none" stroke="currentColor" stroke-width="2"/>
       </svg>
       <span>Scroll</span>
     </div>
@@ -658,6 +863,169 @@ tr.selected td{background:rgba(212,160,23,.06)!important}
 <div id="detail-overlay" onclick="closePanel()" style="display:none;position:fixed;inset:0;background:rgba(0,0,0,.4);z-index:199"></div>
 
 <script>
+// ── Explainer Video Tour Controller ──
+let explainerState = {
+  activeSlide: 0,
+  isPlaying: true,
+  duration: 20, // total fake duration in seconds
+  elapsed: 0,
+  timer: null,
+  progressTimer: null,
+  slides: [
+    {
+      tag: "WHO IS THIS FOR?",
+      tagColor: "#60a5fa",
+      tagBg: "rgba(96,165,250,.12)",
+      tagBorder: "rgba(96,165,250,.25)",
+      title: "Commercial Lenders & Brokers",
+      text: "Stop chasing dead cold calls or outdated lists. Pitch corporate decision-makers exactly when their multi-million dollar machinery leases are expiring and buyouts are due.",
+      icon: "👷",
+      iconBg: "rgba(96,165,250,.2)",
+      iconColor: "#60a5fa"
+    },
+    {
+      tag: "THE INTENT ENGINE",
+      tagColor: "#34d399",
+      tagBg: "rgba(52,211,153,.12)",
+      tagBorder: "rgba(52,211,153,.25)",
+      title: "Maturing UCC-1 Lien Tracking",
+      text: "We index and monitor 40,849 maturing UCC filings and lease agreements, scoring and unmasking premium B2B finance leads automatically.",
+      icon: "⚡",
+      iconBg: "rgba(52,211,153,.2)",
+      iconColor: "#34d399"
+    },
+    {
+      tag: "OSINT MULTI-SIGNAL",
+      tagColor: "#fbbf24",
+      tagBg: "rgba(251,191,36,.12)",
+      tagBorder: "rgba(251,191,36,.25)",
+      title: "Deep OSINT Signal Layering",
+      text: "Every lead is enriched with active Building Permits, Government Contract wins, and Overseas Customs Manifests, unmasking expansion signals instantly.",
+      icon: "🚢",
+      iconBg: "rgba(251,191,36,.2)",
+      iconColor: "#fbbf24"
+    },
+    {
+      tag: "THE BROKER PAYOFF",
+      tagColor: "#a78bfa",
+      tagBg: "rgba(167,139,250,.12)",
+      tagBorder: "rgba(167,139,250,.25)",
+      title: "High-Yield Refinance Arbitrage",
+      text: "Broker dashboard calculates dynamic interest-rate savings from high-rate alternative specialty lenders, delivering low-APR consolidation pitches that close.",
+      icon: "💰",
+      iconBg: "rgba(167,139,250,.2)",
+      iconColor: "#a78bfa"
+    }
+  ]
+};
+
+function renderExplainerSlide() {
+  const slide = explainerState.slides[explainerState.activeSlide];
+  const screen = document.getElementById('explainer-screen');
+  if (!screen) return;
+  
+  screen.innerHTML = `
+    <div class="sx-slide active" style="padding:30px">
+      <div class="sx-slide-tag" style="background:${slide.tagBg};color:${slide.tagColor};border-color:${slide.tagBorder}">${slide.tag}</div>
+      <h2 class="sx-slide-title">${slide.title}</h2>
+      <p class="sx-slide-text">${slide.text}</p>
+      <div style="display:flex;justify-content:center;margin-top:10px;">
+        <div class="sx-slide-icon" style="background:${slide.iconBg};color:${slide.iconColor};box-shadow:0 0 20px ${slide.iconBg}">${slide.icon}</div>
+      </div>
+    </div>
+  `;
+}
+
+function updateExplainerTimeline() {
+  const progressEl = document.getElementById('explainer-progress');
+  const timeEl = document.getElementById('explainer-time');
+  if (!progressEl || !timeEl) return;
+  
+  const percent = (explainerState.elapsed / explainerState.duration) * 100;
+  progressEl.style.width = `${percent}%`;
+  
+  const min = Math.floor(explainerState.elapsed / 60);
+  const sec = Math.floor(explainerState.elapsed % 60);
+  timeEl.textContent = `${min}:${sec < 10 ? '0' : ''}${sec}`;
+}
+
+function tickExplainer() {
+  if (!explainerState.isPlaying) return;
+  
+  explainerState.elapsed += 0.1;
+  
+  // Slide durations are 5 seconds each (20s total duration / 4 slides)
+  const slideDuration = explainerState.duration / explainerState.slides.length;
+  const currentSlideIdx = Math.floor(explainerState.elapsed / slideDuration) % explainerState.slides.length;
+  
+  if (currentSlideIdx !== explainerState.activeSlide) {
+    explainerState.activeSlide = currentSlideIdx;
+    renderExplainerSlide();
+  }
+  
+  if (explainerState.elapsed >= explainerState.duration) {
+    explainerState.elapsed = 0;
+    explainerState.activeSlide = 0;
+    renderExplainerSlide();
+  }
+  
+  updateExplainerTimeline();
+}
+
+function toggleExplainerPlay() {
+  explainerState.isPlaying = !explainerState.isPlaying;
+  const playBtn = document.getElementById('explainer-play-btn');
+  if (playBtn) {
+    playBtn.textContent = explainerState.isPlaying ? '⏸' : '▶';
+  }
+}
+
+function seekExplainer(event) {
+  const timeline = event.currentTarget;
+  const rect = timeline.getBoundingClientRect();
+  const clickX = event.clientX - rect.left;
+  const percent = clickX / rect.width;
+  
+  explainerState.elapsed = percent * explainerState.duration;
+  const slideDuration = explainerState.duration / explainerState.slides.length;
+  explainerState.activeSlide = Math.floor(explainerState.elapsed / slideDuration) % explainerState.slides.length;
+  
+  renderExplainerSlide();
+  updateExplainerTimeline();
+}
+
+function startExplainerTour() {
+  explainerState.elapsed = 0;
+  explainerState.activeSlide = 0;
+  explainerState.isPlaying = true;
+  const playBtn = document.getElementById('explainer-play-btn');
+  if (playBtn) playBtn.textContent = '⏸';
+  renderExplainerSlide();
+  updateExplainerTimeline();
+  
+  // Highlight the explainer player card with a gold outline
+  const card = document.querySelector('.sx-video-card');
+  if (card) {
+    card.style.borderColor = 'var(--gold)';
+    card.style.boxShadow = '0 40px 80px rgba(0,0,0,0.8), 0 0 50px rgba(212,160,23,0.2)';
+    setTimeout(() => {
+      card.style.borderColor = '';
+      card.style.boxShadow = '';
+    }, 2000);
+  }
+  
+  document.getElementById('hero').scrollIntoView({behavior:'smooth'});
+}
+
+// Start explaining tickers immediately
+setInterval(tickExplainer, 100);
+
+// Initialize explainer on load
+setTimeout(() => {
+  renderExplainerSlide();
+  updateExplainerTimeline();
+}, 200);
+
 let currentPage = 1;
 let searchTimer = null;
 
@@ -1048,61 +1416,150 @@ function openPanel(id) {
         </div>
       `;
     } else if (sig.type && sig.type.includes('PERMIT')) {
-      const amt = sig.amount ? '$' + sig.amount.toLocaleString() : '';
-      const triggers = (sig.triggers || []).slice(0,3).map(t => `<span style="background:rgba(251,146,60,.12);color:#fb923c;border:1px solid rgba(251,146,60,.3);padding:1px 7px;border-radius:10px;font-size:10px;font-weight:600;margin-right:4px">${esc(t)}</span>`).join('');
+      const amt = sig.amount ? '$' + sig.amount.toLocaleString() : '—';
+      const pNo = sig.permit_no || '—';
+      const scope = sig.scope || '—';
+      const contractor = sig.contractor || '—';
+      
       signalSectionHTML += `
         <div style="margin-top:14px;background:rgba(251,146,60,.06);border:1px solid rgba(251,146,60,.25);
                     border-radius:10px;padding:14px;">
           <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px">
-            <span class="signal-pill permit" style="font-size:10px">${sig.label || 'Building Permit'}</span>
-            ${amt ? `<span style="font-size:12px;font-weight:700;color:#fb923c">${amt}</span>` : ''}
+            <span class="signal-pill permit" style="font-size:10px">${sig.label || '🏢 Facility Permit'}</span>
+            <span style="font-size:12px;font-weight:700;color:#fb923c">${amt}</span>
           </div>
-          <div style="font-size:13px;font-weight:600;color:var(--text);line-height:1.4;margin-bottom:8px">${esc(sig.detail || '')}</div>
-          <div style="font-size:11px;color:var(--muted)">via <span style="font-weight:600;color:#fb923c">${esc(sig.source || 'County Records')}</span></div>
-          ${triggers ? `<div style="margin-top:10px">${triggers}</div>` : ''}
+          <div style="font-size:13px;font-weight:600;color:var(--text);line-height:1.4;margin-bottom:12px">${esc(sig.detail || '')}</div>
+          
+          <div style="display:grid;grid-template-columns:repeat(2,1fr);gap:10px;background:rgba(0,0,0,.25);border-radius:8px;padding:10px;margin-top:8px">
+            <div style="grid-column:span 2">
+              <div style="font-size:9px;color:var(--muted);text-transform:uppercase;letter-spacing:.5px">Renovation Details</div>
+              <div style="font-size:12px;font-weight:700;color:var(--text);line-height:1.4;margin-top:2px">${esc(scope)}</div>
+            </div>
+            <div style="grid-column:span 2;height:1px;background:rgba(255,255,255,.05);margin:2px 0"></div>
+            <div>
+              <div style="font-size:9px;color:var(--muted);text-transform:uppercase;letter-spacing:.5px">General Contractor</div>
+              <div style="font-size:11px;font-weight:600;color:var(--text);margin-top:2px">${esc(contractor)}</div>
+            </div>
+            <div>
+              <div style="font-size:9px;color:var(--muted);text-transform:uppercase;letter-spacing:.5px">Permit Number</div>
+              <div style="font-size:11px;font-weight:600;color:#fb923c;font-family:monospace;margin-top:2px">${esc(pNo)}</div>
+            </div>
+          </div>
+          <div style="font-size:11px;color:var(--muted);margin-top:8px">via <span style="font-weight:600;color:#fb923c">${esc(sig.source || 'Municipal permits registry')}</span></div>
         </div>
       `;
     } else if (sig.type && sig.type.includes('CONTRACT')) {
-      const amt = sig.amount ? '$' + sig.amount.toLocaleString() : '';
-      const triggers = (sig.triggers || []).slice(0,3).map(t => `<span style="background:rgba(96,165,250,.12);color:#60a5fa;border:1px solid rgba(96,165,250,.3);padding:1px 7px;border-radius:10px;font-size:10px;font-weight:600;margin-right:4px">${esc(t)}</span>`).join('');
+      const amt = sig.amount ? '$' + sig.amount.toLocaleString() : '—';
+      const agency = sig.agency || '—';
+      const cid = sig.contract_id || '—';
+      const scope = sig.scope || '—';
+      
       signalSectionHTML += `
         <div style="margin-top:14px;background:rgba(96,165,250,.06);border:1px solid rgba(96,165,250,.25);
                     border-radius:10px;padding:14px;">
           <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px">
-            <span class="signal-pill contract" style="font-size:10px">${sig.label || 'Govt Contract'}</span>
-            ${amt ? `<span style="font-size:12px;font-weight:700;color:#60a5fa">${amt}</span>` : ''}
+            <span class="signal-pill contract" style="font-size:10px">${sig.label || '💼 Govt Contract'}</span>
+            <span style="font-size:12px;font-weight:700;color:#60a5fa">${amt}</span>
           </div>
-          <div style="font-size:13px;font-weight:600;color:var(--text);line-height:1.4;margin-bottom:8px">${esc(sig.detail || '')}</div>
-          <div style="font-size:11px;color:var(--muted)">via <span style="font-weight:600;color:#60a5fa">${esc(sig.source || 'SAM.gov')}</span></div>
-          ${triggers ? `<div style="margin-top:10px">${triggers}</div>` : ''}
+          <div style="font-size:13px;font-weight:600;color:var(--text);line-height:1.4;margin-bottom:12px">${esc(sig.detail || '')}</div>
+          
+          <div style="display:grid;grid-template-columns:repeat(2,1fr);gap:10px;background:rgba(0,0,0,.25);border-radius:8px;padding:10px;margin-top:8px">
+            <div style="grid-column:span 2">
+              <div style="font-size:9px;color:var(--muted);text-transform:uppercase;letter-spacing:.5px">Contract Scope</div>
+              <div style="font-size:12px;font-weight:700;color:var(--text);line-height:1.4;margin-top:2px">${esc(scope)}</div>
+            </div>
+            <div style="grid-column:span 2;height:1px;background:rgba(255,255,255,.05);margin:2px 0"></div>
+            <div>
+              <div style="font-size:9px;color:var(--muted);text-transform:uppercase;letter-spacing:.5px">Awarding Agency</div>
+              <div style="font-size:11px;font-weight:600;color:var(--text);margin-top:2px">${esc(agency)}</div>
+            </div>
+            <div>
+              <div style="font-size:9px;color:var(--muted);text-transform:uppercase;letter-spacing:.5px">SAM Procurement ID</div>
+              <div style="font-size:11px;font-weight:600;color:#60a5fa;font-family:monospace;margin-top:2px">${esc(cid)}</div>
+            </div>
+          </div>
+          <div style="font-size:11px;color:var(--muted);margin-top:8px">via <span style="font-weight:600;color:#60a5fa">${esc(sig.source || 'SAM.gov / federal bid logs')}</span></div>
         </div>
       `;
     } else if (sig.type && sig.type.includes('FUNDING')) {
-      const amt = sig.amount ? '$' + sig.amount.toLocaleString() : '';
-      const triggers = (sig.triggers || []).slice(0,3).map(t => `<span style="background:rgba(168,85,247,.12);color:#a855f7;border:1px solid rgba(168,85,247,.3);padding:1px 7px;border-radius:10px;font-size:10px;font-weight:600;margin-right:4px">${esc(t)}</span>`).join('');
+      const sav = sig.estimated_savings || '—';
+      const mSav = sig.monthly_savings || '—';
+      const currentApr = sig.current_apr ? sig.current_apr + '%' : '—';
+      const targetApr = sig.target_apr ? sig.target_apr + '%' : '—';
+      const classif = sig.lender_classification || 'Tier 3 specialty';
+      
       signalSectionHTML += `
-        <div style="margin-top:14px;background:rgba(168,85,247,.06);border:1px solid rgba(168,85,247,.25);
-                    border-radius:10px;padding:14px;">
+        <div style="margin-top:14px;background:rgba(167,139,250,.06);border:1px solid rgba(167,139,250,.25);
+                    border-radius:10px;padding:14px;position:relative;overflow:hidden">
           <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px">
-            <span class="signal-pill funding" style="font-size:10px">${sig.label || 'Recent Funding'}</span>
-            ${amt ? `<span style="font-size:12px;font-weight:700;color:#a855f7">${amt}</span>` : ''}
+            <span class="signal-pill funding" style="font-size:10px">${sig.label || '💰 Refinance Arbitrage'}</span>
+            <span style="font-size:11px;color:#a78bfa;font-weight:700">${esc(classif)}</span>
           </div>
-          <div style="font-size:13px;font-weight:600;color:var(--text);line-height:1.4;margin-bottom:8px">${esc(sig.detail || '')}</div>
-          <div style="font-size:11px;color:var(--muted)">via <span style="font-weight:600;color:#a855f7">${esc(sig.source || 'SEC / Crunchbase')}</span></div>
-          ${triggers ? `<div style="margin-top:10px">${triggers}</div>` : ''}
+          <div style="font-size:13px;font-weight:600;color:var(--text);line-height:1.4;margin-bottom:12px">${esc(sig.detail || '')}</div>
+          
+          <div style="display:grid;grid-template-columns:repeat(2,1fr);gap:10px;background:rgba(0,0,0,.25);border-radius:8px;padding:10px;margin-top:8px">
+            <div>
+              <div style="font-size:9px;color:var(--muted);text-transform:uppercase;letter-spacing:.5px">Current APR Est.</div>
+              <div style="font-size:14px;font-weight:800;color:#f87171;margin-top:2px">${currentApr}</div>
+            </div>
+            <div>
+              <div style="font-size:9px;color:var(--muted);text-transform:uppercase;letter-spacing:.5px">Refi Target APR</div>
+              <div style="font-size:14px;font-weight:800;color:#34d399;margin-top:2px">${targetApr}</div>
+            </div>
+            <div style="grid-column:span 2;height:1px;background:rgba(255,255,255,.05);margin:2px 0"></div>
+            <div>
+              <div style="font-size:9px;color:var(--muted);text-transform:uppercase;letter-spacing:.5px">Monthly Savings</div>
+              <div style="font-size:15px;font-weight:800;color:var(--gold2);margin-top:2px">${mSav}</div>
+            </div>
+            <div>
+              <div style="font-size:9px;color:var(--muted);text-transform:uppercase;letter-spacing:.5px">Total Savings (Est.)</div>
+              <div style="font-size:15px;font-weight:800;color:var(--gold);margin-top:2px">${sav}</div>
+            </div>
+          </div>
+          <div style="font-size:11px;color:var(--muted);margin-top:8px">via <span style="font-weight:600;color:#a78bfa">${esc(sig.source || 'Specialty Lender Index')}</span></div>
         </div>
       `;
     } else if (sig.type && sig.type.includes('FLEET')) {
-      const triggers = (sig.triggers || []).slice(0,3).map(t => `<span style="background:rgba(45,212,191,.12);color:#2dd4bf;border:1px solid rgba(45,212,191,.3);padding:1px 7px;border-radius:10px;font-size:10px;font-weight:600;margin-right:4px">${esc(t)}</span>`).join('');
+      const cargo = sig.cargo || '—';
+      const origin = sig.origin || '—';
+      const weight = sig.weight_kg || '—';
+      const shipper = sig.shipper || '—';
+      const bol = sig.bill_of_lading || '—';
+      
       signalSectionHTML += `
         <div style="margin-top:14px;background:rgba(45,212,191,.06);border:1px solid rgba(45,212,191,.25);
                     border-radius:10px;padding:14px;">
           <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px">
-            <span class="signal-pill fleet" style="font-size:10px">${sig.label || 'Fleet Expansion'}</span>
+            <span class="signal-pill fleet" style="font-size:10px">${sig.label || '🚢 Cargo Import'}</span>
+            <span style="font-size:11px;color:#2dd4bf;font-weight:700">US Customs Registry</span>
           </div>
-          <div style="font-size:13px;font-weight:600;color:var(--text);line-height:1.4;margin-bottom:8px">${esc(sig.detail || '')}</div>
-          <div style="font-size:11px;color:var(--muted)">via <span style="font-weight:600;color:#2dd4bf">${esc(sig.source || 'DMV / DOT')}</span></div>
-          ${triggers ? `<div style="margin-top:10px">${triggers}</div>` : ''}
+          <div style="font-size:13px;font-weight:600;color:var(--text);line-height:1.4;margin-bottom:12px">${esc(sig.detail || '')}</div>
+          
+          <div style="display:grid;grid-template-columns:repeat(2,1fr);gap:10px;background:rgba(0,0,0,.25);border-radius:8px;padding:10px;margin-top:8px">
+            <div style="grid-column:span 2">
+              <div style="font-size:9px;color:var(--muted);text-transform:uppercase;letter-spacing:.5px">Cargo Manifest Items</div>
+              <div style="font-size:12px;font-weight:700;color:var(--text);line-height:1.4;margin-top:2px">${esc(cargo)}</div>
+            </div>
+            <div style="grid-column:span 2;height:1px;background:rgba(255,255,255,.05);margin:2px 0"></div>
+            <div>
+              <div style="font-size:9px;color:var(--muted);text-transform:uppercase;letter-spacing:.5px">Shipper / Manufacturer</div>
+              <div style="font-size:11px;font-weight:600;color:var(--text);margin-top:2px">${esc(shipper)}</div>
+            </div>
+            <div>
+              <div style="font-size:9px;color:var(--muted);text-transform:uppercase;letter-spacing:.5px">Port of Origin</div>
+              <div style="font-size:11px;font-weight:600;color:var(--text);margin-top:2px">${esc(origin)}</div>
+            </div>
+            <div style="grid-column:span 2;height:1px;background:rgba(255,255,255,.05);margin:2px 0"></div>
+            <div>
+              <div style="font-size:9px;color:var(--muted);text-transform:uppercase;letter-spacing:.5px">Gross Cargo Weight</div>
+              <div style="font-size:11px;font-weight:600;color:#2dd4bf;margin-top:2px">${esc(weight)}</div>
+            </div>
+            <div>
+              <div style="font-size:9px;color:var(--muted);text-transform:uppercase;letter-spacing:.5px">Bill of Lading</div>
+              <div style="font-size:11px;font-weight:600;color:#2dd4bf;font-family:monospace;margin-top:2px">${esc(bol)}</div>
+            </div>
+          </div>
+          <div style="font-size:11px;color:var(--muted);margin-top:8px">via <span style="font-weight:600;color:#2dd4bf">${esc(sig.source || 'US Customs manifest data')}</span></div>
         </div>
       `;
     } else {
