@@ -1323,20 +1323,24 @@ function renderLeads(leads) {
     const cityUpper = (lead.city || '').toUpperCase();
     
     const isSpaceXDecadal = 
-      nameUpper.includes('SPACEX') || nameUpper.includes('SPACE') || nameUpper.includes('AEROSPACE') || 
-      nameUpper.includes('LAUNCH') || nameUpper.includes('ROCKET') || nameUpper.includes('SATELLITE') || 
-      nameUpper.includes('PRECISION') || nameUpper.includes('FABRICAT') || nameUpper.includes('MACHINE') || 
-      partyUpper.includes('SPACEX') || partyUpper.includes('SPACE') || 
-      ['HAWTHORNE', 'BROWNSVILLE', 'AUSTIN', 'MEMPHIS', 'CAPE CANAVERAL', 'COCOA', 'TITUSVILLE', 'HUNTSVILLE'].includes(cityUpper);
+      nameUpper.includes('SPACEX') || nameUpper.includes('SPACE') || nameUpper.includes('AEROSPACE') || nameUpper.includes('AERO') || 
+      nameUpper.includes('LAUNCH') || nameUpper.includes('ROCKET') || nameUpper.includes('SATELLITE') || nameUpper.includes('PROPULSION') || 
+      nameUpper.includes('ORBITAL') || nameUpper.includes('COMPOSITE') || nameUpper.includes('CNC') || nameUpper.includes('PRECISION') || 
+      nameUpper.includes('FABRICAT') || nameUpper.includes('MACHINE') || nameUpper.includes('WELDING') || nameUpper.includes('VALVE') || 
+      partyUpper.includes('SPACEX') || partyUpper.includes('SPACE') || partyUpper.includes('AERO') || 
+      ['HAWTHORNE', 'BROWNSVILLE', 'AUSTIN', 'MEMPHIS', 'CAPE CANAVERAL', 'COCOA', 'TITUSVILLE', 'HUNTSVILLE',
+       'REDMOND', 'KENT', 'MOJAVE', 'VAN HORN', 'MCGREGOR', 'LOMPOC', 'EL SEGUNDO', 'TORRANCE', 'LONG BEACH', 'REDONDO BEACH'].includes(cityUpper);
 
     let spacexBadge = '';
     if (isSpaceXDecadal) {
       let badgeLabel = '🚀 SpaceX Decadal';
-      if (cityUpper === 'HAWTHORNE') badgeLabel = '🚀 SpaceX HQ Proximity';
-      else if (cityUpper === 'BROWNSVILLE') badgeLabel = '🚀 Starbase Supply Chain';
-      else if (['CAPE CANAVERAL', 'COCOA', 'TITUSVILLE'].includes(cityUpper)) badgeLabel = '🚀 Launch Operations Hub';
-      else if (cityUpper === 'HUNTSVILLE') badgeLabel = '🚀 Propulsion Core';
-      else if (nameUpper.includes('PRECISION') || nameUpper.includes('FABRICAT') || nameUpper.includes('MACHINE')) badgeLabel = '⚙️ Aero Precision Shop';
+      if (cityUpper === 'HAWTHORNE' || cityUpper === 'EL SEGUNDO' || cityUpper === 'TORRANCE' || cityUpper === 'REDONDO BEACH') badgeLabel = '🚀 SpaceX HQ Proximity';
+      else if (cityUpper === 'BROWNSVILLE' || cityUpper === 'VAN HORN') badgeLabel = '🚀 Starbase Supply Chain';
+      else if (['CAPE CANAVERAL', 'COCOA', 'TITUSVILLE', 'LOMPOC'].includes(cityUpper)) badgeLabel = '🚀 Launch Operations Hub';
+      else if (cityUpper === 'HUNTSVILLE' || cityUpper === 'MEMPHIS' || cityUpper === 'MCGREGOR') badgeLabel = '🚀 Propulsion Core';
+      else if (cityUpper === 'REDMOND' || cityUpper === 'KENT') badgeLabel = '🛰️ Satellite & Orbit Hub';
+      else if (cityUpper === 'LONG BEACH' || cityUpper === 'MOJAVE') badgeLabel = '🚀 Launcher & Spaceport';
+      else if (nameUpper.includes('PRECISION') || nameUpper.includes('FABRICAT') || nameUpper.includes('MACHINE') || nameUpper.includes('CNC') || nameUpper.includes('WELDING') || nameUpper.includes('COMPOSITE') || nameUpper.includes('VALVE')) badgeLabel = '⚙️ Aero Precision Shop';
       
       spacexBadge = `<span class="signal-pill spacex-decadal-badge" style="background:rgba(0,212,255,0.15); border:1px solid rgba(0,212,255,0.4); color:#00d4ff; font-weight:800; text-shadow:0 0 5px rgba(0,212,255,0.3); padding:2px 8px; border-radius:4px; font-size:10px; text-transform:uppercase; letter-spacing:0.5px;">${badgeLabel}</span>`;
     }

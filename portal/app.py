@@ -318,10 +318,15 @@ def get_leads():
     elif signal_f == 'spacex':
         where.append("""(
             u.company_name LIKE '%SPACEX%' OR u.company_name LIKE '%SPACE%' OR u.company_name LIKE '%AEROSPACE%' OR 
-            u.company_name LIKE '%LAUNCH%' OR u.company_name LIKE '%ROCKET%' OR u.company_name LIKE '%SATELLITE%' OR 
-            u.company_name LIKE '%PRECISION%' OR u.company_name LIKE '%FABRICAT%' OR u.company_name LIKE '%MACHINE%' OR 
-            u.secured_party LIKE '%SPACEX%' OR u.secured_party LIKE '%SPACE%' OR 
-            u.city IN ('HAWTHORNE', 'BROWNSVILLE', 'AUSTIN', 'MEMPHIS', 'CAPE CANAVERAL', 'COCOA', 'TITUSVILLE', 'HUNTSVILLE')
+            u.company_name LIKE '%AERO%' OR u.company_name LIKE '%LAUNCH%' OR u.company_name LIKE '%ROCKET%' OR 
+            u.company_name LIKE '%SATELLITE%' OR u.company_name LIKE '%PROPULSION%' OR u.company_name LIKE '%ORBITAL%' OR 
+            u.company_name LIKE '%COMPOSITE%' OR u.company_name LIKE '%CNC%' OR u.company_name LIKE '%PRECISION%' OR 
+            u.company_name LIKE '%FABRICAT%' OR u.company_name LIKE '%MACHINE%' OR u.company_name LIKE '%WELDING%' OR 
+            u.company_name LIKE '%VALVE%' OR u.secured_party LIKE '%SPACEX%' OR u.secured_party LIKE '%SPACE%' OR 
+            u.secured_party LIKE '%AERO%' OR u.city IN (
+                'HAWTHORNE', 'BROWNSVILLE', 'AUSTIN', 'MEMPHIS', 'CAPE CANAVERAL', 'COCOA', 'TITUSVILLE', 'HUNTSVILLE',
+                'REDMOND', 'KENT', 'MOJAVE', 'VAN HORN', 'MCGREGOR', 'LOMPOC', 'EL SEGUNDO', 'TORRANCE', 'LONG BEACH', 'REDONDO BEACH'
+            )
         )""")
 
     if search:
